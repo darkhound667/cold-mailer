@@ -12,7 +12,7 @@ inside each slot (slots.py, amendment 12). Every transition is appended to data/
 with UTC and local timestamps.
 
 Commands (run from the repo root, with the project venv):
-    python src/schedule/queue_emails.py queue  [--limit 100] [--ids P0002,P0004] [--dry-run]
+    python src/schedule/queue_emails.py queue  [--limit 100] [--ids P0002,P0004] [--dry-run] [--push [--yes]]
     python src/schedule/queue_emails.py verify
     python src/schedule/queue_emails.py status
 Nothing here sends email.
@@ -134,11 +134,25 @@ def cmd_queue(args) -> None:
         print(f"  {n['id']}  {n['send_local'][:16].replace('T', ' ')} {n['timezone']:<22} ({n['send_utc'][:16]}Z)  {profs[n['id']]['name']}")
     if args.dry_run:
         return
+    if getattr(args, "push", False):
+        if not new:
+            print("nothing to push")
+            return
+        # Decision Q32: one confirmation approves both the queue and the push to the public repo.
+        if not args.yes and input(f"Queue these {len(new)} and push the encrypted state to GitHub? [y/N] ").strip().lower() != "y":
+            print("not queued, nothing written")
+            return
+        from schedule import publish
+        publish.git("pull", "-q", "--rebase")  # the runner may have committed state meanwhile
+        drafts = {n["id"]: parse_draft(n["_path"]) for n in new}
+        publish.export([{k: v for k, v in n.items() if k != "_path"} for n in new], drafts, profs, publish.local_key())
     for n in new:
         set_status(n.pop("_path"), "queued")
         log_event(n["id"], "queued", now, n["timezone"], f"sha256={n['sha256'][:12]}")
         log_event(n["id"], "scheduled", now, n["timezone"], f"send_local={n['send_local']}")
     QUEUE.write_text(json.dumps(queue, indent=1, ensure_ascii=False))
+    if getattr(args, "push", False):
+        publish.commit_and_push(len(new), push=True)
 
 
 def cmd_verify(_args) -> None:
@@ -181,6 +195,8 @@ def main() -> None:
     q.add_argument("--limit", type=int, default=BATCH_CAP)
     q.add_argument("--ids", default="")
     q.add_argument("--dry-run", action="store_true")
+    q.add_argument("--push", action="store_true", help="also hand the batch to the GitHub runner (asks first)")
+    q.add_argument("--yes", action="store_true", help="answer the push question with yes (only on Ruturva's go)")
     sub.add_parser("verify")
     sub.add_parser("status")
     args = ap.parse_args()

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Outreach dashboard</title>
+<style>
+  :root { --bg:#f7f7f5; --panel:#ffffff; --text:#1d1d1b; --muted:#6b6b66; --line:#e3e2dd; --accent:#2f5d8a;
+          --ok:#2e7d4f; --warn:#b26a00; --bad:#b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141413; --panel:#1e1e1c; --text:#ecebe6; --muted:#9c9b95;
+          --line:#33322e; --accent:#7fb0e0; --ok:#6cc08b; --warn:#e0a54a; --bad:#ef8a80; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; }
+  main { max-width:1200px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:20px; margin:0 0 4px; }
+  .muted { color:var(--muted); }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  #lock { max-width:380px; margin:12vh auto; }
+  input, select, button { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:8px;
+          background:var(--panel); color:var(--text); }
+  button { background:var(--accent); color:#fff; border-color:var(--accent); cursor:pointer; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .banner { margin:12px 0; padding:10px 12px; border-radius:8px; border:1px solid var(--bad); color:var(--bad); display:none; }
+  .chips span { display:inline-block; margin:0 6px 6px 0; padding:3px 9px; border:1px solid var(--line); border-radius:999px; }
+  .table-wrap { overflow-x:auto; margin-top:12px; }
+  table { width:100%; border-collapse:collapse; min-width:860px; }
+  th, td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:600; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.03em; }
+  tr.item { cursor:pointer; }
+  tr.item:hover { background:color-mix(in srgb, var(--accent) 7%, transparent); }
+  .st-sent, .st-replied { color:var(--ok); } .st-failed, .st-bounced, .st-pulled { color:var(--bad); }
+  .st-scheduled, .st-dry_run_sent { color:var(--warn); }
+  pre { white-space:pre-wrap; margin:0; font:13px/1.5 ui-monospace, Menlo, monospace; }
+  .detail td { background:color-mix(in srgb, var(--accent) 4%, transparent); }
+</style>
+</head>
+<body>
+<main>
+  <div id="lock" class="panel">
+    <h1>Outreach dashboard</h1>
+    <p class="muted">Locked. Enter the passphrase to decrypt (it never leaves this browser).</p>
+    <form id="unlock" class="row">
+      <input id="pw" type="password" autocomplete="current-password" placeholder="Passphrase" required style="flex:1">
+      <button type="submit">Unlock</button>
+    </form>
+    <p id="err" class="muted"></p>
+  </div>
+
+  <div id="app" hidden>
+    <h1>Outreach dashboard</h1>
+    <p class="muted" id="meta"></p>
+    <div class="banner" id="stale"></div>
+    <div class="chips" id="counts"></div>
+    <div class="row">
+      <select id="status"><option value="">All statuses</option></select>
+      <select id="label"><option value="">All reply labels</option></select>
+      <input id="q" placeholder="Search professor, university, country…" style="flex:1;min-width:200px">
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Professor</th><th>University</th><th>Country</th><th>Domain</th><th>Status</th>
+          <th>Reply</th><th>Send (local)</th><th>Send (UTC)</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<script>
+const ITER_MIN = 100000;
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let DATA = null;
+
+async function decrypt(blob, pass) {
+  if (blob.iter < ITER_MIN) throw new Error("bad data");
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name:"PBKDF2", salt:b64(blob.salt), iterations:blob.iter, hash:"SHA-256"},
+                                            base, {name:"AES-GCM", length:256}, false, ["decrypt"]);
+  const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(blob.iv)}, key, b64(blob.ct));
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+
+document.getElementById("unlock").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const err = document.getElementById("err");
+  err.textContent = "Decrypting…";
+  try {
+    const blob = await (await fetch("data.enc.json", {cache:"no-store"})).json();
+    DATA = await decrypt(blob, document.getElementById("pw").value);
+    document.getElementById("lock").hidden = true;
+    document.getElementById("app").hidden = false;
+    render();
+  } catch (e) { err.textContent = "Wrong passphrase, or no data published yet."; }
+});
+
+function render() {
+  const poll = DATA.last_poll_utc ? new Date(DATA.last_poll_utc) : null;
+  document.getElementById("meta").textContent =
+    `Data generated ${new Date(DATA.generated_utc).toLocaleString()} · last inbox poll ` +
+    (poll ? poll.toLocaleString() : "never");
+  const stale = document.getElementById("stale");
+  if (poll && (Date.now() - poll) > 90 * 60 * 1000) {
+    stale.style.display = "block";
+    stale.textContent = "The runner hasn't polled for over 90 minutes. Check the Actions tab and open needs-ruturva issues.";
+  }
+  document.getElementById("counts").innerHTML = Object.entries(DATA.counts)
+    .map(([k, v]) => `<span class="st-${esc(k)}">${esc(k)}: ${v}</span>`).join("");
+  const fill = (id, vals) => { const s = document.getElementById(id);
+    [...new Set(vals)].filter(Boolean).sort().forEach(v => s.insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`)); };
+  fill("status", DATA.rows.map(r => r.status));
+  fill("label", DATA.rows.map(r => r.reply_label));
+  ["status", "label", "q"].forEach(id => document.getElementById(id).addEventListener("input", table));
+  table();
+}
+
+function table() {
+  const st = document.getElementById("status").value, lb = document.getElementById("label").value;
+  const q = document.getElementById("q").value.toLowerCase();
+  const rows = DATA.rows.filter(r => (!st || r.status === st) && (!lb || r.reply_label === lb) &&
+    (!q || [r.name, r.university, r.country, r.env_domain].join(" ").toLowerCase().includes(q)));
+  document.getElementById("rows").innerHTML = rows.map(r => `
+    <tr class="item" data-id="${esc(r.id)}">
+      <td>${esc(r.name)}</td><td>${esc(r.university)}</td><td>${esc(r.country)}</td><td>${esc(r.env_domain)}</td>
+      <td class="st-${esc(r.status)}">${esc(r.status)}</td><td>${esc(r.reply_label || "")}</td>
+      <td>${esc((r.send_local || "").replace("T", " ").slice(0, 16))}</td><td>${esc((r.send_utc || "").replace("T", " ").slice(0, 16))}</td>
+    </tr>
+    <tr class="detail" data-for="${esc(r.id)}" hidden><td colspan="8">
+      <p><strong>${esc(r.subject)}</strong></p><pre>${esc(r.body)}</pre>
+      <p class="muted">${(r.events || []).map(e => `${esc(e.event)}: ${esc(e.ts_utc)} UTC / ${esc(e.ts_local)} local${e.detail ? " (" + esc(e.detail) + ")" : ""}`).join("<br>")}</p>
+    </td></tr>`).join("");
+  document.querySelectorAll("tr.item").forEach(tr => tr.addEventListener("click", () => {
+    const d = document.querySelector(`tr.detail[data-for="${tr.dataset.id}"]`); d.hidden = !d.hidden; }));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+# Phase 4: the unattended sender. Runs every 10 minutes (off the :00 marks GitHub is busiest at),
+# sends due emails one minute apart, polls replies, and redeploys the locked dashboard.
+# One run at a time: a long send (up to ~100 min for a full slot) makes later ticks wait, never overlap.
+name: tick
+
+on:
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run_to:
+        description: "Phase 5 dry run: send every due email to this address instead"
+        required: false
+        default: ""
+
+permissions:
+  contents: write     # commit state after each send
+  issues: write       # reply / needs-ruturva issues
+  actions: read       # gap check (previous run time)
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sender
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    outputs:
+      changed: ${{ steps.tick.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet cryptography holidays
+      - name: Git identity for state commits
+        run: |
+          git config user.name "cold-mailer-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Tick
+        id: tick
+        env:
+          DATA_KEY: ${{ secrets.DATA_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_APP_TOKEN: ${{ secrets.SENDER_APP_TOKEN }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          DRY_RUN_TO: ${{ inputs.dry_run_to }}
+          GH_TOKEN: ${{ github.token }}
+          GIT_PUSH: "1"
+        run: python src/runner/tick.py
+      - name: Build dashboard data
+        if: steps.tick.outputs.changed == '1'
+        env:
+          DASHBOARD_PASSPHRASE: ${{ secrets.DASHBOARD_PASSPHRASE }}
+        run: python src/runner/dashboard.py
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.tick.outputs.changed == '1'
+        with:
+          path: site
+
+  deploy-dashboard:
+    needs: tick
+    if: needs.tick.outputs.changed == '1'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4

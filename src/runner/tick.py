@@ -233,6 +233,9 @@ def main() -> None:
     from runner.ghissues import GhIssues
 
     cfg = Config()
+    if not (Path(__file__).resolve().parents[2] / "state" / "emails.json").exists():
+        print("nothing queued yet: tick has nothing to do")  # keeps runs green before the first queue
+        return
     key = crypto.load_key()
     st = State().load(key)
     issues = GhIssues(cfg.repo)
