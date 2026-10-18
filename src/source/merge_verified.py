@@ -28,6 +28,8 @@ DATA = ROOT / "data"
 EMAIL = re.compile(r"^[A-Za-z0-9._%+'-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
 FREEMAIL = {"gmail.com", "googlemail.com", "outlook.com", "hotmail.com", "yahoo.com",
             "qq.com", "163.com", "126.com", "foxmail.com", "icloud.com", "protonmail.com"}
+# Regional variants such as yahoo.com.cn, sina.com, 163.com.cn, hanmail.net, naver.com.
+FREEMAIL_RE = re.compile(r"(^|\.)(yahoo|sina|sohu|163|126|qq|hotmail|outlook|gmail|hanmail|naver|daum|aliyun)\.")
 
 
 def registered_domain(host: str) -> str:
@@ -52,7 +54,8 @@ def main() -> None:
             continue
         flags = [res.get("notes", "").strip()] if res.get("notes") else []
         email = (res.get("email") or "").strip()
-        if email and (not EMAIL.match(email) or email.split("@")[1].lower() in FREEMAIL):
+        domain = email.split("@")[1].lower() if "@" in email else ""
+        if email and (not EMAIL.match(email) or domain in FREEMAIL or FREEMAIL_RE.search(domain)):
             flags.append(f"dropped non-official/malformed email {email!r}")
             issues["dropped email"] += 1
             email = ""
