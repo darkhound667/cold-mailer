@@ -1,0 +1,108 @@
+# Copy this file to config.yaml and fill in your own details. Never commit the real
+# config.yaml — it's gitignored by default.
+#
+# Everything under `sender` and `projects` is inserted verbatim into generated emails,
+# so write it exactly as you want a professor to read it.
+
+sender:
+  name: "Jordan Rivera"
+  degree: "B.Tech. Computer Science"
+  institution: "Example Institute of Technology"
+  headline_metric: "CPI of 9.5"   # or GPA, or omit — whatever credibility line you open with
+
+# Your 1-2 strongest projects. These appear in (almost) every email, ordered by
+# relevance to the recipient's domain bucket — see `lead_order` in each `domains` entry
+# below. Write each as a complete, ready-to-paste sentence or two: advisor/context,
+# what you did, and a concrete result (a number is more convincing than an adjective).
+flagship_projects:
+  - id: project_a
+    text: >
+      At Example University, under Prof. A. Researcher, I fine-tuned open-source language
+      models using parameter-efficient methods and analyzed how different layers contribute
+      to task adaptation, finding that early layers disproportionately drive the change
+      despite receiving smaller weight updates on average.
+  - id: project_b
+    text: >
+      Under Prof. B. Mentor at my home institution, I built a deep learning model for a
+      biomedical classification task, reaching 99%+ accuracy across dozens of categories
+      and beating the prior published benchmark, work that earned a letter of recommendation.
+
+# Shorter, single-sentence project blurbs. Only the one matching the recipient's domain
+# bucket gets appended to the email (see `secondary_project` under each domain below).
+secondary_projects:
+  nlp_project: >
+    I also built an NLP pipeline that classified a large set of financial disclosures
+    against a public reporting standard.
+  cv_project: >
+    I also built a two-stage segmentation and classification pipeline for a biomedical
+    imaging task, reaching 97%+ accuracy across all classes.
+  quant_project: >
+    I also built a reinforcement-learning trading agent that outperformed a standard
+    LSTM benchmark on risk-adjusted returns.
+  hardware_project: >
+    I also have hands-on hardware experience from a university engineering team and a
+    self-built embedded systems project.
+
+# Fixed opening/closing text. {name}, {degree}, {institution}, {headline_metric} are
+# substituted from `sender` above.
+templates:
+  opening: >
+    My name is {name}, a {degree} student at {institution}, where I hold a {headline_metric}.
+  # literal block ("|") preserves the blank line as an actual paragraph break — a
+  # folded block (">") would collapse it to a single space/newline instead.
+  closing: |
+    I would welcome the opportunity to contribute to your ongoing research remotely, and I am glad to work flexibly around whatever timing suits your group best.
+
+    My resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.
+
+# Domain buckets. Each maps to:
+#   NOTE ON KEYWORDS: scoring is plain substring counting, so keywords that are
+#   substrings of each other double-count a single mention — e.g. "medical" is
+#   itself a substring of "biomedical", so a bio that says "biomedical" only once
+#   would score 2 for a domain listing both, silently outweighing a real match
+#   elsewhere. Keep each domain's list to genuinely distinct terms, or accept the
+#   overlap deliberately (e.g. you *want* "language model" to also count toward
+#   "large language model" mentions).
+#   keywords       - substrings (lowercased) used to classify a bio into this bucket.
+#                     Score = count of keyword hits; highest score wins.
+#   lead_order     - which flagship_projects id goes first in the background paragraph
+#                     for this bucket (the other flagship project still appears, second).
+#   secondary_project - which secondary_projects id (if any) gets appended as a third
+#                     sentence when this bucket is assigned. Omit or leave blank for none.
+#   weak_fit       - true for buckets with no real project overlap. These get an honest,
+#                     openly generic email instead of a forced/stretched personalization.
+domains:
+  ML:
+    keywords: ["machine learning", "deep learning", "reinforcement learning", "artificial intelligence", " ai "]
+    lead_order: [project_a, project_b]
+    secondary_project: null
+  NLP:
+    keywords: ["natural language processing", " nlp", "language model", "machine translation", "linguistic"]
+    lead_order: [project_a, project_b]
+    secondary_project: nlp_project
+  CV:
+    keywords: ["computer vision", "image", "video", "visual recognition", "graphics"]
+    lead_order: [project_a, project_b]
+    secondary_project: cv_project
+  Stats:
+    keywords: ["statistics", "probabilistic", "bayesian", "game theory", "time series", "optimization theory"]
+    lead_order: [project_a, project_b]
+    secondary_project: quant_project
+  Robotics:
+    keywords: ["robot", "autonomous system", "manipulation", "embodied ai"]
+    lead_order: [project_b, project_a]
+    secondary_project: hardware_project
+  Medicine:
+    keywords: ["medicine", "healthcare", "clinical", "biomedical", "genomics"]
+    lead_order: [project_b, project_a]
+    secondary_project: null
+  HCI:
+    keywords: ["human-computer interaction", " hci", "user experience", "interactive"]
+    lead_order: [project_a, project_b]
+    secondary_project: null
+    weak_fit: true
+  CS:
+    keywords: ["systems", "networking", "database", "security", "cryptography", "software engineering"]
+    lead_order: [project_a, project_b]
+    secondary_project: null
+    weak_fit: true

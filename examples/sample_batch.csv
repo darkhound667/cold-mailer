@@ -1,0 +1,49 @@
+send,name,email,subject,email_body
+yes,Alex Morgan,alex.morgan@example.edu,Interest in your research on machine learning and graph mining,"Dear Prof. Alex Morgan,
+
+I hope this message finds you well.
+
+My name is Jordan Rivera, a B.Tech. Computer Science student at Example Institute of Technology, where I hold a CPI of 9.5. I am writing to express my interest in working with you on research in machine learning and graph mining, an area I would like to go considerably deeper into.
+
+At Example University, under Prof. A. Researcher, I fine-tuned open-source language models using parameter-efficient methods and analyzed how different layers contribute to task adaptation, finding that early layers disproportionately drive the change despite receiving smaller weight updates on average. Separately, under Prof. B. Mentor at my home institution, I built a deep learning model for a biomedical classification task, reaching 99%+ accuracy across dozens of categories and beating the prior published benchmark, work that earned a letter of recommendation.
+
+I would welcome the opportunity to contribute to your ongoing research remotely, and I am glad to work flexibly around whatever timing suits your group best.
+
+My resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.
+
+Warm regards,
+Jordan Rivera
+B.Tech. Computer Science
+Example Institute of Technology"
+yes,Sam Okafor,sam.okafor@example.edu,Interest in your research on computer vision and multimodal learning,"Dear Prof. Sam Okafor,
+
+I hope this message finds you well.
+
+My name is Jordan Rivera, a B.Tech. Computer Science student at Example Institute of Technology, where I hold a CPI of 9.5. I am writing to express my interest in working with you on research in computer vision and multimodal learning, an area I would like to go considerably deeper into.
+
+At Example University, under Prof. A. Researcher, I fine-tuned open-source language models using parameter-efficient methods and analyzed how different layers contribute to task adaptation, finding that early layers disproportionately drive the change despite receiving smaller weight updates on average. Separately, under Prof. B. Mentor at my home institution, I built a deep learning model for a biomedical classification task, reaching 99%+ accuracy across dozens of categories and beating the prior published benchmark, work that earned a letter of recommendation. I also built a two-stage segmentation and classification pipeline for a biomedical imaging task, reaching 97%+ accuracy across all classes.
+
+I would welcome the opportunity to contribute to your ongoing research remotely, and I am glad to work flexibly around whatever timing suits your group best.
+
+My resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.
+
+Warm regards,
+Jordan Rivera
+B.Tech. Computer Science
+Example Institute of Technology"
+yes,Jordan Lee,jordan.lee@example.edu,Interest in collaborating with your research group,"Dear Prof. Jordan Lee,
+
+I hope this message finds you well.
+
+My name is Jordan Rivera, a B.Tech. Computer Science student at Example Institute of Technology, where I hold a CPI of 9.5. I am writing to introduce myself and express interest in the research your group conducts in cs research, and to explore whether there might be an opportunity for me to contribute.
+
+At Example University, under Prof. A. Researcher, I fine-tuned open-source language models using parameter-efficient methods and analyzed how different layers contribute to task adaptation, finding that early layers disproportionately drive the change despite receiving smaller weight updates on average. Separately, under Prof. B. Mentor at my home institution, I built a deep learning model for a biomedical classification task, reaching 99%+ accuracy across dozens of categories and beating the prior published benchmark, work that earned a letter of recommendation.
+
+I would welcome the opportunity to contribute to your ongoing research remotely, and I am glad to work flexibly around whatever timing suits your group best.
+
+My resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.
+
+Warm regards,
+Jordan Rivera
+B.Tech. Computer Science
+Example Institute of Technology"

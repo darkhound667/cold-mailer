@@ -1,0 +1,27 @@
+# Phase 0 feasibility check: SMTP + IMAP login from a GitHub-hosted runner.
+# Manual trigger only. Sends nothing and reads no mail.
+name: check-mail-login
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Log in to SMTP and IMAP
+        env:
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_APP_TOKEN: ${{ secrets.SENDER_APP_TOKEN }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_SERVER: ${{ vars.SMTP_SERVER }}
+          IMAP_SERVER: ${{ vars.IMAP_SERVER }}
+        run: python scripts/check_mail_login.py

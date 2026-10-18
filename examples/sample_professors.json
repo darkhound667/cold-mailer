@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alex Morgan",
+    "email": "alex.morgan@example.edu",
+    "title": "Associate Professor of Computer Science",
+    "bio": "Professor Morgan's research interests include machine learning, graph mining, anomaly detection, and biomedical applications of AI. Recent projects focus on improving the reliability of large language models."
+  },
+  {
+    "name": "Sam Okafor",
+    "email": "sam.okafor@example.edu",
+    "title": "Assistant Professor of Computer Science",
+    "bio": "Professor Okafor's research lies at the intersection of computer vision and multimodal learning, with a focus on video understanding and 3D scene reconstruction."
+  },
+  {
+    "name": "Priya Chandran",
+    "email": null,
+    "title": "Professor of Computer Science",
+    "bio": "Professor Chandran's teaching and research interests span natural language processing, computational linguistics, and low-resource language technologies."
+  },
+  {
+    "name": "Jordan Lee",
+    "email": "jordan.lee@example.edu",
+    "title": "Professor of Electrical Engineering",
+    "bio": "Professor Lee's research interests include distributed systems, computer networks, and cybersecurity, with a focus on secure protocols for IoT devices."
+  }
+]

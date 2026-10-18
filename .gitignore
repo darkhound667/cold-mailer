@@ -1,0 +1,27 @@
+# secrets / credentials — never commit these
+.env
+config.yaml
+
+# real scraped data / real output — never commit these
+data/
+*.xlsx
+*.xlsm
+sent_log_*.csv
+run_log_*.txt
+batch_*.csv
+!examples/sample_batch.csv
+
+# resume / personal documents
+*.pdf
+!examples/*.pdf
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# os
+.DS_Store
+Thumbs.db
