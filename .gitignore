@@ -28,3 +28,6 @@ Thumbs.db
 
 # local drafts for human review (contain professor emails)
 review/
+
+# encryption key (upload to Secrets, keep offline)
+.data_key
