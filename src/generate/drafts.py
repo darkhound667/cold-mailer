@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """Phase 2: write one reviewable draft per professor into review/ (local, gitignored).
 
-The template is fixed (SPEC.md Phase 2 + amendments): no sentence about the professor's
-own work. What varies is only the salutation, the subject line, and the ORDER of the two
-resume projects, chosen from the professor's env_domain:
-  - Direct Air Capture screening first for carbon / air / climate / energy / pollution;
-  - wildlife-detection ML first for everything else.
-Both project lines restate the resume in plain words, with no numbers or results.
+The template follows Ruturva's sample email (SPEC.md amendment 14). Nothing refers to the
+professor's papers. What varies is the salutation, the research area named in the interest
+line (from env_domain + ML methods), the subject, and the second project:
+  - Direct Air Capture traineeship for carbon / energy professors;
+  - the Chennai air-quality group project for everyone else.
+The first project is always the wildlife-detection ML project.
 The noisy-label project is not cited (decision Q13), and nor is the Deep RL trading project.
 
 Each review/P####.md starts with a small header (id, status, to, subject, attachment) and
@@ -27,18 +27,42 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA, REVIEW = ROOT / "data", ROOT / "review"
 ATTACHMENT = "Ruturva_Vaghasia_Resume.pdf"
 
-INTRO = ("I hope this message finds you well. My name is Ruturva Vaghasia, and I am a second-year "
-         "B.Tech student in Environmental Science and Engineering at IIT Bombay. I am interested in "
-         "applying AI, machine learning and reinforcement learning to environmental problems.")
-WILDLIFE = ("In a course project, I built a machine-learning pipeline that detects animals in images, "
-            "using texture features I designed and a gradient-boosted classifier.")
-DAC = ("As an R&D trainee at Chemeca, I worked on screening adsorbent materials for direct air capture "
-       "of CO2, building a framework to judge which sorbents are viable and comparing frameworks to "
-       "find what drives their uptake.")
-CLOSING = "Looking forward to hearing from you.\n\nRegards,\nRuturva Vaghasia"
-DAC_FIRST = {"carbon, emissions & sustainability", "air quality & atmospheric science",
-             "climate modeling & weather forecasting", "energy systems, renewables & smart grids",
-             "pollution & environmental engineering"}
+INTRO = ("My name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a "
+         "minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. "
+         "I am writing to express my interest in working with you on research in {area}, an area I "
+         "would like to go considerably deeper into.")
+WILDLIFE = ("I built a wildlife-detection model for image grids using handcrafted texture features and "
+            "gradient-boosted trees.")
+CHENNAI = ("I also analysed, in a group project, air-quality monitoring data from a station in Chennai, "
+           "tracing pollution spikes to their likely causes and flagging faulty sensor readings.")
+DAC = ("I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air "
+       "capture of CO2.")
+ASK = ("I would be grateful for any opportunity to contribute to your group's work, and I would be "
+       "glad to discuss how I could be of help.")
+CLOSING = ("My resume is attached for your reference. Thank you for your time and consideration. "
+           "I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\n"
+           "B.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\n"
+           "Indian Institute of Technology Bombay")
+# Research area named in the interest line: built only from the professor's domain and the ML
+# methods in their paper titles, never from a specific paper (Ruturva's sample, 2026-10-18).
+AREA = {
+    "remote sensing & earth observation": "remote sensing and Earth observation",
+    "hydrology & water resources": "hydrology and water resources",
+    "ecology & biodiversity": "ecology and biodiversity conservation",
+    "climate modeling & weather forecasting": "climate and weather modelling",
+    "air quality & atmospheric science": "air quality and atmospheric science",
+    "disaster & climate risk": "natural hazards and disaster risk",
+    "energy systems, renewables & smart grids": "energy systems and renewables",
+    "pollution & environmental engineering": "pollution and environmental engineering",
+    "agriculture & food systems": "agriculture and food systems",
+    "oceans & cryosphere": "ocean and cryosphere science",
+    "carbon, emissions & sustainability": "carbon emissions and sustainability",
+}
+# Second project: the Direct Air Capture traineeship for carbon and energy professors, the
+# Chennai air-quality group project for everyone else (Ruturva, 2026-10-18).
+DAC_DOMAINS = {"carbon, emissions & sustainability", "energy systems, renewables & smart grids"}
+# Professor titles as printed on official pages, in the languages seen so far.
+PROF_TITLE = re.compile(r"(?i)prof|教授|교수|hoogleraar|catedr[aá]tic|ordinari[oa]|associate dean|dean\b")
 # Verification notes that should block a quick approve (the rest are informational).
 RISKY_NOTE = re.compile(r"(?i)check|moved|identity|conflict|differs|deceas|possibl|unconfirm|unverif|"
                         r"not confirmed|snippet|fixed-term|rtd|research-track|adjunct|on leave|stale|old|mailto")
@@ -63,16 +87,29 @@ def surname(name: str) -> tuple:
 
 def salutation(r: dict) -> str:
     last, _ = surname(r["name"])
-    return f"Dear Professor {last}," if "prof" in (r.get("title") or "").lower() else f"Dear Dr. {last},"
+    return f"Dear Prof. {last}," if PROF_TITLE.search(r.get("title") or "") else f"Dear Dr. {last},"
+
+
+def research_area(r: dict) -> str:
+    methods = set(r.get("ml_methods") or [])
+    if "reinforcement learning" in methods:
+        method = "reinforcement learning"
+    elif methods & {"deep learning", "convolutional networks", "transformers", "graph neural networks", "recurrent networks"}:
+        method = "deep learning"
+    else:
+        method = "machine learning"
+    return f"{method} for {AREA.get(r['env_domain'], 'environmental problems')}"
 
 
 def subject(r: dict) -> str:
-    return f"Prospective research intern: machine learning for {r['env_domain'].replace(' & ', ' and ')}"
+    return f"Research internship inquiry: {research_area(r)}"
 
 
 def body(r: dict) -> str:
-    first, second = (DAC, WILDLIFE) if r["env_domain"] in DAC_FIRST else (WILDLIFE, DAC)
-    return "\n\n".join([salutation(r), INTRO, first, second, CLOSING]) + "\n"
+    second = DAC if r["env_domain"] in DAC_DOMAINS else CHENNAI
+    parts = [salutation(r), "I hope this message finds you well.", INTRO.format(area=research_area(r)),
+             f"{WILDLIFE} {second}", ASK, CLOSING]
+    return "\n\n".join(parts) + "\n"
 
 
 def risk_flags(r: dict) -> list:
