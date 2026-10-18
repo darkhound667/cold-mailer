@@ -25,3 +25,6 @@ venv/
 # os
 .DS_Store
 Thumbs.db
+
+# local drafts for human review (contain professor emails)
+review/
