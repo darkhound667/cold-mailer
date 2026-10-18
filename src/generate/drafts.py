@@ -21,6 +21,7 @@ import argparse
 import csv
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -69,9 +70,14 @@ RISKY_NOTE = re.compile(r"(?i)check|moved|identity|conflict|differs|deceas|possi
 PARTICLES = {"van", "von", "de", "del", "della", "der", "den", "da", "di", "du", "le", "la", "al", "el", "dos", "das"}
 
 
+def clean_name(name: str) -> str:
+    """Drop invisible format characters (e.g. U+202C direction marks) that scraped names carry."""
+    return "".join(ch for ch in name if unicodedata.category(ch) != "Cf")
+
+
 def surname(name: str) -> tuple:
     """(surname, unusual?) from a 'Given Family' display name, keeping particles like 'van'."""
-    clean = re.sub(r"\s+", " ", name.replace("‐", "-")).strip()
+    clean = re.sub(r"\s+", " ", clean_name(name).replace("‐", "-")).strip()
     tokens = clean.split(" ")
     unusual = (len(tokens) == 1 or len(tokens) > 3 or clean.isupper()
                or bool(re.search(r"(^|\s)[A-Z]\.?$", clean))  # trailing initial, e.g. "Shutao Li A"
@@ -127,21 +133,34 @@ def risk_flags(r: dict) -> list:
     return flags
 
 
+def batch_from_header(path: Path) -> int:
+    """Batch number written in a draft's header; drafts from before batches existed are batch 1."""
+    for line in path.read_text().split("\n")[:12]:
+        if line.startswith("batch: "):
+            return int(line.split(": ", 1)[1])
+    return 1
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", type=int, default=100)
+    ap.add_argument("--limit", type=int, default=100, help="how many NEW drafts to write (one batch)")
     args = ap.parse_args()
 
-    rows = [r for r in json.loads((DATA / "professors.json").read_text()) if r.get("sendable")][: args.limit]
     REVIEW.mkdir(exist_ok=True)
+    sendable = [r for r in json.loads((DATA / "professors.json").read_text()) if r.get("sendable")]
+    batch_of = {p.stem: batch_from_header(p) for p in REVIEW.glob("P*.md")}
+    batch = max(batch_of.values(), default=0) + 1
+    # Never overwrite an existing draft (it may have hand edits): only new professors get one.
+    for r in [r for r in sendable if r["id"] not in batch_of][: args.limit]:
+        header = (f"---\nid: {r['id']}\nbatch: {batch:02d}\nstatus: draft\nto: {r['email']}\nname: {clean_name(r['name'])}\n"
+                  f"university: {r['university']}\nsubject: {subject(r)}\nattachment: {ATTACHMENT}\n---\n\n")
+        (REVIEW / f"{r['id']}.md").write_text(header + body(r))
+        batch_of[r["id"]] = batch
+
     index = []
-    for r in rows:
+    for r in (r for r in sendable if r["id"] in batch_of):  # one index across all batches
         path = REVIEW / f"{r['id']}.md"
-        if not path.exists():  # never overwrite a draft that may already have hand edits
-            header = (f"---\nid: {r['id']}\nstatus: draft\nto: {r['email']}\nname: {r['name']}\n"
-                      f"university: {r['university']}\nsubject: {subject(r)}\nattachment: {ATTACHMENT}\n---\n\n")
-            path.write_text(header + body(r))
-        index.append({"id": r["id"], "name": r["name"], "title": r.get("title", ""),
+        index.append({"batch": f"{batch_of[r['id']]:02d}", "id": r["id"], "name": r["name"], "title": r.get("title", ""),
                       "university": r["university"], "country": r["country"], "timezone": r["timezone"],
                       "env_domain": r["env_domain"], "email": r["email"], "email_confidence": r.get("confidence", ""),
                       "subject": subject(r), "file": path.name, "risk_flags": " | ".join(risk_flags(r))})
@@ -149,8 +168,9 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=list(index[0]))
         w.writeheader()
         w.writerows(index)
-    flagged = sum(1 for i in index if i["risk_flags"])
-    print(f"drafts: {len(index)} in review/  (flagged for review: {flagged})")
+    new = [i for i in index if i["batch"] == f"{batch:02d}"]
+    print(f"batch {batch:02d}: {len(new)} new drafts (flagged: {sum(1 for i in new if i['risk_flags'])}); "
+          f"{len(index)} drafts in review/ in total")
 
 
 if __name__ == "__main__":
