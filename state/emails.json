@@ -625,6 +625,12 @@
     "ts_utc": "2026-10-19T08:40:05Z",
     "ts_local": "2026-10-19T04:40:05-04:00",
     "detail": "send_local=2026-10-19T08:32:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-19T12:32:01Z",
+    "ts_local": "2026-10-19T08:32:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Hossein Bonakdari",
@@ -641,7 +647,7 @@
   "slot_utc": "2026-10-19T12:30:00Z",
   "send_utc": "2026-10-19T12:32:00Z",
   "send_local": "2026-10-19T08:32:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
