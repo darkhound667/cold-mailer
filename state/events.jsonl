@@ -54,3 +54,4 @@
 {"id": "P0032", "event": "scheduled", "ts_utc": "2026-10-19T08:40:05Z", "ts_local": "2026-10-19T16:40:05+08:00", "detail": "send_local=2026-10-20T08:32:00+08:00"}
 {"id": "P0033", "event": "scheduled", "ts_utc": "2026-10-19T08:40:05Z", "ts_local": "2026-10-19T03:40:05-05:00", "detail": "send_local=2026-10-19T08:33:00-05:00"}
 {"id": "P0036", "event": "scheduled", "ts_utc": "2026-10-19T08:40:05Z", "ts_local": "2026-10-19T04:40:05-04:00", "detail": "send_local=2026-10-19T08:35:00-04:00"}
+{"id": "P0011", "event": "sent", "ts_utc": "2026-10-19T12:30:03Z", "ts_local": "2026-10-19T08:30:03-04:00", "detail": ""}
