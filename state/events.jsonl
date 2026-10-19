@@ -12,3 +12,4 @@
 {"id": "DRY-P0004", "event": "sent_copy_failed", "ts_utc": "2026-10-19T06:00:01Z", "ts_local": "2026-10-19T08:00:01+02:00", "detail": "no Sent folder found"}
 {"id": "DRY-P0006", "event": "queued", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "sha256=bbbbd5fe4a13"}
 {"id": "DRY-P0006", "event": "scheduled", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "send_local=2026-10-19T08:19:00+02:00"}
+{"id": "DRY-P0006", "event": "rescheduled", "ts_utc": "2026-10-19T06:08:51Z", "ts_local": "2026-10-19T08:08:51+02:00", "detail": "moved to 11:42 IST at Ruturva's request"}

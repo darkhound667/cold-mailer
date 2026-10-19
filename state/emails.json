@@ -157,6 +157,12 @@
     "ts_utc": "2026-10-19T06:07:13Z",
     "ts_local": "2026-10-19T08:07:13+02:00",
     "detail": "send_local=2026-10-19T08:19:00+02:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-19T06:08:51Z",
+    "ts_local": "2026-10-19T08:08:51+02:00",
+    "detail": "moved to 11:42 IST at Ruturva's request"
    }
   ],
   "name": "Lorenzo Bruzzone",
@@ -170,9 +176,9 @@
   "sha256": "bbbbd5fe4a139bb85e2e72b361e8621e884aa367b7b20c274a21ae0364ef8675",
   "timezone": "Europe/Rome",
   "queue_index": 900001,
-  "slot_utc": "2026-10-19T06:19:00Z",
-  "send_utc": "2026-10-19T06:19:00Z",
-  "send_local": "2026-10-19T08:19:00+02:00",
+  "slot_utc": "2026-10-19T06:12:00Z",
+  "send_utc": "2026-10-19T06:12:00Z",
+  "send_local": "2026-10-19T08:12:00+02:00",
   "status": "scheduled",
   "reply_label": "",
   "issue": null,
