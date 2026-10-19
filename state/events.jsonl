@@ -13,3 +13,4 @@
 {"id": "DRY-P0006", "event": "queued", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "sha256=bbbbd5fe4a13"}
 {"id": "DRY-P0006", "event": "scheduled", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "send_local=2026-10-19T08:19:00+02:00"}
 {"id": "DRY-P0006", "event": "rescheduled", "ts_utc": "2026-10-19T06:08:51Z", "ts_local": "2026-10-19T08:08:51+02:00", "detail": "moved to 11:42 IST at Ruturva's request"}
+{"id": "DRY-P0006", "event": "dry_run_sent", "ts_utc": "2026-10-19T06:12:03Z", "ts_local": "2026-10-19T08:12:03+02:00", "detail": "sent to the dry-run address"}

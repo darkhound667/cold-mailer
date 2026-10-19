@@ -163,6 +163,12 @@
     "ts_utc": "2026-10-19T06:08:51Z",
     "ts_local": "2026-10-19T08:08:51+02:00",
     "detail": "moved to 11:42 IST at Ruturva's request"
+   },
+   {
+    "event": "dry_run_sent",
+    "ts_utc": "2026-10-19T06:12:03Z",
+    "ts_local": "2026-10-19T08:12:03+02:00",
+    "detail": "sent to the dry-run address"
    }
   ],
   "name": "Lorenzo Bruzzone",
@@ -179,7 +185,7 @@
   "slot_utc": "2026-10-19T06:12:00Z",
   "send_utc": "2026-10-19T06:12:00Z",
   "send_local": "2026-10-19T08:12:00+02:00",
-  "status": "scheduled",
+  "status": "dry_run_sent",
   "reply_label": "",
   "issue": null,
   "position": 0,
