@@ -17,8 +17,9 @@ Order of work in a tick:
   5. save (and let the workflow commit) only when something changed, plus an hourly
      heartbeat commit that also keeps the scheduled workflow from being auto-disabled.
 
-DRY_RUN_TO (Phase 5): every email goes to that address instead, with the subject prefixed,
-and is marked `dry_run_sent` rather than `sent`.
+Dry runs (Phase 5): records with "dry_run": true (scripts/dry_run_queue.py) are addressed to
+Ruturva himself; they, and every email when DRY_RUN_TO is set, get a "[DRY RUN id]" subject and
+the status `dry_run_sent` rather than `sent`.
 """
 import os
 import smtplib
@@ -123,7 +124,8 @@ def send_due(st, cfg, key, resume, smtp_factory, imap_factory, issues, now_fn, s
                             ["needs-ruturva"])
                 checkpoint()
                 continue
-            dry = bool(cfg.dry_run_to)
+            # Phase 5 test records (scripts/dry_run_queue.py) are addressed to Ruturva himself.
+            dry = bool(cfg.dry_run_to) or bool(rec.get("dry_run"))
             msg = mailio.build_message(cfg.dry_run_to or to,
                                        f"[DRY RUN {rec['id']}] {rec['subject']}" if dry else rec["subject"],
                                        rec["body"], rec["attachment"], resume, cfg.sender_name, cfg.sender_email)
@@ -156,6 +158,8 @@ def send_due(st, cfg, key, resume, smtp_factory, imap_factory, issues, now_fn, s
             now = now_fn()
             if dry:
                 rec["status"] = "dry_run_sent"
+                if rec.get("dry_run"):  # keep the Message-ID so a reply to it can test the Issue flow
+                    st.contact(rec["id"])["message_id"] = msg["Message-ID"]
                 st.event(rec, "dry_run_sent", now, "sent to the dry-run address")
             else:
                 rec["status"] = "sent"
@@ -179,11 +183,14 @@ def send_due(st, cfg, key, resume, smtp_factory, imap_factory, issues, now_fn, s
 def poll_inbox(st: State, imap, issues, now: datetime) -> None:
     sent_like = {"sent", "replied", "bounced"}
     our_ids = {c["message_id"]: pid for pid, c in st.private["contacts"].items() if c.get("message_id")}
+    # Test records go to Ruturva's own address: never match on that sender, or all his own mail
+    # would look like replies. They still match on In-Reply-To/References.
     our_addrs = {c["to"].lower(): pid for pid, c in st.private["contacts"].items()
-                 if c.get("to") and st.by_id(pid)["status"] in sent_like}
+                 if c.get("to") and st.by_id(pid)["status"] in sent_like and not st.by_id(pid).get("dry_run")}
     if not our_ids:
         return
-    first = min(parse(e["ts_utc"]) for r in st.emails for e in r.get("events", []) if e["event"] == "sent")
+    first = min(parse(e["ts_utc"]) for r in st.emails for e in r.get("events", [])
+                if e["event"] in ("sent", "dry_run_sent"))
     seen = set(st.private.setdefault("seen", []))
     for f in mailio.poll(imap, our_ids, our_addrs, first.strftime("%d-%b-%Y"), seen):
         st.private["seen"].append(f["msgid"])

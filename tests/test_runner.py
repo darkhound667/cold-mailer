@@ -165,6 +165,15 @@ class SendTests(unittest.TestCase):
         self.assertTrue(all(r["status"] == "dry_run_sent" for r in self.st.emails))
         self.assertFalse(any(self.st.contact(r["id"]).get("message_id") for r in self.st.emails))
 
+    def test_dry_run_records_are_flagged_and_keep_message_id(self):
+        for r in self.st.emails:
+            r["dry_run"] = True
+        smtp = FakeSmtp(self.clock)
+        run_send(self.st, self.key, self.clock, smtp)
+        self.assertTrue(all(m["Subject"].startswith("[DRY RUN DRY") or m["Subject"].startswith("[DRY RUN P") for _, m in smtp.sent))
+        self.assertTrue(all(r["status"] == "dry_run_sent" for r in self.st.emails))
+        self.assertTrue(all(self.st.contact(r["id"]).get("message_id") for r in self.st.emails))
+
     def test_nothing_due_outside_lookahead(self):
         self.clock.t = SLOT - timedelta(hours=2)
         n, *_ = run_send(self.st, self.key, self.clock, FakeSmtp(self.clock))
@@ -201,6 +210,19 @@ class InboxTests(unittest.TestCase):
         self.assertEqual((r2["status"], r2["reply_label"]), ("bounced", "bounce"))
         self.assertEqual((r3["status"], r3["reply_label"]), ("sent", "auto_reply"))
         self.assertEqual(len(self.st.private["seen"]), 3)
+
+    def test_dry_run_records_never_match_by_sender(self):
+        for r in self.st.emails:
+            r["dry_run"] = True
+        captured = {}
+        original = mailio.poll
+        mailio.poll = lambda imap, ids, addrs, since, seen: captured.update(ids=ids, addrs=addrs) or []
+        try:
+            tick.poll_inbox(self.st, None, FakeIssues(), SLOT + timedelta(hours=1))
+        finally:
+            mailio.poll = original
+        self.assertEqual(captured["addrs"], {})       # own address is never used to match
+        self.assertEqual(len(captured["ids"]), 3)     # but replies to the test emails still match
 
     def test_labels_sync_back(self):
         self.st.by_id("P0001").update(issue=101, reply_label="unclear", status="replied")
