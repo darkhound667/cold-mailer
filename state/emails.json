@@ -61,6 +61,18 @@
     "ts_utc": "2026-10-19T05:46:06Z",
     "ts_local": "2026-10-19T00:46:06-05:00",
     "detail": "send_local=2026-10-19T00:59:00-05:00"
+   },
+   {
+    "event": "dry_run_sent",
+    "ts_utc": "2026-10-19T05:59:01Z",
+    "ts_local": "2026-10-19T00:59:01-05:00",
+    "detail": "sent to the dry-run address"
+   },
+   {
+    "event": "sent_copy_failed",
+    "ts_utc": "2026-10-19T05:59:01Z",
+    "ts_local": "2026-10-19T00:59:01-05:00",
+    "detail": "no Sent folder found"
    }
   ],
   "name": "Qian Du",
@@ -77,7 +89,7 @@
   "slot_utc": "2026-10-19T05:58:00Z",
   "send_utc": "2026-10-19T05:59:00Z",
   "send_local": "2026-10-19T00:59:00-05:00",
-  "status": "scheduled",
+  "status": "dry_run_sent",
   "reply_label": "",
   "issue": null,
   "position": 1,
