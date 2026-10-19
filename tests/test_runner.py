@@ -80,7 +80,7 @@ class FakeIssues:
 
 
 class Cfg:
-    dry_run_to, sender_email, sender_name = "", "me@iitb.example", "Ruturva Vaghasia"
+    dry_run_to, sender_email, sender_name, chain = "", "me@iitb.example", "Ruturva Vaghasia", False
 
 
 def make_state(tmp: Path, n=3, key=None, now=None):
@@ -183,6 +183,80 @@ class SendTests(unittest.TestCase):
         tick.reschedule_missed(self.st, SLOT + timedelta(minutes=125))
         self.assertTrue(all(r["send_local"].startswith("2026-10-27T08:3") for r in self.st.emails))
         self.assertTrue(all(r["events"][-1]["event"] == "rescheduled" for r in self.st.emails))
+
+
+class LongRunTests(unittest.TestCase):
+    """The self-chaining loop: one run lives for hours, sends on the minute, then hands over."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.st, self.key = make_state(self.tmp)
+        self._poll, mailio.poll = mailio.poll, lambda *a, **k: []
+        self._budget = tick.RUN_BUDGET
+
+    def tearDown(self):
+        mailio.poll, tick.RUN_BUDGET = self._poll, self._budget
+
+    def go(self, start, budget=None):
+        if budget:
+            tick.RUN_BUDGET = budget
+        clock, smtp, issues = Clock(start), None, FakeIssues()
+        smtp = FakeSmtp(clock)
+        cfg = Cfg()
+        cfg.chain = True
+        cps, dash = [], []
+        tick.run(self.st, cfg, self.key, issues, smtp.factory, lambda: FakeImapWithLogout(), clock.now,
+                 clock.sleep, lambda: cps.append(clock.now()), lambda: dash.append(clock.now()))
+        return clock, smtp, cps, dash
+
+    def test_waits_hours_then_sends_on_the_minute(self):
+        clock, smtp, cps, dash = self.go(SLOT - timedelta(hours=3))
+        self.assertEqual([t for t, _ in smtp.sent], [SLOT + timedelta(minutes=i) for i in range(3)])
+        self.assertTrue(all(r["status"] == "sent" for r in self.st.emails))
+        self.assertGreaterEqual(clock.t, SLOT - timedelta(hours=3) + tick.RUN_BUDGET - tick.POLL_EVERY)
+        self.assertTrue(dash)  # dashboard data rewritten after changes
+
+    def test_stops_at_budget_mid_slot_and_leaves_the_rest(self):
+        clock, smtp, *_ = self.go(SLOT - timedelta(minutes=20), budget=timedelta(minutes=21, seconds=30))
+        self.assertEqual(len(smtp.sent), 2)  # 08:30 and 08:31; 08:32 is past this run's stop time
+        self.assertEqual([r["status"] for r in self.st.emails], ["sent", "sent", "scheduled"])
+
+    def test_work_left_keeps_the_chain_alive(self):
+        self.assertTrue(tick.work_left(self.st, SLOT))  # scheduled emails
+        for r in self.st.emails:
+            r["status"] = "sent"
+            r["events"].append({"event": "sent", "ts_utc": "2026-10-26T07:30:00Z"})
+        self.assertTrue(tick.work_left(self.st, SLOT + timedelta(days=29)))   # still watching replies
+        self.assertFalse(tick.work_left(self.st, SLOT + timedelta(days=31)))  # done
+
+
+class FakeImapWithLogout(FakeImap):
+    def logout(self):
+        pass
+
+
+class FolderTests(unittest.TestCase):
+    class Lister:
+        def __init__(self, lines):
+            self.lines = lines
+
+        def list(self):
+            return "OK", [l.encode() for l in self.lines]
+
+    def test_bare_dotted_names(self):  # e.g. Dovecot: (\HasNoChildren) "." INBOX.Sent
+        imap = self.Lister(['(\\HasNoChildren) "." INBOX', '(\\HasNoChildren) "." INBOX.Sent'])
+        self.assertEqual(mailio.find_sent_folder(imap), "INBOX.Sent")
+
+    def test_sent_flag_wins(self):
+        imap = self.Lister(['(\\HasNoChildren) "/" "Archive"', '(\\HasNoChildren \\Sent) "/" "Sent Items"'])
+        self.assertEqual(mailio.find_sent_folder(imap), "Sent Items")
+
+    def test_no_sent_folder_reports_names(self):
+        class Imap(self.Lister):
+            def append(self, *a):
+                raise AssertionError("must not append without a Sent folder")
+        why = mailio.append_sent(Imap(['(\\HasNoChildren) "/" INBOX', '(\\HasNoChildren) "/" Trash']), mailio.EmailMessage())
+        self.assertIn("folders: INBOX, Trash", why)
 
 
 class InboxTests(unittest.TestCase):

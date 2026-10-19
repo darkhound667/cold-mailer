@@ -32,5 +32,3 @@ review/
 # encryption key (upload to Secrets, keep offline)
 .data_key
 
-# dashboard data is built and deployed by the workflow, never committed
-site/data.enc.json

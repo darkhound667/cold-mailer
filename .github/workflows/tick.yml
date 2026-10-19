@@ -1,6 +1,7 @@
-# Phase 4: the unattended sender. Runs every 10 minutes (off the :00 marks GitHub is busiest at),
-# sends due emails one minute apart, polls replies, and redeploys the locked dashboard.
-# One run at a time: a long send (up to ~100 min for a full slot) makes later ticks wait, never overlap.
+# Phase 4: the unattended sender. Each run is long-lived (up to ~5 h 40 min): it sends due emails
+# at their exact minute (one per minute), polls replies every 10 min, commits state + the encrypted
+# dashboard data, and then starts its own successor. GitHub throttles cron on quiet repos, so the
+# 10-minute schedule below is only a backup restart. One run at a time (concurrency group).
 name: tick
 
 on:
@@ -16,9 +17,7 @@ on:
 permissions:
   contents: write     # commit state after each send
   issues: write       # reply / needs-ruturva issues
-  actions: read       # gap check (previous run time)
-  pages: write
-  id-token: write
+  actions: write      # gap check (previous run time) + dispatching the successor run
 
 concurrency:
   group: sender
@@ -27,9 +26,7 @@ concurrency:
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
-    outputs:
-      changed: ${{ steps.tick.outputs.changed }}
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,24 +47,8 @@ jobs:
           SENDER_APP_TOKEN: ${{ secrets.SENDER_APP_TOKEN }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           DRY_RUN_TO: ${{ inputs.dry_run_to }}
+          DASHBOARD_PASSPHRASE: ${{ secrets.DASHBOARD_PASSPHRASE }}
           GH_TOKEN: ${{ github.token }}
           GIT_PUSH: "1"
+          CHAIN: "1"
         run: python src/runner/tick.py
-      - name: Build dashboard data
-        if: steps.tick.outputs.changed == '1'
-        env:
-          DASHBOARD_PASSPHRASE: ${{ secrets.DASHBOARD_PASSPHRASE }}
-        run: python src/runner/dashboard.py
-      - uses: actions/upload-pages-artifact@v3
-        if: steps.tick.outputs.changed == '1'
-        with:
-          path: site
-
-  deploy-dashboard:
-    needs: tick
-    if: needs.tick.outputs.changed == '1'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - uses: actions/deploy-pages@v4

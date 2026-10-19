@@ -19,7 +19,7 @@ import time
 from email.message import EmailMessage
 from email.utils import formataddr, formatdate, make_msgid, parseaddr
 
-SENT_CANDIDATES = ("Sent", "Sent Items", "Sent Messages", "INBOX.Sent", "Sent Mail")
+SENT_CANDIDATES = ("Sent", "Sent Items", "Sent Messages", "Sent Mail", "Sent-Mail")
 AUTO_SUBJECT = re.compile(r"(?i)^(auto(matic)?[ -]?reply|out of (the )?office|abwesen|absence|"
                           r"on leave|away from|vacation|autosvar|autorespon|r[ée]ponse automatique)")
 HEADER_FIELDS = ("MESSAGE-ID IN-REPLY-TO REFERENCES FROM SUBJECT DATE AUTO-SUBMITTED "
@@ -74,28 +74,46 @@ def imap_login(host: str, port: int, user: str, token: str) -> imaplib.IMAP4_SSL
     return imap
 
 
-def find_sent_folder(imap) -> str:
+LIST_LINE = re.compile(r'^\((?P<flags>[^)]*)\)\s+(?P<delim>"(?:[^"\\]|\\.)*"|NIL)\s+(?P<name>.+)$')
+
+
+def list_folders(imap) -> list:
+    """[(name, flags)] from IMAP LIST. Names may be quoted or bare (e.g. INBOX.Sent)."""
     typ, data = imap.list()
-    names = []
+    out = []
     for raw in data or []:
-        line = raw.decode(errors="replace") if isinstance(raw, bytes) else str(raw)
-        name = line.rsplit(' "', 1)[-1].strip().strip('"') if '"' in line else line.split()[-1]
-        if "\\Sent" in line:
+        line = (raw.decode(errors="replace") if isinstance(raw, bytes) else str(raw)).strip()
+        m = LIST_LINE.match(line)
+        if m:
+            name = m.group("name").strip()
+            if len(name) >= 2 and name[0] == name[-1] == '"':
+                name = name[1:-1].replace('\\"', '"')
+            out.append((name, m.group("flags")))
+    return out
+
+
+def find_sent_folder(imap) -> str:
+    """The Sent folder: the one flagged \\Sent, else a well-known name (any case, any parent)."""
+    folders = list_folders(imap)
+    for name, flags in folders:
+        if "\\sent" in flags.lower():
             return name
-        names.append(name)
-    for cand in SENT_CANDIDATES:
-        if cand in names:
-            return cand
+    wanted = {c.lower() for c in SENT_CANDIDATES}
+    for name, _ in folders:
+        leaf = re.split(r"[./]", name)[-1].lower()
+        if name.lower() in wanted or leaf in wanted:
+            return name
     return ""
 
 
-def append_sent(imap, msg: EmailMessage) -> bool:
-    """Copy a sent message into the Sent folder (decision Q31). False if no folder is found."""
+def append_sent(imap, msg: EmailMessage) -> str:
+    """Copy a sent message into the Sent folder (decision Q31). Returns "" on success, else why not
+    (with the folder names, so a miss can be fixed; folder names hold no mail content)."""
     folder = find_sent_folder(imap)
     if not folder:
-        return False
+        return "no Sent folder; folders: " + ", ".join(n for n, _ in list_folders(imap))[:300]
     typ, _ = imap.append(f'"{folder}"', "\\Seen", imaplib.Time2Internaldate(time.time()), msg.as_bytes())
-    return typ == "OK"
+    return "" if typ == "OK" else f"APPEND to {folder} returned {typ}"
 
 
 def classify(h) -> str:

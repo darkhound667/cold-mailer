@@ -68,6 +68,7 @@
 </main>
 <script>
 const ITER_MIN = 100000;
+const RAW = "https://raw.githubusercontent.com/darkhound667/cold-mailer/main/site/data.enc.json";
 const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let DATA = null;
@@ -86,7 +87,10 @@ document.getElementById("unlock").addEventListener("submit", async ev => {
   const err = document.getElementById("err");
   err.textContent = "Decrypting…";
   try {
-    const blob = await (await fetch("data.enc.json", {cache:"no-store"})).json();
+    // Latest data straight from the repo (the runner commits it); fall back to the deployed copy.
+    let res = await fetch(RAW + "?t=" + Date.now(), {cache:"no-store"}).catch(() => null);
+    if (!res || !res.ok) res = await fetch("data.enc.json", {cache:"no-store"});
+    const blob = await res.json();
     DATA = await decrypt(blob, document.getElementById("pw").value);
     document.getElementById("lock").hidden = true;
     document.getElementById("app").hidden = false;
