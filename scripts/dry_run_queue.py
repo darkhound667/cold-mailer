@@ -27,12 +27,16 @@ def main() -> None:
     ap.add_argument("--to", required=True, help="your own address: every test email goes here")
     ap.add_argument("--n", type=int, default=3)
     ap.add_argument("--in-minutes", type=int, default=12, help="first test email this many minutes from now")
+    ap.add_argument("--ids", default="", help="comma-separated draft ids to use instead of the first --n")
     ap.add_argument("--push", action="store_true")
     args = ap.parse_args()
 
     profs = {r["id"]: r for r in json.loads((ROOT / "data" / "professors.json").read_text())}
     # batch-01 drafts are the ones without a "batch:" header line
-    paths = sorted(p for p in (ROOT / "review").glob("P*.md") if "\nbatch: " not in p.read_text()[:300])[: args.n]
+    if args.ids:
+        paths = [ROOT / "review" / f"{i.strip()}.md" for i in args.ids.split(",")]
+    else:
+        paths = sorted(p for p in (ROOT / "review").glob("P*.md") if "\nbatch: " not in p.read_text()[:300])[: args.n]
     now = datetime.now(timezone.utc)
     slot = (now + timedelta(minutes=args.in_minutes)).replace(second=0, microsecond=0)
     entries, drafts, info = [], {}, {}
