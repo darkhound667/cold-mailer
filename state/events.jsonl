@@ -10,3 +10,5 @@
 {"id": "DRY-P0003", "event": "sent_copy_failed", "ts_utc": "2026-10-19T05:59:01Z", "ts_local": "2026-10-19T00:59:01-05:00", "detail": "no Sent folder found"}
 {"id": "DRY-P0004", "event": "dry_run_sent", "ts_utc": "2026-10-19T06:00:01Z", "ts_local": "2026-10-19T08:00:01+02:00", "detail": "sent to the dry-run address"}
 {"id": "DRY-P0004", "event": "sent_copy_failed", "ts_utc": "2026-10-19T06:00:01Z", "ts_local": "2026-10-19T08:00:01+02:00", "detail": "no Sent folder found"}
+{"id": "DRY-P0006", "event": "queued", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "sha256=bbbbd5fe4a13"}
+{"id": "DRY-P0006", "event": "scheduled", "ts_utc": "2026-10-19T06:07:13Z", "ts_local": "2026-10-19T08:07:13+02:00", "detail": "send_local=2026-10-19T08:19:00+02:00"}
