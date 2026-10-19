@@ -221,6 +221,25 @@ class LongRunTests(unittest.TestCase):
         self.assertEqual(len(smtp.sent), 2)  # 08:30 and 08:31; 08:32 is past this run's stop time
         self.assertEqual([r["status"] for r in self.st.emails], ["sent", "sent", "scheduled"])
 
+    def test_batch_queued_mid_run_is_picked_up(self):
+        late = dict(self.st.by_id("P0003"), id="P0099", queue_index=99, events=[],
+                    slot_utc="2026-10-26T09:30:00Z", send_utc=None, send_local=None)
+        self.st.private["contacts"]["P0099"] = {"to": "p3@uni.example"}
+        late["sha256"] = text_hash("p3@uni.example", late["subject"], late["attachment"], late["body"])
+        calls = []
+
+        def refresh():  # stands in for git pull + reload: the new email appears on the 3rd loop
+            calls.append(1)
+            if len(calls) == 3:
+                self.st.emails.append(late)
+                tick.respace(self.st)
+        clock, smtp, cfg = Clock(SLOT - timedelta(hours=1)), None, Cfg()
+        smtp, cfg.chain = FakeSmtp(clock), True
+        tick.run(self.st, cfg, self.key, FakeIssues(), smtp.factory, lambda: FakeImapWithLogout(), clock.now,
+                 clock.sleep, lambda: None, lambda: None, None, refresh)
+        self.assertIn(datetime(2026, 10, 26, 9, 30, tzinfo=UTC), [t for t, _ in smtp.sent])
+        self.assertEqual(self.st.by_id("P0099")["status"], "sent")
+
     def test_work_left_keeps_the_chain_alive(self):
         self.assertTrue(tick.work_left(self.st, SLOT))  # scheduled emails
         for r in self.st.emails:

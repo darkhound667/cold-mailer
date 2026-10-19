@@ -192,11 +192,13 @@ def send_due(st, cfg, key, resume, smtp_factory, imap_factory, issues, now_fn, s
 
 def poll_inbox(st: State, imap, issues, now: datetime) -> None:
     sent_like = {"sent", "replied", "bounced"}
-    our_ids = {c["message_id"]: pid for pid, c in st.private["contacts"].items() if c.get("message_id")}
+    recs = {r["id"]: r for r in st.emails}  # contacts without a record yet (mid-sync) are skipped
+    contacts = {pid: c for pid, c in st.private["contacts"].items() if pid in recs}
+    our_ids = {c["message_id"]: pid for pid, c in contacts.items() if c.get("message_id")}
     # Test records go to Ruturva's own address: never match on that sender, or all his own mail
     # would look like replies. They still match on In-Reply-To/References.
-    our_addrs = {c["to"].lower(): pid for pid, c in st.private["contacts"].items()
-                 if c.get("to") and st.by_id(pid)["status"] in sent_like and not st.by_id(pid).get("dry_run")}
+    our_addrs = {c["to"].lower(): pid for pid, c in contacts.items()
+                 if c.get("to") and recs[pid]["status"] in sent_like and not recs[pid].get("dry_run")}
     if not our_ids:
         return
     first = min(parse(e["ts_utc"]) for r in st.emails for e in r.get("events", [])
@@ -254,15 +256,33 @@ def work_left(st: State, now: datetime) -> bool:
     return bool(sent) and now - max(sent) < timedelta(days=REPLY_WATCH_DAYS)
 
 
+def git_refresh(st: State, key: bytes, cfg: Config) -> None:
+    """Pull the repo and reload the state in place, so a batch queued from the laptop while this
+    run is alive is picked up at the next loop (not only by the successor run)."""
+    if not cfg.git_push:
+        return
+    if st.changed:
+        git_checkpoint(st, key, cfg)
+        st.changed = False
+    if subprocess.run(["git", "pull", "-q", "--rebase"]).returncode != 0:
+        print("git pull failed; continuing with the state already loaded")
+        return
+    fresh = State(st.dir).load(key)
+    st.emails, st.private, st.heartbeat = fresh.emails, fresh.private, fresh.heartbeat
+
+
 def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, checkpoint, dashboard_fn,
-        prev_run_utc=None) -> None:
-    """One long-lived run: every POLL_EVERY, reschedule, send what is due, poll the inbox and
-    commit; stop before GitHub's job limit. With cfg.chain the caller then starts the successor."""
+        prev_run_utc=None, refresh=None) -> None:
+    """One long-lived run: every POLL_EVERY, reload the state, reschedule, send what is due, poll
+    the inbox and commit; stop before GitHub's job limit. With cfg.chain the caller then starts
+    the successor."""
     start = now_fn()
     stop_at = start + RUN_BUDGET
     heartbeat(st, start, issues, prev_run_utc)
-    resume = None
     while True:
+        if refresh:
+            refresh()
+        resume = None  # re-read each loop: a new queue may bring a new resume
         reschedule_missed(st, now_fn())
         if any(r["status"] == "scheduled" for r in st.emails):
             resume = resume or st.resume(key)
@@ -314,7 +334,7 @@ def main() -> None:
         lambda: mailio.Smtp(cfg.smtp_host, cfg.smtp_port, cfg.user, cfg.token),
         lambda: mailio.imap_login(cfg.imap_host, cfg.imap_port, cfg.user, cfg.token),
         now_fn, time.sleep, lambda: git_checkpoint(st, key, cfg),
-        lambda: dashboard.write(st.dir), issues.previous_run_utc())
+        lambda: dashboard.write(st.dir), issues.previous_run_utc(), lambda: git_refresh(st, key, cfg))
     if cfg.chain and work_left(st, now_fn()):
         dispatch_successor(cfg)
     print("run done")
