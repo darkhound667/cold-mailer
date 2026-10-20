@@ -43,7 +43,7 @@ LOOKAHEAD = timedelta(minutes=30)
 HEARTBEAT_GAP = timedelta(minutes=40)
 HEARTBEAT_COMMIT_EVERY = timedelta(hours=1)
 SLOT_CAP = 100
-POLL_EVERY = timedelta(minutes=10)    # inbox poll / send check interval inside one long run
+POLL_EVERY = timedelta(minutes=1)     # inbox poll / send check interval inside one long run (Ruturva, 2026-10-20: every minute)
 RUN_BUDGET = timedelta(hours=5, minutes=40)  # stop before GitHub's 6 h job limit, then hand over
 REPLY_WATCH_DAYS = 30                 # keep polling for replies this long after the last send
 SMTP_IDLE = 120  # seconds; reconnect rather than reuse an idle SMTP session
