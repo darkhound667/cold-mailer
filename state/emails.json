@@ -2791,6 +2791,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T06:14:54+01:00",
     "detail": "send_local=2026-10-20T08:32:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T07:32:01Z",
+    "ts_local": "2026-10-20T08:32:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Francesco Pilla",
@@ -2807,7 +2813,7 @@
   "slot_utc": "2026-10-20T07:30:00Z",
   "send_utc": "2026-10-20T07:32:00Z",
   "send_local": "2026-10-20T08:32:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
