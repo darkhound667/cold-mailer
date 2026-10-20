@@ -2913,6 +2913,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T14:14:54+09:00",
     "detail": "send_local=2026-10-21T08:32:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T23:32:01Z",
+    "ts_local": "2026-10-21T08:32:01+09:00",
+    "detail": ""
    }
   ],
   "name": "ChangKyoo Yoo",
@@ -2929,7 +2935,7 @@
   "slot_utc": "2026-10-20T23:30:00Z",
   "send_utc": "2026-10-20T23:32:00Z",
   "send_local": "2026-10-21T08:32:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
