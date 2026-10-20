@@ -1473,6 +1473,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T15:14:54+10:00",
     "detail": "send_local=2026-10-21T08:30:00+10:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T22:30:03Z",
+    "ts_local": "2026-10-21T08:30:03+10:00",
+    "detail": ""
    }
   ],
   "name": "Bithin Datta",
@@ -1489,7 +1495,7 @@
   "slot_utc": "2026-10-20T22:30:00Z",
   "send_utc": "2026-10-20T22:30:00Z",
   "send_local": "2026-10-21T08:30:00+10:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
