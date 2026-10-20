@@ -3881,6 +3881,12 @@
     "ts_utc": "2026-10-20T12:44:01Z",
     "ts_local": "2026-10-20T08:44:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-20T17:58:45Z",
+    "ts_local": "2026-10-20T13:58:45-04:00",
+    "detail": ""
    }
   ],
   "name": "Taha B. M. J. Ouarda",
@@ -3897,9 +3903,9 @@
   "slot_utc": "2026-10-20T12:30:00Z",
   "send_utc": "2026-10-20T12:44:00Z",
   "send_local": "2026-10-20T08:44:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 7
  },
  {
   "id": "P0199",
