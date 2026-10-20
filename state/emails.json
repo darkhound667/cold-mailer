@@ -2205,6 +2205,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-19T23:14:54-06:00",
     "detail": "send_local=2026-10-20T08:30:00-06:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T14:30:04Z",
+    "ts_local": "2026-10-20T08:30:04-06:00",
+    "detail": ""
    }
   ],
   "name": "Terri Sue Hogue",
@@ -2221,7 +2227,7 @@
   "slot_utc": "2026-10-20T14:30:00Z",
   "send_utc": "2026-10-20T14:30:00Z",
   "send_local": "2026-10-20T08:30:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
