@@ -3619,6 +3619,12 @@
     "ts_utc": "2026-10-20T15:33:01Z",
     "ts_local": "2026-10-20T08:33:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-20T20:07:12Z",
+    "ts_local": "2026-10-20T13:07:12-07:00",
+    "detail": ""
    }
   ],
   "name": "Laura E. Condon",
@@ -3635,9 +3641,9 @@
   "slot_utc": "2026-10-20T15:30:00Z",
   "send_utc": "2026-10-20T15:33:00Z",
   "send_local": "2026-10-20T08:33:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 8
  },
  {
   "id": "P0184",
