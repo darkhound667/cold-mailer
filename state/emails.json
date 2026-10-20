@@ -1165,6 +1165,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T00:14:54-05:00",
     "detail": "send_local=2026-10-20T08:30:00-05:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T13:30:03Z",
+    "ts_local": "2026-10-20T08:30:03-05:00",
+    "detail": ""
    }
   ],
   "name": "John P. Tiefenbacher",
@@ -1181,7 +1187,7 @@
   "slot_utc": "2026-10-20T13:30:00Z",
   "send_utc": "2026-10-20T13:30:00Z",
   "send_local": "2026-10-20T08:30:00-05:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
