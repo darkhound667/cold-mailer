@@ -3289,6 +3289,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T01:14:54-04:00",
     "detail": "send_local=2026-10-20T08:42:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-20T12:42:01Z",
+    "ts_local": "2026-10-20T08:42:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Felix J. Herrmann",
@@ -3305,7 +3311,7 @@
   "slot_utc": "2026-10-20T12:30:00Z",
   "send_utc": "2026-10-20T12:42:00Z",
   "send_local": "2026-10-20T08:42:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
