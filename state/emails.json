@@ -811,6 +811,12 @@
     "ts_utc": "2026-10-20T06:34:01Z",
     "ts_local": "2026-10-20T08:34:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-20T06:44:12Z",
+    "ts_local": "2026-10-20T08:44:12+02:00",
+    "detail": ""
    }
   ],
   "name": "Devis Tuia",
@@ -828,7 +834,7 @@
   "send_utc": "2026-10-20T06:34:00Z",
   "send_local": "2026-10-20T08:34:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
