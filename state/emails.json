@@ -7496,6 +7496,12 @@
     "ts_utc": "2026-10-21T12:43:01Z",
     "ts_local": "2026-10-21T08:43:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T12:49:40Z",
+    "ts_local": "2026-10-21T08:49:40-04:00",
+    "detail": ""
    }
   ],
   "name": "Chaowei Phil Yang",
@@ -7512,9 +7518,9 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:43:00Z",
   "send_local": "2026-10-21T08:43:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 15,
   "position": 13
  },
  {
