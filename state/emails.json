@@ -2095,6 +2095,12 @@
     "ts_utc": "2026-10-21T05:30:03Z",
     "ts_local": "2026-10-21T08:30:03+03:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-21T05:31:17Z",
+    "ts_local": "2026-10-21T08:31:17+03:00",
+    "detail": ""
    }
   ],
   "name": "Ali Torabi Haghighi",
@@ -2112,7 +2118,7 @@
   "send_utc": "2026-10-21T05:30:00Z",
   "send_local": "2026-10-21T08:30:00+03:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
