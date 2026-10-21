@@ -4238,6 +4238,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T07:14:54+02:00",
     "detail": "send_local=2026-10-21T08:53:00+02:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T06:51:33Z",
+    "ts_local": "2026-10-21T08:51:33+02:00",
+    "detail": ""
    }
   ],
   "name": "Ann van Griensven",
@@ -4254,7 +4260,7 @@
   "slot_utc": "2026-10-21T06:30:00Z",
   "send_utc": "2026-10-21T06:31:00Z",
   "send_local": "2026-10-21T08:31:00+02:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 1
