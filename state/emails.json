@@ -5257,6 +5257,12 @@
     "ts_utc": "2026-10-21T13:32:01Z",
     "ts_local": "2026-10-21T08:32:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-21T13:35:08Z",
+    "ts_local": "2026-10-21T08:35:08-05:00",
+    "detail": ""
    }
   ],
   "name": "Ignacio Antonio Ciampitti",
@@ -5274,7 +5280,7 @@
   "send_utc": "2026-10-21T13:32:00Z",
   "send_local": "2026-10-21T08:32:00-05:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
