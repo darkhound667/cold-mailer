@@ -5852,6 +5852,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T18:09:44+09:00",
     "detail": "send_local=2026-10-22T08:33:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T23:33:01Z",
+    "ts_local": "2026-10-22T08:33:01+09:00",
+    "detail": ""
    }
   ],
   "name": "Deg‐Hyo Bae",
@@ -5868,7 +5874,7 @@
   "slot_utc": "2026-10-21T23:30:00Z",
   "send_utc": "2026-10-21T23:33:00Z",
   "send_local": "2026-10-22T08:33:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
