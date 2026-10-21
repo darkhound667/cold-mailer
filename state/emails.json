@@ -7694,5 +7694,39 @@
   "status": "scheduled",
   "reply_label": "",
   "issue": null
+ },
+ {
+  "id": "P2001",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-10-21T11:41:19Z",
+    "ts_local": "2026-10-21T06:41:19-05:00",
+    "detail": "sha256=05893487c4a3"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-10-21T11:41:19Z",
+    "ts_local": "2026-10-21T06:41:19-05:00",
+    "detail": "send_local=2026-10-22T08:30:00-05:00"
+   }
+  ],
+  "name": "Xuqing Wu",
+  "university": "University of Houston",
+  "country": "US",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "A",
+  "subject": "Research internship inquiry: deep learning for energy systems and renewables",
+  "body": "Dear Prof. Wu,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "05893487c4a3beb53dd492de500d39bfb0f34144a628680fccd547be66539f4d",
+  "timezone": "America/Chicago",
+  "queue_index": 201,
+  "slot_utc": "2026-10-22T13:30:00Z",
+  "send_utc": "2026-10-22T13:30:00Z",
+  "send_local": "2026-10-22T08:30:00-05:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
  }
 ]
