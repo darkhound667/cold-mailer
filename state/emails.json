@@ -6407,6 +6407,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T02:09:44-07:00",
     "detail": "send_local=2026-10-21T08:30:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T15:30:03Z",
+    "ts_local": "2026-10-21T08:30:03-07:00",
+    "detail": ""
    }
   ],
   "name": "Heejun Chang",
@@ -6423,7 +6429,7 @@
   "slot_utc": "2026-10-21T15:30:00Z",
   "send_utc": "2026-10-21T15:30:00Z",
   "send_local": "2026-10-21T08:30:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
