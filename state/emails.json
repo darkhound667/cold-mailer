@@ -5089,6 +5089,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T05:09:44-04:00",
     "detail": "send_local=2026-10-21T08:34:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T12:32:01Z",
+    "ts_local": "2026-10-21T08:32:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Venkatesh Merwade",
@@ -5105,7 +5111,7 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:32:00Z",
   "send_local": "2026-10-21T08:32:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 2
