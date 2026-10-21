@@ -4047,6 +4047,12 @@
     "ts_utc": "2026-10-20T05:14:54Z",
     "ts_local": "2026-10-20T13:14:54+08:00",
     "detail": "send_local=2026-10-21T08:45:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T00:45:01Z",
+    "ts_local": "2026-10-21T08:45:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Yongjiu Dai",
@@ -4063,7 +4069,7 @@
   "slot_utc": "2026-10-21T00:30:00Z",
   "send_utc": "2026-10-21T00:45:00Z",
   "send_local": "2026-10-21T08:45:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
