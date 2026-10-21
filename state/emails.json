@@ -6562,6 +6562,12 @@
     "ts_utc": "2026-10-21T15:31:01Z",
     "ts_local": "2026-10-21T08:31:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-21T15:32:07Z",
+    "ts_local": "2026-10-21T08:32:07-07:00",
+    "detail": ""
    }
   ],
   "name": "Soroosh Sorooshian",
@@ -6579,7 +6585,7 @@
   "send_utc": "2026-10-21T15:31:00Z",
   "send_local": "2026-10-21T08:31:00-07:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
