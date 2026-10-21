@@ -3551,6 +3551,12 @@
     "ts_utc": "2026-10-21T06:50:01Z",
     "ts_local": "2026-10-21T08:50:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T07:19:29Z",
+    "ts_local": "2026-10-21T09:19:29+02:00",
+    "detail": ""
    }
   ],
   "name": "Nicola Fohrer",
@@ -3567,9 +3573,9 @@
   "slot_utc": "2026-10-21T06:30:00Z",
   "send_utc": "2026-10-21T06:50:00Z",
   "send_local": "2026-10-21T08:50:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 10
  },
  {
   "id": "P0166",
