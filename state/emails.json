@@ -4769,6 +4769,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T05:09:44-04:00",
     "detail": "send_local=2026-10-21T08:32:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T12:31:28Z",
+    "ts_local": "2026-10-21T08:31:28-04:00",
+    "detail": ""
    }
   ],
   "name": "Bernard A. Engel",
@@ -4783,11 +4789,12 @@
   "timezone": "America/New_York",
   "queue_index": 114,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:32:00Z",
-  "send_local": "2026-10-21T08:32:00-04:00",
-  "status": "scheduled",
+  "send_utc": "2026-10-21T12:30:00Z",
+  "send_local": "2026-10-21T08:30:00-04:00",
+  "status": "sent",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P0233",
@@ -4817,11 +4824,12 @@
   "timezone": "America/New_York",
   "queue_index": 115,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:33:00Z",
-  "send_local": "2026-10-21T08:33:00-04:00",
+  "send_utc": "2026-10-21T12:31:00Z",
+  "send_local": "2026-10-21T08:31:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P0236",
@@ -5089,11 +5097,12 @@
   "timezone": "America/New_York",
   "queue_index": 123,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:34:00Z",
-  "send_local": "2026-10-21T08:34:00-04:00",
+  "send_utc": "2026-10-21T12:32:00Z",
+  "send_local": "2026-10-21T08:32:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P0254",
@@ -5157,11 +5166,12 @@
   "timezone": "America/New_York",
   "queue_index": 125,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:35:00Z",
-  "send_local": "2026-10-21T08:35:00-04:00",
+  "send_utc": "2026-10-21T12:33:00Z",
+  "send_local": "2026-10-21T08:33:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P0261",
@@ -5259,11 +5269,12 @@
   "timezone": "America/New_York",
   "queue_index": 128,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:36:00Z",
-  "send_local": "2026-10-21T08:36:00-04:00",
+  "send_utc": "2026-10-21T12:34:00Z",
+  "send_local": "2026-10-21T08:34:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P0264",
@@ -5429,11 +5440,12 @@
   "timezone": "America/Toronto",
   "queue_index": 133,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:37:00Z",
-  "send_local": "2026-10-21T08:37:00-04:00",
+  "send_utc": "2026-10-21T12:35:00Z",
+  "send_local": "2026-10-21T08:35:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P0272",
@@ -5531,11 +5543,12 @@
   "timezone": "America/Toronto",
   "queue_index": 136,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:38:00Z",
-  "send_local": "2026-10-21T08:38:00-04:00",
+  "send_utc": "2026-10-21T12:36:00Z",
+  "send_local": "2026-10-21T08:36:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P0277",
@@ -5565,11 +5578,12 @@
   "timezone": "America/Toronto",
   "queue_index": 137,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:39:00Z",
-  "send_local": "2026-10-21T08:39:00-04:00",
+  "send_utc": "2026-10-21T12:37:00Z",
+  "send_local": "2026-10-21T08:37:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 7
  },
  {
   "id": "P0280",
@@ -5599,11 +5613,12 @@
   "timezone": "America/New_York",
   "queue_index": 138,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:40:00Z",
-  "send_local": "2026-10-21T08:40:00-04:00",
+  "send_utc": "2026-10-21T12:38:00Z",
+  "send_local": "2026-10-21T08:38:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 8
  },
  {
   "id": "P0282",
@@ -6075,11 +6090,12 @@
   "timezone": "America/New_York",
   "queue_index": 152,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:41:00Z",
-  "send_local": "2026-10-21T08:41:00-04:00",
+  "send_utc": "2026-10-21T12:39:00Z",
+  "send_local": "2026-10-21T08:39:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 9
  },
  {
   "id": "P0327",
@@ -6347,11 +6363,12 @@
   "timezone": "America/New_York",
   "queue_index": 160,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:42:00Z",
-  "send_local": "2026-10-21T08:42:00-04:00",
+  "send_utc": "2026-10-21T12:40:00Z",
+  "send_local": "2026-10-21T08:40:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 10
  },
  {
   "id": "P0342",
@@ -6551,11 +6568,12 @@
   "timezone": "America/Toronto",
   "queue_index": 166,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:43:00Z",
-  "send_local": "2026-10-21T08:43:00-04:00",
+  "send_utc": "2026-10-21T12:41:00Z",
+  "send_local": "2026-10-21T08:41:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 11
  },
  {
   "id": "P0348",
@@ -6789,11 +6807,12 @@
   "timezone": "America/New_York",
   "queue_index": 173,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:44:00Z",
-  "send_local": "2026-10-21T08:44:00-04:00",
+  "send_utc": "2026-10-21T12:42:00Z",
+  "send_local": "2026-10-21T08:42:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 12
  },
  {
   "id": "P0360",
@@ -7401,11 +7420,12 @@
   "timezone": "America/New_York",
   "queue_index": 191,
   "slot_utc": "2026-10-21T12:30:00Z",
-  "send_utc": "2026-10-21T12:45:00Z",
-  "send_local": "2026-10-21T08:45:00-04:00",
+  "send_utc": "2026-10-21T12:43:00Z",
+  "send_local": "2026-10-21T08:43:00-04:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 13
  },
  {
   "id": "P0398",
