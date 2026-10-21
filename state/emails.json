@@ -829,6 +829,12 @@
     "ts_utc": "2026-10-20T06:44:12Z",
     "ts_local": "2026-10-20T08:44:12+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T08:09:42Z",
+    "ts_local": "2026-10-21T10:09:42+02:00",
+    "detail": ""
    }
   ],
   "name": "Devis Tuia",
@@ -845,9 +851,9 @@
   "slot_utc": "2026-10-20T06:30:00Z",
   "send_utc": "2026-10-20T06:34:00Z",
   "send_local": "2026-10-20T08:34:00+02:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 12
  },
  {
   "id": "P0030",
