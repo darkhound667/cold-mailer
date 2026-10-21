@@ -5606,6 +5606,12 @@
     "ts_utc": "2026-10-21T12:37:01Z",
     "ts_local": "2026-10-21T08:37:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T12:43:06Z",
+    "ts_local": "2026-10-21T08:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "David A. Clausi",
@@ -5622,9 +5628,9 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:37:00Z",
   "send_local": "2026-10-21T08:37:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 14,
   "position": 7
  },
  {
@@ -6620,6 +6626,12 @@
     "ts_utc": "2026-10-21T12:41:01Z",
     "ts_local": "2026-10-21T08:41:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-21T12:43:06Z",
+    "ts_local": "2026-10-21T08:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Philippe Van Cappellen",
@@ -6637,7 +6649,7 @@
   "send_utc": "2026-10-21T12:41:00Z",
   "send_local": "2026-10-21T08:41:00-04:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null,
   "position": 11
  },
