@@ -5164,6 +5164,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T05:09:44-04:00",
     "detail": "send_local=2026-10-21T08:35:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T12:33:01Z",
+    "ts_local": "2026-10-21T08:33:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Ni‐Bin Chang",
@@ -5180,7 +5186,7 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:33:00Z",
   "send_local": "2026-10-21T08:33:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 3
