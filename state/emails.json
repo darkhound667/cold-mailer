@@ -4315,6 +4315,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T05:09:44-04:00",
     "detail": "send_local=2026-10-21T08:30:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-21T12:30:03Z",
+    "ts_local": "2026-10-21T08:30:03-04:00",
+    "detail": ""
    }
   ],
   "name": "George B. Arhonditsis",
@@ -4331,7 +4337,7 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:30:00Z",
   "send_local": "2026-10-21T08:30:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
