@@ -6668,6 +6668,12 @@
     "ts_utc": "2026-10-21T12:43:06Z",
     "ts_local": "2026-10-21T08:43:06-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T13:45:02Z",
+    "ts_local": "2026-10-21T09:45:02-04:00",
+    "detail": ""
    }
   ],
   "name": "Philippe Van Cappellen",
@@ -6684,9 +6690,9 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:41:00Z",
   "send_local": "2026-10-21T08:41:00-04:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 16,
   "position": 11
  },
  {
