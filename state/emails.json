@@ -5625,6 +5625,12 @@
     "ts_utc": "2026-10-21T12:36:01Z",
     "ts_local": "2026-10-21T08:36:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-21T20:44:59Z",
+    "ts_local": "2026-10-21T16:44:59-04:00",
+    "detail": ""
    }
   ],
   "name": "Manuel J. Rodríguez",
@@ -5641,9 +5647,9 @@
   "slot_utc": "2026-10-21T12:30:00Z",
   "send_utc": "2026-10-21T12:36:00Z",
   "send_local": "2026-10-21T08:36:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 22,
   "position": 6
  },
  {
