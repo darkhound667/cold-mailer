@@ -7096,6 +7096,12 @@
     "ts_utc": "2026-10-21T22:30:03Z",
     "ts_local": "2026-10-22T08:30:03+10:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-21T22:32:24Z",
+    "ts_local": "2026-10-22T08:32:24+10:00",
+    "detail": ""
    }
   ],
   "name": "Mostafa Rahimi Azghadi",
@@ -7113,7 +7119,7 @@
   "send_utc": "2026-10-21T22:30:00Z",
   "send_local": "2026-10-22T08:30:00+10:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
