@@ -7213,6 +7213,12 @@
     "ts_utc": "2026-10-22T06:51:01Z",
     "ts_local": "2026-10-22T08:51:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T09:05:13Z",
+    "ts_local": "2026-10-22T11:05:13+02:00",
+    "detail": ""
    }
   ],
   "name": "Reto Knutti",
@@ -7229,9 +7235,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:51:00Z",
   "send_local": "2026-10-22T08:51:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 30
  },
  {
   "id": "P0356",
