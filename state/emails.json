@@ -5998,6 +5998,12 @@
     "ts_utc": "2026-10-22T06:41:01Z",
     "ts_local": "2026-10-22T08:41:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T18:38:45Z",
+    "ts_local": "2026-10-22T20:38:45+02:00",
+    "detail": ""
    }
   ],
   "name": "Tobias Meisen",
@@ -6014,9 +6020,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:41:00Z",
   "send_local": "2026-10-22T08:41:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 35
  },
  {
   "id": "P0287",
