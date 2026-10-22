@@ -649,3 +649,4 @@
 {"id": "P0398", "event": "sent", "ts_utc": "2026-10-22T07:00:01Z", "ts_local": "2026-10-22T09:00:01+02:00", "detail": ""}
 {"id": "P0243", "event": "sent", "ts_utc": "2026-10-22T07:30:04Z", "ts_local": "2026-10-22T08:30:04+01:00", "detail": ""}
 {"id": "P0243", "event": "sent_copy_failed", "ts_utc": "2026-10-22T07:30:04Z", "ts_local": "2026-10-22T08:30:04+01:00", "detail": "abort"}
+{"id": "P0272", "event": "sent", "ts_utc": "2026-10-22T07:31:01Z", "ts_local": "2026-10-22T08:31:01+01:00", "detail": ""}
