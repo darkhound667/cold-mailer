@@ -8050,6 +8050,12 @@
     "ts_utc": "2026-10-22T06:59:01Z",
     "ts_local": "2026-10-22T08:59:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T09:20:25Z",
+    "ts_local": "2026-10-22T11:20:25+02:00",
+    "detail": ""
    }
   ],
   "name": "Angela Meyer",
@@ -8066,9 +8072,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:59:00Z",
   "send_local": "2026-10-22T08:59:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 31
  },
  {
   "id": "P0396",
