@@ -4373,6 +4373,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T17:09:44+08:00",
     "detail": "send_local=2026-10-22T08:30:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-22T00:30:05Z",
+    "ts_local": "2026-10-22T08:30:05+08:00",
+    "detail": ""
    }
   ],
   "name": "Chunmiao Zheng",
@@ -4389,7 +4395,7 @@
   "slot_utc": "2026-10-22T00:30:00Z",
   "send_utc": "2026-10-22T00:30:00Z",
   "send_local": "2026-10-22T08:30:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
