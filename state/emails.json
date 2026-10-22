@@ -7886,6 +7886,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T11:09:44+02:00",
     "detail": "send_local=2026-10-22T08:58:00+02:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-22T06:58:01Z",
+    "ts_local": "2026-10-22T08:58:01+02:00",
+    "detail": ""
    }
   ],
   "name": "Martin Werner",
@@ -7902,7 +7908,7 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:58:00Z",
   "send_local": "2026-10-22T08:58:00+02:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
