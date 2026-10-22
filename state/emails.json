@@ -5428,6 +5428,12 @@
     "ts_utc": "2026-10-21T21:30:05Z",
     "ts_local": "2026-10-22T08:30:05+11:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T00:48:06Z",
+    "ts_local": "2026-10-22T11:48:06+11:00",
+    "detail": ""
    }
   ],
   "name": "Samsung Lim",
@@ -5444,9 +5450,9 @@
   "slot_utc": "2026-10-21T21:30:00Z",
   "send_utc": "2026-10-21T21:30:00Z",
   "send_local": "2026-10-22T08:30:00+11:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 23
  },
  {
   "id": "P0265",
