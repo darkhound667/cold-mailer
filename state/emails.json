@@ -6976,6 +6976,12 @@
     "ts_utc": "2026-10-22T06:48:01Z",
     "ts_local": "2026-10-22T08:48:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T07:38:37Z",
+    "ts_local": "2026-10-22T09:38:37+02:00",
+    "detail": ""
    }
   ],
   "name": "Artemi Cerdà",
@@ -6992,9 +6998,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:48:00Z",
   "send_local": "2026-10-22T08:48:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 26
  },
  {
   "id": "P0347",
