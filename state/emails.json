@@ -4975,6 +4975,12 @@
     "ts_utc": "2026-10-22T06:34:01Z",
     "ts_local": "2026-10-22T08:34:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-22T07:33:06Z",
+    "ts_local": "2026-10-22T09:33:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Stefan Brönnimann",
@@ -4992,7 +4998,7 @@
   "send_utc": "2026-10-22T06:34:00Z",
   "send_local": "2026-10-22T08:34:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -5147,6 +5153,12 @@
     "ts_utc": "2026-10-22T06:35:01Z",
     "ts_local": "2026-10-22T08:35:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T07:33:06Z",
+    "ts_local": "2026-10-22T09:33:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Ronny Berndtsson",
@@ -5163,9 +5175,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:35:00Z",
   "send_local": "2026-10-22T08:35:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 24
  },
  {
   "id": "P0248",
@@ -5274,6 +5286,12 @@
     "ts_utc": "2026-10-22T06:36:01Z",
     "ts_local": "2026-10-22T08:36:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-22T07:33:06Z",
+    "ts_local": "2026-10-22T09:33:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Dirk Jacob Verschuur",
@@ -5290,9 +5308,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:36:00Z",
   "send_local": "2026-10-22T08:36:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 25
  },
  {
   "id": "P0256",
@@ -7676,6 +7694,12 @@
     "ts_utc": "2026-10-22T06:57:01Z",
     "ts_local": "2026-10-22T08:57:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-22T07:33:06Z",
+    "ts_local": "2026-10-22T09:33:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Hossein Hashemi",
@@ -7693,7 +7717,7 @@
   "send_utc": "2026-10-22T06:57:00Z",
   "send_local": "2026-10-22T08:57:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {

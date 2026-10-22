@@ -652,3 +652,7 @@
 {"id": "P0272", "event": "sent", "ts_utc": "2026-10-22T07:31:01Z", "ts_local": "2026-10-22T08:31:01+01:00", "detail": ""}
 {"id": "P0350", "event": "sent", "ts_utc": "2026-10-22T07:32:01Z", "ts_local": "2026-10-22T08:32:01+01:00", "detail": ""}
 {"id": "P0393", "event": "sent", "ts_utc": "2026-10-22T07:33:01Z", "ts_local": "2026-10-22T08:33:01+01:00", "detail": ""}
+{"id": "P0237", "event": "auto_reply", "ts_utc": "2026-10-22T07:33:06Z", "ts_local": "2026-10-22T09:33:06+02:00", "detail": ""}
+{"id": "P0245", "event": "replied", "ts_utc": "2026-10-22T07:33:06Z", "ts_local": "2026-10-22T09:33:06+02:00", "detail": ""}
+{"id": "P0254", "event": "replied", "ts_utc": "2026-10-22T07:33:06Z", "ts_local": "2026-10-22T09:33:06+02:00", "detail": ""}
+{"id": "P0370", "event": "auto_reply", "ts_utc": "2026-10-22T07:33:06Z", "ts_local": "2026-10-22T09:33:06+02:00", "detail": ""}
