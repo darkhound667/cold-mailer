@@ -9117,6 +9117,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-23T00:35:24+09:00",
     "detail": "send_local=2026-10-23T08:30:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-22T23:30:04Z",
+    "ts_local": "2026-10-23T08:30:04+09:00",
+    "detail": ""
    }
   ],
   "name": "Youkyung Han",
@@ -9133,7 +9139,7 @@
   "slot_utc": "2026-10-22T23:30:00Z",
   "send_utc": "2026-10-22T23:30:00Z",
   "send_local": "2026-10-23T08:30:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
