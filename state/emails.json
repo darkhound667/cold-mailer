@@ -4413,6 +4413,12 @@
     "ts_utc": "2026-10-21T09:09:44Z",
     "ts_local": "2026-10-21T06:39:44-02:30",
     "detail": "send_local=2026-10-22T08:30:00-02:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-22T11:00:04Z",
+    "ts_local": "2026-10-22T08:30:04-02:30",
+    "detail": ""
    }
   ],
   "name": "Alexander Bihlo",
@@ -4429,7 +4435,7 @@
   "slot_utc": "2026-10-22T11:00:00Z",
   "send_utc": "2026-10-22T11:00:00Z",
   "send_local": "2026-10-22T08:30:00-02:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
