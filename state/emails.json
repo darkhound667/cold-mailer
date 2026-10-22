@@ -9043,6 +9043,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-23T04:35:24+13:00",
     "detail": "send_local=2026-10-23T08:30:00+13:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-22T19:30:03Z",
+    "ts_local": "2026-10-23T08:30:03+13:00",
+    "detail": ""
    }
   ],
   "name": "Mengjie Zhang",
@@ -9059,7 +9065,7 @@
   "slot_utc": "2026-10-22T19:30:00Z",
   "send_utc": "2026-10-22T19:30:00Z",
   "send_local": "2026-10-23T08:30:00+13:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
