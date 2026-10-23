@@ -13257,6 +13257,12 @@
     "ts_utc": "2026-10-23T07:51:01Z",
     "ts_local": "2026-10-23T08:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T09:15:26Z",
+    "ts_local": "2026-10-23T10:15:26+01:00",
+    "detail": ""
    }
   ],
   "name": "Emily Rebecca Lines",
@@ -13273,9 +13279,9 @@
   "slot_utc": "2026-10-23T07:30:00Z",
   "send_utc": "2026-10-23T07:51:00Z",
   "send_local": "2026-10-23T08:51:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 40
  },
  {
   "id": "P0506",
