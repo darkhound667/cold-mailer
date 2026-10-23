@@ -8873,6 +8873,12 @@
     "ts_utc": "2026-10-23T15:30:04Z",
     "ts_local": "2026-10-23T08:30:04-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T16:03:07Z",
+    "ts_local": "2026-10-23T09:03:07-07:00",
+    "detail": ""
    }
   ],
   "name": "Amir AghaKouchak",
@@ -8889,9 +8895,9 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:30:00Z",
   "send_local": "2026-10-23T08:30:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 52
  },
  {
   "id": "P0427",
