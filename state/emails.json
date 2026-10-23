@@ -10091,6 +10091,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-22T17:35:24+02:00",
     "detail": "send_local=2026-10-23T08:35:00+02:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T06:35:01Z",
+    "ts_local": "2026-10-23T08:35:01+02:00",
+    "detail": ""
    }
   ],
   "name": "Katharina Anders",
@@ -10107,7 +10113,7 @@
   "slot_utc": "2026-10-23T06:30:00Z",
   "send_utc": "2026-10-23T06:35:00Z",
   "send_local": "2026-10-23T08:35:00+02:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
