@@ -1171,3 +1171,4 @@
 {"id": "P0468", "event": "auto_reply", "ts_utc": "2026-10-23T08:19:06Z", "ts_local": "2026-10-23T09:19:06+01:00", "detail": ""}
 {"id": "P2088", "event": "bounced", "ts_utc": "2026-10-23T08:19:06Z", "ts_local": "2026-10-23T09:19:06+01:00", "detail": ""}
 {"id": "P0502", "event": "replied", "ts_utc": "2026-10-23T09:15:26Z", "ts_local": "2026-10-23T10:15:26+01:00", "detail": ""}
+{"id": "P2028", "event": "replied", "ts_utc": "2026-10-23T09:18:44Z", "ts_local": "2026-10-23T10:18:44+01:00", "detail": ""}
