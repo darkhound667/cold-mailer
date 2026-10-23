@@ -13355,6 +13355,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T06:29:15+02:00",
     "detail": "send_local=2026-10-23T08:51:00+02:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T06:51:01Z",
+    "ts_local": "2026-10-23T08:51:01+02:00",
+    "detail": ""
    }
   ],
   "name": "Markus Egli",
@@ -13371,7 +13377,7 @@
   "slot_utc": "2026-10-23T06:30:00Z",
   "send_utc": "2026-10-23T06:51:00Z",
   "send_local": "2026-10-23T08:51:00+02:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
