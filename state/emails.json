@@ -8989,6 +8989,12 @@
     "ts_utc": "2026-10-23T07:30:04Z",
     "ts_local": "2026-10-23T08:30:04+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T09:49:27Z",
+    "ts_local": "2026-10-23T10:49:27+01:00",
+    "detail": ""
    }
   ],
   "name": "Soroush Abolfathi",
@@ -9005,9 +9011,9 @@
   "slot_utc": "2026-10-23T07:30:00Z",
   "send_utc": "2026-10-23T07:30:00Z",
   "send_local": "2026-10-23T08:30:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 42
  },
  {
   "id": "P0438",
