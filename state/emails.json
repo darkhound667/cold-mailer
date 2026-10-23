@@ -14703,6 +14703,12 @@
     "ts_utc": "2026-10-23T15:52:06Z",
     "ts_local": "2026-10-23T08:52:06-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T21:18:45Z",
+    "ts_local": "2026-10-23T14:18:45-07:00",
+    "detail": ""
    }
   ],
   "name": "Daniel Jurafsky",
@@ -14719,9 +14725,9 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:49:00Z",
   "send_local": "2026-10-23T08:49:00-07:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 54
  },
  {
   "id": "P2054",
