@@ -14273,6 +14273,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T05:29:15+01:00",
     "detail": "send_local=2026-10-23T08:55:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T07:55:01Z",
+    "ts_local": "2026-10-23T08:55:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Jakob N. Foerster",
@@ -14289,7 +14295,7 @@
   "slot_utc": "2026-10-23T07:30:00Z",
   "send_utc": "2026-10-23T07:55:00Z",
   "send_local": "2026-10-23T08:55:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
