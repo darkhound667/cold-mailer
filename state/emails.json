@@ -9747,6 +9747,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-22T08:35:24-07:00",
     "detail": "send_local=2026-10-23T08:32:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T15:32:01Z",
+    "ts_local": "2026-10-23T08:32:01-07:00",
+    "detail": ""
    }
   ],
   "name": "Pamela Sullivan",
@@ -9763,7 +9769,7 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:32:00Z",
   "send_local": "2026-10-23T08:32:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
