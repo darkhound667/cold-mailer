@@ -8749,6 +8749,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-22T23:35:24+08:00",
     "detail": "send_local=2026-10-23T08:32:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T00:32:01Z",
+    "ts_local": "2026-10-23T08:32:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Zhenhong Li",
@@ -8765,7 +8771,7 @@
   "slot_utc": "2026-10-23T00:30:00Z",
   "send_utc": "2026-10-23T00:32:00Z",
   "send_local": "2026-10-23T08:32:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
