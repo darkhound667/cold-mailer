@@ -1271,3 +1271,10 @@
 {"id": "P2054", "event": "sent", "ts_utc": "2026-10-23T15:50:01Z", "ts_local": "2026-10-23T08:50:01-07:00", "detail": ""}
 {"id": "P2055", "event": "sent", "ts_utc": "2026-10-23T15:51:01Z", "ts_local": "2026-10-23T08:51:01-07:00", "detail": ""}
 {"id": "P2056", "event": "sent", "ts_utc": "2026-10-23T15:52:01Z", "ts_local": "2026-10-23T08:52:01-07:00", "detail": ""}
+{"id": "P2001", "event": "replied_again", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T10:52:06-05:00", "detail": ""}
+{"id": "P2001", "event": "replied_again", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T10:52:06-05:00", "detail": ""}
+{"id": "P0416", "event": "replied", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T09:52:06-06:00", "detail": ""}
+{"id": "P1208", "event": "replied", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T08:52:06-07:00", "detail": ""}
+{"id": "P2054", "event": "auto_reply", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T08:52:06-07:00", "detail": ""}
+{"id": "P2053", "event": "auto_reply", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T08:52:06-07:00", "detail": ""}
+{"id": "P2055", "event": "bounced", "ts_utc": "2026-10-23T15:52:06Z", "ts_local": "2026-10-23T08:52:06-07:00", "detail": ""}

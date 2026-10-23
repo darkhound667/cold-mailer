@@ -8569,6 +8569,18 @@
     "ts_utc": "2026-10-23T00:39:20Z",
     "ts_local": "2026-10-22T19:39:20-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T10:52:06-05:00",
+    "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T10:52:06-05:00",
+    "detail": ""
    }
   ],
   "name": "Xuqing Wu",
@@ -8649,6 +8661,12 @@
     "ts_utc": "2026-10-23T14:30:03Z",
     "ts_local": "2026-10-23T08:30:03-06:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T09:52:06-06:00",
+    "detail": ""
    }
   ],
   "name": "Darío Graña",
@@ -8665,9 +8683,9 @@
   "slot_utc": "2026-10-23T14:30:00Z",
   "send_utc": "2026-10-23T14:30:00Z",
   "send_local": "2026-10-23T08:30:00-06:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 50
  },
  {
   "id": "P0419",
@@ -9879,6 +9897,12 @@
     "ts_utc": "2026-10-23T15:33:01Z",
     "ts_local": "2026-10-23T08:33:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T08:52:06-07:00",
+    "detail": ""
    }
   ],
   "name": "Ying‐Cheng Lai",
@@ -9895,9 +9919,9 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:33:00Z",
   "send_local": "2026-10-23T08:33:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 51
  },
  {
   "id": "P1209",
@@ -14667,6 +14691,12 @@
     "ts_utc": "2026-10-23T15:49:01Z",
     "ts_local": "2026-10-23T08:49:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T08:52:06-07:00",
+    "detail": ""
    }
   ],
   "name": "Daniel Jurafsky",
@@ -14684,7 +14714,7 @@
   "send_utc": "2026-10-23T15:49:00Z",
   "send_local": "2026-10-23T08:49:00-07:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -14707,6 +14737,12 @@
     "ts_utc": "2026-10-23T15:50:01Z",
     "ts_local": "2026-10-23T08:50:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T08:52:06-07:00",
+    "detail": ""
    }
   ],
   "name": "Li Fei-Fei",
@@ -14724,7 +14760,7 @@
   "send_utc": "2026-10-23T15:50:00Z",
   "send_local": "2026-10-23T08:50:00-07:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -14747,6 +14783,12 @@
     "ts_utc": "2026-10-23T15:51:01Z",
     "ts_local": "2026-10-23T08:51:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-23T15:52:06Z",
+    "ts_local": "2026-10-23T08:52:06-07:00",
+    "detail": ""
    }
   ],
   "name": "Emma Brunskill",
@@ -14763,8 +14805,8 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:51:00Z",
   "send_local": "2026-10-23T08:51:00-07:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
