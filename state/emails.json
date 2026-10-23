@@ -15289,6 +15289,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T00:29:15-04:00",
     "detail": "send_local=2026-10-23T09:16:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T13:16:01Z",
+    "ts_local": "2026-10-23T09:16:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Himabindu Lakkaraju",
@@ -15305,7 +15311,7 @@
   "slot_utc": "2026-10-23T12:30:00Z",
   "send_utc": "2026-10-23T13:16:00Z",
   "send_local": "2026-10-23T09:16:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
