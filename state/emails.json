@@ -2225,6 +2225,12 @@
     "ts_utc": "2026-10-21T06:40:01Z",
     "ts_local": "2026-10-21T08:40:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T10:19:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Filippo Catani",
@@ -2241,9 +2247,9 @@
   "slot_utc": "2026-10-21T06:30:00Z",
   "send_utc": "2026-10-21T06:40:00Z",
   "send_local": "2026-10-21T08:40:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 37
  },
  {
   "id": "P0088",
@@ -11623,6 +11629,12 @@
     "ts_utc": "2026-10-23T07:43:01Z",
     "ts_local": "2026-10-23T08:43:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T09:19:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Francesco Belardinelli",
@@ -11639,8 +11651,8 @@
   "slot_utc": "2026-10-23T07:30:00Z",
   "send_utc": "2026-10-23T07:43:00Z",
   "send_local": "2026-10-23T08:43:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -11823,6 +11835,12 @@
     "ts_utc": "2026-10-23T07:48:01Z",
     "ts_local": "2026-10-23T08:48:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T09:19:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Alessandra Russo",
@@ -11840,7 +11858,7 @@
   "send_utc": "2026-10-23T07:48:00Z",
   "send_local": "2026-10-23T08:48:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -12521,6 +12539,12 @@
     "ts_utc": "2026-10-23T07:49:01Z",
     "ts_local": "2026-10-23T08:49:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T09:19:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Ahmed H. Elsheikh",
@@ -12538,7 +12562,7 @@
   "send_utc": "2026-10-23T07:49:00Z",
   "send_local": "2026-10-23T08:49:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -12709,6 +12733,12 @@
     "ts_utc": "2026-10-23T06:43:01Z",
     "ts_local": "2026-10-23T08:43:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T10:19:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Maria Antonia Brovelli",
@@ -12725,9 +12755,9 @@
   "slot_utc": "2026-10-23T06:30:00Z",
   "send_utc": "2026-10-23T06:43:00Z",
   "send_local": "2026-10-23T08:43:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 38
  },
  {
   "id": "P0481",
@@ -13625,6 +13655,12 @@
     "ts_utc": "2026-10-23T06:52:01Z",
     "ts_local": "2026-10-23T08:52:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T10:19:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Adolfo Cobo",
@@ -13641,9 +13677,9 @@
   "slot_utc": "2026-10-23T06:30:00Z",
   "send_utc": "2026-10-23T06:52:00Z",
   "send_local": "2026-10-23T08:52:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 39
  },
  {
   "id": "P1606",
@@ -15425,6 +15461,12 @@
     "ts_utc": "2026-10-23T08:16:01Z",
     "ts_local": "2026-10-23T09:16:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-23T08:19:06Z",
+    "ts_local": "2026-10-23T09:19:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Mateja Jamnik",
@@ -15441,8 +15483,8 @@
   "slot_utc": "2026-10-23T07:30:00Z",
   "send_utc": "2026-10-23T08:16:00Z",
   "send_local": "2026-10-23T09:16:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
