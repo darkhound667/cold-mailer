@@ -4236,6 +4236,12 @@
     "ts_utc": "2026-10-23T02:53:24Z",
     "ts_local": "2026-10-22T22:53:24-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-10-23T14:33:06Z",
+    "ts_local": "2026-10-23T10:33:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Taha B. M. J. Ouarda",
@@ -4683,6 +4689,12 @@
     "ts_utc": "2026-10-22T06:32:01Z",
     "ts_local": "2026-10-22T08:32:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T14:33:06Z",
+    "ts_local": "2026-10-23T16:33:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Matteo Garbarino",
@@ -4699,9 +4711,9 @@
   "slot_utc": "2026-10-22T06:30:00Z",
   "send_utc": "2026-10-22T06:32:00Z",
   "send_local": "2026-10-22T08:32:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 49
  },
  {
   "id": "P0220",
