@@ -11349,6 +11349,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-22T11:35:24-04:00",
     "detail": "send_local=2026-10-23T09:00:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T13:00:01Z",
+    "ts_local": "2026-10-23T09:00:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Caroline Uhler",
@@ -11365,7 +11371,7 @@
   "slot_utc": "2026-10-23T12:30:00Z",
   "send_utc": "2026-10-23T13:00:00Z",
   "send_local": "2026-10-23T09:00:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
