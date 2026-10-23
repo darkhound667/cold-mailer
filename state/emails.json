@@ -10097,6 +10097,12 @@
     "ts_utc": "2026-10-23T06:35:01Z",
     "ts_local": "2026-10-23T08:35:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T06:59:06Z",
+    "ts_local": "2026-10-23T08:59:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Katharina Anders",
@@ -10114,7 +10120,7 @@
   "send_utc": "2026-10-23T06:35:00Z",
   "send_local": "2026-10-23T08:35:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -10137,6 +10143,12 @@
     "ts_utc": "2026-10-23T06:36:01Z",
     "ts_local": "2026-10-23T08:36:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T06:59:06Z",
+    "ts_local": "2026-10-23T08:59:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Anita Torabi",
@@ -10154,7 +10166,7 @@
   "send_utc": "2026-10-23T06:36:00Z",
   "send_local": "2026-10-23T08:36:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -12315,6 +12327,12 @@
     "ts_utc": "2026-10-23T06:41:01Z",
     "ts_local": "2026-10-23T08:41:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-23T06:59:06Z",
+    "ts_local": "2026-10-23T08:59:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Johanna Baehr",
@@ -12332,7 +12350,7 @@
   "send_utc": "2026-10-23T06:41:00Z",
   "send_local": "2026-10-23T08:41:00+02:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
