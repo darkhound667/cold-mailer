@@ -9821,6 +9821,12 @@
     "ts_utc": "2026-10-23T06:32:01Z",
     "ts_local": "2026-10-23T08:32:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-23T09:50:36Z",
+    "ts_local": "2026-10-23T11:50:36+02:00",
+    "detail": ""
    }
   ],
   "name": "Johanna F. Ziegel",
@@ -9837,9 +9843,9 @@
   "slot_utc": "2026-10-23T06:30:00Z",
   "send_utc": "2026-10-23T06:32:00Z",
   "send_local": "2026-10-23T08:32:00+02:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 43
  },
  {
   "id": "P1213",
