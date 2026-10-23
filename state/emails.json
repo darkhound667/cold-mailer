@@ -14621,6 +14621,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-22T21:29:15-07:00",
     "detail": "send_local=2026-10-23T08:48:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T15:48:01Z",
+    "ts_local": "2026-10-23T08:48:01-07:00",
+    "detail": ""
    }
   ],
   "name": "Oluwasanmi Koyejo",
@@ -14637,7 +14643,7 @@
   "slot_utc": "2026-10-23T15:30:00Z",
   "send_utc": "2026-10-23T15:48:00Z",
   "send_local": "2026-10-23T08:48:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
