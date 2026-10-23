@@ -8631,6 +8631,12 @@
     "ts_utc": "2026-10-22T15:35:24Z",
     "ts_local": "2026-10-22T09:35:24-06:00",
     "detail": "send_local=2026-10-23T08:30:00-06:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-23T14:30:03Z",
+    "ts_local": "2026-10-23T08:30:03-06:00",
+    "detail": ""
    }
   ],
   "name": "Darío Graña",
@@ -8647,7 +8653,7 @@
   "slot_utc": "2026-10-23T14:30:00Z",
   "send_utc": "2026-10-23T14:30:00Z",
   "send_local": "2026-10-23T08:30:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
