@@ -12911,6 +12911,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T13:29:15+09:00",
     "detail": "send_local=2026-10-26T08:30:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-25T23:30:03Z",
+    "ts_local": "2026-10-26T08:30:03+09:00",
+    "detail": ""
    }
   ],
   "name": "‪Eun‐Sung Chung",
@@ -12927,7 +12933,7 @@
   "slot_utc": "2026-10-25T23:30:00Z",
   "send_utc": "2026-10-25T23:30:00Z",
   "send_local": "2026-10-26T08:30:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
