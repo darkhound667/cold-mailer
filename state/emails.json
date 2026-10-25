@@ -13825,6 +13825,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T15:29:15+11:00",
     "detail": "send_local=2026-10-26T08:30:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-25T21:30:04Z",
+    "ts_local": "2026-10-26T08:30:04+11:00",
+    "detail": ""
    }
   ],
   "name": "Fiona M. Johnson",
@@ -13841,7 +13847,7 @@
   "slot_utc": "2026-10-25T21:30:00Z",
   "send_utc": "2026-10-25T21:30:00Z",
   "send_local": "2026-10-26T08:30:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
