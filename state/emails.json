@@ -17033,6 +17033,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:30:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:30:00+00:00 by more than 1 h"
    }
   ],
   "name": "Qiang Shen",
@@ -17046,12 +17052,13 @@
   "sha256": "76d316c7cd8cb50271b8c5cbcbf36be90f4e1dc86a8a6daaa023fab173ee5543",
   "timezone": "Europe/London",
   "queue_index": 409,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:30:00Z",
-  "send_local": "2026-10-26T08:30:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:31:00Z",
+  "send_local": "2026-10-27T08:31:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P0547",
@@ -17557,6 +17564,12 @@
     "ts_utc": "2026-10-26T07:34:01Z",
     "ts_local": "2026-10-26T08:34:01+01:00",
     "detail": "gaierror"
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-26T10:22:46Z",
+    "ts_local": "2026-10-26T11:22:46+01:00",
+    "detail": ""
    }
   ],
   "name": "Samuele Segoni",
@@ -17573,9 +17586,9 @@
   "slot_utc": "2026-10-26T07:30:00Z",
   "send_utc": "2026-10-26T07:34:00Z",
   "send_local": "2026-10-26T08:34:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 57
  },
  {
   "id": "P0591",
@@ -17829,6 +17842,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:31:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:31:00+00:00 by more than 1 h"
    }
   ],
   "name": "Emily F. Shuckburgh",
@@ -17842,12 +17861,13 @@
   "sha256": "ea2af56bbbedea2eabae173d2f361391c4975b652ce39e97d61c5cc13fa782f9",
   "timezone": "Europe/London",
   "queue_index": 431,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:31:00Z",
-  "send_local": "2026-10-26T08:31:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:32:00Z",
+  "send_local": "2026-10-27T08:32:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P0612",
@@ -18285,6 +18305,12 @@
     "ts_utc": "2026-10-26T07:38:01Z",
     "ts_local": "2026-10-26T08:38:01+01:00",
     "detail": "gaierror"
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-26T10:22:46Z",
+    "ts_local": "2026-10-26T11:22:46+01:00",
+    "detail": ""
    }
   ],
   "name": "Andrea Marinoni",
@@ -18301,8 +18327,8 @@
   "slot_utc": "2026-10-26T07:30:00Z",
   "send_utc": "2026-10-26T07:38:00Z",
   "send_local": "2026-10-26T08:38:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -18365,6 +18391,12 @@
     "ts_utc": "2026-10-26T07:39:01Z",
     "ts_local": "2026-10-26T08:39:01+01:00",
     "detail": "gaierror"
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-26T10:22:46Z",
+    "ts_local": "2026-10-26T11:22:46+01:00",
+    "detail": ""
    }
   ],
   "name": "Daniela I. V. Domeisen",
@@ -18381,8 +18413,8 @@
   "slot_utc": "2026-10-26T07:30:00Z",
   "send_utc": "2026-10-26T07:39:00Z",
   "send_local": "2026-10-26T08:39:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -18399,6 +18431,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:32:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:32:00+00:00 by more than 1 h"
    }
   ],
   "name": "Paul J. Valdes",
@@ -18412,12 +18450,13 @@
   "sha256": "ea089f5fcc51a3ad835c5e86a3bebb5614bd751031b0c092f5fc494f75545f51",
   "timezone": "Europe/London",
   "queue_index": 446,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:32:00Z",
-  "send_local": "2026-10-26T08:32:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:33:00Z",
+  "send_local": "2026-10-27T08:33:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P0649",
@@ -18819,6 +18858,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:33:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:33:00+00:00 by more than 1 h"
    }
   ],
   "name": "Massimiliano Pontil",
@@ -18832,12 +18877,13 @@
   "sha256": "38031032f84fe8bd9d68193bf0066ac80497f6f9fa84a4df5bb0144e59de54ff",
   "timezone": "Europe/London",
   "queue_index": 458,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:33:00Z",
-  "send_local": "2026-10-26T08:33:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:34:00Z",
+  "send_local": "2026-10-27T08:34:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P2109",
@@ -18853,6 +18899,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:34:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:34:00+00:00 by more than 1 h"
    }
   ],
   "name": "Lourdes Agapito",
@@ -18866,12 +18918,13 @@
   "sha256": "b45b0c2f62a80e883fd2b1cc61eaa8eee026a7057ebcc574469d89b227f670bd",
   "timezone": "Europe/London",
   "queue_index": 459,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:34:00Z",
-  "send_local": "2026-10-26T08:34:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:35:00Z",
+  "send_local": "2026-10-27T08:35:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P2110",
@@ -18887,6 +18940,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T05:15:51+00:00",
     "detail": "send_local=2026-10-26T08:35:00+00:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-26T10:22:44Z",
+    "ts_local": "2026-10-26T10:22:44+00:00",
+    "detail": "missed 2026-10-26T08:35:00+00:00 by more than 1 h"
    }
   ],
   "name": "Anthony Hunter",
@@ -18900,12 +18959,13 @@
   "sha256": "50d05bd7055290e08a9583c175a935ea64002be7cac9a8a907541e42c44c8f76",
   "timezone": "Europe/London",
   "queue_index": 460,
-  "slot_utc": "2026-10-26T08:30:00Z",
-  "send_utc": "2026-10-26T08:35:00Z",
-  "send_local": "2026-10-26T08:35:00+00:00",
+  "slot_utc": "2026-10-27T08:30:00Z",
+  "send_utc": "2026-10-27T08:36:00Z",
+  "send_local": "2026-10-27T08:36:00+00:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P2111",
