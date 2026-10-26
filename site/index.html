@@ -39,6 +39,9 @@
   #sched .win { display:flex; gap:10px; flex-wrap:wrap; padding:2px 0; }
   #sched .win .t { min-width:150px; font-variant-numeric:tabular-nums; }
   #sched .late { color:var(--bad); }
+  #sched .win.scheduled .t, #sched .win.scheduled .n { color:var(--warn); }
+  #sched .win.sent .t, #sched .win.sent .n { color:var(--ok); }
+  #sched .win.bounced .t, #sched .win.bounced .n { color:var(--bad); }
   .tabs { display:flex; gap:6px; margin:14px 0 10px; }
   .tabs button { background:var(--panel); color:var(--text); border-color:var(--line); }
   .tabs button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
@@ -186,12 +189,23 @@ function schedule() {
   const sch = DATA.rows.filter(r => r.status === "scheduled" && r.send_utc)
     .map(r => ({t: new Date(r.send_utc), tz: r.timezone || ""})).sort((a, b) => a.t - b.t);
   const sentToday = DATA.rows.filter(r => (r.events || []).some(e => e.event === "sent" && todayKey(new Date(e.ts_utc)) === todayKey(now))).length;
-  const wins = [];
-  for (const x of sch) {
-    const w = wins[wins.length - 1];
-    if (w && x.t - w.end <= 5 * 60000 && todayKey(x.t) === todayKey(w.end)) { w.end = x.t; w.n++; w.tz[x.tz] = (w.tz[x.tz] || 0) + 1; }
-    else wins.push({start: x.t, end: x.t, n: 1, tz: {[x.tz]: 1}});
+  // Windows of mails: scheduled (yellow), sent today (green) and bounced today (red). Each colour groups on its own.
+  const items = sch.map(x => ({...x, kind: "scheduled"}));
+  for (const r of DATA.rows) {
+    if (!["sent", "replied", "bounced"].includes(r.status)) continue;
+    const e = (r.events || []).find(e => e.event === "sent");
+    if (e && todayKey(new Date(e.ts_utc)) === todayKey(now))
+      items.push({t: new Date(e.ts_utc), tz: r.timezone || "", kind: r.status === "bounced" ? "bounced" : "sent"});
   }
+  const wins = [];
+  for (const kind of ["scheduled", "sent", "bounced"]) {
+    let w = null;
+    for (const x of items.filter(i => i.kind === kind).sort((a, b) => a.t - b.t)) {
+      if (w && x.t - w.end <= 5 * 60000 && todayKey(x.t) === todayKey(w.end)) { w.end = x.t; w.n++; w.tz[x.tz] = (w.tz[x.tz] || 0) + 1; }
+      else wins.push(w = {kind, start: x.t, end: x.t, n: 1, tz: {[x.tz]: 1}});
+    }
+  }
+  wins.sort((a, b) => a.start - b.start);
   const tomorrow = new Date(now.getTime() + 864e5);
   const dayName = d => todayKey(d) === todayKey(now) ? "Today" : todayKey(d) === todayKey(tomorrow) ? "Tomorrow"
     : d.toLocaleDateString([], {weekday: "long", day: "numeric", month: "short"});
@@ -204,9 +218,9 @@ function schedule() {
     if (d !== last) { html += `<div class="day">${esc(d)}</div>`; last = d; }
     const zones = Object.entries(w.tz).sort((a, b) => b[1] - a[1]);
     const where = zones.slice(0, 2).map(([tz]) => city(tz)).join(", ") + (zones.length > 2 ? ` +${zones.length - 2} more` : "");
-    const overdue = w.end < new Date(now.getTime() - 10 * 60000);
-    html += `<div class="win${overdue ? " late" : ""}"><span class="t">${esc(hm(w.start))}${w.n > 1 ? " – " + esc(hm(w.end)) : ""}</span>` +
-      `<span>${w.n} mail${w.n > 1 ? "s" : ""}</span><span class="muted">${esc(where)}</span>${overdue ? "<span>overdue: the runner is behind</span>" : ""}</div>`;
+    const overdue = w.kind === "scheduled" && w.end < new Date(now.getTime() - 10 * 60000);
+    html += `<div class="win ${w.kind}"><span class="t">${esc(hm(w.start))}${w.n > 1 ? " – " + esc(hm(w.end)) : ""}</span>` +
+      `<span class="n">${w.n} ${w.kind}</span><span class="muted">${esc(where)}</span>${overdue ? '<span class="late">overdue: the runner is behind</span>' : ""}</div>`;
   }
   if (wins.length > 40) html += `<p class="muted">…and ${wins.length - 40} later windows.</p>`;
   document.getElementById("sched").innerHTML = html;
