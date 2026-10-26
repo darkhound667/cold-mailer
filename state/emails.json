@@ -22235,6 +22235,12 @@
     "ts_utc": "2026-10-26T10:29:10Z",
     "ts_local": "2026-10-26T03:29:10-07:00",
     "detail": "send_local=2026-10-26T08:38:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T15:38:01Z",
+    "ts_local": "2026-10-26T08:38:01-07:00",
+    "detail": ""
    }
   ],
   "name": "Minghua Zhang",
@@ -22251,7 +22257,7 @@
   "slot_utc": "2026-10-26T15:30:00Z",
   "send_utc": "2026-10-26T15:38:00Z",
   "send_local": "2026-10-26T08:38:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
