@@ -16841,6 +16841,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T14:15:51+09:00",
     "detail": "send_local=2026-10-27T08:30:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T23:30:03Z",
+    "ts_local": "2026-10-27T08:30:03+09:00",
+    "detail": ""
    }
   ],
   "name": "Yeonjoo Kim",
@@ -16857,7 +16863,7 @@
   "slot_utc": "2026-10-26T23:30:00Z",
   "send_utc": "2026-10-26T23:30:00Z",
   "send_local": "2026-10-27T08:30:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
