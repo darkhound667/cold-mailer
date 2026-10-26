@@ -1510,3 +1510,5 @@
 {"id": "P0547", "event": "sent_copy_failed", "ts_utc": "2026-10-26T07:31:01Z", "ts_local": "2026-10-26T08:31:01+01:00", "detail": "gaierror"}
 {"id": "P0566", "event": "sent", "ts_utc": "2026-10-26T07:32:01Z", "ts_local": "2026-10-26T08:32:01+01:00", "detail": ""}
 {"id": "P0566", "event": "sent_copy_failed", "ts_utc": "2026-10-26T07:32:01Z", "ts_local": "2026-10-26T08:32:01+01:00", "detail": "gaierror"}
+{"id": "P0575", "event": "sent", "ts_utc": "2026-10-26T07:33:01Z", "ts_local": "2026-10-26T08:33:01+01:00", "detail": ""}
+{"id": "P0575", "event": "sent_copy_failed", "ts_utc": "2026-10-26T07:33:01Z", "ts_local": "2026-10-26T08:33:01+01:00", "detail": "gaierror"}
