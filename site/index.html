@@ -33,6 +33,35 @@
   .st-scheduled, .st-dry_run_sent { color:var(--warn); }
   pre { white-space:pre-wrap; margin:0; font:13px/1.5 ui-monospace, Menlo, monospace; }
   .detail td { background:color-mix(in srgb, var(--accent) 4%, transparent); }
+  #sched { margin:12px 0; padding:12px 14px; }
+  #sched h2 { font-size:14px; margin:0 0 6px; }
+  #sched .day { font-weight:600; margin:10px 0 2px; }
+  #sched .win { display:flex; gap:10px; flex-wrap:wrap; padding:2px 0; }
+  #sched .win .t { min-width:150px; font-variant-numeric:tabular-nums; }
+  #sched .late { color:var(--bad); }
+  .tabs { display:flex; gap:6px; margin:14px 0 10px; }
+  .tabs button { background:var(--panel); color:var(--text); border-color:var(--line); }
+  .tabs button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .chat { display:grid; grid-template-columns:320px 1fr; gap:14px; margin-top:10px; align-items:start; }
+  .plist { max-height:78vh; overflow-y:auto; padding:6px; }
+  .pitem { padding:9px 10px; border-radius:8px; cursor:pointer; border:1px solid transparent; }
+  .pitem:hover { background:color-mix(in srgb, var(--accent) 7%, transparent); }
+  .pitem.on { border-color:var(--accent); background:color-mix(in srgb, var(--accent) 10%, transparent); }
+  .pitem b { display:block; } .pitem small { color:var(--muted); display:block; }
+  .tag { display:inline-block; font-size:11px; padding:1px 7px; border:1px solid var(--line); border-radius:999px; margin-left:6px; }
+  .tag.positive { color:var(--ok); border-color:var(--ok); } .tag.negative { color:var(--bad); border-color:var(--bad); }
+  #thread { padding:14px; max-height:78vh; overflow-y:auto; }
+  #thread h2 { font-size:16px; margin:0 0 2px; }
+  .msg { max-width:86%; margin:12px 0; padding:10px 12px; border-radius:12px; border:1px solid var(--line); }
+  .msg.in { background:var(--panel); margin-right:auto; }
+  .msg.out { background:color-mix(in srgb, var(--accent) 12%, var(--panel)); margin-left:auto; }
+  .msg .hd { font-size:12px; color:var(--muted); margin-bottom:6px; }
+  .msg .subj { font-weight:600; margin-bottom:4px; }
+  .msg details { margin-top:6px; } .msg summary { cursor:pointer; color:var(--muted); font-size:12px; }
+  .atts { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
+  .att { font-size:12px; padding:4px 9px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); }
+  button.att { cursor:pointer; } .att.off { color:var(--muted); }
+  @media (max-width:760px) { .chat { grid-template-columns:1fr; } .plist, #thread { max-height:none; } .msg { max-width:100%; } }
 </style>
 </head>
 <body>
@@ -52,6 +81,20 @@
     <p class="muted" id="meta"></p>
     <div class="banner" id="stale"></div>
     <div class="chips" id="counts"></div>
+    <div class="panel" id="sched"></div>
+    <div class="tabs">
+      <button id="tab-mails" class="on">All mails</button>
+      <button id="tab-chats">Conversations <span id="chat-n"></span></button>
+    </div>
+    <div id="view-chats" hidden>
+      <div class="row"><input id="cq" placeholder="Search replied professors or message text…" style="flex:1;min-width:200px"></div>
+      <p class="muted" id="chat-meta"></p>
+      <div class="chat">
+        <div class="panel plist" id="plist"></div>
+        <div class="panel" id="thread"><p class="muted">Pick a professor on the left.</p></div>
+      </div>
+    </div>
+    <div id="view-mails">
     <div class="row">
       <select id="status"><option value="">All statuses</option></select>
       <select id="label"><option value="">All reply labels</option></select>
@@ -64,14 +107,16 @@
         <tbody id="rows"></tbody>
       </table>
     </div>
+    </div>
   </div>
 </main>
 <script>
 const ITER_MIN = 100000;
-const RAW = "https://raw.githubusercontent.com/darkhound667/cold-mailer/main/site/data.enc.json";
+const BASE = "https://raw.githubusercontent.com/darkhound667/cold-mailer/main/site/";
+const RAW = BASE + "data.enc.json";
 const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let DATA = null;
+let DATA = null, PASS = "", THREADS = null, CUR = null;
 
 async function decrypt(blob, pass) {
   if (blob.iter < ITER_MIN) throw new Error("bad data");
@@ -91,7 +136,8 @@ document.getElementById("unlock").addEventListener("submit", async ev => {
     let res = await fetch(RAW + "?t=" + Date.now(), {cache:"no-store"}).catch(() => null);
     if (!res || !res.ok) res = await fetch("data.enc.json", {cache:"no-store"});
     const blob = await res.json();
-    DATA = await decrypt(blob, document.getElementById("pw").value);
+    PASS = document.getElementById("pw").value;
+    DATA = await decrypt(blob, PASS);
     document.getElementById("lock").hidden = true;
     document.getElementById("app").hidden = false;
     render();
@@ -116,6 +162,136 @@ function render() {
   fill("label", DATA.rows.map(r => r.reply_label));
   ["status", "label", "q"].forEach(id => document.getElementById(id).addEventListener("input", table));
   table();
+  schedule();
+  setInterval(schedule, 30000);
+  document.getElementById("tab-mails").addEventListener("click", () => showTab("mails"));
+  document.getElementById("tab-chats").addEventListener("click", () => showTab("chats"));
+  document.getElementById("cq").addEventListener("input", plist);
+  loadThreads();
+}
+
+// When the queued emails go out, in the viewer's own time zone (one email per minute inside a window).
+function schedule() {
+  const todayKey = d => d.toDateString(), now = new Date(), zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const hm = d => d.toLocaleTimeString([], {hour: "numeric", minute: "2-digit"});
+  const city = tz => (tz || "?").split("/").pop().replace(/_/g, " ");
+  const sch = DATA.rows.filter(r => r.status === "scheduled" && r.send_utc)
+    .map(r => ({t: new Date(r.send_utc), tz: r.timezone || ""})).sort((a, b) => a.t - b.t);
+  const sentToday = DATA.rows.filter(r => (r.events || []).some(e => e.event === "sent" && todayKey(new Date(e.ts_utc)) === todayKey(now))).length;
+  const wins = [];
+  for (const x of sch) {
+    const w = wins[wins.length - 1];
+    if (w && x.t - w.end <= 5 * 60000 && todayKey(x.t) === todayKey(w.end)) { w.end = x.t; w.n++; w.tz[x.tz] = (w.tz[x.tz] || 0) + 1; }
+    else wins.push({start: x.t, end: x.t, n: 1, tz: {[x.tz]: 1}});
+  }
+  const tomorrow = new Date(now.getTime() + 864e5);
+  const dayName = d => todayKey(d) === todayKey(now) ? "Today" : todayKey(d) === todayKey(tomorrow) ? "Tomorrow"
+    : d.toLocaleDateString([], {weekday: "long", day: "numeric", month: "short"});
+  let html = `<h2>Send schedule <span class="muted">· times in your time zone (${esc(zone)}), one email per minute</span></h2>`;
+  html += `<p class="muted">Sent today: <strong>${sentToday}</strong> · still queued: <strong>${sch.length}</strong>` +
+    (sch.length ? ` · next email ${sch[0].t < now ? "is due now" : "at <strong>" + esc(hm(sch[0].t)) + "</strong> (" + dayName(sch[0].t).toLowerCase() + ")"}` : "") + "</p>";
+  let last = "";
+  for (const w of wins.slice(0, 40)) {
+    const d = dayName(w.start);
+    if (d !== last) { html += `<div class="day">${esc(d)}</div>`; last = d; }
+    const zones = Object.entries(w.tz).sort((a, b) => b[1] - a[1]);
+    const where = zones.slice(0, 2).map(([tz]) => city(tz)).join(", ") + (zones.length > 2 ? ` +${zones.length - 2} more` : "");
+    const overdue = w.end < new Date(now.getTime() - 10 * 60000);
+    html += `<div class="win${overdue ? " late" : ""}"><span class="t">${esc(hm(w.start))}${w.n > 1 ? " – " + esc(hm(w.end)) : ""}</span>` +
+      `<span>${w.n} mail${w.n > 1 ? "s" : ""}</span><span class="muted">${esc(where)}</span>${overdue ? "<span>overdue: the runner is behind</span>" : ""}</div>`;
+  }
+  if (wins.length > 40) html += `<p class="muted">…and ${wins.length - 40} later windows.</p>`;
+  document.getElementById("sched").innerHTML = html;
+}
+
+function showTab(t) {
+  document.getElementById("view-mails").hidden = t !== "mails";
+  document.getElementById("view-chats").hidden = t !== "chats";
+  document.getElementById("tab-mails").classList.toggle("on", t === "mails");
+  document.getElementById("tab-chats").classList.toggle("on", t === "chats");
+}
+
+// ---- Conversations: the whole thread per professor who replied, with attachments ----
+async function fetchSite(path) {
+  let res = await fetch(BASE + path + "?t=" + Date.now(), {cache:"no-store"}).catch(() => null);
+  if (!res || !res.ok) res = await fetch(path, {cache:"no-store"});
+  if (!res.ok) throw new Error(path);
+  return res.json();
+}
+
+async function loadThreads() {
+  try { THREADS = await decrypt(await fetchSite("threads.enc.json"), PASS); }
+  catch (e) { THREADS = {threads: {}, generated_utc: null}; }
+  plist();
+}
+
+const lastDate = t => t.messages.length ? t.messages[t.messages.length - 1].date_utc : "";
+const fmt = d => d ? new Date(d).toLocaleString([], {dateStyle:"medium", timeStyle:"short"}) : "";
+
+function plist() {
+  const q = document.getElementById("cq").value.toLowerCase();
+  const byId = Object.fromEntries(DATA.rows.map(r => [r.id, r]));
+  const ids = Object.keys(THREADS.threads).filter(id => byId[id]);
+  DATA.rows.filter(r => r.status === "replied" && !THREADS.threads[r.id]).forEach(r => ids.push(r.id));
+  const items = ids.map(id => ({id, r: byId[id], t: THREADS.threads[id] || {messages: []}}))
+    .filter(x => !q || [x.r.name, x.r.university, x.r.country, ...x.t.messages.map(m => m.text)].join(" ").toLowerCase().includes(q))
+    .sort((a, b) => lastDate(b.t).localeCompare(lastDate(a.t)));
+  document.getElementById("chat-n").textContent = "(" + ids.length + ")";
+  document.getElementById("chat-meta").textContent = THREADS.generated_utc
+    ? "Conversations updated " + fmt(THREADS.generated_utc) + ". New messages appear within about 5 minutes."
+    : "No conversations stored yet. They fill in on the runner's next sweep.";
+  document.getElementById("plist").innerHTML = items.map(x => {
+    const n = x.t.messages.length, last = x.t.messages[n - 1];
+    return `<div class="pitem${x.id === CUR ? " on" : ""}" data-id="${esc(x.id)}">
+      <b>${esc(x.r.name)}${x.r.reply_label && x.r.reply_label !== "unclear" ? `<span class="tag ${esc(x.r.reply_label)}">${esc(x.r.reply_label)}</span>` : ""}</b>
+      <small>${esc(x.r.university)} · ${esc(x.r.country)}</small>
+      <small>${n ? n + " message" + (n > 1 ? "s" : "") + " · last " + esc(fmt(last.date_utc)) + (last.dir === "in" ? " · they wrote last" : " · you wrote last") : "syncing…"}</small></div>`;
+  }).join("") || '<p class="muted" style="padding:8px">No professor has replied yet.</p>';
+  document.querySelectorAll(".pitem").forEach(el => el.addEventListener("click", () => openThread(el.dataset.id)));
+}
+
+// Split a message into the new text and the quoted history below it.
+function splitQuote(text) {
+  const lines = text.split("\n");
+  const cut = lines.findIndex((l, i) => /^>/.test(l) || /^On .{5,200}wrote:\s*$/.test(l) ||
+    (/^On .{5,200}$/.test(l) && /^\s*wrote:\s*$/.test(lines[i + 1] || "")) ||
+    /^-{2,}\s*(Original|Forwarded) message/i.test(l) || (/^From:\s/.test(l) && /^(Sent|Date):\s/.test(lines[i + 1] || "")));
+  return cut < 0 ? [text, ""] : [lines.slice(0, cut).join("\n").trimEnd(), lines.slice(cut).join("\n")];
+}
+
+const size = n => n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB";
+
+function openThread(id) {
+  CUR = id;
+  const r = DATA.rows.find(x => x.id === id), t = THREADS.threads[id] || {messages: []};
+  document.querySelectorAll(".pitem").forEach(el => el.classList.toggle("on", el.dataset.id === id));
+  document.getElementById("thread").innerHTML = `<h2>${esc(r.name)}</h2>
+    <p class="muted">${esc(r.university)} · ${esc(r.country)}${r.reply_label ? " · " + esc(r.reply_label) : ""}</p>` +
+    (t.messages.length ? t.messages.map((m, i) => {
+      const [main, quoted] = splitQuote(m.text || "");
+      return `<div class="msg ${m.dir}">
+        <div class="hd">${m.dir === "in" ? esc(m.from) : "You"} · ${esc(fmt(m.date_utc))}</div>
+        ${i === 0 || m.subject !== t.messages[i - 1].subject ? `<div class="subj">${esc(m.subject)}</div>` : ""}
+        <pre>${esc(main || "(no text)")}</pre>
+        ${quoted ? `<details><summary>Show quoted text</summary><pre>${esc(quoted)}</pre></details>` : ""}
+        ${(m.atts || []).length ? `<div class="atts">${m.atts.map(a => a.sha
+          ? `<button class="att" data-sha="${esc(a.sha)}">⬇ ${esc(a.name)} (${size(a.size)})</button>`
+          : `<span class="att off">${esc(a.name)} (${size(a.size)}) · ${esc(a.note || "not stored")}</span>`).join("")}</div>` : ""}
+      </div>`; }).join("") : '<p class="muted">The conversation has not been synced yet.</p>');
+  document.querySelectorAll("#thread button.att").forEach(b => b.addEventListener("click", () => download(b)));
+}
+
+// Attachments stay encrypted until clicked, then are saved as a file (never opened in the page).
+async function download(btn) {
+  const label = btn.textContent; btn.textContent = "Decrypting…";
+  try {
+    const o = await decrypt(await fetchSite("att/" + btn.dataset.sha + ".json"), PASS);
+    const url = URL.createObjectURL(new Blob([b64(o.data)], {type: "application/octet-stream"}));
+    const a = Object.assign(document.createElement("a"), {href: url, download: o.name});
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (e) { alert("Could not open this attachment."); }
+  btn.textContent = label;
 }
 
 function table() {

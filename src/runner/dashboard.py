@@ -23,7 +23,7 @@ from runner.state import STATE_DIR, iso  # noqa: E402
 
 SITE = Path(__file__).resolve().parents[2] / "site"
 COLUMNS = ("id", "name", "university", "country", "env_domain", "tier", "subject", "status",
-           "reply_label", "send_local", "send_utc", "body", "events")
+           "reply_label", "send_local", "send_utc", "timezone", "body", "events")
 
 
 def build(state_dir: Path = STATE_DIR) -> dict:

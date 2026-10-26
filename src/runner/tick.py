@@ -34,7 +34,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from runner import crypto, mailio  # noqa: E402
+from runner import crypto, mailio, threads  # noqa: E402
 from runner.state import State, iso, parse, text_hash  # noqa: E402
 from schedule.scheduler import LATE_WINDOW, next_slot  # noqa: E402
 from schedule.slots import assign_send_times  # noqa: E402
@@ -70,7 +70,7 @@ def git_checkpoint(st: State, key: bytes, cfg: Config) -> None:
     st.save(key)
     if not cfg.git_push:
         return
-    subprocess.run(["git", "add", "state", "site/data.enc.json"], check=False)
+    subprocess.run(["git", "add", "state", "site"], check=False)  # site/: dashboard data, threads, attachments
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0:
         return
     subprocess.run(["git", "commit", "-q", "-m", "tick: state update"], check=True)
@@ -273,7 +273,7 @@ def git_refresh(st: State, key: bytes, cfg: Config) -> None:
 
 
 def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, checkpoint, dashboard_fn,
-        prev_run_utc=None, refresh=None) -> None:
+        prev_run_utc=None, refresh=None, thread_sync=None) -> None:
     """One long-lived run: every POLL_EVERY, reload the state, reschedule, send what is due, poll
     the inbox and commit; stop before GitHub's job limit. With cfg.chain the caller then starts
     the successor."""
@@ -295,8 +295,14 @@ def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, chec
                 print(f"IMAP connect failed, poll skipped: {e}")
                 imap = None
             if imap is not None:
+                seen_before = len(st.private.get("seen", []))
                 try:
                     poll_inbox(st, imap, issues, now_fn())
+                    if thread_sync:  # conversation history for replied professors; never blocks sending
+                        try:
+                            thread_sync(imap, len(st.private.get("seen", [])) > seen_before, now_fn())
+                        except Exception as e:
+                            print(f"thread sync failed: {type(e).__name__}: {e}")
                 finally:
                     try:
                         imap.logout()
@@ -323,6 +329,21 @@ def dispatch_successor(cfg: Config) -> None:
     print("successor run dispatched")
 
 
+def make_thread_sync(st: State, key: bytes, cfg: Config):
+    """Conversation sync for the dashboard, or None when DASHBOARD_PASSPHRASE is not set."""
+    passphrase = os.environ.get("DASHBOARD_PASSPHRASE", "")
+    if not passphrase or cfg.dry_run_to:
+        return None
+    store = threads.ThreadStore(passphrase=passphrase)
+
+    def go(imap, force, now):
+        if not store.loaded:
+            store.load()
+        if threads.sync(store, st, imap, now, lambda: st.resume(key), force):
+            st.changed = True
+    return go
+
+
 def main() -> None:
     from runner import dashboard
     from runner.ghissues import GhIssues
@@ -340,7 +361,8 @@ def main() -> None:
         lambda: mailio.Smtp(cfg.smtp_host, cfg.smtp_port, cfg.user, cfg.token),
         lambda: mailio.imap_login(cfg.imap_host, cfg.imap_port, cfg.user, cfg.token),
         now_fn, time.sleep, lambda: git_checkpoint(st, key, cfg),
-        lambda: dashboard.write(st.dir), issues.previous_run_utc(), lambda: git_refresh(st, key, cfg))
+        lambda: dashboard.write(st.dir), issues.previous_run_utc(), lambda: git_refresh(st, key, cfg),
+        make_thread_sync(st, key, cfg))
     if cfg.chain and work_left(st, now_fn()):
         dispatch_successor(cfg)
     print("run done")

@@ -8,7 +8,8 @@ Public (safe to commit, hard rule 5): state/emails.json, one record per queued e
 plus the append-only state/events.jsonl and state/heartbeat.json.
 Private (AES-256-GCM, crypto.py): state/private.json.enc
   {"contacts": {id: {"to": address, "message_id": "<...>"}}, "seen": [reply Message-IDs]}
-and state/resume.pdf.enc. Reply bodies are never stored anywhere.
+and state/resume.pdf.enc. Reply text is not kept here; the conversation history of professors who
+replied lives, passphrase-encrypted, in site/threads.enc.json and site/att/ (runner/threads.py).
 
 Statuses: scheduled -> sent -> replied | bounced, plus failed and pulled.
 """
