@@ -17224,6 +17224,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T16:15:51+11:00",
     "detail": "send_local=2026-10-27T08:30:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T21:30:03Z",
+    "ts_local": "2026-10-27T08:30:03+11:00",
+    "detail": ""
    }
   ],
   "name": "Stephan Winter",
@@ -17240,7 +17246,7 @@
   "slot_utc": "2026-10-26T21:30:00Z",
   "send_utc": "2026-10-26T21:30:00Z",
   "send_local": "2026-10-27T08:30:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
