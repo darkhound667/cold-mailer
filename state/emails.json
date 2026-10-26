@@ -23425,6 +23425,12 @@
     "ts_utc": "2026-10-26T10:29:10Z",
     "ts_local": "2026-10-26T06:29:10-04:00",
     "detail": "send_local=2026-10-26T09:07:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T13:07:01Z",
+    "ts_local": "2026-10-26T09:07:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Yuxin Chen",
@@ -23441,7 +23447,7 @@
   "slot_utc": "2026-10-26T12:30:00Z",
   "send_utc": "2026-10-26T13:07:00Z",
   "send_local": "2026-10-26T09:07:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
