@@ -197,8 +197,9 @@ def poll_inbox(st: State, imap, issues, now: datetime) -> None:
     our_ids = {c["message_id"]: pid for pid, c in contacts.items() if c.get("message_id")}
     # Test records go to Ruturva's own address: never match on that sender, or all his own mail
     # would look like replies. They still match on In-Reply-To/References.
-    our_addrs = {c["to"].lower(): pid for pid, c in contacts.items()
-                 if c.get("to") and recs[pid]["status"] in sent_like and not recs[pid].get("dry_run")}
+    our_addrs = {a.strip().lower(): pid for pid, c in contacts.items()
+                 if c.get("to") and recs[pid]["status"] in sent_like and not recs[pid].get("dry_run")
+                 for a in c["to"].split(",")}  # "to" may hold two comma-separated addresses
     if not our_ids:
         return
     first = min(parse(e["ts_utc"]) for r in st.emails for e in r.get("events", [])
@@ -288,16 +289,21 @@ def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, chec
             resume = resume or st.resume(key)
             send_due(st, cfg, key, resume, smtp_factory, imap_factory, issues, now_fn, sleep_fn, checkpoint, stop_at)
         if st.private["contacts"] and not cfg.dry_run_to:
-            imap = imap_factory()
             try:
-                poll_inbox(st, imap, issues, now_fn())
-            finally:
+                imap = imap_factory()
+            except OSError as e:  # DNS/network blip: skip this poll, the next loop tries again
+                print(f"IMAP connect failed, poll skipped: {e}")
+                imap = None
+            if imap is not None:
                 try:
-                    imap.logout()
-                except Exception:
-                    pass
-            st.heartbeat["last_poll_utc"] = iso(now_fn())
-            sync_labels(st, issues, now_fn())
+                    poll_inbox(st, imap, issues, now_fn())
+                finally:
+                    try:
+                        imap.logout()
+                    except Exception:
+                        pass
+                st.heartbeat["last_poll_utc"] = iso(now_fn())
+                sync_labels(st, issues, now_fn())
         hb = st.heartbeat.get("last_committed_utc")
         if not hb or now_fn() - parse(hb) >= HEARTBEAT_COMMIT_EVERY:  # hourly heartbeat commit
             st.heartbeat["last_committed_utc"] = iso(now_fn())
