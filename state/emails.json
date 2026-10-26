@@ -13981,6 +13981,12 @@
     "ts_utc": "2026-10-23T04:29:15Z",
     "ts_local": "2026-10-23T12:29:15+08:00",
     "detail": "send_local=2026-10-26T08:34:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T00:34:01Z",
+    "ts_local": "2026-10-26T08:34:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Libao Zhang",
@@ -13997,7 +14003,7 @@
   "slot_utc": "2026-10-26T00:30:00Z",
   "send_utc": "2026-10-26T00:34:00Z",
   "send_local": "2026-10-26T08:34:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
