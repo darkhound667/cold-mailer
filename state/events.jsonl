@@ -1793,3 +1793,4 @@
 {"id": "P2184", "event": "bounced", "ts_utc": "2026-10-26T13:43:06Z", "ts_local": "2026-10-26T09:43:06-04:00", "detail": ""}
 {"id": "P2192", "event": "auto_reply", "ts_utc": "2026-10-26T13:43:06Z", "ts_local": "2026-10-26T09:43:06-04:00", "detail": ""}
 {"id": "P0915", "event": "replied_again", "ts_utc": "2026-10-26T13:43:06Z", "ts_local": "2026-10-26T13:43:06+00:00", "detail": ""}
+{"id": "P0557", "event": "sent", "ts_utc": "2026-10-26T14:30:03Z", "ts_local": "2026-10-26T08:30:03-06:00", "detail": ""}

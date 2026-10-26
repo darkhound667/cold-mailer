@@ -17258,6 +17258,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-25T23:15:51-06:00",
     "detail": "send_local=2026-10-26T08:30:00-06:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T14:30:03Z",
+    "ts_local": "2026-10-26T08:30:03-06:00",
+    "detail": ""
    }
   ],
   "name": "Jeff B. Boisvert",
@@ -17274,7 +17280,7 @@
   "slot_utc": "2026-10-26T14:30:00Z",
   "send_utc": "2026-10-26T14:30:00Z",
   "send_local": "2026-10-26T08:30:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
