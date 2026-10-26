@@ -17834,6 +17834,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-25T23:15:51-06:00",
     "detail": "send_local=2026-10-26T08:33:00-06:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-26T14:33:01Z",
+    "ts_local": "2026-10-26T08:33:01-06:00",
+    "detail": ""
    }
   ],
   "name": "Kenneth C. Carroll",
@@ -17850,7 +17856,7 @@
   "slot_utc": "2026-10-26T14:30:00Z",
   "send_utc": "2026-10-26T14:33:00Z",
   "send_local": "2026-10-26T08:33:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
