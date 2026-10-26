@@ -61,6 +61,14 @@
   .atts { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
   .att { font-size:12px; padding:4px 9px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); }
   button.att { cursor:pointer; } .att.off { color:var(--muted); }
+  .sec h3 { font-size:13px; margin:10px 4px 6px; display:flex; align-items:center; gap:8px; }
+  .sec h3 label { margin-left:auto; font-weight:400; font-size:12px; color:var(--muted); cursor:pointer; }
+  .sec.badhi h3 { color:var(--ok); }
+  .sec .empty { margin:4px 2px 8px; padding:14px; border:1px dashed var(--line); border-radius:8px; color:var(--muted); font-size:12px; text-align:center; }
+  .sec.over { background:color-mix(in srgb, var(--accent) 6%, transparent); border-radius:8px; }
+  .pitem { position:relative; } .pitem[draggable=true] { cursor:grab; } .pitem.drag { opacity:.4; }
+  .pitem.before { box-shadow:0 -2px 0 var(--accent); } .pitem.after { box-shadow:0 2px 0 var(--accent); }
+  .pitem .mv { position:absolute; top:6px; right:6px; padding:0 6px; font-size:12px; background:transparent; color:var(--muted); border-color:var(--line); }
   @media (max-width:760px) { .chat { grid-template-columns:1fr; } .plist, #thread { max-height:none; } .msg { max-width:100%; } }
 </style>
 </head>
@@ -228,26 +236,82 @@ async function loadThreads() {
 const lastDate = t => t.messages.length ? t.messages[t.messages.length - 1].date_utc : "";
 const fmt = d => d ? new Date(d).toLocaleString([], {dateStyle:"medium", timeStyle:"short"}) : "";
 
+// Layout (your own order and sections) lives in this browser only: localStorage, key cm_layout_v1.
+const LKEY = "cm_layout_v1";
+let LAYOUT = {sec: {}, order: {badhi: [], replied: []}, hideNeg: true};
+try { const saved = JSON.parse(localStorage.getItem(LKEY) || "{}");
+  LAYOUT = {...LAYOUT, ...saved, order: {badhi: [], replied: [], ...(saved.order || {})}, sec: saved.sec || {}}; } catch (e) {}
+const saveLayout = () => { try { localStorage.setItem(LKEY, JSON.stringify(LAYOUT)); } catch (e) {} };
+let DRAG = null;
+// "Baat Aage Badhi": professors you have written back to (your own mail after the first), unless you moved them yourself.
+const wroteBack = t => t.messages.filter(m => m.dir === "out").length >= 2;
+const sectionOf = x => LAYOUT.sec[x.id] || (wroteBack(x.t) ? "badhi" : "replied");
+
+function sectionItems(items, s) {
+  const list = items.filter(x => sectionOf(x) === s), ord = LAYOUT.order[s];
+  const fresh = list.filter(x => !ord.includes(x.id)).sort((a, b) => lastDate(b.t).localeCompare(lastDate(a.t)));
+  const kept = list.filter(x => ord.includes(x.id)).sort((a, b) => ord.indexOf(a.id) - ord.indexOf(b.id));
+  return [...fresh, ...kept];  // new replies appear on top, then your own order
+}
+
+function moveProf(items, id, s, refId, after) {
+  const from = sectionOf(items.find(x => x.id === id));
+  LAYOUT.order[from] = LAYOUT.order[from].filter(i => i !== id);
+  const ord = sectionItems(items, s).map(x => x.id).filter(i => i !== id);  // snapshot the shown order, then insert
+  const at = refId && ord.includes(refId) ? ord.indexOf(refId) + (after ? 1 : 0) : ord.length;
+  ord.splice(at, 0, id);
+  LAYOUT.order[s] = ord; LAYOUT.sec[id] = s;
+  saveLayout(); plist();
+}
+
 function plist() {
   const q = document.getElementById("cq").value.toLowerCase();
   const byId = Object.fromEntries(DATA.rows.map(r => [r.id, r]));
   const ids = Object.keys(THREADS.threads).filter(id => byId[id]);
   DATA.rows.filter(r => r.status === "replied" && !THREADS.threads[r.id]).forEach(r => ids.push(r.id));
-  const items = ids.map(id => ({id, r: byId[id], t: THREADS.threads[id] || {messages: []}}))
-    .filter(x => !q || [x.r.name, x.r.university, x.r.country, ...x.t.messages.map(m => m.text)].join(" ").toLowerCase().includes(q))
-    .sort((a, b) => lastDate(b.t).localeCompare(lastDate(a.t)));
+  const all = ids.map(id => ({id, r: byId[id], t: THREADS.threads[id] || {messages: []}}));
+  const items = all.filter(x => !q || [x.r.name, x.r.university, x.r.country, ...x.t.messages.map(m => m.text)].join(" ").toLowerCase().includes(q));
   document.getElementById("chat-n").textContent = "(" + ids.length + ")";
-  document.getElementById("chat-meta").textContent = THREADS.generated_utc
+  document.getElementById("chat-meta").textContent = (THREADS.generated_utc
     ? "Conversations updated " + fmt(THREADS.generated_utc) + ". New messages appear within about 5 minutes."
-    : "No conversations stored yet. They fill in on the runner's next sweep.";
-  document.getElementById("plist").innerHTML = items.map(x => {
+    : "No conversations stored yet. They fill in on the runner's next sweep.") + " Drag professors to reorder or to move them between sections.";
+  const card = x => {
     const n = x.t.messages.length, last = x.t.messages[n - 1];
-    return `<div class="pitem${x.id === CUR ? " on" : ""}" data-id="${esc(x.id)}">
+    return `<div class="pitem${x.id === CUR ? " on" : ""}" draggable="true" data-id="${esc(x.id)}">
+      <button class="mv" title="Move to the other section">⇄</button>
       <b>${esc(x.r.name)}${x.r.reply_label && x.r.reply_label !== "unclear" ? `<span class="tag ${esc(x.r.reply_label)}">${esc(x.r.reply_label)}</span>` : ""}</b>
       <small>${esc(x.r.university)} · ${esc(x.r.country)}</small>
       <small>${n ? n + " message" + (n > 1 ? "s" : "") + " · last " + esc(fmt(last.date_utc)) + (last.dir === "in" ? " · they wrote last" : " · you wrote last") : "syncing…"}</small></div>`;
-  }).join("") || '<p class="muted" style="padding:8px">No professor has replied yet.</p>';
-  document.querySelectorAll(".pitem").forEach(el => el.addEventListener("click", () => openThread(el.dataset.id)));
+  };
+  const section = (s, title, hint, shown, extra) => `<div class="sec ${s}" data-sec="${s}"><h3>${title} <span class="muted">(${shown.length})</span>${extra || ""}</h3>` +
+    (shown.map(card).join("") || `<div class="empty">${hint}</div>`) + "</div>";
+  const badhi = sectionItems(items, "badhi");
+  let replied = sectionItems(items, "replied");
+  const neg = replied.filter(x => x.r.reply_label === "negative");
+  if (LAYOUT.hideNeg) replied = replied.filter(x => x.r.reply_label !== "negative");
+  document.getElementById("plist").innerHTML =
+    section("badhi", "Baat Aage Badhi", "Professors you have written back to appear here. Drag one in to add them.", badhi) +
+    section("replied", "Replied", "No other replies.", replied,
+      neg.length ? `<label><input type="checkbox" id="hideneg"${LAYOUT.hideNeg ? " checked" : ""}> hide negative (${neg.length})</label>` : "");
+  const hn = document.getElementById("hideneg");
+  if (hn) hn.addEventListener("change", () => { LAYOUT.hideNeg = hn.checked; saveLayout(); plist(); });
+  document.querySelectorAll(".pitem").forEach(el => {
+    el.addEventListener("click", () => openThread(el.dataset.id));
+    el.querySelector(".mv").addEventListener("click", ev => { ev.stopPropagation();
+      moveProf(all, el.dataset.id, sectionOf(all.find(x => x.id === el.dataset.id)) === "badhi" ? "replied" : "badhi"); });
+    el.addEventListener("dragstart", ev => { DRAG = el.dataset.id; ev.dataTransfer.effectAllowed = "move"; ev.dataTransfer.setData("text/plain", DRAG); el.classList.add("drag"); });
+    el.addEventListener("dragend", () => { DRAG = null; plist(); });
+  });
+  document.querySelectorAll(".sec").forEach(sec => {
+    const where = ev => { const it = ev.target.closest(".pitem"); if (!it || it.dataset.id === DRAG) return {it: null};
+      const b = it.getBoundingClientRect(); return {it, after: ev.clientY > b.top + b.height / 2}; };
+    sec.addEventListener("dragover", ev => { if (!DRAG) return; ev.preventDefault(); sec.classList.add("over");
+      document.querySelectorAll(".pitem.before,.pitem.after").forEach(e => e.classList.remove("before", "after"));
+      const w = where(ev); if (w.it) w.it.classList.add(w.after ? "after" : "before"); });
+    sec.addEventListener("dragleave", ev => { if (!sec.contains(ev.relatedTarget)) sec.classList.remove("over"); });
+    sec.addEventListener("drop", ev => { if (!DRAG) return; ev.preventDefault(); const w = where(ev);
+      moveProf(all, DRAG, sec.dataset.sec, w.it && w.it.dataset.id, w.after); });
+  });
 }
 
 // Split a message into the new text and the quoted history below it.
