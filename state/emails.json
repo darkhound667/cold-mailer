@@ -17230,6 +17230,12 @@
     "ts_utc": "2026-10-26T21:30:03Z",
     "ts_local": "2026-10-27T08:30:03+11:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-26T22:18:54Z",
+    "ts_local": "2026-10-27T09:18:54+11:00",
+    "detail": ""
    }
   ],
   "name": "Stephan Winter",
@@ -17246,9 +17252,9 @@
   "slot_utc": "2026-10-26T21:30:00Z",
   "send_utc": "2026-10-26T21:30:00Z",
   "send_local": "2026-10-27T08:30:00+11:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 64
  },
  {
   "id": "P0557",
