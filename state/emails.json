@@ -5773,6 +5773,12 @@
     "ts_utc": "2026-10-22T07:31:01Z",
     "ts_local": "2026-10-22T08:31:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T13:43:06+00:00",
+    "detail": ""
    }
   ],
   "name": "Christopher F. Clements",
@@ -5789,9 +5795,9 @@
   "slot_utc": "2026-10-22T07:30:00Z",
   "send_utc": "2026-10-22T07:31:00Z",
   "send_local": "2026-10-22T08:31:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 58
  },
  {
   "id": "P0273",
@@ -9748,6 +9754,12 @@
     "event": "replied_again",
     "ts_utc": "2026-10-25T17:47:51Z",
     "ts_local": "2026-10-25T17:47:51+00:00",
+    "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T13:43:06+00:00",
     "detail": ""
    }
   ],
@@ -18273,6 +18285,12 @@
     "ts_utc": "2026-10-26T12:35:01Z",
     "ts_local": "2026-10-26T08:35:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T09:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Amir Pouyan Nejadhashemi",
@@ -18289,9 +18307,9 @@
   "slot_utc": "2026-10-26T12:30:00Z",
   "send_utc": "2026-10-26T12:35:00Z",
   "send_local": "2026-10-26T08:35:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 59
  },
  {
   "id": "P0634",
@@ -21647,6 +21665,12 @@
     "ts_utc": "2026-10-26T12:46:01Z",
     "ts_local": "2026-10-26T08:46:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T09:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Auroop Ratan Ganguly",
@@ -21663,9 +21687,9 @@
   "slot_utc": "2026-10-26T12:30:00Z",
   "send_utc": "2026-10-26T12:46:00Z",
   "send_local": "2026-10-26T08:46:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 60
  },
  {
   "id": "P0761",
@@ -22841,6 +22865,12 @@
     "ts_utc": "2026-10-26T12:50:01Z",
     "ts_local": "2026-10-26T08:50:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T09:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Dan Roth",
@@ -22858,7 +22888,7 @@
   "send_utc": "2026-10-26T12:50:00Z",
   "send_local": "2026-10-26T08:50:00-04:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -23361,6 +23391,12 @@
     "ts_utc": "2026-10-26T13:03:01Z",
     "ts_local": "2026-10-26T09:03:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T09:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Insup Lee",
@@ -23377,8 +23413,8 @@
   "slot_utc": "2026-10-26T12:30:00Z",
   "send_utc": "2026-10-26T13:03:00Z",
   "send_local": "2026-10-26T09:03:00-04:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -23681,6 +23717,12 @@
     "ts_utc": "2026-10-26T13:11:01Z",
     "ts_local": "2026-10-26T09:11:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-26T13:43:06Z",
+    "ts_local": "2026-10-26T09:43:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Claire Cardie",
@@ -23698,7 +23740,7 @@
   "send_utc": "2026-10-26T13:11:00Z",
   "send_local": "2026-10-26T09:11:00-04:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
