@@ -22740,6 +22740,12 @@
     "ts_utc": "2026-10-26T10:29:10Z",
     "ts_local": "2026-10-26T10:29:10+00:00",
     "detail": "send_local=2026-10-27T08:42:00+00:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-27T08:42:01Z",
+    "ts_local": "2026-10-27T08:42:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Christian Pfrang",
@@ -22756,7 +22762,7 @@
   "slot_utc": "2026-10-27T08:30:00Z",
   "send_utc": "2026-10-27T08:42:00Z",
   "send_local": "2026-10-27T08:42:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 12
