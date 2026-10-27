@@ -7,7 +7,8 @@ line (from env_domain + ML methods), the subject, and the second project:
   - Direct Air Capture traineeship for carbon / energy professors;
   - the Chennai air-quality group project for everyone else.
 The first project is always the wildlife-detection ML project.
-The noisy-label project is not cited (decision Q13), and nor is the Deep RL trading project.
+The noisy-label project is cited since the 2026-10-28 resume added it (it reverses decision Q13);
+the Deep RL trading project is still not cited.
 
 Each review/P####.md starts with a small header (id, status, to, subject, attachment) and
 then the exact body. review/INDEX.csv lists every draft with risk flags for review:
@@ -34,6 +35,9 @@ INTRO = ("My name is Ruturva Vaghasia, an Environmental Science and Engineering 
          "would like to go considerably deeper into.")
 WILDLIFE = ("I built a wildlife-detection model for image grids using handcrafted texture features and "
             "gradient-boosted trees.")
+NOISY = ("In another project on noisy human labels in image classification, I flagged likely "
+         "mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on "
+         "the cleaned set.")
 CHENNAI = ("I also analysed, in a group project, air-quality monitoring data from a station in Chennai, "
            "tracing pollution spikes to their likely causes and flagging faulty sensor readings.")
 DAC = ("I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air "
@@ -97,6 +101,8 @@ def salutation(r: dict) -> str:
 
 
 def research_area(r: dict) -> str:
+    if r.get("track") == "pure_ml":  # general AI/ML professors (2026-10-21): name the field itself
+        return r["ml_area"]
     methods = set(r.get("ml_methods") or [])
     if "reinforcement learning" in methods:
         method = "reinforcement learning"
@@ -114,7 +120,7 @@ def subject(r: dict) -> str:
 def body(r: dict) -> str:
     second = DAC if r["env_domain"] in DAC_DOMAINS else CHENNAI
     parts = [salutation(r), "I hope this message finds you well.", INTRO.format(area=research_area(r)),
-             f"{WILDLIFE} {second}", ASK, CLOSING]
+             f"{WILDLIFE} {NOISY} {second}", ASK, CLOSING]
     return "\n\n".join(parts) + "\n"
 
 
@@ -124,7 +130,7 @@ def risk_flags(r: dict) -> list:
         flags.append("missing title")
     if r.get("confidence") == "medium":
         flags.append("medium-confidence email")
-    if r["n_works"] < 5 or r["n_last_author"] < 3:
+    if r.get("track") != "pure_ml" and (r["n_works"] < 5 or r["n_last_author"] < 3):
         flags.append("weak fit evidence")
     if surname(r["name"])[1]:
         flags.append("unusual name")
@@ -152,7 +158,7 @@ def main() -> None:
     batch = max(batch_of.values(), default=0) + 1
     # Never overwrite an existing draft (it may have hand edits): only new professors get one.
     for r in [r for r in sendable if r["id"] not in batch_of][: args.limit]:
-        header = (f"---\nid: {r['id']}\nbatch: {batch:02d}\nstatus: draft\nto: {r['email']}\nname: {clean_name(r['name'])}\n"
+        header = (f"---\nid: {r['id']}\nbatch: {batch:02d}\nstatus: draft\nto: {', '.join([r['email'], *r.get('email_alt', [])])}\nname: {clean_name(r['name'])}\n"
                   f"university: {r['university']}\nsubject: {subject(r)}\nattachment: {ATTACHMENT}\n---\n\n")
         (REVIEW / f"{r['id']}.md").write_text(header + body(r))
         batch_of[r["id"]] = batch
