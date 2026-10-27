@@ -16985,6 +16985,12 @@
     "ts_utc": "2026-10-27T07:30:03Z",
     "ts_local": "2026-10-27T08:30:03+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T09:08:51Z",
+    "ts_local": "2026-10-27T10:08:51+01:00",
+    "detail": ""
    }
   ],
   "name": "Norbert Pfeifer",
@@ -17001,9 +17007,9 @@
   "slot_utc": "2026-10-27T07:30:00Z",
   "send_utc": "2026-10-27T07:30:00Z",
   "send_local": "2026-10-27T08:30:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 69
  },
  {
   "id": "P0540",
