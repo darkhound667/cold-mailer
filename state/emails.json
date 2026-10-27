@@ -17035,6 +17035,12 @@
     "ts_utc": "2026-10-26T05:15:51Z",
     "ts_local": "2026-10-26T13:15:51+08:00",
     "detail": "send_local=2026-10-27T08:30:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-27T00:30:03Z",
+    "ts_local": "2026-10-27T08:30:03+08:00",
+    "detail": ""
    }
   ],
   "name": "Xiaofei Chen",
@@ -17051,7 +17057,7 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T00:30:00Z",
   "send_local": "2026-10-27T08:30:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
