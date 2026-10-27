@@ -21653,6 +21653,12 @@
     "ts_utc": "2026-10-27T07:32:01Z",
     "ts_local": "2026-10-27T08:32:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T13:08:58Z",
+    "ts_local": "2026-10-27T14:08:58+01:00",
+    "detail": ""
    }
   ],
   "name": "Susanne Crewell",
@@ -21669,9 +21675,9 @@
   "slot_utc": "2026-10-27T07:30:00Z",
   "send_utc": "2026-10-27T07:32:00Z",
   "send_local": "2026-10-27T08:32:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 72
  },
  {
   "id": "P0722",
