@@ -23970,6 +23970,12 @@
     "ts_utc": "2026-10-26T12:56:01Z",
     "ts_local": "2026-10-26T08:56:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T21:26:06Z",
+    "ts_local": "2026-10-27T17:26:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Jiayuan Mao",
@@ -23986,9 +23992,9 @@
   "slot_utc": "2026-10-26T12:30:00Z",
   "send_utc": "2026-10-26T12:56:00Z",
   "send_local": "2026-10-26T08:56:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 78
  },
  {
   "id": "P2178",
