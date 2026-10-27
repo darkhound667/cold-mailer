@@ -21135,6 +21135,12 @@
     "ts_utc": "2026-10-27T08:37:01Z",
     "ts_local": "2026-10-27T08:37:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-27T08:42:07Z",
+    "ts_local": "2026-10-27T08:42:07+00:00",
+    "detail": ""
    }
   ],
   "name": "Majid Ezzati",
@@ -21152,7 +21158,7 @@
   "send_utc": "2026-10-27T08:37:00Z",
   "send_local": "2026-10-27T08:37:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null,
   "position": 7
  },
@@ -22625,6 +22631,12 @@
     "ts_utc": "2026-10-27T08:41:01Z",
     "ts_local": "2026-10-27T08:41:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-27T08:42:07Z",
+    "ts_local": "2026-10-27T08:42:07+00:00",
+    "detail": ""
    }
   ],
   "name": "Ana Mijić",
@@ -22642,7 +22654,7 @@
   "send_utc": "2026-10-27T08:41:00Z",
   "send_local": "2026-10-27T08:41:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null,
   "position": 11
  },
