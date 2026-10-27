@@ -17582,6 +17582,12 @@
     "ts_utc": "2026-10-26T07:33:01Z",
     "ts_local": "2026-10-26T08:33:01+01:00",
     "detail": "gaierror"
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T11:31:09Z",
+    "ts_local": "2026-10-27T12:31:09+01:00",
+    "detail": ""
    }
   ],
   "name": "Gerald Corzo",
@@ -17598,9 +17604,9 @@
   "slot_utc": "2026-10-26T07:30:00Z",
   "send_utc": "2026-10-26T07:33:00Z",
   "send_local": "2026-10-26T08:33:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 70
  },
  {
   "id": "P0582",
