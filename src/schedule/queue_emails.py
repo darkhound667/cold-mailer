@@ -33,7 +33,8 @@ from schedule.slots import assign_send_times  # noqa: E402
 ROOT = Path(__file__).resolve().parents[2]
 DATA, REVIEW = ROOT / "data", ROOT / "review"
 QUEUE, EVENTS = DATA / "queue.json", DATA / "events.jsonl"
-BATCH_CAP = SLOT_CAP = 100
+SLOT_CAP = 100  # per 08:30 slot (amendment 1)
+BATCH_CAP = 150  # per call: the daily batch is 150 since 2026-10-27
 
 
 def parse_draft(path: Path) -> dict:
@@ -104,7 +105,7 @@ def cmd_queue(args) -> None:
         d, p = parse_draft(path), profs.get(pid)
         if not p or not p.get("sendable"):
             skipped.append((pid, "not sendable in professors.json"))
-        elif d["to"] != p["email"]:
+        elif d["to"] != ", ".join([p["email"], *p.get("email_alt", [])]):  # extra printed addresses ride in To:
             skipped.append((pid, "To: differs from the verified email"))
         else:
             picked.append((path, d, p))
