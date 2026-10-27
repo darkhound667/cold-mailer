@@ -22152,6 +22152,12 @@
     "ts_utc": "2026-10-27T08:40:01Z",
     "ts_local": "2026-10-27T08:40:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T14:10:23Z",
+    "ts_local": "2026-10-27T14:10:23+00:00",
+    "detail": ""
    }
   ],
   "name": "Paul L. Rosin",
@@ -22168,9 +22174,9 @@
   "slot_utc": "2026-10-27T08:30:00Z",
   "send_utc": "2026-10-27T08:40:00Z",
   "send_local": "2026-10-27T08:40:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 75,
   "position": 10
  },
  {
