@@ -18034,6 +18034,12 @@
     "ts_utc": "2026-10-26T10:22:44Z",
     "ts_local": "2026-10-26T10:22:44+00:00",
     "detail": "missed 2026-10-26T08:31:00+00:00 by more than 1 h"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-27T08:32:01Z",
+    "ts_local": "2026-10-27T08:32:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Emily F. Shuckburgh",
@@ -18050,7 +18056,7 @@
   "slot_utc": "2026-10-27T08:30:00Z",
   "send_utc": "2026-10-27T08:32:00Z",
   "send_local": "2026-10-27T08:32:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 2
