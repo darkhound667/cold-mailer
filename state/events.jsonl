@@ -1892,3 +1892,9 @@
 {"id": "P2167", "event": "sent", "ts_utc": "2026-10-27T01:39:01Z", "ts_local": "2026-10-27T09:39:01+08:00", "detail": ""}
 {"id": "P2168", "event": "sent", "ts_utc": "2026-10-27T01:40:01Z", "ts_local": "2026-10-27T09:40:01+08:00", "detail": ""}
 {"id": "P2169", "event": "sent", "ts_utc": "2026-10-27T01:41:01Z", "ts_local": "2026-10-27T09:41:01+08:00", "detail": ""}
+{"id": "P0775", "event": "replied", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-27T10:41:06+09:00", "detail": ""}
+{"id": "P2122", "event": "auto_reply", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-27T09:41:06+08:00", "detail": ""}
+{"id": "P2101", "event": "replied", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-27T09:41:06+08:00", "detail": ""}
+{"id": "P2131", "event": "bounced", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-27T09:41:06+08:00", "detail": ""}
+{"id": "P1507", "event": "replied", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-26T21:41:06-04:00", "detail": ""}
+{"id": "P2162", "event": "bounced", "ts_utc": "2026-10-27T01:41:06Z", "ts_local": "2026-10-27T09:41:06+08:00", "detail": ""}

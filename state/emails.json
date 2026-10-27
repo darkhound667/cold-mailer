@@ -10591,6 +10591,12 @@
     "ts_utc": "2026-10-23T12:39:01Z",
     "ts_local": "2026-10-23T08:39:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-26T21:41:06-04:00",
+    "detail": ""
    }
   ],
   "name": "C. H. Peng",
@@ -10607,9 +10613,9 @@
   "slot_utc": "2026-10-23T12:30:00Z",
   "send_utc": "2026-10-23T12:39:00Z",
   "send_local": "2026-10-23T08:39:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 67
  },
  {
   "id": "P1508",
@@ -16761,6 +16767,12 @@
     "ts_utc": "2026-10-26T00:44:01Z",
     "ts_local": "2026-10-26T08:44:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-27T09:41:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Min-Yen Kan",
@@ -16777,9 +16789,9 @@
   "slot_utc": "2026-10-26T00:30:00Z",
   "send_utc": "2026-10-26T00:44:00Z",
   "send_local": "2026-10-26T08:44:00+08:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 66
  },
  {
   "id": "P0532",
@@ -19703,6 +19715,12 @@
     "ts_utc": "2026-10-27T00:56:01Z",
     "ts_local": "2026-10-27T08:56:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-27T09:41:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Jordan L. Boyd-Graber",
@@ -19720,7 +19738,7 @@
   "send_utc": "2026-10-27T00:56:00Z",
   "send_local": "2026-10-27T08:56:00+08:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -20063,6 +20081,12 @@
     "ts_utc": "2026-10-27T01:05:01Z",
     "ts_local": "2026-10-27T09:05:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-27T09:41:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Boyang Li",
@@ -20079,8 +20103,8 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T01:05:00Z",
   "send_local": "2026-10-27T09:05:00+08:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -22401,6 +22425,12 @@
     "ts_utc": "2026-10-26T23:33:01Z",
     "ts_local": "2026-10-27T08:33:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-27T10:41:06+09:00",
+    "detail": ""
    }
   ],
   "name": "Kuk‐Hyun Ahn",
@@ -22417,9 +22447,9 @@
   "slot_utc": "2026-10-26T23:30:00Z",
   "send_utc": "2026-10-26T23:33:00Z",
   "send_local": "2026-10-27T08:33:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 65
  },
  {
   "id": "P0778",
@@ -23105,6 +23135,12 @@
     "ts_utc": "2026-10-27T01:34:01Z",
     "ts_local": "2026-10-27T09:34:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-27T01:41:06Z",
+    "ts_local": "2026-10-27T09:41:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Yitao Liang",
@@ -23121,8 +23157,8 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T01:34:00Z",
   "send_local": "2026-10-27T09:34:00+08:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
