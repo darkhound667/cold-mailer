@@ -23455,6 +23455,12 @@
     "ts_utc": "2026-10-26T10:29:10Z",
     "ts_local": "2026-10-26T18:29:10+08:00",
     "detail": "send_local=2026-10-27T09:42:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-27T01:41:42Z",
+    "ts_local": "2026-10-27T09:41:42+08:00",
+    "detail": ""
    }
   ],
   "name": "Wenzheng Chen",
@@ -23469,11 +23475,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 567,
   "slot_utc": "2026-10-27T00:30:00Z",
-  "send_utc": "2026-10-27T01:42:00Z",
-  "send_local": "2026-10-27T09:42:00+08:00",
-  "status": "scheduled",
+  "send_utc": "2026-10-27T00:30:00Z",
+  "send_local": "2026-10-27T08:30:00+08:00",
+  "status": "sent",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P2171",
