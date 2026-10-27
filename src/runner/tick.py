@@ -28,6 +28,7 @@ import os
 import smtplib
 import subprocess
 import sys
+import tempfile
 import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -65,20 +66,60 @@ class Config:
         self.chain = env.get("CHAIN") == "1"  # long-lived self-chaining mode (the workflow sets it)
 
 
+def reconcile(st: State, key: bytes) -> None:
+    """Our push was rejected and rebasing conflicts (a stale checkout, or the laptop queued meanwhile).
+    Rebuild on top of origin/main: its new queue records and contacts are merged into our in-memory
+    state (ours wins for everything we already know; a draft re-queued on the laptop wins while it
+    is still scheduled), the runner-owned site files and the event log are kept, and the state is
+    saved again over the fresh checkout. Nothing we recorded, in particular a `sent`, is dropped."""
+    subprocess.run(["git", "rebase", "--abort"], capture_output=True)
+    subprocess.run(["git", "fetch", "-q", "origin", "main"], check=True)
+    site = st.dir.parent / "site"
+    keep = {p: p.read_bytes() for p in [site / "threads.enc.json", *site.glob("att/*.json")] if p.exists()}
+    log = st.dir / "events.jsonl"
+    ours = log.read_text(encoding="utf-8").splitlines() if log.exists() else []
+    remote = State(Path(tempfile.mkdtemp()))
+    for name in ("emails.json", "private.json.enc"):
+        out = subprocess.run(["git", "show", f"origin/main:state/{name}"], capture_output=True)
+        if out.returncode == 0:
+            (remote.dir / name).write_bytes(out.stdout)
+    remote.load(key)
+    known = {r["id"]: i for i, r in enumerate(st.emails)}
+    for r in remote.emails:
+        i = known.get(r["id"])
+        if i is None:
+            st.emails.append(r)
+        elif (st.emails[i]["status"] == "scheduled" and r["status"] == "scheduled"
+              and st.emails[i].get("sha256") != r.get("sha256")):
+            st.emails[i] = r
+    for pid, c in remote.private["contacts"].items():
+        st.private["contacts"].setdefault(pid, c)
+    st.private["seen"] = list(dict.fromkeys(st.private.get("seen", []) + remote.private.get("seen", [])))
+    subprocess.run(["git", "reset", "-q", "--hard", "origin/main"], check=True)
+    for p, data in keep.items():
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_bytes(data)
+    theirs = log.read_text(encoding="utf-8").splitlines() if log.exists() else []
+    seen_lines = set(theirs)
+    log.write_text("\n".join(theirs + [l for l in ours if l not in seen_lines]) + "\n", encoding="utf-8")
+    st.save(key)
+
+
 def git_checkpoint(st: State, key: bytes, cfg: Config) -> None:
     """Save state and, on the runner, commit + push it immediately."""
     st.save(key)
     if not cfg.git_push:
         return
-    subprocess.run(["git", "add", "state", "site"], check=False)  # site/: dashboard data, threads, attachments
-    if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0:
-        return
-    subprocess.run(["git", "commit", "-q", "-m", "tick: state update"], check=True)
-    for attempt in range(3):  # the laptop may have pushed a new queue meanwhile
+    for attempt in range(4):  # the laptop may have pushed a new queue meanwhile
+        subprocess.run(["git", "add", "state", "site"], check=False)  # site/: dashboard data, threads, attachments
+        if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
+            subprocess.run(["git", "commit", "-q", "-m", "tick: state update"], check=True)
         if subprocess.run(["git", "push", "-q"]).returncode == 0:
             return
-        subprocess.run(["git", "pull", "-q", "--rebase"], check=True)
-    raise RuntimeError("could not push state after 3 attempts")
+        if subprocess.run(["git", "pull", "-q", "--rebase"]).returncode != 0:
+            print("rebase conflict: rebuilding the state on top of origin/main")
+            reconcile(st, key)
+    raise RuntimeError("could not push state after 4 attempts")
 
 
 def respace(st: State) -> None:
@@ -206,8 +247,6 @@ def poll_inbox(st: State, imap, issues, now: datetime) -> None:
                 if e["event"] in ("sent", "dry_run_sent"))
     seen = set(st.private.setdefault("seen", []))
     for f in mailio.poll(imap, our_ids, our_addrs, first.strftime("%d-%b-%Y"), seen):
-        st.private["seen"].append(f["msgid"])
-        st.changed = True
         rec = st.by_id(f["id"])
         if f["kind"] == "bounce":
             rec["status"], rec["reply_label"] = "bounced", "bounce"
@@ -222,6 +261,8 @@ def poll_inbox(st: State, imap, issues, now: datetime) -> None:
             rec["issue"] = issues.open(f"New reply #{n}", REPLY_ISSUE_BODY, ["reply"])
             rec["status"], rec["reply_label"] = "replied", "unclear"
             st.event(rec, "replied", now)
+        st.private["seen"].append(f["msgid"])  # only after handling: a failed Issue call retries next poll
+        st.changed = True
 
 
 def sync_labels(st: State, issues, now: datetime) -> None:
@@ -279,7 +320,10 @@ def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, chec
     the successor."""
     start = now_fn()
     stop_at = start + RUN_BUDGET
-    heartbeat(st, start, issues, prev_run_utc)
+    try:
+        heartbeat(st, start, issues, prev_run_utc)
+    except Exception as e:
+        print(f"heartbeat check failed: {type(e).__name__}: {e}")
     while True:
         if refresh:
             refresh()
@@ -291,31 +335,39 @@ def run(st, cfg, key, issues, smtp_factory, imap_factory, now_fn, sleep_fn, chec
         if st.private["contacts"] and not cfg.dry_run_to:
             try:
                 imap = imap_factory()
-            except OSError as e:  # DNS/network blip: skip this poll, the next loop tries again
-                print(f"IMAP connect failed, poll skipped: {e}")
+            except Exception as e:  # DNS/network/login blip: skip this poll, the next loop tries again
+                print(f"IMAP connect failed, poll skipped: {type(e).__name__}: {e}")
                 imap = None
             if imap is not None:
                 seen_before = len(st.private.get("seen", []))
                 try:
                     poll_inbox(st, imap, issues, now_fn())
+                    st.heartbeat["last_poll_utc"] = iso(now_fn())
                     if thread_sync:  # conversation history for replied professors; never blocks sending
                         try:
                             thread_sync(imap, len(st.private.get("seen", [])) > seen_before, now_fn())
                         except Exception as e:
                             print(f"thread sync failed: {type(e).__name__}: {e}")
+                except Exception as e:  # a flaky IMAP/GitHub call must not stop the sender
+                    print(f"inbox poll failed: {type(e).__name__}: {e}")
                 finally:
                     try:
                         imap.logout()
                     except Exception:
                         pass
-                st.heartbeat["last_poll_utc"] = iso(now_fn())
-                sync_labels(st, issues, now_fn())
+                try:
+                    sync_labels(st, issues, now_fn())
+                except Exception as e:
+                    print(f"label sync failed: {type(e).__name__}: {e}")
         hb = st.heartbeat.get("last_committed_utc")
         if not hb or now_fn() - parse(hb) >= HEARTBEAT_COMMIT_EVERY:  # hourly heartbeat commit
             st.heartbeat["last_committed_utc"] = iso(now_fn())
             st.changed = True
         if st.changed:
-            dashboard_fn()
+            try:
+                dashboard_fn()
+            except Exception as e:  # the dashboard is a view; the state commit below is what matters
+                print(f"dashboard update failed: {type(e).__name__}: {e}")
             checkpoint()
             st.changed = False
         if not cfg.chain or now_fn() + POLL_EVERY >= stop_at or not work_left(st, now_fn()):
@@ -357,11 +409,16 @@ def main() -> None:
     st = State().load(key)
     issues = GhIssues(cfg.repo)
     now_fn = lambda: datetime.now(timezone.utc)
+    try:
+        prev_run = issues.previous_run_utc()
+    except Exception as e:  # GitHub API blip: skip the gap check this time
+        print(f"previous run lookup failed: {type(e).__name__}: {e}")
+        prev_run = None
     run(st, cfg, key, issues,
         lambda: mailio.Smtp(cfg.smtp_host, cfg.smtp_port, cfg.user, cfg.token),
         lambda: mailio.imap_login(cfg.imap_host, cfg.imap_port, cfg.user, cfg.token),
         now_fn, time.sleep, lambda: git_checkpoint(st, key, cfg),
-        lambda: dashboard.write(st.dir), issues.previous_run_utc(), lambda: git_refresh(st, key, cfg),
+        lambda: dashboard.write(st.dir), prev_run, lambda: git_refresh(st, key, cfg),
         make_thread_sync(st, key, cfg))
     if cfg.chain and work_left(st, now_fn()):
         dispatch_successor(cfg)

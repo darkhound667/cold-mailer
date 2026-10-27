@@ -30,6 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main        # not the commit the run was queued on: a run that waited hours would start from stale state
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -52,3 +53,10 @@ jobs:
           GIT_PUSH: "1"
           CHAIN: "1"
         run: python src/runner/tick.py
+      - name: Restart after a crash
+        if: failure() && steps.tick.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 120   # a persistent fault retries every couple of minutes at most
+          gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"
