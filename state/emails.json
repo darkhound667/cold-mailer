@@ -28560,6 +28560,12 @@
     "ts_utc": "2026-10-28T12:50:01Z",
     "ts_local": "2026-10-28T08:50:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-28T12:52:07Z",
+    "ts_local": "2026-10-28T08:52:07-04:00",
+    "detail": ""
    }
   ],
   "name": "Lillian Lee",
@@ -28577,7 +28583,7 @@
   "send_utc": "2026-10-28T12:50:00Z",
   "send_local": "2026-10-28T08:50:00-04:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
