@@ -27106,6 +27106,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T16:42:47+11:00",
     "detail": "send_local=2026-10-29T08:31:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-28T21:31:01Z",
+    "ts_local": "2026-10-29T08:31:01+11:00",
+    "detail": ""
    }
   ],
   "name": "Andrew James Robson",
@@ -27122,7 +27128,7 @@
   "slot_utc": "2026-10-28T21:30:00Z",
   "send_utc": "2026-10-28T21:31:00Z",
   "send_local": "2026-10-29T08:31:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
