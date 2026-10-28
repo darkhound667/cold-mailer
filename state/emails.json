@@ -28320,6 +28320,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T01:42:47-04:00",
     "detail": "send_local=2026-10-28T08:45:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-28T12:45:01Z",
+    "ts_local": "2026-10-28T08:45:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Darren T. Drewry",
@@ -28336,7 +28342,7 @@
   "slot_utc": "2026-10-28T12:30:00Z",
   "send_utc": "2026-10-28T12:45:00Z",
   "send_local": "2026-10-28T08:45:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
