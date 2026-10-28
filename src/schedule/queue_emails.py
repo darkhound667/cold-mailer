@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA, REVIEW = ROOT / "data", ROOT / "review"
 QUEUE, EVENTS = DATA / "queue.json", DATA / "events.jsonl"
 SLOT_CAP = 100  # per 08:30 slot (amendment 1)
-BATCH_CAP = 150  # per call: the daily batch is 150 since 2026-10-27
+BATCH_CAP = 300  # per call: the daily batch is 300 since 2026-10-29
 
 
 def parse_draft(path: Path) -> dict:
