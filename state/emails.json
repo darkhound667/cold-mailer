@@ -26940,6 +26940,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-27T22:42:47-07:00",
     "detail": "send_local=2026-10-28T08:32:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-28T15:32:01Z",
+    "ts_local": "2026-10-28T08:32:01-07:00",
+    "detail": ""
    }
   ],
   "name": "Jonathan W. Moore",
@@ -26956,7 +26962,7 @@
   "slot_utc": "2026-10-28T15:30:00Z",
   "send_utc": "2026-10-28T15:32:00Z",
   "send_local": "2026-10-28T08:32:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
