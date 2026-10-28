@@ -26606,6 +26606,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T01:42:47-04:00",
     "detail": "send_local=2026-10-28T08:38:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-28T12:38:01Z",
+    "ts_local": "2026-10-28T08:38:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Sherrie Wang",
@@ -26622,7 +26628,7 @@
   "slot_utc": "2026-10-28T12:30:00Z",
   "send_utc": "2026-10-28T12:38:00Z",
   "send_local": "2026-10-28T08:38:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
