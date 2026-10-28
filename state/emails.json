@@ -27374,6 +27374,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T03:12:47-02:30",
     "detail": "send_local=2026-10-28T08:30:00-02:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-28T11:00:03Z",
+    "ts_local": "2026-10-28T08:30:03-02:30",
+    "detail": ""
    }
   ],
   "name": "Alison Malcolm",
@@ -27390,7 +27396,7 @@
   "slot_utc": "2026-10-28T11:00:00Z",
   "send_utc": "2026-10-28T11:00:00Z",
   "send_local": "2026-10-28T08:30:00-02:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
