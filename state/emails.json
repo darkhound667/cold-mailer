@@ -19805,6 +19805,12 @@
     "ts_utc": "2026-10-27T01:41:06Z",
     "ts_local": "2026-10-27T09:41:06+08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-28T08:32:06Z",
+    "ts_local": "2026-10-28T16:32:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Jordan L. Boyd-Graber",
@@ -19821,9 +19827,9 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T00:56:00Z",
   "send_local": "2026-10-27T08:56:00+08:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 80
  },
  {
   "id": "P2123",
