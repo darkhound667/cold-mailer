@@ -22223,6 +22223,12 @@
     "ts_utc": "2026-10-27T01:23:01Z",
     "ts_local": "2026-10-27T09:23:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-29T06:30:11Z",
+    "ts_local": "2026-10-29T14:30:11+08:00",
+    "detail": ""
    }
   ],
   "name": "Vladan Babovic",
@@ -22239,9 +22245,9 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T01:23:00Z",
   "send_local": "2026-10-27T09:23:00+08:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 84
  },
  {
   "id": "P0749",
