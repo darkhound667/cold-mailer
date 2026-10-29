@@ -34042,6 +34042,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T03:18:11-05:00",
     "detail": "send_local=2026-10-29T08:42:00-05:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T13:42:01Z",
+    "ts_local": "2026-10-29T08:42:01-05:00",
+    "detail": ""
    }
   ],
   "name": "Jaehak Jeong",
@@ -34058,7 +34064,7 @@
   "slot_utc": "2026-10-29T13:30:00Z",
   "send_utc": "2026-10-29T13:42:00Z",
   "send_local": "2026-10-29T08:42:00-05:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
