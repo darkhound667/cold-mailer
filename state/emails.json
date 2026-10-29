@@ -35094,6 +35094,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T17:18:11+09:00",
     "detail": "send_local=2026-10-30T08:40:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T23:40:01Z",
+    "ts_local": "2026-10-30T08:40:01+09:00",
+    "detail": ""
    }
   ],
   "name": "Juho Lee",
@@ -35110,7 +35116,7 @@
   "slot_utc": "2026-10-29T23:30:00Z",
   "send_utc": "2026-10-29T23:40:00Z",
   "send_local": "2026-10-30T08:40:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
