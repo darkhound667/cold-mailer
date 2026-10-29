@@ -29706,6 +29706,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T13:42:47+08:00",
     "detail": "send_local=2026-10-29T09:05:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T01:05:01Z",
+    "ts_local": "2026-10-29T09:05:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Yuxiao Dong",
@@ -29722,7 +29728,7 @@
   "slot_utc": "2026-10-29T00:30:00Z",
   "send_utc": "2026-10-29T01:05:00Z",
   "send_local": "2026-10-29T09:05:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
