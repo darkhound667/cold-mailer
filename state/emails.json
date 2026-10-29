@@ -35800,6 +35800,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T04:18:11-04:00",
     "detail": "send_local=2026-10-29T09:15:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T13:15:01Z",
+    "ts_local": "2026-10-29T09:15:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Benjamin Moseley",
@@ -35816,7 +35822,7 @@
   "slot_utc": "2026-10-29T12:30:00Z",
   "send_utc": "2026-10-29T13:15:00Z",
   "send_local": "2026-10-29T09:15:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
