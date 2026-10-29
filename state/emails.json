@@ -33198,6 +33198,12 @@
     "ts_utc": "2026-10-29T15:39:01Z",
     "ts_local": "2026-10-29T08:39:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-29T16:38:51Z",
+    "ts_local": "2026-10-29T09:38:51-07:00",
+    "detail": ""
    }
   ],
   "name": "Benis Nchine Egoh",
@@ -33214,9 +33220,9 @@
   "slot_utc": "2026-10-29T15:30:00Z",
   "send_utc": "2026-10-29T15:39:00Z",
   "send_local": "2026-10-29T08:39:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 91
  },
  {
   "id": "P1557",
