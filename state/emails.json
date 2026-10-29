@@ -26390,6 +26390,12 @@
     "ts_utc": "2026-10-29T07:42:01Z",
     "ts_local": "2026-10-29T08:42:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-10-29T08:08:51Z",
+    "ts_local": "2026-10-29T09:08:51+01:00",
+    "detail": ""
    }
   ],
   "name": "Miguel D. Mahecha",
@@ -26406,8 +26412,8 @@
   "slot_utc": "2026-10-29T07:30:00Z",
   "send_utc": "2026-10-29T07:42:00Z",
   "send_local": "2026-10-29T08:42:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
