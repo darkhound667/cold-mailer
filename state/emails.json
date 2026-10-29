@@ -25764,6 +25764,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T13:42:47+08:00",
     "detail": "send_local=2026-10-29T08:32:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T00:32:01Z",
+    "ts_local": "2026-10-29T08:32:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Xieping Gao",
@@ -25780,7 +25786,7 @@
   "slot_utc": "2026-10-29T00:30:00Z",
   "send_utc": "2026-10-29T00:32:00Z",
   "send_local": "2026-10-29T08:32:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
