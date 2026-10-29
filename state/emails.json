@@ -27104,6 +27104,12 @@
     "ts_utc": "2026-10-28T05:42:47Z",
     "ts_local": "2026-10-28T06:42:47+01:00",
     "detail": "send_local=2026-10-29T08:47:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T07:47:01Z",
+    "ts_local": "2026-10-29T08:47:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Veronica Tofani",
@@ -27120,7 +27126,7 @@
   "slot_utc": "2026-10-29T07:30:00Z",
   "send_utc": "2026-10-29T07:47:00Z",
   "send_local": "2026-10-29T08:47:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
