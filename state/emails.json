@@ -33032,6 +33032,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T04:18:11-04:00",
     "detail": "send_local=2026-10-29T08:50:00-04:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T12:50:01Z",
+    "ts_local": "2026-10-29T08:50:01-04:00",
+    "detail": ""
    }
   ],
   "name": "Patrick Joseph Drohan",
@@ -33048,7 +33054,7 @@
   "slot_utc": "2026-10-29T12:30:00Z",
   "send_utc": "2026-10-29T12:50:00Z",
   "send_local": "2026-10-29T08:50:00-04:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
