@@ -32918,6 +32918,12 @@
     "ts_utc": "2026-10-29T15:37:01Z",
     "ts_local": "2026-10-29T08:37:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-29T16:53:29Z",
+    "ts_local": "2026-10-29T09:53:29-07:00",
+    "detail": ""
    }
   ],
   "name": "Bart Nijssen",
@@ -32934,9 +32940,9 @@
   "slot_utc": "2026-10-29T15:30:00Z",
   "send_utc": "2026-10-29T15:37:00Z",
   "send_local": "2026-10-29T08:37:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 92
  },
  {
   "id": "P1539",
