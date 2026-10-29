@@ -26036,6 +26036,12 @@
     "ts_utc": "2026-10-28T12:34:01Z",
     "ts_local": "2026-10-28T08:34:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-29T13:51:07Z",
+    "ts_local": "2026-10-29T09:51:07-04:00",
+    "detail": ""
    }
   ],
   "name": "John Quilty",
@@ -26052,9 +26058,9 @@
   "slot_utc": "2026-10-28T12:30:00Z",
   "send_utc": "2026-10-28T12:34:00Z",
   "send_local": "2026-10-28T08:34:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 87
  },
  {
   "id": "P0852",
@@ -32630,6 +32636,12 @@
     "ts_utc": "2026-10-29T13:35:01Z",
     "ts_local": "2026-10-29T08:35:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-29T13:51:07Z",
+    "ts_local": "2026-10-29T08:51:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Alexandros Savvaidis",
@@ -32647,7 +32659,7 @@
   "send_utc": "2026-10-29T13:35:00Z",
   "send_local": "2026-10-29T08:35:00-05:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
