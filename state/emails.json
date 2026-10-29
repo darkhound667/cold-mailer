@@ -31572,6 +31572,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T01:18:11-07:00",
     "detail": "send_local=2026-10-29T08:33:00-07:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-29T15:33:01Z",
+    "ts_local": "2026-10-29T08:33:01-07:00",
+    "detail": ""
    }
   ],
   "name": "Marie Auger‐Méthé",
@@ -31588,7 +31594,7 @@
   "slot_utc": "2026-10-29T15:30:00Z",
   "send_utc": "2026-10-29T15:33:00Z",
   "send_local": "2026-10-29T08:33:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
