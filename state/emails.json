@@ -24972,6 +24972,12 @@
     "ts_utc": "2026-10-29T07:30:03Z",
     "ts_local": "2026-10-29T08:30:03+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-29T10:10:57Z",
+    "ts_local": "2026-10-29T11:10:57+01:00",
+    "detail": ""
    }
   ],
   "name": "Chris Develder",
@@ -24988,9 +24994,9 @@
   "slot_utc": "2026-10-29T07:30:00Z",
   "send_utc": "2026-10-29T07:30:00Z",
   "send_local": "2026-10-29T08:30:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 86
  },
  {
   "id": "P0793",
