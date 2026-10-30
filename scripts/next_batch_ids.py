@@ -2,14 +2,14 @@
 """Print the ids of the next batch of drafts to queue (the weekday rule), comma-separated.
 
 The rule (Ruturva, 2026-10-20; raised 2026-10-27): queue one batch every weekday, skipping nothing.
-Since 2026-10-29 a batch is 300: 100 environmental + 200 pure AI/ML.
+Since 2026-10-30 a batch is 500: 167 environmental + 333 pure AI/ML (1 : 2).
 Order within a track (Ruturva, 2026-10-29): the university's CSRankings rank, best first (`csr_rank`
 in professors.json, from src/source/csr_rank.py; universities CSRankings does not list come last).
 Order: CSRankings rank of the university, then draft batch and id, interleaving environmental and `track == "pure_ml"` rows in the batch's ratio. A draft is skipped only if it is already in the repo
 state or the local queue, if it is no longer sendable, or if the professor has an `email_alt`
 (two recipients need the email_alt code to be pushed to the public repo first).
 
-Usage:  python scripts/next_batch_ids.py [--limit 300] [--pure 200]
+Usage:  python scripts/next_batch_ids.py [--limit 500] [--pure 333]
 Carry-over (Ruturva, 2026-10-26): mails that missed their slot are rescheduled by the runner and
 stay `scheduled` with a `rescheduled` event. They count toward the batch (they are not queued
 twice), and the track shares (100 env : 50 pure-ML) include them.
@@ -25,8 +25,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", type=int, default=300)
-    ap.add_argument("--pure", type=int, default=200, help="how many of the batch are pure AI/ML (the rest are environmental)")
+    ap.add_argument("--limit", type=int, default=500)
+    ap.add_argument("--pure", type=int, default=333, help="how many of the batch are pure AI/ML (the rest are environmental)")
     args = ap.parse_args()
 
     profs = {r["id"]: r for r in json.loads((ROOT / "data" / "professors.json").read_text())}
