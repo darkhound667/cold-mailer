@@ -3,7 +3,7 @@
 
 The rule (Ruturva, 2026-10-20; raised 2026-10-27): queue one batch every weekday, skipping nothing.
 Since 2026-10-30 a batch is 500: 167 environmental + 333 pure AI/ML (1 : 2).
-Order within a track (Ruturva, 2026-10-29): the university's CSRankings rank, best first (`csr_rank`
+Order within a track (Ruturva, 2026-10-29): rows with `priority` first (University of Bristol, 2026-10-30), then the university's CSRankings rank, best first (`csr_rank`
 in professors.json, from src/source/csr_rank.py; universities CSRankings does not list come last).
 Order: CSRankings rank of the university, then draft batch and id, interleaving environmental and `track == "pure_ml"` rows in the batch's ratio. A draft is skipped only if it is already in the repo
 state or the local queue, if it is no longer sendable, or if the professor has an `email_alt`
@@ -54,7 +54,7 @@ def main() -> None:
     # Alternate environmental and pure AI/ML professors (Ruturva, 2026-10-21); when one track runs
     # out, the other fills the batch. Within a track: draft batch order, then id (pure-ML ids
     # run from the best-ranked university down).
-    by_rank = sorted(todo, key=lambda t: (profs[t[1]].get("csr_rank", 9999), t[0], t[1]))
+    by_rank = sorted(todo, key=lambda t: (-profs[t[1]].get("priority", 0), profs[t[1]].get("csr_rank", 9999), t[0], t[1]))
     env = [pid for _, pid in by_rank if profs[pid].get("track") != "pure_ml"]
     pure = [pid for _, pid in by_rank if profs[pid].get("track") == "pure_ml"]
     carry_pure = sum(1 for pid in carry if profs.get(pid, {}).get("track") == "pure_ml")
