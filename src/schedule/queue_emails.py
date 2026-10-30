@@ -98,7 +98,11 @@ def cmd_queue(args) -> None:
     wanted = set(args.ids.split(",")) if args.ids else None
 
     picked, skipped = [], []
-    for path in sorted(REVIEW.glob("P*.md")):
+    # With --ids the order given is the mailing order (CSRankings rank, Bristol first): it becomes the
+    # queue_index and so the send minute inside a shared slot. Without --ids: draft order.
+    paths = ([REVIEW / f"{pid}.md" for pid in args.ids.split(",") if (REVIEW / f"{pid}.md").exists()]
+             if args.ids else sorted(REVIEW.glob("P*.md")))
+    for path in paths:
         pid = path.stem
         if pid in in_queue or (wanted and pid not in wanted):
             continue
