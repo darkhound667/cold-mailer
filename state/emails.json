@@ -31484,6 +31484,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T08:18:11+00:00",
     "detail": "send_local=2026-10-30T08:30:00+00:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-30T08:30:03Z",
+    "ts_local": "2026-10-30T08:30:03+00:00",
+    "detail": ""
    }
   ],
   "name": "Stefanos P. Zafeiriou",
@@ -31500,7 +31506,7 @@
   "slot_utc": "2026-10-30T08:30:00Z",
   "send_utc": "2026-10-30T08:30:00Z",
   "send_local": "2026-10-30T08:30:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
