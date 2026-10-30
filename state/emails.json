@@ -31490,6 +31490,12 @@
     "ts_utc": "2026-10-30T08:30:03Z",
     "ts_local": "2026-10-30T08:30:03+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-30T08:38:06Z",
+    "ts_local": "2026-10-30T08:38:06+00:00",
+    "detail": ""
    }
   ],
   "name": "Stefanos P. Zafeiriou",
@@ -31507,7 +31513,7 @@
   "send_utc": "2026-10-30T08:30:00Z",
   "send_local": "2026-10-30T08:30:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -31890,6 +31896,12 @@
     "ts_utc": "2026-10-30T08:33:01Z",
     "ts_local": "2026-10-30T08:33:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-30T08:38:06Z",
+    "ts_local": "2026-10-30T08:38:06+00:00",
+    "detail": ""
    }
   ],
   "name": "Louise J. Slater",
@@ -31907,7 +31919,7 @@
   "send_utc": "2026-10-30T08:33:00Z",
   "send_local": "2026-10-30T08:33:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -32290,6 +32302,12 @@
     "ts_utc": "2026-10-30T08:35:01Z",
     "ts_local": "2026-10-30T08:35:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-30T08:38:06Z",
+    "ts_local": "2026-10-30T08:38:06+00:00",
+    "detail": ""
    }
   ],
   "name": "Thomas A. A. Adcock",
@@ -32306,9 +32324,9 @@
   "slot_utc": "2026-10-30T08:30:00Z",
   "send_utc": "2026-10-30T08:35:00Z",
   "send_local": "2026-10-30T08:35:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 99
  },
  {
   "id": "P1365",
@@ -34526,6 +34544,12 @@
     "ts_utc": "2026-10-29T13:00:01Z",
     "ts_local": "2026-10-29T09:00:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-30T08:38:06Z",
+    "ts_local": "2026-10-30T04:38:06-04:00",
+    "detail": ""
    }
   ],
   "name": "Marie‐Josée Fortin",
@@ -34542,9 +34566,9 @@
   "slot_utc": "2026-10-29T12:30:00Z",
   "send_utc": "2026-10-29T13:00:00Z",
   "send_local": "2026-10-29T09:00:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 98
  },
  {
   "id": "P1948",
