@@ -38519,6 +38519,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:12:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-30T01:11:42Z",
+    "ts_local": "2026-10-30T09:11:42+08:00",
+    "detail": ""
    }
   ],
   "name": "Linghe Kong",
@@ -38533,11 +38539,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 937,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:12:00Z",
-  "send_local": "2026-10-30T09:12:00+08:00",
-  "status": "scheduled",
+  "send_utc": "2026-10-30T00:30:00Z",
+  "send_local": "2026-10-30T08:30:00+08:00",
+  "status": "sent",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P2537",
@@ -38567,11 +38574,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 938,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:13:00Z",
-  "send_local": "2026-10-30T09:13:00+08:00",
+  "send_utc": "2026-10-30T00:31:00Z",
+  "send_local": "2026-10-30T08:31:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P2538",
@@ -38601,11 +38609,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 939,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:14:00Z",
-  "send_local": "2026-10-30T09:14:00+08:00",
+  "send_utc": "2026-10-30T00:32:00Z",
+  "send_local": "2026-10-30T08:32:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P2539",
@@ -38635,11 +38644,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 940,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:15:00Z",
-  "send_local": "2026-10-30T09:15:00+08:00",
+  "send_utc": "2026-10-30T00:33:00Z",
+  "send_local": "2026-10-30T08:33:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P2540",
@@ -38669,11 +38679,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 941,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:16:00Z",
-  "send_local": "2026-10-30T09:16:00+08:00",
+  "send_utc": "2026-10-30T00:34:00Z",
+  "send_local": "2026-10-30T08:34:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P2541",
@@ -38703,11 +38714,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 942,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:17:00Z",
-  "send_local": "2026-10-30T09:17:00+08:00",
+  "send_utc": "2026-10-30T00:35:00Z",
+  "send_local": "2026-10-30T08:35:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P2542",
@@ -38737,11 +38749,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 943,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:18:00Z",
-  "send_local": "2026-10-30T09:18:00+08:00",
+  "send_utc": "2026-10-30T00:36:00Z",
+  "send_local": "2026-10-30T08:36:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P2543",
@@ -38771,11 +38784,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 944,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:19:00Z",
-  "send_local": "2026-10-30T09:19:00+08:00",
+  "send_utc": "2026-10-30T00:37:00Z",
+  "send_local": "2026-10-30T08:37:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 7
  },
  {
   "id": "P2544",
@@ -38805,11 +38819,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 945,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:20:00Z",
-  "send_local": "2026-10-30T09:20:00+08:00",
+  "send_utc": "2026-10-30T00:38:00Z",
+  "send_local": "2026-10-30T08:38:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 8
  },
  {
   "id": "P2545",
@@ -38839,11 +38854,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 946,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:21:00Z",
-  "send_local": "2026-10-30T09:21:00+08:00",
+  "send_utc": "2026-10-30T00:39:00Z",
+  "send_local": "2026-10-30T08:39:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 9
  },
  {
   "id": "P2546",
@@ -38873,11 +38889,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 947,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:22:00Z",
-  "send_local": "2026-10-30T09:22:00+08:00",
+  "send_utc": "2026-10-30T00:40:00Z",
+  "send_local": "2026-10-30T08:40:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 10
  },
  {
   "id": "P2547",
@@ -38907,11 +38924,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 948,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:23:00Z",
-  "send_local": "2026-10-30T09:23:00+08:00",
+  "send_utc": "2026-10-30T00:41:00Z",
+  "send_local": "2026-10-30T08:41:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 11
  },
  {
   "id": "P2548",
@@ -38941,11 +38959,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 949,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:24:00Z",
-  "send_local": "2026-10-30T09:24:00+08:00",
+  "send_utc": "2026-10-30T00:42:00Z",
+  "send_local": "2026-10-30T08:42:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 12
  },
  {
   "id": "P2549",
@@ -38975,11 +38994,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 950,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:25:00Z",
-  "send_local": "2026-10-30T09:25:00+08:00",
+  "send_utc": "2026-10-30T00:43:00Z",
+  "send_local": "2026-10-30T08:43:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 13
  },
  {
   "id": "P2550",
@@ -39009,11 +39029,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 951,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:26:00Z",
-  "send_local": "2026-10-30T09:26:00+08:00",
+  "send_utc": "2026-10-30T00:44:00Z",
+  "send_local": "2026-10-30T08:44:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 14
  },
  {
   "id": "P2551",
@@ -39043,11 +39064,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 952,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:27:00Z",
-  "send_local": "2026-10-30T09:27:00+08:00",
+  "send_utc": "2026-10-30T00:45:00Z",
+  "send_local": "2026-10-30T08:45:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 15
  },
  {
   "id": "P2552",
@@ -39077,11 +39099,12 @@
   "timezone": "Asia/Singapore",
   "queue_index": 953,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:28:00Z",
-  "send_local": "2026-10-30T09:28:00+08:00",
+  "send_utc": "2026-10-30T00:46:00Z",
+  "send_local": "2026-10-30T08:46:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 16
  },
  {
   "id": "P2553",
@@ -39111,11 +39134,12 @@
   "timezone": "Asia/Singapore",
   "queue_index": 954,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:29:00Z",
-  "send_local": "2026-10-30T09:29:00+08:00",
+  "send_utc": "2026-10-30T00:47:00Z",
+  "send_local": "2026-10-30T08:47:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 17
  },
  {
   "id": "P2554",
@@ -39145,11 +39169,12 @@
   "timezone": "Asia/Singapore",
   "queue_index": 955,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:30:00Z",
-  "send_local": "2026-10-30T09:30:00+08:00",
+  "send_utc": "2026-10-30T00:48:00Z",
+  "send_local": "2026-10-30T08:48:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 18
  },
  {
   "id": "P2555",
@@ -39179,11 +39204,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 956,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:31:00Z",
-  "send_local": "2026-10-30T09:31:00+08:00",
+  "send_utc": "2026-10-30T00:49:00Z",
+  "send_local": "2026-10-30T08:49:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 19
  },
  {
   "id": "P2556",
@@ -39213,11 +39239,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 957,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:32:00Z",
-  "send_local": "2026-10-30T09:32:00+08:00",
+  "send_utc": "2026-10-30T00:50:00Z",
+  "send_local": "2026-10-30T08:50:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 20
  },
  {
   "id": "P2557",
@@ -39247,11 +39274,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 958,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:33:00Z",
-  "send_local": "2026-10-30T09:33:00+08:00",
+  "send_utc": "2026-10-30T00:51:00Z",
+  "send_local": "2026-10-30T08:51:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 21
  },
  {
   "id": "P2558",
@@ -39281,11 +39309,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 959,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:34:00Z",
-  "send_local": "2026-10-30T09:34:00+08:00",
+  "send_utc": "2026-10-30T00:52:00Z",
+  "send_local": "2026-10-30T08:52:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 22
  },
  {
   "id": "P2559",
@@ -39315,11 +39344,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 960,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:35:00Z",
-  "send_local": "2026-10-30T09:35:00+08:00",
+  "send_utc": "2026-10-30T00:53:00Z",
+  "send_local": "2026-10-30T08:53:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 23
  },
  {
   "id": "P2560",
@@ -39349,11 +39379,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 961,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:36:00Z",
-  "send_local": "2026-10-30T09:36:00+08:00",
+  "send_utc": "2026-10-30T00:54:00Z",
+  "send_local": "2026-10-30T08:54:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 24
  },
  {
   "id": "P2561",
@@ -39543,11 +39574,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 966,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:37:00Z",
-  "send_local": "2026-10-30T09:37:00+08:00",
+  "send_utc": "2026-10-30T00:55:00Z",
+  "send_local": "2026-10-30T08:55:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 25
  },
  {
   "id": "P2566",
@@ -39577,11 +39609,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 967,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:38:00Z",
-  "send_local": "2026-10-30T09:38:00+08:00",
+  "send_utc": "2026-10-30T00:56:00Z",
+  "send_local": "2026-10-30T08:56:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 26
  },
  {
   "id": "P2567",
@@ -39611,11 +39644,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 968,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:39:00Z",
-  "send_local": "2026-10-30T09:39:00+08:00",
+  "send_utc": "2026-10-30T00:57:00Z",
+  "send_local": "2026-10-30T08:57:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 27
  },
  {
   "id": "P2568",
@@ -39645,11 +39679,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 969,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:40:00Z",
-  "send_local": "2026-10-30T09:40:00+08:00",
+  "send_utc": "2026-10-30T00:58:00Z",
+  "send_local": "2026-10-30T08:58:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 28
  },
  {
   "id": "P2569",
@@ -39679,11 +39714,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 970,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:41:00Z",
-  "send_local": "2026-10-30T09:41:00+08:00",
+  "send_utc": "2026-10-30T00:59:00Z",
+  "send_local": "2026-10-30T08:59:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 29
  },
  {
   "id": "P2570",
@@ -39713,11 +39749,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 971,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:42:00Z",
-  "send_local": "2026-10-30T09:42:00+08:00",
+  "send_utc": "2026-10-30T01:00:00Z",
+  "send_local": "2026-10-30T09:00:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 30
  },
  {
   "id": "P2571",
@@ -39747,11 +39784,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 972,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:43:00Z",
-  "send_local": "2026-10-30T09:43:00+08:00",
+  "send_utc": "2026-10-30T01:01:00Z",
+  "send_local": "2026-10-30T09:01:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 31
  },
  {
   "id": "P2572",
@@ -39781,11 +39819,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 973,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:44:00Z",
-  "send_local": "2026-10-30T09:44:00+08:00",
+  "send_utc": "2026-10-30T01:02:00Z",
+  "send_local": "2026-10-30T09:02:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 32
  },
  {
   "id": "P2573",
@@ -39815,11 +39854,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 974,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:45:00Z",
-  "send_local": "2026-10-30T09:45:00+08:00",
+  "send_utc": "2026-10-30T01:03:00Z",
+  "send_local": "2026-10-30T09:03:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 33
  },
  {
   "id": "P2574",
@@ -39849,11 +39889,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 975,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:46:00Z",
-  "send_local": "2026-10-30T09:46:00+08:00",
+  "send_utc": "2026-10-30T01:04:00Z",
+  "send_local": "2026-10-30T09:04:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 34
  },
  {
   "id": "P2575",
@@ -39883,11 +39924,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 976,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:47:00Z",
-  "send_local": "2026-10-30T09:47:00+08:00",
+  "send_utc": "2026-10-30T01:05:00Z",
+  "send_local": "2026-10-30T09:05:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 35
  },
  {
   "id": "P2576",
@@ -39917,11 +39959,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 977,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:48:00Z",
-  "send_local": "2026-10-30T09:48:00+08:00",
+  "send_utc": "2026-10-30T01:06:00Z",
+  "send_local": "2026-10-30T09:06:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 36
  },
  {
   "id": "P2577",
@@ -39951,11 +39994,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 978,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:49:00Z",
-  "send_local": "2026-10-30T09:49:00+08:00",
+  "send_utc": "2026-10-30T01:07:00Z",
+  "send_local": "2026-10-30T09:07:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 37
  },
  {
   "id": "P2578",
@@ -39985,11 +40029,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 979,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:50:00Z",
-  "send_local": "2026-10-30T09:50:00+08:00",
+  "send_utc": "2026-10-30T01:08:00Z",
+  "send_local": "2026-10-30T09:08:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 38
  },
  {
   "id": "P2579",
@@ -40019,11 +40064,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 980,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:51:00Z",
-  "send_local": "2026-10-30T09:51:00+08:00",
+  "send_utc": "2026-10-30T01:09:00Z",
+  "send_local": "2026-10-30T09:09:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 39
  },
  {
   "id": "P2580",
@@ -40053,11 +40099,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 981,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:52:00Z",
-  "send_local": "2026-10-30T09:52:00+08:00",
+  "send_utc": "2026-10-30T01:10:00Z",
+  "send_local": "2026-10-30T09:10:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 40
  },
  {
   "id": "P2581",
@@ -40087,11 +40134,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 982,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:53:00Z",
-  "send_local": "2026-10-30T09:53:00+08:00",
+  "send_utc": "2026-10-30T01:11:00Z",
+  "send_local": "2026-10-30T09:11:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 41
  },
  {
   "id": "P2582",
@@ -40121,11 +40169,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 983,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:54:00Z",
-  "send_local": "2026-10-30T09:54:00+08:00",
+  "send_utc": "2026-10-30T01:12:00Z",
+  "send_local": "2026-10-30T09:12:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 42
  },
  {
   "id": "P2583",
@@ -40155,11 +40204,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 984,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:55:00Z",
-  "send_local": "2026-10-30T09:55:00+08:00",
+  "send_utc": "2026-10-30T01:13:00Z",
+  "send_local": "2026-10-30T09:13:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 43
  },
  {
   "id": "P2584",
@@ -40189,11 +40239,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 985,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:56:00Z",
-  "send_local": "2026-10-30T09:56:00+08:00",
+  "send_utc": "2026-10-30T01:14:00Z",
+  "send_local": "2026-10-30T09:14:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 44
  },
  {
   "id": "P2585",
@@ -40223,11 +40274,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 986,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:57:00Z",
-  "send_local": "2026-10-30T09:57:00+08:00",
+  "send_utc": "2026-10-30T01:15:00Z",
+  "send_local": "2026-10-30T09:15:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 45
  },
  {
   "id": "P2586",
@@ -40257,11 +40309,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 987,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:58:00Z",
-  "send_local": "2026-10-30T09:58:00+08:00",
+  "send_utc": "2026-10-30T01:16:00Z",
+  "send_local": "2026-10-30T09:16:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 46
  },
  {
   "id": "P2587",
@@ -40291,11 +40344,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 988,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T01:59:00Z",
-  "send_local": "2026-10-30T09:59:00+08:00",
+  "send_utc": "2026-10-30T01:17:00Z",
+  "send_local": "2026-10-30T09:17:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 47
  },
  {
   "id": "P2588",
@@ -40325,11 +40379,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 989,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:00:00Z",
-  "send_local": "2026-10-30T10:00:00+08:00",
+  "send_utc": "2026-10-30T01:18:00Z",
+  "send_local": "2026-10-30T09:18:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 48
  },
  {
   "id": "P2589",
@@ -40359,11 +40414,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 990,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:01:00Z",
-  "send_local": "2026-10-30T10:01:00+08:00",
+  "send_utc": "2026-10-30T01:19:00Z",
+  "send_local": "2026-10-30T09:19:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 49
  },
  {
   "id": "P2590",
@@ -40393,11 +40449,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 991,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:02:00Z",
-  "send_local": "2026-10-30T10:02:00+08:00",
+  "send_utc": "2026-10-30T01:20:00Z",
+  "send_local": "2026-10-30T09:20:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 50
  },
  {
   "id": "P2591",
@@ -40427,11 +40484,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 992,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:03:00Z",
-  "send_local": "2026-10-30T10:03:00+08:00",
+  "send_utc": "2026-10-30T01:21:00Z",
+  "send_local": "2026-10-30T09:21:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 51
  },
  {
   "id": "P2592",
@@ -40461,11 +40519,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 993,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:04:00Z",
-  "send_local": "2026-10-30T10:04:00+08:00",
+  "send_utc": "2026-10-30T01:22:00Z",
+  "send_local": "2026-10-30T09:22:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 52
  },
  {
   "id": "P2593",
@@ -40495,11 +40554,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 994,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:05:00Z",
-  "send_local": "2026-10-30T10:05:00+08:00",
+  "send_utc": "2026-10-30T01:23:00Z",
+  "send_local": "2026-10-30T09:23:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 53
  },
  {
   "id": "P2594",
@@ -40529,11 +40589,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 995,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:06:00Z",
-  "send_local": "2026-10-30T10:06:00+08:00",
+  "send_utc": "2026-10-30T01:24:00Z",
+  "send_local": "2026-10-30T09:24:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 54
  },
  {
   "id": "P2595",
@@ -40563,11 +40624,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 996,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:07:00Z",
-  "send_local": "2026-10-30T10:07:00+08:00",
+  "send_utc": "2026-10-30T01:25:00Z",
+  "send_local": "2026-10-30T09:25:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 55
  },
  {
   "id": "P2596",
@@ -40597,11 +40659,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 997,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:08:00Z",
-  "send_local": "2026-10-30T10:08:00+08:00",
+  "send_utc": "2026-10-30T01:26:00Z",
+  "send_local": "2026-10-30T09:26:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 56
  },
  {
   "id": "P2597",
@@ -40631,11 +40694,12 @@
   "timezone": "Asia/Shanghai",
   "queue_index": 998,
   "slot_utc": "2026-10-30T00:30:00Z",
-  "send_utc": "2026-10-30T02:09:00Z",
-  "send_local": "2026-10-30T10:09:00+08:00",
+  "send_utc": "2026-10-30T01:27:00Z",
+  "send_local": "2026-10-30T09:27:00+08:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 57
  },
  {
   "id": "P2598",
