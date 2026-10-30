@@ -39636,6 +39636,12 @@
     "ts_utc": "2026-10-29T13:23:01Z",
     "ts_local": "2026-10-29T09:23:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-30T03:07:56Z",
+    "ts_local": "2026-10-29T23:07:56-04:00",
+    "detail": ""
    }
   ],
   "name": "Shixiang Zhu",
@@ -39652,9 +39658,9 @@
   "slot_utc": "2026-10-29T12:30:00Z",
   "send_utc": "2026-10-29T13:23:00Z",
   "send_local": "2026-10-29T09:23:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 96
  },
  {
   "id": "P2564",
