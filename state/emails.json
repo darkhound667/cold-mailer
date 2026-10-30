@@ -37279,6 +37279,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T08:41:00+08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-30T00:41:01Z",
+    "ts_local": "2026-10-30T08:41:01+08:00",
+    "detail": ""
    }
   ],
   "name": "Yuan Meng",
@@ -37295,7 +37301,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:41:00Z",
   "send_local": "2026-10-30T08:41:00+08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
