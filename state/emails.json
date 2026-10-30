@@ -33774,6 +33774,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T09:18:11+01:00",
     "detail": "send_local=2026-10-30T08:35:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-10-30T07:35:01Z",
+    "ts_local": "2026-10-30T08:35:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Eigil Kaas",
@@ -33790,7 +33796,7 @@
   "slot_utc": "2026-10-30T07:30:00Z",
   "send_utc": "2026-10-30T07:35:00Z",
   "send_local": "2026-10-30T08:35:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
