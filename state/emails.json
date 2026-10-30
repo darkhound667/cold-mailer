@@ -23667,6 +23667,12 @@
     "ts_utc": "2026-10-27T01:41:01Z",
     "ts_local": "2026-10-27T09:41:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-30T01:33:25Z",
+    "ts_local": "2026-10-30T09:33:25+08:00",
+    "detail": ""
    }
   ],
   "name": "Shaofeng H.-C. Jiang",
@@ -23683,9 +23689,9 @@
   "slot_utc": "2026-10-27T00:30:00Z",
   "send_utc": "2026-10-27T01:41:00Z",
   "send_local": "2026-10-27T09:41:00+08:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 95
  },
  {
   "id": "P2170",
