@@ -3204,3 +3204,51 @@
 {"id": "P2543", "event": "sent", "ts_utc": "2026-10-30T01:12:15Z", "ts_local": "2026-10-30T09:12:15+08:00", "detail": ""}
 {"id": "P2544", "event": "sent", "ts_utc": "2026-10-30T01:12:19Z", "ts_local": "2026-10-30T09:12:19+08:00", "detail": ""}
 {"id": "P2545", "event": "sent", "ts_utc": "2026-10-30T01:12:23Z", "ts_local": "2026-10-30T09:12:23+08:00", "detail": ""}
+{"id": "P2546", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "SMTPSenderRefused 450"}
+{"id": "P2547", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2548", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2549", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2550", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2551", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2552", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2553", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2554", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2555", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2556", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2557", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2558", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2559", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2560", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2565", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2566", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2567", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2568", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2569", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2570", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2571", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2572", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2573", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2574", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2575", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2576", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2577", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2578", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2579", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2580", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2581", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2582", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2583", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2584", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2585", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2586", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2587", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2588", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2589", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2590", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2591", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2592", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2593", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2594", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2595", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2596", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}
+{"id": "P2597", "event": "failed", "ts_utc": "2026-10-30T01:12:27Z", "ts_local": "2026-10-30T09:12:27+08:00", "detail": "slot stopped after the error on P2546"}

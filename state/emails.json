@@ -38929,6 +38929,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:22:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "SMTPSenderRefused 450"
    }
   ],
   "name": "Guanjie Zheng",
@@ -38945,7 +38951,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:40:00Z",
   "send_local": "2026-10-30T08:40:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 10
@@ -38964,6 +38970,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:23:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Weiwen Liu",
@@ -38980,7 +38992,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:41:00Z",
   "send_local": "2026-10-30T08:41:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 11
@@ -38999,6 +39011,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:24:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Dequan Wang",
@@ -39015,7 +39033,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:42:00Z",
   "send_local": "2026-10-30T08:42:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 12
@@ -39034,6 +39052,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:25:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Shizhen Zhao",
@@ -39050,7 +39074,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:43:00Z",
   "send_local": "2026-10-30T08:43:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 13
@@ -39069,6 +39093,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:26:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yu Guang Wang",
@@ -39085,7 +39115,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:44:00Z",
   "send_local": "2026-10-30T08:44:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 14
@@ -39104,6 +39134,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:27:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Xijun Li",
@@ -39120,7 +39156,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:45:00Z",
   "send_local": "2026-10-30T08:45:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 15
@@ -39139,6 +39175,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:28:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Aixin Sun",
@@ -39155,7 +39197,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:46:00Z",
   "send_local": "2026-10-30T08:46:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 16
@@ -39174,6 +39216,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:29:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yonggang Wen",
@@ -39190,7 +39238,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:47:00Z",
   "send_local": "2026-10-30T08:47:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 17
@@ -39209,6 +39257,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:30:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Jiawang Bian",
@@ -39225,7 +39279,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:48:00Z",
   "send_local": "2026-10-30T08:48:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 18
@@ -39244,6 +39298,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:31:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Hujun Bao",
@@ -39260,7 +39320,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:49:00Z",
   "send_local": "2026-10-30T08:49:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 19
@@ -39279,6 +39339,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:32:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Ying Wei",
@@ -39295,7 +39361,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:50:00Z",
   "send_local": "2026-10-30T08:50:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 20
@@ -39314,6 +39380,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:33:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Deng Cai",
@@ -39330,7 +39402,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:51:00Z",
   "send_local": "2026-10-30T08:51:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 21
@@ -39349,6 +39421,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:34:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Bohan Zhuang",
@@ -39365,7 +39443,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:52:00Z",
   "send_local": "2026-10-30T08:52:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 22
@@ -39384,6 +39462,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:35:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Guofeng Zhang",
@@ -39400,7 +39484,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:53:00Z",
   "send_local": "2026-10-30T08:53:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 23
@@ -39419,6 +39503,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:36:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yang Yang",
@@ -39435,7 +39525,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:54:00Z",
   "send_local": "2026-10-30T08:54:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 24
@@ -39614,6 +39704,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:37:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Zhi-Hua Zhou",
@@ -39630,7 +39726,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:55:00Z",
   "send_local": "2026-10-30T08:55:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 25
@@ -39649,6 +39745,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:38:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Shujian Huang",
@@ -39665,7 +39767,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:56:00Z",
   "send_local": "2026-10-30T08:56:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 26
@@ -39684,6 +39786,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:39:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Chao Qian",
@@ -39700,7 +39808,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:57:00Z",
   "send_local": "2026-10-30T08:57:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 27
@@ -39719,6 +39827,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:40:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Jiajun Chen",
@@ -39735,7 +39849,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:58:00Z",
   "send_local": "2026-10-30T08:58:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 28
@@ -39754,6 +39868,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:41:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Ying Tai",
@@ -39770,7 +39890,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T00:59:00Z",
   "send_local": "2026-10-30T08:59:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 29
@@ -39789,6 +39909,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:42:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Peng Zhao",
@@ -39805,7 +39931,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:00:00Z",
   "send_local": "2026-10-30T09:00:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 30
@@ -39824,6 +39950,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:43:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wei Hu",
@@ -39840,7 +39972,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:01:00Z",
   "send_local": "2026-10-30T09:01:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 31
@@ -39859,6 +39991,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:44:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Lan-Zhe Guo",
@@ -39875,7 +40013,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:02:00Z",
   "send_local": "2026-10-30T09:02:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 32
@@ -39894,6 +40032,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:45:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Zongzhang Zhang",
@@ -39910,7 +40054,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:03:00Z",
   "send_local": "2026-10-30T09:03:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 33
@@ -39929,6 +40073,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:46:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Shuo Chen",
@@ -39945,7 +40095,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:04:00Z",
   "send_local": "2026-10-30T09:04:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 34
@@ -39964,6 +40114,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:47:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Xun Cao",
@@ -39980,7 +40136,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:05:00Z",
   "send_local": "2026-10-30T09:05:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 35
@@ -39999,6 +40155,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:48:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Jiaheng Liu",
@@ -40015,7 +40177,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:06:00Z",
   "send_local": "2026-10-30T09:06:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 36
@@ -40034,6 +40196,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:49:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Kai Zhang",
@@ -40050,7 +40218,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:07:00Z",
   "send_local": "2026-10-30T09:07:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 37
@@ -40069,6 +40237,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:50:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yao Yao",
@@ -40085,7 +40259,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:08:00Z",
   "send_local": "2026-10-30T09:08:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 38
@@ -40104,6 +40278,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:51:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Lingxiao Huang",
@@ -40120,7 +40300,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:09:00Z",
   "send_local": "2026-10-30T09:09:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 39
@@ -40139,6 +40319,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:52:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wei Ji",
@@ -40155,7 +40341,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:10:00Z",
   "send_local": "2026-10-30T09:10:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 40
@@ -40174,6 +40360,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:53:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yanbo Fan",
@@ -40190,7 +40382,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:11:00Z",
   "send_local": "2026-10-30T09:11:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 41
@@ -40209,6 +40401,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:54:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Tong Lu",
@@ -40225,7 +40423,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:12:00Z",
   "send_local": "2026-10-30T09:12:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 42
@@ -40244,6 +40442,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:55:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Da-Wei Zhou",
@@ -40260,7 +40464,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:13:00Z",
   "send_local": "2026-10-30T09:13:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 43
@@ -40279,6 +40483,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:56:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Chunlin Chen",
@@ -40295,7 +40505,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:14:00Z",
   "send_local": "2026-10-30T09:14:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 44
@@ -40314,6 +40524,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:57:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wenbin Li",
@@ -40330,7 +40546,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:15:00Z",
   "send_local": "2026-10-30T09:15:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 45
@@ -40349,6 +40565,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:58:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Xiao-Tong Yuan",
@@ -40365,7 +40587,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:16:00Z",
   "send_local": "2026-10-30T09:16:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 46
@@ -40384,6 +40606,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T09:59:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Zhenyu Zhang",
@@ -40400,7 +40628,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:17:00Z",
   "send_local": "2026-10-30T09:17:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 47
@@ -40419,6 +40647,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:00:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Chenyang Si",
@@ -40435,7 +40669,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:18:00Z",
   "send_local": "2026-10-30T09:18:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 48
@@ -40454,6 +40688,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:01:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Gong Cheng",
@@ -40470,7 +40710,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:19:00Z",
   "send_local": "2026-10-30T09:19:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 49
@@ -40489,6 +40729,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:02:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yu-Bin Yang",
@@ -40505,7 +40751,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:20:00Z",
   "send_local": "2026-10-30T09:20:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 50
@@ -40524,6 +40770,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:03:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Kai Ming Ting",
@@ -40540,7 +40792,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:21:00Z",
   "send_local": "2026-10-30T09:21:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 51
@@ -40559,6 +40811,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:04:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wang-Zhou Dai",
@@ -40575,7 +40833,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:22:00Z",
   "send_local": "2026-10-30T09:22:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 52
@@ -40594,6 +40852,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:05:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wei Gao",
@@ -40610,7 +40874,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:23:00Z",
   "send_local": "2026-10-30T09:23:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 53
@@ -40629,6 +40893,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:06:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yuhang Song",
@@ -40645,7 +40915,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:24:00Z",
   "send_local": "2026-10-30T09:24:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 54
@@ -40664,6 +40934,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:07:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Tianpei Yang",
@@ -40680,7 +40956,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:25:00Z",
   "send_local": "2026-10-30T09:25:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 55
@@ -40699,6 +40975,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:08:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Wan-Chun Dou",
@@ -40715,7 +40997,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:26:00Z",
   "send_local": "2026-10-30T09:26:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 56
@@ -40734,6 +41016,12 @@
     "ts_utc": "2026-10-29T08:18:11Z",
     "ts_local": "2026-10-29T16:18:11+08:00",
     "detail": "send_local=2026-10-30T10:09:00+08:00"
+   },
+   {
+    "event": "failed",
+    "ts_utc": "2026-10-30T01:12:27Z",
+    "ts_local": "2026-10-30T09:12:27+08:00",
+    "detail": "slot stopped after the error on P2546"
    }
   ],
   "name": "Yuankai Luo",
@@ -40750,7 +41038,7 @@
   "slot_utc": "2026-10-30T00:30:00Z",
   "send_utc": "2026-10-30T01:27:00Z",
   "send_local": "2026-10-30T09:27:00+08:00",
-  "status": "scheduled",
+  "status": "failed",
   "reply_label": "",
   "issue": null,
   "position": 57
