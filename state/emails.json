@@ -29210,6 +29210,12 @@
     "ts_utc": "2026-10-28T12:52:01Z",
     "ts_local": "2026-10-28T08:52:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-30T18:15:20Z",
+    "ts_local": "2026-10-30T14:15:20-04:00",
+    "detail": ""
    }
   ],
   "name": "Kavita Bala",
@@ -29226,9 +29232,9 @@
   "slot_utc": "2026-10-28T12:30:00Z",
   "send_utc": "2026-10-28T12:52:00Z",
   "send_local": "2026-10-28T08:52:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 106
  },
  {
   "id": "P2206",
