@@ -32568,6 +32568,12 @@
     "ts_utc": "2026-10-30T07:32:01Z",
     "ts_local": "2026-10-30T08:32:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-10-30T07:40:07Z",
+    "ts_local": "2026-10-30T08:40:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Torsten Hoefler",
@@ -32585,7 +32591,7 @@
   "send_utc": "2026-10-30T07:32:00Z",
   "send_local": "2026-10-30T08:32:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
