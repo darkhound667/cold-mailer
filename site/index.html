@@ -71,6 +71,8 @@
   .sec.over { background:color-mix(in srgb, var(--accent) 6%, transparent); border-radius:8px; }
   .pitem { position:relative; } .pitem[draggable=true] { cursor:grab; } .pitem.drag { opacity:.4; }
   .pitem.before { box-shadow:0 -2px 0 var(--accent); } .pitem.after { box-shadow:0 2px 0 var(--accent); }
+  .pitem textarea.note { width:100%; margin-top:6px; padding:4px 6px; font:inherit; font-size:12px; resize:vertical; background:var(--bg); color:var(--text); border:1px solid var(--line); border-radius:6px; }
+  .note-view { margin:4px 0 8px; padding:8px 10px; border-left:3px solid var(--ok); background:color-mix(in srgb, var(--ok) 8%, transparent); white-space:pre-wrap; }
   .pitem .mv { position:absolute; top:6px; right:6px; padding:0 6px; font-size:12px; background:transparent; color:var(--muted); border-color:var(--line); }
   @media (max-width:760px) { .chat { grid-template-columns:1fr; } .plist, #thread { max-height:none; } .msg { max-width:100%; } }
 </style>
@@ -257,6 +259,11 @@ try { const saved = JSON.parse(localStorage.getItem(LKEY) || "{}");
   LAYOUT = {...LAYOUT, ...saved, order: {badhi: [], replied: [], ...(saved.order || {})}, sec: saved.sec || {}}; } catch (e) {}
 const saveLayout = () => { try { localStorage.setItem(LKEY, JSON.stringify(LAYOUT)); } catch (e) {} };
 let DRAG = null;
+// Your own 1-2 line summary per professor (shown for "Baat Aage Badhi"); kept in this browser only: localStorage cm_notes_v1.
+const NKEY = "cm_notes_v1";
+let NOTES = {};
+try { NOTES = JSON.parse(localStorage.getItem(NKEY) || "{}"); } catch (e) {}
+const saveNotes = () => { try { localStorage.setItem(NKEY, JSON.stringify(NOTES)); } catch (e) {} };
 // "Baat Aage Badhi": professors you have written back to (your own mail after the first), unless you moved them yourself.
 const wroteBack = t => t.messages.filter(m => m.dir === "out").length >= 2;
 const sectionOf = x => LAYOUT.sec[x.id] || (wroteBack(x.t) ? "badhi" : "replied");
@@ -295,7 +302,8 @@ function plist() {
       <button class="mv" title="Move to the other section">⇄</button>
       <b>${esc(x.r.name)}${x.r.reply_label && x.r.reply_label !== "unclear" ? `<span class="tag ${esc(x.r.reply_label)}">${esc(x.r.reply_label)}</span>` : ""}</b>
       <small>${esc(x.r.university)} · ${esc(x.r.country)}</small>
-      <small>${n ? n + " message" + (n > 1 ? "s" : "") + " · last " + esc(fmt(last.date_utc)) + (last.dir === "in" ? " · they wrote last" : " · you wrote last") : "syncing…"}</small></div>`;
+      <small>${n ? n + " message" + (n > 1 ? "s" : "") + " · last " + esc(fmt(last.date_utc)) + (last.dir === "in" ? " · they wrote last" : " · you wrote last") : "syncing…"}</small>
+      ${sectionOf(x) === "badhi" ? `<textarea class="note" rows="2" maxlength="500" placeholder="Where things stand (1-2 lines)…">${esc(NOTES[x.id] || "")}</textarea>` : ""}</div>`;
   };
   const section = (s, title, hint, shown, extra) => `<div class="sec ${s}" data-sec="${s}"><h3>${title} <span class="muted">(${shown.length})</span>${extra || ""}</h3>` +
     (shown.map(card).join("") || `<div class="empty">${hint}</div>`) + "</div>";
@@ -309,6 +317,13 @@ function plist() {
       neg.length ? `<label><input type="checkbox" id="hideneg"${LAYOUT.hideNeg ? " checked" : ""}> hide negative (${neg.length})</label>` : "");
   const hn = document.getElementById("hideneg");
   if (hn) hn.addEventListener("change", () => { LAYOUT.hideNeg = hn.checked; saveLayout(); plist(); });
+  document.querySelectorAll(".pitem textarea.note").forEach(t => {
+    const card = t.closest(".pitem");
+    t.addEventListener("click", ev => ev.stopPropagation());  // typing must not open the thread
+    t.addEventListener("focus", () => { card.draggable = false; });  // so text can be selected inside the box
+    t.addEventListener("blur", () => { card.draggable = true; });
+    t.addEventListener("input", () => { if (t.value.trim()) NOTES[card.dataset.id] = t.value; else delete NOTES[card.dataset.id]; saveNotes(); });
+  });
   document.querySelectorAll(".pitem").forEach(el => {
     el.addEventListener("click", () => openThread(el.dataset.id));
     el.querySelector(".mv").addEventListener("click", ev => { ev.stopPropagation();
@@ -345,6 +360,7 @@ function openThread(id) {
   document.querySelectorAll(".pitem").forEach(el => el.classList.toggle("on", el.dataset.id === id));
   document.getElementById("thread").innerHTML = `<h2>${esc(r.name)}</h2>
     <p class="muted">${esc(r.university)} · ${esc(r.country)}${r.reply_label ? " · " + esc(r.reply_label) : ""}</p>` +
+    (NOTES[id] ? `<div class="note-view">${esc(NOTES[id])}</div>` : "") +
     (t.messages.length ? t.messages.map((m, i) => {
       const [main, quoted] = splitQuote(m.text || "");
       return `<div class="msg ${m.dir}">
