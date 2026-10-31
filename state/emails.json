@@ -31348,6 +31348,12 @@
     "ts_utc": "2026-10-29T12:31:01Z",
     "ts_local": "2026-10-29T08:31:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-10-31T09:52:22Z",
+    "ts_local": "2026-10-31T05:52:22-04:00",
+    "detail": ""
    }
   ],
   "name": "Carlo Ratti",
@@ -31364,9 +31370,9 @@
   "slot_utc": "2026-10-29T12:30:00Z",
   "send_utc": "2026-10-29T12:31:00Z",
   "send_local": "2026-10-29T08:31:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 108
  },
  {
   "id": "P1173",
