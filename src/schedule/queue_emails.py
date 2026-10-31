@@ -28,7 +28,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from schedule.scheduler import next_slot  # noqa: E402
-from schedule.slots import assign_send_times  # noqa: E402
+from schedule.placement import place_send_times  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA, REVIEW = ROOT / "data", ROOT / "review"
@@ -79,15 +79,18 @@ def load_queue() -> list:
 
 
 def respace(queue: list) -> None:
-    """Recompute the per-minute send times of every scheduled email (stable by queue order)."""
+    """Recompute the send minute of every scheduled email: one per minute across ALL slots, a mail whose
+    minute is taken moves to the next valid day (schedule/placement.py)."""
     active = [q for q in queue if q["status"] == "scheduled"]
-    spaced = assign_send_times([{"id": q["id"], "queue_index": q["queue_index"], "timezone": q["timezone"],
-                                 "slot_utc": datetime.fromisoformat(q["slot_utc"].replace("Z", "+00:00"))}
-                                for q in active])
-    by_id = {s["id"]: s for s in spaced}
+    placed = place_send_times([{"id": q["id"], "queue_index": q["queue_index"], "timezone": q["timezone"],
+                                "country": q["country"], "slot_utc": datetime.fromisoformat(q["slot_utc"].replace("Z", "+00:00")),
+                                "send_utc": datetime.fromisoformat(q["send_utc"].replace("Z", "+00:00")) if q.get("send_utc") else None}
+                               for q in active], cap=SLOT_CAP)
+    by_id = {s["id"]: s for s in placed}
     for q in active:
         s = by_id[q["id"]]
-        q.update(send_utc=iso(s["send_utc"]), send_local=s["send_local"].isoformat(), position=s["position"])
+        q.update(slot_utc=iso(s["slot_utc"]), send_utc=iso(s["send_utc"]), send_local=s["send_local"].isoformat(),
+                 position=s["position"])
 
 
 def cmd_queue(args) -> None:
@@ -116,14 +119,10 @@ def cmd_queue(args) -> None:
         if len(picked) == min(args.limit, BATCH_CAP):
             break
 
-    per_slot = Counter(q["slot_utc"] for q in queue if q["status"] == "scheduled")
     next_index = max((q["queue_index"] for q in queue), default=0) + 1
     new = []
     for path, d, p in picked:
-        slot = next_slot(p["timezone"], p["country"], now)
-        while per_slot[iso(slot)] >= SLOT_CAP:  # full slot: spill to the next valid day
-            slot = next_slot(p["timezone"], p["country"], slot)
-        per_slot[iso(slot)] += 1
+        slot = next_slot(p["timezone"], p["country"], now)  # a full slot or a taken minute spills in respace()
         new.append({"id": d["id"], "to": d["to"], "subject": d["subject"], "attachment": d["attachment"],
                     "sha256": text_hash(d), "queue_index": next_index, "queued_utc": iso(now),
                     "timezone": p["timezone"], "country": p["country"], "slot_utc": iso(slot),
@@ -134,7 +133,7 @@ def cmd_queue(args) -> None:
     respace(queue)
     for pid, why in skipped:
         print(f"  skipped {pid}: {why}")
-    print(f"{'DRY RUN: ' if args.dry_run else ''}queued {len(new)} (cap {BATCH_CAP} per call, {SLOT_CAP} per slot)")
+    print(f"{'DRY RUN: ' if args.dry_run else ''}queued {len(new)} (cap {BATCH_CAP} per call, {SLOT_CAP} per slot, one per minute)")
     for n in sorted(new, key=lambda q: q["send_utc"]):
         print(f"  {n['id']}  {n['send_local'][:16].replace('T', ' ')} {n['timezone']:<22} ({n['send_utc'][:16]}Z)  {profs[n['id']]['name']}")
     if args.dry_run:

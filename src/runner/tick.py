@@ -38,7 +38,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from runner import crypto, mailio, threads  # noqa: E402
 from runner.state import State, iso, parse, text_hash  # noqa: E402
 from schedule.scheduler import LATE_WINDOW, next_slot  # noqa: E402
-from schedule.slots import assign_send_times  # noqa: E402
+from schedule.placement import place_send_times  # noqa: E402
 
 LOOKAHEAD = timedelta(minutes=30)
 HEARTBEAT_GAP = timedelta(minutes=40)
@@ -123,14 +123,22 @@ def git_checkpoint(st: State, key: bytes, cfg: Config) -> None:
 
 
 def respace(st: State) -> None:
+    """One mail per minute across every slot (schedule/placement.py): a mail whose minute is taken
+    moves to the next valid day."""
     active = [r for r in st.emails if r["status"] == "scheduled"]
-    spaced = assign_send_times([{"id": r["id"], "queue_index": r["queue_index"], "timezone": r["timezone"],
-                                 "slot_utc": parse(r["slot_utc"])} for r in active])
-    by_id = {s["id"]: s for s in spaced}
+    placed = place_send_times([{"id": r["id"], "queue_index": r["queue_index"], "timezone": r["timezone"],
+                                "country": r["country"], "slot_utc": parse(r["slot_utc"]),
+                                "send_utc": parse(r["send_utc"]) if r.get("send_utc") else None}
+                               for r in active], cap=SLOT_CAP)
+    by_id = {s["id"]: s for s in placed}
+    now = datetime.now(timezone.utc)
     for r in active:
         s = by_id[r["id"]]
         new = (iso(s["send_utc"]), s["send_local"].isoformat())
         if (r.get("send_utc"), r.get("send_local")) != new:
+            if s["moved"]:
+                st.event(r, "rescheduled", now, f"minute already taken by another email: moved from {r.get('send_local')}")
+                r["slot_utc"] = iso(s["slot_utc"])
             r["send_utc"], r["send_local"], r["position"] = new[0], new[1], s["position"]
             st.changed = True
 

@@ -125,8 +125,8 @@ class QueueTests(unittest.TestCase):
         q = {x["id"]: x for x in json.loads(qe.QUEUE.read_text())}
         self.assertEqual(q["P0002"]["status"], "pulled")
         self.assertIn("status: edited", p.read_text())
-        # the rest of the Berlin slot closes the gap left by the pulled email
-        self.assertEqual(sorted(q[i]["send_local"][11:16] for i in ("P0001", "P0003")), ["08:30", "08:31"])
+        # the rest of the Berlin slot keeps its minutes: the gap stays, so nobody lands on another slot's minute
+        self.assertEqual(sorted(q[i]["send_local"][11:16] for i in ("P0001", "P0003")), ["08:30", "08:32"])
 
     def test_slot_cap_spills_to_next_valid_day(self):
         qe.SLOT_CAP = 2
@@ -146,3 +146,31 @@ class QueueTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PlacementTests(unittest.TestCase):
+    """schedule/placement.py: one mail per minute across every slot, clashes go to the next valid day."""
+
+    def row(self, pid, idx, tz, country, slot, send=None):
+        return {"id": pid, "queue_index": idx, "timezone": tz, "country": country,
+                "slot_utc": datetime.fromisoformat(slot), "send_utc": datetime.fromisoformat(send) if send else None}
+
+    def test_overlapping_slots_never_share_a_minute(self):
+        from schedule.placement import place_send_times
+        rows = [self.row(f"A{i}", i, "Europe/Berlin", "DE", "2026-11-02T07:30:00+00:00") for i in range(60)]
+        rows += [self.row(f"B{i}", 100 + i, "Europe/London", "GB", "2026-11-02T08:00:00+00:00") for i in range(60)]
+        out = place_send_times(rows)
+        self.assertEqual(len({r["send_utc"] for r in out}), 120)
+        by = {r["id"]: r for r in out}
+        self.assertFalse(by["A0"]["moved"])
+        self.assertTrue(by["B30"]["moved"])  # 08:30Z is the 60th minute of A, B's 31st position
+        self.assertGreater(by["B30"]["slot_utc"], datetime.fromisoformat("2026-11-02T08:00:00+00:00"))
+
+    def test_existing_minutes_are_sticky_and_clash_goes_to_later_mail(self):
+        from schedule.placement import place_send_times
+        a = self.row("A", 1, "Europe/Berlin", "DE", "2026-11-02T07:30:00+00:00", "2026-11-02T08:00:00+00:00")
+        b = self.row("B", 2, "Europe/London", "GB", "2026-11-02T08:00:00+00:00", "2026-11-02T08:00:00+00:00")
+        out = {r["id"]: r for r in place_send_times([a, b])}
+        self.assertEqual(out["A"]["send_utc"], a["send_utc"])
+        self.assertTrue(out["B"]["moved"])
+        self.assertEqual(out["B"]["slot_utc"].date().isoformat(), "2026-11-03")

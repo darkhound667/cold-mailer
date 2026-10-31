@@ -46932,6 +46932,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:00:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:00:00+11:00"
    }
   ],
   "name": "Zhiyong Wang",
@@ -46945,12 +46951,13 @@
   "sha256": "e3671db96b4d8c74a684560455796cdc68c5c0847c49528a90545223e9447485",
   "timezone": "Australia/Sydney",
   "queue_index": 1163,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:00:00Z",
-  "send_local": "2026-11-02T09:00:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:30:00Z",
+  "send_local": "2026-11-03T08:30:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P1817",
@@ -47000,6 +47007,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:01:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:01:00+11:00"
    }
   ],
   "name": "Wei Bao",
@@ -47013,12 +47026,13 @@
   "sha256": "1d3a1b2f9b3a3c1b25c2e47c4d75b566da5c66706e822a9bd4441e586479df1a",
   "timezone": "Australia/Sydney",
   "queue_index": 1165,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:01:00Z",
-  "send_local": "2026-11-02T09:01:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:31:00Z",
+  "send_local": "2026-11-03T08:31:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P2327",
@@ -47340,6 +47354,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:30:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:30:00+09:00"
    }
   ],
   "name": "Jaewoo Kang",
@@ -47353,12 +47373,13 @@
   "sha256": "3b52d0d6fc518d1fe81d1deedc9cae41701daae0a312bb84f3909629e10ec704",
   "timezone": "Asia/Seoul",
   "queue_index": 1175,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:30:00Z",
-  "send_local": "2026-11-02T09:30:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:30:00Z",
+  "send_local": "2026-11-03T08:30:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P0257",
@@ -47374,6 +47395,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:31:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:31:00+09:00"
    }
   ],
   "name": "Seong‐Joon Kim",
@@ -47387,12 +47414,13 @@
   "sha256": "814946a33e7213e57f3161ed5dee0939fd743e3946def41f36ca25d7119d33d4",
   "timezone": "Asia/Seoul",
   "queue_index": 1176,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:31:00Z",
-  "send_local": "2026-11-02T09:31:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:31:00Z",
+  "send_local": "2026-11-03T08:31:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P2940",
@@ -47408,6 +47436,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:32:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:32:00+09:00"
    }
   ],
   "name": "Gyeong-Moon Park",
@@ -47421,12 +47455,13 @@
   "sha256": "d9c2aa902af0aea3fa3d8f3ee86230da8073c02a1823e934189e8e4a652cd09e",
   "timezone": "Asia/Seoul",
   "queue_index": 1177,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:32:00Z",
-  "send_local": "2026-11-02T09:32:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:32:00Z",
+  "send_local": "2026-11-03T08:32:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P2941",
@@ -47442,6 +47477,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:33:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:33:00+09:00"
    }
   ],
   "name": "Byung-Jun Lee",
@@ -47455,12 +47496,13 @@
   "sha256": "61f7a459fb4d0e02dbeaca9dbc1fb99bb3252c8289a8bc3655953536d587baad",
   "timezone": "Asia/Seoul",
   "queue_index": 1178,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:33:00Z",
-  "send_local": "2026-11-02T09:33:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:33:00Z",
+  "send_local": "2026-11-03T08:33:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P0293",
@@ -47510,6 +47552,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:34:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:34:00+09:00"
    }
   ],
   "name": "Kyong Hwan Jin",
@@ -47523,12 +47571,13 @@
   "sha256": "2d32256adb19a1696b17282a95295ff3de1d7442424efa6ebc61ef6d293fe0df",
   "timezone": "Asia/Seoul",
   "queue_index": 1180,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:34:00Z",
-  "send_local": "2026-11-02T09:34:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:34:00Z",
+  "send_local": "2026-11-03T08:34:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P2943",
@@ -47544,6 +47593,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:35:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:35:00+09:00"
    }
   ],
   "name": "Sangmin Lee",
@@ -47557,12 +47612,13 @@
   "sha256": "9c366ba46db920cc47c1477ec815771a836eb7ebceea0da92f7840c0db159eb7",
   "timezone": "Asia/Seoul",
   "queue_index": 1181,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:35:00Z",
-  "send_local": "2026-11-02T09:35:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:35:00Z",
+  "send_local": "2026-11-03T08:35:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P0304",
@@ -47612,6 +47668,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:36:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:36:00+09:00"
    }
   ],
   "name": "Sungwoong Kim",
@@ -47625,12 +47687,13 @@
   "sha256": "15a9be7ededaef86e0bb79a56abb9288764f414d276c65aab0b9634cbe7b4fb8",
   "timezone": "Asia/Seoul",
   "queue_index": 1183,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:36:00Z",
-  "send_local": "2026-11-02T09:36:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:36:00Z",
+  "send_local": "2026-11-03T08:36:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P2945",
@@ -47646,6 +47709,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:37:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:37:00+09:00"
    }
   ],
   "name": "Anh Tong",
@@ -47659,12 +47728,13 @@
   "sha256": "6427e2f5caded60563a57d29d8bb765dad628d0a8f67af3bde5f12978ddc5dcd",
   "timezone": "Asia/Seoul",
   "queue_index": 1184,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:37:00Z",
-  "send_local": "2026-11-02T09:37:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:37:00Z",
+  "send_local": "2026-11-03T08:37:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 7
  },
  {
   "id": "P2946",
@@ -47680,6 +47750,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:38:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:38:00+09:00"
    }
   ],
   "name": "Sungbin Lim",
@@ -47693,12 +47769,13 @@
   "sha256": "72d79f6cdae59af14973567a69678e68ed0b1e6fdeeb9c3bc258a0e63a0618fc",
   "timezone": "Asia/Seoul",
   "queue_index": 1185,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:38:00Z",
-  "send_local": "2026-11-02T09:38:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:38:00Z",
+  "send_local": "2026-11-03T08:38:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 8
  },
  {
   "id": "P3251",
@@ -47714,6 +47791,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:39:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:39:00+09:00"
    }
   ],
   "name": "Sangkyun Lee",
@@ -47727,12 +47810,13 @@
   "sha256": "cd108e247141d5129adc366ea8b21821a82a94e3d11efd770ed3034f1a6bd702",
   "timezone": "Asia/Seoul",
   "queue_index": 1186,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:39:00Z",
-  "send_local": "2026-11-02T09:39:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:39:00Z",
+  "send_local": "2026-11-03T08:39:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 9
  },
  {
   "id": "P2967",
@@ -47748,6 +47832,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:22:35+10:30",
     "detail": "send_local=2026-11-02T08:32:00+10:30"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T02:31:31+10:30",
+    "detail": "minute already taken by another email: moved from 2026-11-02T08:32:00+10:30"
    }
   ],
   "name": "Simon Lucey",
@@ -47761,12 +47851,13 @@
   "sha256": "fe4f755bee2424d5d116413dbbe19eb16f2f5e033cf6a2f8bef47148dbccd388",
   "timezone": "Australia/Adelaide",
   "queue_index": 1187,
-  "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:02:00Z",
-  "send_local": "2026-11-02T08:32:00+10:30",
+  "slot_utc": "2026-11-02T22:00:00Z",
+  "send_utc": "2026-11-02T22:00:00Z",
+  "send_local": "2026-11-03T08:30:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P2968",
@@ -47782,6 +47873,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:22:35+10:30",
     "detail": "send_local=2026-11-02T08:33:00+10:30"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T02:31:31+10:30",
+    "detail": "minute already taken by another email: moved from 2026-11-02T08:33:00+10:30"
    }
   ],
   "name": "Xin Yu",
@@ -47795,12 +47892,13 @@
   "sha256": "2db73d1f40dc07e9673d2ca33c31b2da32c7c13c3ef1f15744a539a2e10fa5b2",
   "timezone": "Australia/Adelaide",
   "queue_index": 1188,
-  "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:03:00Z",
-  "send_local": "2026-11-02T08:33:00+10:30",
+  "slot_utc": "2026-11-02T22:00:00Z",
+  "send_utc": "2026-11-02T22:01:00Z",
+  "send_local": "2026-11-03T08:31:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P2969",
@@ -47816,6 +47914,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:22:35+10:30",
     "detail": "send_local=2026-11-02T08:34:00+10:30"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T02:31:31+10:30",
+    "detail": "minute already taken by another email: moved from 2026-11-02T08:34:00+10:30"
    }
   ],
   "name": "Anton van den Hengel",
@@ -47829,12 +47933,13 @@
   "sha256": "fa893ec3909f427e7a91bd9d2fbf290f0e4fe1ccdde52e46af70d89cd2f5ee5d",
   "timezone": "Australia/Adelaide",
   "queue_index": 1189,
-  "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:04:00Z",
-  "send_local": "2026-11-02T08:34:00+10:30",
+  "slot_utc": "2026-11-02T22:00:00Z",
+  "send_utc": "2026-11-02T22:02:00Z",
+  "send_local": "2026-11-03T08:32:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P2970",
@@ -47850,6 +47955,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:22:35+10:30",
     "detail": "send_local=2026-11-02T08:35:00+10:30"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T02:31:31+10:30",
+    "detail": "minute already taken by another email: moved from 2026-11-02T08:35:00+10:30"
    }
   ],
   "name": "Lingqiao Liu",
@@ -47863,12 +47974,13 @@
   "sha256": "ba389e6489e4101303701bd8609d4f8286349f3d50c9c48c247b65e346664e01",
   "timezone": "Australia/Adelaide",
   "queue_index": 1190,
-  "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:05:00Z",
-  "send_local": "2026-11-02T08:35:00+10:30",
+  "slot_utc": "2026-11-02T22:00:00Z",
+  "send_utc": "2026-11-02T22:03:00Z",
+  "send_local": "2026-11-03T08:33:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P2971",
@@ -47884,6 +47996,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:22:35+10:30",
     "detail": "send_local=2026-11-02T08:36:00+10:30"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T02:31:31+10:30",
+    "detail": "minute already taken by another email: moved from 2026-11-02T08:36:00+10:30"
    }
   ],
   "name": "Dino Sejdinovic",
@@ -47897,12 +48015,13 @@
   "sha256": "389c695e40b4ee479dc2211fdd2a18c14cd4c407ee0c65b404f46aa3a8df8c55",
   "timezone": "Australia/Adelaide",
   "queue_index": 1191,
-  "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:06:00Z",
-  "send_local": "2026-11-02T08:36:00+10:30",
+  "slot_utc": "2026-11-02T22:00:00Z",
+  "send_utc": "2026-11-02T22:04:00Z",
+  "send_local": "2026-11-03T08:34:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P2972",
@@ -48122,6 +48241,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:07:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:07:00+11:00"
    }
   ],
   "name": "Yuankai Qi",
@@ -48135,12 +48260,13 @@
   "sha256": "a8e29ffa19c863594a1c949c9cba9f1dc5aaea6bffc1aef3b3205697e560dd07",
   "timezone": "Australia/Sydney",
   "queue_index": 1198,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:07:00Z",
-  "send_local": "2026-11-02T09:07:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:32:00Z",
+  "send_local": "2026-11-03T08:32:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P3040",
@@ -48156,6 +48282,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:08:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:08:00+11:00"
    }
   ],
   "name": "Qiongkai Xu",
@@ -48169,12 +48301,13 @@
   "sha256": "33af5a57627004c378a21ed4013de2877ab4df0cf8decdc0f4f86874b7571126",
   "timezone": "Australia/Sydney",
   "queue_index": 1199,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:08:00Z",
-  "send_local": "2026-11-02T09:08:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:33:00Z",
+  "send_local": "2026-11-03T08:33:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P3041",
@@ -48190,6 +48323,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:09:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:09:00+11:00"
    }
   ],
   "name": "Yan Wang",
@@ -48203,12 +48342,13 @@
   "sha256": "d1e8438c811eb39f2e044e2c23cf2a3adc581266567b3ba6f072b562cb0f89c6",
   "timezone": "Australia/Sydney",
   "queue_index": 1200,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:09:00Z",
-  "send_local": "2026-11-02T09:09:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:34:00Z",
+  "send_local": "2026-11-03T08:34:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P3042",
@@ -48224,6 +48364,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:10:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:10:00+11:00"
    }
   ],
   "name": "Quan Z. Sheng",
@@ -48237,12 +48383,13 @@
   "sha256": "9ae57537b3e07054e90fbf4efae81948cc068eafbe6c504632a08b1d0f756f80",
   "timezone": "Australia/Sydney",
   "queue_index": 1201,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:10:00Z",
-  "send_local": "2026-11-02T09:10:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:35:00Z",
+  "send_local": "2026-11-03T08:35:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P3043",
@@ -48258,6 +48405,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:11:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:11:00+11:00"
    }
   ],
   "name": "Mark Dras",
@@ -48271,12 +48424,13 @@
   "sha256": "55539355fb4f9467a3934f4ece1bf75de724c571e5db556cb7ecd02277910e6f",
   "timezone": "Australia/Sydney",
   "queue_index": 1202,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:11:00Z",
-  "send_local": "2026-11-02T09:11:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:36:00Z",
+  "send_local": "2026-11-03T08:36:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P3044",
@@ -48292,6 +48446,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:12:00+11:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T03:01:31+11:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:12:00+11:00"
    }
   ],
   "name": "Mark Johnson",
@@ -48305,12 +48465,13 @@
   "sha256": "8681b0770297ba8771c745e98e3baf5347f168b5162ac75468d9235e1f71b8cb",
   "timezone": "Australia/Sydney",
   "queue_index": 1203,
-  "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:12:00Z",
-  "send_local": "2026-11-02T09:12:00+11:00",
+  "slot_utc": "2026-11-02T21:30:00Z",
+  "send_utc": "2026-11-02T21:37:00Z",
+  "send_local": "2026-11-03T08:37:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 7
  },
  {
   "id": "P3274",
@@ -48360,6 +48521,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:40:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:40:00+09:00"
    }
   ],
   "name": "JinYeong Bak",
@@ -48373,12 +48540,13 @@
   "sha256": "e0136850f05c9b5c463ae78c2c6b4243fa7f51fdfd732abd57c7c2c239e61a09",
   "timezone": "Asia/Seoul",
   "queue_index": 1205,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:40:00Z",
-  "send_local": "2026-11-02T09:40:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:40:00Z",
+  "send_local": "2026-11-03T08:40:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 10
  },
  {
   "id": "P3280",
@@ -48394,6 +48562,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:41:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:41:00+09:00"
    }
   ],
   "name": "Jinyoung Han",
@@ -48407,12 +48581,13 @@
   "sha256": "55b8210acdefd737820a1a9c964d4e741a4f78adf5f80d2642739e98f6d7c740",
   "timezone": "Asia/Seoul",
   "queue_index": 1206,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:41:00Z",
-  "send_local": "2026-11-02T09:41:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:41:00Z",
+  "send_local": "2026-11-03T08:41:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 11
  },
  {
   "id": "P3281",
@@ -48428,6 +48603,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:42:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:42:00+09:00"
    }
   ],
   "name": "Sungkil Lee",
@@ -48441,12 +48622,13 @@
   "sha256": "6744502c0e7164c607c9daa30ab1a87992e0e41c124b33124757478985ce190e",
   "timezone": "Asia/Seoul",
   "queue_index": 1207,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:42:00Z",
-  "send_local": "2026-11-02T09:42:00+09:00",
+  "slot_utc": "2026-11-02T23:30:00Z",
+  "send_utc": "2026-11-02T23:42:00Z",
+  "send_local": "2026-11-03T08:42:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 12
  },
  {
   "id": "P2485",
@@ -48462,6 +48644,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:43:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:43:00+09:00"
    }
   ],
   "name": "Ko Nishino",
@@ -48475,12 +48663,13 @@
   "sha256": "d010a2c8af21bd8d8502f609deeb0519374fd80ea9fbfd0afdb7b2ce57e4cc4e",
   "timezone": "Asia/Tokyo",
   "queue_index": 1208,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:43:00Z",
-  "send_local": "2026-11-02T09:43:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:30:00Z",
+  "send_local": "2026-11-04T08:30:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 0
  },
  {
   "id": "P2265",
@@ -48904,6 +49093,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:44:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:44:00+09:00"
    }
   ],
   "name": "Rio Yokota",
@@ -48917,12 +49112,13 @@
   "sha256": "12969ac31f6584f11a97392c98460b7c7cafd1642c20521a207e2ba7a9ca7996",
   "timezone": "Asia/Tokyo",
   "queue_index": 1221,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:44:00Z",
-  "send_local": "2026-11-02T09:44:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:31:00Z",
+  "send_local": "2026-11-04T08:31:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 1
  },
  {
   "id": "P2419",
@@ -49040,6 +49236,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:45:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:45:00+09:00"
    }
   ],
   "name": "Yasuko Matsubara",
@@ -49053,12 +49255,13 @@
   "sha256": "02c6e63958c111eea304230a6207b1c09e2daefefa647faa6c669971ce8b8a14",
   "timezone": "Asia/Tokyo",
   "queue_index": 1225,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:45:00Z",
-  "send_local": "2026-11-02T09:45:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:32:00Z",
+  "send_local": "2026-11-04T08:32:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P3297",
@@ -49074,6 +49277,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:46:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:46:00+09:00"
    }
   ],
   "name": "Yasushi Sakurai",
@@ -49087,12 +49296,13 @@
   "sha256": "46272981bf6f4edaabd8b40897eac25a9ac27ec78da4f698a39c87677d25caa5",
   "timezone": "Asia/Tokyo",
   "queue_index": 1226,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:46:00Z",
-  "send_local": "2026-11-02T09:46:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:33:00Z",
+  "send_local": "2026-11-04T08:33:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P3152",
@@ -49108,6 +49318,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:47:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:47:00+09:00"
    }
   ],
   "name": "Takayuki Okatani",
@@ -49121,12 +49337,13 @@
   "sha256": "725dd2702c01e73157799ff0cb6c818da5f43958a7ac3feed3aac79e24e3c5df",
   "timezone": "Asia/Tokyo",
   "queue_index": 1227,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:47:00Z",
-  "send_local": "2026-11-02T09:47:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:34:00Z",
+  "send_local": "2026-11-04T08:34:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P3153",
@@ -49142,6 +49359,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T00:52:35+09:00",
     "detail": "send_local=2026-11-02T09:48:00+09:00"
+   },
+   {
+    "event": "rescheduled",
+    "ts_utc": "2026-10-31T16:01:31Z",
+    "ts_local": "2026-11-01T01:01:31+09:00",
+    "detail": "minute already taken by another email: moved from 2026-11-02T09:48:00+09:00"
    }
   ],
   "name": "Keisuke Sakaguchi",
@@ -49155,11 +49378,12 @@
   "sha256": "7db6d9daf3bc815752b7c9946b5a176c668e7d3da6633207f0acac69543478e6",
   "timezone": "Asia/Tokyo",
   "queue_index": 1228,
-  "slot_utc": "2026-11-01T23:30:00Z",
-  "send_utc": "2026-11-02T00:48:00Z",
-  "send_local": "2026-11-02T09:48:00+09:00",
+  "slot_utc": "2026-11-03T23:30:00Z",
+  "send_utc": "2026-11-03T23:35:00Z",
+  "send_local": "2026-11-04T08:35:00+09:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  }
 ]
