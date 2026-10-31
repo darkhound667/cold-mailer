@@ -14,7 +14,16 @@ COUNTRY_TZ = {
     "SE": "Europe/Stockholm", "DK": "Europe/Copenhagen", "NO": "Europe/Oslo",
     "FI": "Europe/Helsinki", "AT": "Europe/Vienna", "BE": "Europe/Brussels",
     "ES": "Europe/Madrid", "IT": "Europe/Rome",
+    # the rest of Europe (Ruturva, 2026-10-31: "all 500 mails/day to Europe professors")
+    "PT": "Europe/Lisbon", "GR": "Europe/Athens", "PL": "Europe/Warsaw", "CZ": "Europe/Prague",
+    "HU": "Europe/Budapest", "SK": "Europe/Bratislava", "SI": "Europe/Ljubljana", "HR": "Europe/Zagreb",
+    "RO": "Europe/Bucharest", "BG": "Europe/Sofia", "EE": "Europe/Tallinn", "LV": "Europe/Riga",
+    "LT": "Europe/Vilnius", "IS": "Atlantic/Reykjavik", "LU": "Europe/Luxembourg", "CY": "Asia/Nicosia",
+    "MT": "Europe/Malta", "RS": "Europe/Belgrade",
 }
+# Countries counted as "Europe" for the mail-Europe-first rule (scripts/next_batch_ids.py).
+EUROPE = {"GB", "IE", "CH", "DE", "NL", "FR", "SE", "DK", "NO", "FI", "AT", "BE", "ES", "IT", "PT", "GR", "PL",
+          "CZ", "HU", "SK", "SI", "HR", "RO", "BG", "EE", "LV", "LT", "IS", "LU", "CY", "MT", "RS"}
 
 _EASTERN = ("Connecticut Delaware Florida Georgia Maine Maryland Massachusetts Michigan "
             "New_Hampshire New_Jersey New_York North_Carolina Ohio Pennsylvania Rhode_Island "
