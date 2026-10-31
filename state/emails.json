@@ -47062,11 +47062,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1166,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:02:00Z",
-  "send_local": "2026-11-02T09:02:00+11:00",
+  "send_utc": "2026-11-01T22:00:00Z",
+  "send_local": "2026-11-02T09:00:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 30
  },
  {
   "id": "P1821",
@@ -47130,11 +47131,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1168,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:03:00Z",
-  "send_local": "2026-11-02T09:03:00+11:00",
+  "send_utc": "2026-11-01T22:01:00Z",
+  "send_local": "2026-11-02T09:01:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 31
  },
  {
   "id": "P2920",
@@ -47164,11 +47166,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1169,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:04:00Z",
-  "send_local": "2026-11-02T09:04:00+11:00",
+  "send_utc": "2026-11-01T22:02:00Z",
+  "send_local": "2026-11-02T09:02:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 32
  },
  {
   "id": "P1840",
@@ -47232,11 +47235,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1171,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:05:00Z",
-  "send_local": "2026-11-02T09:05:00+11:00",
+  "send_utc": "2026-11-01T22:03:00Z",
+  "send_local": "2026-11-02T09:03:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 33
  },
  {
   "id": "P3246",
@@ -47266,11 +47270,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1172,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:06:00Z",
-  "send_local": "2026-11-02T09:06:00+11:00",
+  "send_utc": "2026-11-01T22:04:00Z",
+  "send_local": "2026-11-02T09:04:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 34
  },
  {
   "id": "P0232",
@@ -48051,11 +48056,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1192,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:07:00Z",
-  "send_local": "2026-11-02T08:37:00+10:30",
+  "send_utc": "2026-11-01T22:02:00Z",
+  "send_local": "2026-11-02T08:32:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 2
  },
  {
   "id": "P2973",
@@ -48085,11 +48091,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1193,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:08:00Z",
-  "send_local": "2026-11-02T08:38:00+10:30",
+  "send_utc": "2026-11-01T22:03:00Z",
+  "send_local": "2026-11-02T08:33:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 3
  },
  {
   "id": "P2974",
@@ -48119,11 +48126,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1194,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:09:00Z",
-  "send_local": "2026-11-02T08:39:00+10:30",
+  "send_utc": "2026-11-01T22:04:00Z",
+  "send_local": "2026-11-02T08:34:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 4
  },
  {
   "id": "P2975",
@@ -48153,11 +48161,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1195,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:10:00Z",
-  "send_local": "2026-11-02T08:40:00+10:30",
+  "send_utc": "2026-11-01T22:05:00Z",
+  "send_local": "2026-11-02T08:35:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 5
  },
  {
   "id": "P2976",
@@ -48187,11 +48196,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1196,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:11:00Z",
-  "send_local": "2026-11-02T08:41:00+10:30",
+  "send_utc": "2026-11-01T22:06:00Z",
+  "send_local": "2026-11-02T08:36:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 6
  },
  {
   "id": "P3260",
@@ -48221,11 +48231,12 @@
   "timezone": "Australia/Adelaide",
   "queue_index": 1197,
   "slot_utc": "2026-11-01T22:00:00Z",
-  "send_utc": "2026-11-01T22:12:00Z",
-  "send_local": "2026-11-02T08:42:00+10:30",
+  "send_utc": "2026-11-01T22:07:00Z",
+  "send_local": "2026-11-02T08:37:00+10:30",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 7
  },
  {
   "id": "P3039",
@@ -48501,11 +48512,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1204,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:13:00Z",
-  "send_local": "2026-11-02T09:13:00+11:00",
+  "send_utc": "2026-11-01T22:05:00Z",
+  "send_local": "2026-11-02T09:05:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 35
  },
  {
   "id": "P3063",
@@ -48699,11 +48711,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1209,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:14:00Z",
-  "send_local": "2026-11-02T09:14:00+11:00",
+  "send_utc": "2026-11-01T22:06:00Z",
+  "send_local": "2026-11-02T09:06:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 36
  },
  {
   "id": "P2266",
@@ -48733,11 +48746,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1210,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:15:00Z",
-  "send_local": "2026-11-02T09:15:00+11:00",
+  "send_utc": "2026-11-01T22:07:00Z",
+  "send_local": "2026-11-02T09:07:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 37
  },
  {
   "id": "P2267",
@@ -48767,11 +48781,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1211,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:16:00Z",
-  "send_local": "2026-11-02T09:16:00+11:00",
+  "send_utc": "2026-11-01T22:08:00Z",
+  "send_local": "2026-11-02T09:08:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 38
  },
  {
   "id": "P2268",
@@ -48801,11 +48816,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1212,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:17:00Z",
-  "send_local": "2026-11-02T09:17:00+11:00",
+  "send_utc": "2026-11-01T22:09:00Z",
+  "send_local": "2026-11-02T09:09:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 39
  },
  {
   "id": "P2269",
@@ -48835,11 +48851,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1213,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:18:00Z",
-  "send_local": "2026-11-02T09:18:00+11:00",
+  "send_utc": "2026-11-01T22:10:00Z",
+  "send_local": "2026-11-02T09:10:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 40
  },
  {
   "id": "P3090",
@@ -48937,11 +48954,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1216,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:19:00Z",
-  "send_local": "2026-11-02T09:19:00+11:00",
+  "send_utc": "2026-11-01T22:11:00Z",
+  "send_local": "2026-11-02T09:11:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 41
  },
  {
   "id": "P3094",
@@ -48971,11 +48989,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1217,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:20:00Z",
-  "send_local": "2026-11-02T09:20:00+11:00",
+  "send_utc": "2026-11-01T22:12:00Z",
+  "send_local": "2026-11-02T09:12:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 42
  },
  {
   "id": "P3095",
@@ -49005,11 +49024,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1218,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:21:00Z",
-  "send_local": "2026-11-02T09:21:00+11:00",
+  "send_utc": "2026-11-01T22:13:00Z",
+  "send_local": "2026-11-02T09:13:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 43
  },
  {
   "id": "P3096",
@@ -49039,11 +49059,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1219,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:22:00Z",
-  "send_local": "2026-11-02T09:22:00+11:00",
+  "send_utc": "2026-11-01T22:14:00Z",
+  "send_local": "2026-11-02T09:14:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 44
  },
  {
   "id": "P3097",
@@ -49073,11 +49094,12 @@
   "timezone": "Australia/Sydney",
   "queue_index": 1220,
   "slot_utc": "2026-11-01T21:30:00Z",
-  "send_utc": "2026-11-01T22:23:00Z",
-  "send_local": "2026-11-02T09:23:00+11:00",
+  "send_utc": "2026-11-01T22:15:00Z",
+  "send_local": "2026-11-02T09:15:00+11:00",
   "status": "scheduled",
   "reply_label": "",
-  "issue": null
+  "issue": null,
+  "position": 45
  },
  {
   "id": "P3121",
