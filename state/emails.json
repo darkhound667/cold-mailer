@@ -42994,6 +42994,12 @@
     "ts_utc": "2026-11-01T22:00:01Z",
     "ts_local": "2026-11-02T08:30:01+10:30",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-01T22:38:06Z",
+    "ts_local": "2026-11-02T09:08:06+10:30",
+    "detail": ""
    }
   ],
   "name": "Dmitri Kavetski",
@@ -43011,7 +43017,7 @@
   "send_utc": "2026-11-01T22:00:00Z",
   "send_local": "2026-11-02T08:30:00+10:30",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -45738,6 +45744,12 @@
     "ts_utc": "2026-11-01T21:43:01Z",
     "ts_local": "2026-11-02T08:43:01+11:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-01T22:38:06Z",
+    "ts_local": "2026-11-02T09:38:06+11:00",
+    "detail": ""
    }
   ],
   "name": "Cezary Kaliszyk",
@@ -45754,9 +45766,9 @@
   "slot_utc": "2026-11-01T21:30:00Z",
   "send_utc": "2026-11-01T21:43:00Z",
   "send_local": "2026-11-02T08:43:00+11:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 109
  },
  {
   "id": "P1358",
@@ -46320,6 +46332,12 @@
     "ts_utc": "2026-11-01T21:54:01Z",
     "ts_local": "2026-11-02T08:54:01+11:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-01T22:38:06Z",
+    "ts_local": "2026-11-02T09:38:06+11:00",
+    "detail": ""
    }
   ],
   "name": "Alban Grastien",
@@ -46336,8 +46354,8 @@
   "slot_utc": "2026-11-01T21:30:00Z",
   "send_utc": "2026-11-01T21:54:00Z",
   "send_local": "2026-11-02T08:54:00+11:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -49335,6 +49353,12 @@
     "ts_utc": "2026-11-01T22:12:01Z",
     "ts_local": "2026-11-02T09:12:01+11:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-01T22:38:06Z",
+    "ts_local": "2026-11-02T09:38:06+11:00",
+    "detail": ""
    }
   ],
   "name": "Jie Lu",
@@ -49352,7 +49376,7 @@
   "send_utc": "2026-11-01T22:12:00Z",
   "send_local": "2026-11-02T09:12:00+11:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null,
   "position": 42
  },
