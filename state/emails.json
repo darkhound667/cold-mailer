@@ -46346,6 +46346,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T08:55:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-01T21:55:01Z",
+    "ts_local": "2026-11-02T08:55:01+11:00",
+    "detail": ""
    }
   ],
   "name": "Felipe W. Trevizan",
@@ -46362,7 +46368,7 @@
   "slot_utc": "2026-11-01T21:30:00Z",
   "send_utc": "2026-11-01T21:55:00Z",
   "send_local": "2026-11-02T08:55:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
