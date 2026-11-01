@@ -3746,3 +3746,4 @@
 {"id": "P3097", "event": "sent", "ts_utc": "2026-11-01T22:15:01Z", "ts_local": "2026-11-02T09:15:01+11:00", "detail": ""}
 {"id": "P1343", "event": "sent", "ts_utc": "2026-11-01T22:30:03Z", "ts_local": "2026-11-02T08:30:03+10:00", "detail": ""}
 {"id": "P1343", "event": "sent_copy_failed", "ts_utc": "2026-11-01T22:30:03Z", "ts_local": "2026-11-02T08:30:03+10:00", "detail": "abort"}
+{"id": "P1393", "event": "sent", "ts_utc": "2026-11-01T22:31:01Z", "ts_local": "2026-11-02T08:31:01+10:00", "detail": ""}
