@@ -3698,3 +3698,4 @@
 {"id": "P2266", "event": "rescheduled", "ts_utc": "2026-10-31T16:50:24Z", "ts_local": "2026-11-01T03:50:24+11:00", "detail": "minute already taken by another email: moved from 2026-11-02T09:07:00+11:00"}
 {"id": "P1760", "event": "sent", "ts_utc": "2026-11-01T19:30:03Z", "ts_local": "2026-11-02T08:30:03+13:00", "detail": ""}
 {"id": "P1435", "event": "sent", "ts_utc": "2026-11-01T19:31:01Z", "ts_local": "2026-11-02T08:31:01+13:00", "detail": ""}
+{"id": "P1561", "event": "sent", "ts_utc": "2026-11-01T21:30:03Z", "ts_local": "2026-11-02T08:30:03+11:00", "detail": ""}
