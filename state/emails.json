@@ -44170,6 +44170,12 @@
     "ts_utc": "2026-11-01T22:33:01Z",
     "ts_local": "2026-11-02T08:33:01+10:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-01T22:42:43Z",
+    "ts_local": "2026-11-02T08:42:43+10:00",
+    "detail": ""
    }
   ],
   "name": "Grant S. Hamilton",
@@ -44187,7 +44193,7 @@
   "send_utc": "2026-11-01T22:33:00Z",
   "send_local": "2026-11-02T08:33:00+10:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
