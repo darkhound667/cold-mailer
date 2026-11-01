@@ -44176,6 +44176,12 @@
     "ts_utc": "2026-11-01T22:42:43Z",
     "ts_local": "2026-11-02T08:42:43+10:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-01T22:57:10Z",
+    "ts_local": "2026-11-02T08:57:10+10:00",
+    "detail": ""
    }
   ],
   "name": "Grant S. Hamilton",
@@ -44192,9 +44198,9 @@
   "slot_utc": "2026-11-01T22:30:00Z",
   "send_utc": "2026-11-01T22:33:00Z",
   "send_local": "2026-11-02T08:33:00+10:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 110
  },
  {
   "id": "P2643",
