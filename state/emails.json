@@ -49137,6 +49137,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T02:52:35+11:00",
     "detail": "send_local=2026-11-02T09:18:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-01T22:10:01Z",
+    "ts_local": "2026-11-02T09:10:01+11:00",
+    "detail": ""
    }
   ],
   "name": "Yang Song",
@@ -49153,7 +49159,7 @@
   "slot_utc": "2026-11-01T21:30:00Z",
   "send_utc": "2026-11-01T22:10:00Z",
   "send_local": "2026-11-02T09:10:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 40
