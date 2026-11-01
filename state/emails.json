@@ -49534,6 +49534,12 @@
     "ts_utc": "2026-10-31T15:52:35Z",
     "ts_local": "2026-11-01T01:52:35+10:00",
     "detail": "send_local=2026-11-02T08:36:00+10:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-01T22:36:01Z",
+    "ts_local": "2026-11-02T08:36:01+10:00",
+    "detail": ""
    }
   ],
   "name": "Zi Huang",
@@ -49550,7 +49556,7 @@
   "slot_utc": "2026-11-01T22:30:00Z",
   "send_utc": "2026-11-01T22:36:00Z",
   "send_local": "2026-11-02T08:36:00+10:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
