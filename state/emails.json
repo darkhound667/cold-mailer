@@ -48197,6 +48197,18 @@
     "ts_utc": "2026-11-02T21:39:01Z",
     "ts_local": "2026-11-03T08:39:01+11:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T22:07:07Z",
+    "ts_local": "2026-11-03T09:07:07+11:00",
+    "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-11-02T22:07:07Z",
+    "ts_local": "2026-11-03T09:07:07+11:00",
+    "detail": ""
    }
   ],
   "name": "Clément L. Canonne",
@@ -48213,9 +48225,9 @@
   "slot_utc": "2026-11-02T21:30:00Z",
   "send_utc": "2026-11-02T21:39:00Z",
   "send_local": "2026-11-03T08:39:00+11:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 139,
   "position": 9
  },
  {
