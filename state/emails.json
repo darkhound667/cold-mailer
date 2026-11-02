@@ -67768,6 +67768,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-02T01:47:46-03:30",
     "detail": "send_local=2026-11-02T08:30:00-03:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T12:00:03Z",
+    "ts_local": "2026-11-02T08:30:03-03:30",
+    "detail": ""
    }
   ],
   "name": "Bing Chen",
@@ -67784,7 +67790,7 @@
   "slot_utc": "2026-11-02T12:00:00Z",
   "send_utc": "2026-11-02T12:00:00Z",
   "send_local": "2026-11-02T08:30:00-03:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
