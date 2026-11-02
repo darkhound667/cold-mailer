@@ -49306,6 +49306,12 @@
     "ts_utc": "2026-10-31T16:50:24Z",
     "ts_local": "2026-11-01T03:20:24+10:30",
     "detail": "minute already taken by another email: moved from 2026-11-02T08:34:00+10:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T22:07:01Z",
+    "ts_local": "2026-11-03T08:37:01+10:30",
+    "detail": ""
    }
   ],
   "name": "Lin Liu",
@@ -49322,7 +49328,7 @@
   "slot_utc": "2026-11-02T22:00:00Z",
   "send_utc": "2026-11-02T22:07:00Z",
   "send_local": "2026-11-03T08:37:00+10:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 7
