@@ -67266,6 +67266,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-01T21:17:46-08:00",
     "detail": "send_local=2026-11-02T09:49:00-08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T17:49:01Z",
+    "ts_local": "2026-11-02T09:49:01-08:00",
+    "detail": ""
    }
   ],
   "name": "Ramakant Nevatia",
@@ -67282,7 +67288,7 @@
   "slot_utc": "2026-11-02T16:30:00Z",
   "send_utc": "2026-11-02T17:49:00Z",
   "send_local": "2026-11-02T09:49:00-08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
