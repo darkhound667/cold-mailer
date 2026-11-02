@@ -4254,6 +4254,18 @@
     "ts_utc": "2026-10-23T14:33:06Z",
     "ts_local": "2026-10-23T10:33:06-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-11-02T12:35:07Z",
+    "ts_local": "2026-11-02T07:35:07-05:00",
+    "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-11-02T12:35:07Z",
+    "ts_local": "2026-11-02T07:35:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Taha B. M. J. Ouarda",
@@ -51562,6 +51574,12 @@
     "ts_utc": "2026-11-02T08:52:01Z",
     "ts_local": "2026-11-02T08:52:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T12:35:07Z",
+    "ts_local": "2026-11-02T12:35:07+00:00",
+    "detail": ""
    }
   ],
   "name": "Mengxiang Liu",
@@ -51578,9 +51596,9 @@
   "slot_utc": "2026-11-02T08:30:00Z",
   "send_utc": "2026-11-02T08:52:00Z",
   "send_local": "2026-11-02T08:52:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 121
  },
  {
   "id": "P3321",
