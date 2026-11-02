@@ -48971,6 +48971,18 @@
     "ts_utc": "2026-10-31T16:01:31Z",
     "ts_local": "2026-11-01T02:31:31+10:30",
     "detail": "minute already taken by another email: moved from 2026-11-02T08:32:00+10:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T22:00:03Z",
+    "ts_local": "2026-11-03T08:30:03+10:30",
+    "detail": ""
+   },
+   {
+    "event": "sent_copy_failed",
+    "ts_utc": "2026-11-02T22:00:03Z",
+    "ts_local": "2026-11-03T08:30:03+10:30",
+    "detail": "abort"
    }
   ],
   "name": "Simon Lucey",
@@ -48987,7 +48999,7 @@
   "slot_utc": "2026-11-02T22:00:00Z",
   "send_utc": "2026-11-02T22:00:00Z",
   "send_local": "2026-11-03T08:30:00+10:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 0
