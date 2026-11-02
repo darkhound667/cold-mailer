@@ -48104,6 +48104,12 @@
     "ts_utc": "2026-10-31T16:50:24Z",
     "ts_local": "2026-11-01T03:50:24+11:00",
     "detail": "minute already taken by another email: moved from 2026-11-02T09:00:00+11:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T21:38:01Z",
+    "ts_local": "2026-11-03T08:38:01+11:00",
+    "detail": ""
    }
   ],
   "name": "Sasha Rubin",
@@ -48120,7 +48126,7 @@
   "slot_utc": "2026-11-02T21:30:00Z",
   "send_utc": "2026-11-02T21:38:00Z",
   "send_local": "2026-11-03T08:38:00+11:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 8
