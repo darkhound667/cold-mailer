@@ -55514,6 +55514,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-02T06:17:46+01:00",
     "detail": "send_local=2026-11-02T09:07:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T08:07:01Z",
+    "ts_local": "2026-11-02T09:07:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Maria Brbic",
@@ -55530,7 +55536,7 @@
   "slot_utc": "2026-11-02T07:30:00Z",
   "send_utc": "2026-11-02T08:07:00Z",
   "send_local": "2026-11-02T09:07:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
