@@ -53440,6 +53440,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-02T05:17:46+00:00",
     "detail": "send_local=2026-11-02T09:35:00+00:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T09:35:01Z",
+    "ts_local": "2026-11-02T09:35:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Adam M. Sykulski",
@@ -53456,7 +53462,7 @@
   "slot_utc": "2026-11-02T08:30:00Z",
   "send_utc": "2026-11-02T09:35:00Z",
   "send_local": "2026-11-02T09:35:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
