@@ -59524,6 +59524,12 @@
     "ts_utc": "2026-11-02T13:45:01Z",
     "ts_local": "2026-11-02T08:45:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T14:11:07Z",
+    "ts_local": "2026-11-02T09:11:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Steven M. Quiring",
@@ -59540,9 +59546,9 @@
   "slot_utc": "2026-11-02T13:30:00Z",
   "send_utc": "2026-11-02T13:45:00Z",
   "send_local": "2026-11-02T08:45:00-05:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 124
  },
  {
   "id": "P2659",
@@ -59632,6 +59638,12 @@
     "ts_utc": "2026-11-02T13:46:11Z",
     "ts_local": "2026-11-02T08:46:11-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T14:11:07Z",
+    "ts_local": "2026-11-02T09:11:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Joel Tidmore Johnson",
@@ -59648,9 +59660,9 @@
   "slot_utc": "2026-11-02T13:30:00Z",
   "send_utc": "2026-11-02T13:46:00Z",
   "send_local": "2026-11-02T08:46:00-05:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 125
  },
  {
   "id": "P2661",
@@ -60382,6 +60394,12 @@
     "ts_utc": "2026-11-02T13:52:01Z",
     "ts_local": "2026-11-02T08:52:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-02T14:11:07Z",
+    "ts_local": "2026-11-02T09:11:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Elise F. Zipkin",
@@ -60399,7 +60417,7 @@
   "send_utc": "2026-11-02T13:52:00Z",
   "send_local": "2026-11-02T08:52:00-05:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -61004,6 +61022,12 @@
     "ts_utc": "2026-11-02T14:05:01Z",
     "ts_local": "2026-11-02T09:05:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T14:11:07Z",
+    "ts_local": "2026-11-02T09:11:07-05:00",
+    "detail": ""
    }
   ],
   "name": "Diana Cai",
@@ -61020,8 +61044,8 @@
   "slot_utc": "2026-11-02T13:30:00Z",
   "send_utc": "2026-11-02T14:05:00Z",
   "send_local": "2026-11-02T09:05:00-05:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -65116,6 +65140,12 @@
     "ts_utc": "2026-11-02T12:33:01Z",
     "ts_local": "2026-11-02T08:33:01-04:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T14:11:07Z",
+    "ts_local": "2026-11-02T10:11:07-04:00",
+    "detail": ""
    }
   ],
   "name": "Théo Michelot",
@@ -65132,9 +65162,9 @@
   "slot_utc": "2026-11-02T12:30:00Z",
   "send_utc": "2026-11-02T12:33:00Z",
   "send_local": "2026-11-02T08:33:00-04:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 123
  },
  {
   "id": "P2733",
