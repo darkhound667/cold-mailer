@@ -70124,6 +70124,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-01T21:17:46-08:00",
     "detail": "send_local=2026-11-02T09:51:00-08:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T17:51:02Z",
+    "ts_local": "2026-11-02T09:51:02-08:00",
+    "detail": ""
    }
   ],
   "name": "Sameer Singh",
@@ -70140,7 +70146,7 @@
   "slot_utc": "2026-11-02T16:30:00Z",
   "send_utc": "2026-11-02T17:51:00Z",
   "send_local": "2026-11-02T09:51:00-08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
