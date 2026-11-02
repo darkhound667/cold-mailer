@@ -174,3 +174,14 @@ class PlacementTests(unittest.TestCase):
         self.assertEqual(out["A"]["send_utc"], a["send_utc"])
         self.assertTrue(out["B"]["moved"])
         self.assertEqual(out["B"]["slot_utc"].date().isoformat(), "2026-11-03")
+
+
+class ObfuscatedEmailTests(unittest.TestCase):
+    """scrape_homepage_emails.emails_in must keep the whole name part of a spelled-out address."""
+
+    def test_dot_spelled_out_in_the_name_part(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "source"))
+        from scrape_homepage_emails import emails_in
+        self.assertEqual(emails_in("bumsub (dot) ham (at) yonsei (dot) ac (dot) kr"), ["bumsub.ham@yonsei.ac.kr"])
+        self.assertEqual(emails_in("francesco[dot]belardinelli[at]imperial.ac.uk"), ["francesco.belardinelli@imperial.ac.uk"])
+        self.assertEqual(emails_in("jane AT uni DOT edu"), ["jane@uni.edu"])

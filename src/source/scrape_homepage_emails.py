@@ -31,7 +31,10 @@ GENERIC = re.compile(r"^(info|webmaster|admin|support|contact|noreply|no-reply|o
                      r"recruit|admissions|grad|phd|students|registrar|web|feedback|sales|team|lab)\b", re.I)
 EMAIL = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9\-]+(?:\.[A-Za-z0-9\-]+)*\.[A-Za-z]{2,}")
 # "name [at] cs [dot] uni [dot] edu", "name (at) uni.edu", "name AT uni DOT edu"
-AT_DOT = re.compile(r"([A-Za-z0-9._\-]+)\s*(?:\[\s*at\s*\]|\(\s*at\s*\)|\{\s*at\s*\}|\s+at\s+|\s*&#64;\s*)"
+# The name part may also be spelled with a bracketed dot: "bumsub (dot) ham (at) yonsei (dot) ac (dot) kr"
+# (Yonsei, 2026-11-02: reading only "ham" gave ham@yonsei.ac.kr, which bounced).
+AT_DOT = re.compile(r"([A-Za-z0-9_\-]+(?:(?:\s*(?:\[\s*dot\s*\]|\(\s*dot\s*\))\s*|\.)[A-Za-z0-9_\-]+)*)"
+                    r"\s*(?:\[\s*at\s*\]|\(\s*at\s*\)|\{\s*at\s*\}|\s+at\s+|\s*&#64;\s*)"
                     r"\s*([A-Za-z0-9\-]+(?:\s*(?:\[\s*dot\s*\]|\(\s*dot\s*\)|\s+dot\s+|\.)\s*[A-Za-z0-9\-]+)+)", re.I)
 TITLE = re.compile(r"\b((?:Assistant|Associate|Full|Distinguished|Emeritus|Visiting|Adjunct)\s+Professor|"
                    r"Professor(?:\s+of\s+[A-Z][\w &]+)?|Reader|Senior Lecturer|Lecturer)\b")
@@ -68,7 +71,8 @@ def emails_in(page: str) -> list:
     plain = re.sub(r"<[^>]+>", " ", text)  # tag-free text for the spelled-out forms
     for m in AT_DOT.finditer(plain):
         dom = re.sub(r"\s*(?:\[\s*dot\s*\]|\(\s*dot\s*\)|\s+dot\s+)\s*", ".", m.group(2), flags=re.I)
-        found.append(m.group(1) + "@" + re.sub(r"\s+", "", dom))
+        local = re.sub(r"\s*(?:\[\s*dot\s*\]|\(\s*dot\s*\))\s*", ".", m.group(1), flags=re.I)
+        found.append(local + "@" + re.sub(r"\s+", "", dom))
     clean = []
     for e in found:
         e = e.strip(".,;:()<>[]\"'").lower()
