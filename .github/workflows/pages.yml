@@ -7,6 +7,10 @@ on:
     branches: [main]
     paths: ["site/index.html"]
   workflow_dispatch:
+  # Re-deploy every 2 hours so the copy of the data deployed with the page (the page's fallback when
+  # the live fetch from raw.githubusercontent.com fails) is never more than a couple of hours old.
+  schedule:
+    - cron: "11 */2 * * *"
 
 permissions:
   contents: read

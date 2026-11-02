@@ -93,6 +93,7 @@
     <h1>Outreach dashboard</h1>
     <p class="muted" id="meta"></p>
     <div class="banner" id="stale"></div>
+    <div class="banner" id="saved"></div>
     <div class="chips" id="counts"></div>
     <div class="panel" id="sched"></div>
     <div class="tabs">
@@ -129,7 +130,7 @@ const BASE = "https://raw.githubusercontent.com/darkhound667/cold-mailer/main/si
 const RAW = BASE + "data.enc.json";
 const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let DATA = null, PASS = "", THREADS = null, CUR = null;
+let DATA = null, PASS = "", THREADS = null, CUR = null, SAVED_COPY = false;
 
 async function decrypt(blob, pass) {
   if (blob.iter < ITER_MIN) throw new Error("bad data");
@@ -146,8 +147,12 @@ document.getElementById("unlock").addEventListener("submit", async ev => {
   err.textContent = "Decrypting…";
   try {
     // Latest data straight from the repo (the runner commits it); fall back to the deployed copy.
-    let res = await fetch(RAW + "?t=" + Date.now(), {cache:"no-store"}).catch(() => null);
-    if (!res || !res.ok) res = await fetch("data.enc.json", {cache:"no-store"});
+    // Two tries at the live copy, then the copy deployed with this page (flagged by a banner in render()).
+    let res = null;
+    for (let i = 0; i < 2 && !(res && res.ok); i++)
+      res = await fetch(RAW + "?t=" + Date.now(), {cache:"no-store"}).catch(() => null);
+    SAVED_COPY = !(res && res.ok);
+    if (SAVED_COPY) res = await fetch("data.enc.json", {cache:"no-store"});
     const blob = await res.json();
     PASS = document.getElementById("pw").value;
     DATA = await decrypt(blob, PASS);
@@ -166,6 +171,14 @@ function render() {
   if (poll && (Date.now() - poll) > 90 * 60 * 1000) {
     stale.style.display = "block";
     stale.textContent = "The runner hasn't polled for over 90 minutes. Check the Actions tab and open needs-ruturva issues.";
+  }
+  // Never show old numbers silently: say so when the live copy could not be loaded, or the data is old.
+  const saved = document.getElementById("saved"), age = Date.now() - new Date(DATA.generated_utc);
+  if (SAVED_COPY || age > 60 * 60 * 1000) {
+    saved.style.display = "block";
+    saved.textContent = (SAVED_COPY ? "Could not load the latest data from GitHub, so this is a saved copy. " : "") +
+      "These numbers are from " + new Date(DATA.generated_utc).toLocaleString() +
+      ", so today's emails may be missing. Reload the page to try again.";
   }
   document.getElementById("counts").innerHTML = Object.entries(DATA.counts)
     .map(([k, v]) => `<span class="st-${esc(k)}">${esc(k)}: ${v}</span>`).join("");
