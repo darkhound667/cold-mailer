@@ -49071,6 +49071,12 @@
     "ts_utc": "2026-10-31T16:01:31Z",
     "ts_local": "2026-11-01T02:31:31+10:30",
     "detail": "minute already taken by another email: moved from 2026-11-02T08:34:00+10:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T22:02:01Z",
+    "ts_local": "2026-11-03T08:32:01+10:30",
+    "detail": ""
    }
   ],
   "name": "Anton van den Hengel",
@@ -49087,7 +49093,7 @@
   "slot_utc": "2026-11-02T22:00:00Z",
   "send_utc": "2026-11-02T22:02:00Z",
   "send_local": "2026-11-03T08:32:00+10:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 2
