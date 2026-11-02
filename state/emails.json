@@ -41691,6 +41691,12 @@
     "ts_utc": "2026-11-02T00:37:01Z",
     "ts_local": "2026-11-02T08:37:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T01:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Tianzhu Zhang",
@@ -41707,8 +41713,8 @@
   "slot_utc": "2026-11-02T00:30:00Z",
   "send_utc": "2026-11-02T00:37:00Z",
   "send_local": "2026-11-02T08:37:00+08:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -42976,6 +42982,12 @@
     "ts_utc": "2026-11-02T01:04:01Z",
     "ts_local": "2026-11-02T09:04:01+08:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T01:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+08:00",
+    "detail": ""
    }
   ],
   "name": "Wei Tsang Ooi",
@@ -42992,8 +43004,8 @@
   "slot_utc": "2026-11-02T00:30:00Z",
   "send_utc": "2026-11-02T01:04:00Z",
   "send_local": "2026-11-02T09:04:00+08:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -44068,6 +44080,12 @@
     "ts_utc": "2026-11-01T22:30:03Z",
     "ts_local": "2026-11-02T08:30:03+10:00",
     "detail": "abort"
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T01:30:06Z",
+    "ts_local": "2026-11-02T11:30:06+10:00",
+    "detail": ""
    }
   ],
   "name": "Stuart Phinn",
@@ -44084,9 +44102,9 @@
   "slot_utc": "2026-11-01T22:30:00Z",
   "send_utc": "2026-11-01T22:30:00Z",
   "send_local": "2026-11-02T08:30:00+10:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 111
  },
  {
   "id": "P2403",
@@ -47166,6 +47184,12 @@
     "ts_utc": "2026-11-02T00:13:01Z",
     "ts_local": "2026-11-02T09:13:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T01:30:06Z",
+    "ts_local": "2026-11-02T10:30:06+09:00",
+    "detail": ""
    }
   ],
   "name": "Bumsub Ham",
@@ -47182,8 +47206,8 @@
   "slot_utc": "2026-11-01T23:30:00Z",
   "send_utc": "2026-11-02T00:13:00Z",
   "send_local": "2026-11-02T09:13:00+09:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -47927,6 +47951,12 @@
     "ts_utc": "2026-11-02T00:27:01Z",
     "ts_local": "2026-11-02T09:27:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T01:30:06Z",
+    "ts_local": "2026-11-02T10:30:06+09:00",
+    "detail": ""
    }
   ],
   "name": "Kwansue Jung",
@@ -47943,9 +47973,9 @@
   "slot_utc": "2026-11-01T23:30:00Z",
   "send_utc": "2026-11-02T00:27:00Z",
   "send_local": "2026-11-02T09:27:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 112
  },
  {
   "id": "P2326",
