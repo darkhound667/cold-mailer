@@ -45830,6 +45830,12 @@
     "ts_utc": "2026-11-02T00:04:01Z",
     "ts_local": "2026-11-02T09:04:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T17:30:06+09:00",
+    "detail": ""
    }
   ],
   "name": "Yunsu Kim",
@@ -45846,9 +45852,9 @@
   "slot_utc": "2026-11-01T23:30:00Z",
   "send_utc": "2026-11-02T00:04:00Z",
   "send_local": "2026-11-02T09:04:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 114
  },
  {
   "id": "P2260",
@@ -54806,6 +54812,12 @@
     "ts_utc": "2026-11-02T07:49:01Z",
     "ts_local": "2026-11-02T08:49:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Antoine Bosselut",
@@ -54822,8 +54834,8 @@
   "slot_utc": "2026-11-02T07:30:00Z",
   "send_utc": "2026-11-02T07:49:00Z",
   "send_local": "2026-11-02T08:49:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -55126,6 +55138,12 @@
     "ts_utc": "2026-11-02T07:57:01Z",
     "ts_local": "2026-11-02T08:57:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Thomas Burdyny",
@@ -55143,7 +55161,7 @@
   "send_utc": "2026-11-02T07:57:00Z",
   "send_local": "2026-11-02T08:57:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -55246,6 +55264,12 @@
     "ts_utc": "2026-11-02T08:00:01Z",
     "ts_local": "2026-11-02T09:00:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Femke C. Vossepoel",
@@ -55263,7 +55287,7 @@
   "send_utc": "2026-11-02T08:00:00Z",
   "send_local": "2026-11-02T09:00:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -55286,6 +55310,12 @@
     "ts_utc": "2026-11-02T08:01:01Z",
     "ts_local": "2026-11-02T09:01:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Sabine Süsstrunk",
@@ -55302,8 +55332,8 @@
   "slot_utc": "2026-11-02T07:30:00Z",
   "send_utc": "2026-11-02T08:01:00Z",
   "send_local": "2026-11-02T09:01:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -55326,6 +55356,12 @@
     "ts_utc": "2026-11-02T08:02:01Z",
     "ts_local": "2026-11-02T09:02:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Emmanuel Abbe",
@@ -55343,7 +55379,7 @@
   "send_utc": "2026-11-02T08:02:00Z",
   "send_local": "2026-11-02T09:02:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -56046,6 +56082,12 @@
     "ts_utc": "2026-11-02T08:20:01Z",
     "ts_local": "2026-11-02T09:20:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-02T08:30:06Z",
+    "ts_local": "2026-11-02T09:30:06+01:00",
+    "detail": ""
    }
   ],
   "name": "Stephan Günnemann",
@@ -56063,7 +56105,7 @@
   "send_utc": "2026-11-02T08:20:00Z",
   "send_local": "2026-11-02T09:20:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
