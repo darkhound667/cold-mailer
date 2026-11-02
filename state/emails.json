@@ -67558,6 +67558,12 @@
     "ts_utc": "2026-11-02T05:17:46Z",
     "ts_local": "2026-11-01T23:17:46-06:00",
     "detail": "send_local=2026-11-02T09:14:00-06:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T15:14:01Z",
+    "ts_local": "2026-11-02T09:14:01-06:00",
+    "detail": ""
    }
   ],
   "name": "Victor S. Sheng",
@@ -67574,7 +67580,7 @@
   "slot_utc": "2026-11-02T14:30:00Z",
   "send_utc": "2026-11-02T15:14:00Z",
   "send_local": "2026-11-02T09:14:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
