@@ -49930,6 +49930,12 @@
     "ts_utc": "2026-11-02T23:41:01Z",
     "ts_local": "2026-11-03T08:41:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-02T23:57:51Z",
+    "ts_local": "2026-11-03T08:57:51+09:00",
+    "detail": ""
    }
   ],
   "name": "Jinyoung Han",
@@ -49946,9 +49952,9 @@
   "slot_utc": "2026-11-02T23:30:00Z",
   "send_utc": "2026-11-02T23:41:00Z",
   "send_local": "2026-11-03T08:41:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 140,
   "position": 11
  },
  {
