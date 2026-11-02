@@ -48540,6 +48540,12 @@
     "ts_utc": "2026-10-31T16:01:31Z",
     "ts_local": "2026-11-01T01:01:31+09:00",
     "detail": "minute already taken by another email: moved from 2026-11-02T09:31:00+09:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-02T23:31:01Z",
+    "ts_local": "2026-11-03T08:31:01+09:00",
+    "detail": ""
    }
   ],
   "name": "Seong‐Joon Kim",
@@ -48556,7 +48562,7 @@
   "slot_utc": "2026-11-02T23:30:00Z",
   "send_utc": "2026-11-02T23:31:00Z",
   "send_local": "2026-11-03T08:31:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 1
