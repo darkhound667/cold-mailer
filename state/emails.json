@@ -57460,6 +57460,12 @@
     "ts_utc": "2026-11-03T07:30:04Z",
     "ts_local": "2026-11-03T08:30:04+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T08:10:09Z",
+    "ts_local": "2026-11-03T09:10:09+01:00",
+    "detail": ""
    }
   ],
   "name": "Michael Leuchner",
@@ -57477,7 +57483,7 @@
   "send_utc": "2026-11-03T07:30:00Z",
   "send_local": "2026-11-03T08:30:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -57980,6 +57986,12 @@
     "ts_utc": "2026-11-03T07:43:01Z",
     "ts_local": "2026-11-03T08:43:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T08:10:09Z",
+    "ts_local": "2026-11-03T09:10:09+01:00",
+    "detail": ""
    }
   ],
   "name": "Raquel Fernández",
@@ -57997,7 +58009,7 @@
   "send_utc": "2026-11-03T07:43:00Z",
   "send_local": "2026-11-03T08:43:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -58340,6 +58352,12 @@
     "ts_utc": "2026-11-03T07:52:01Z",
     "ts_local": "2026-11-03T08:52:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T08:10:09Z",
+    "ts_local": "2026-11-03T09:10:09+01:00",
+    "detail": ""
    }
   ],
   "name": "Kristian Kersting",
@@ -58356,8 +58374,8 @@
   "slot_utc": "2026-11-03T07:30:00Z",
   "send_utc": "2026-11-03T07:52:00Z",
   "send_local": "2026-11-03T08:52:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
