@@ -49149,6 +49149,12 @@
     "ts_utc": "2026-11-02T22:02:01Z",
     "ts_local": "2026-11-03T08:32:01+10:30",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T00:12:47Z",
+    "ts_local": "2026-11-03T10:42:47+10:30",
+    "detail": ""
    }
   ],
   "name": "Anton van den Hengel",
@@ -49165,9 +49171,9 @@
   "slot_utc": "2026-11-02T22:00:00Z",
   "send_utc": "2026-11-02T22:02:00Z",
   "send_local": "2026-11-03T08:32:00+10:30",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 142,
   "position": 2
  },
  {
