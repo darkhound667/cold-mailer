@@ -59044,6 +59044,12 @@
     "ts_utc": "2026-11-03T08:09:01Z",
     "ts_local": "2026-11-03T09:09:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T08:31:04Z",
+    "ts_local": "2026-11-03T09:31:04+01:00",
+    "detail": ""
    }
   ],
   "name": "Ellen Claes",
@@ -59060,9 +59066,9 @@
   "slot_utc": "2026-11-03T07:30:00Z",
   "send_utc": "2026-11-03T08:09:00Z",
   "send_local": "2026-11-03T09:09:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 146
  },
  {
   "id": "P2641",
