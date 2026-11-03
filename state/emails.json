@@ -77422,6 +77422,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T04:30:33-07:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T15:53:04Z",
+    "ts_local": "2026-11-03T08:53:04-07:00",
+    "detail": ""
    }
   ],
   "name": "Ana Marasovic",
@@ -77438,7 +77444,7 @@
   "slot_utc": "2026-11-03T15:30:00Z",
   "send_utc": "2026-11-03T15:53:00Z",
   "send_local": "2026-11-03T08:53:00-07:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
