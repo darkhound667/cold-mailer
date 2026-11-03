@@ -78504,6 +78504,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T03:30:33-08:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T17:02:01Z",
+    "ts_local": "2026-11-03T09:02:01-08:00",
+    "detail": ""
    }
   ],
   "name": "Babak Hassibi",
@@ -78520,7 +78526,7 @@
   "slot_utc": "2026-11-03T16:30:00Z",
   "send_utc": "2026-11-03T17:02:00Z",
   "send_local": "2026-11-03T09:02:00-08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
