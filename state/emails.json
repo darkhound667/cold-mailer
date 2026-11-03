@@ -71622,6 +71622,12 @@
     "ts_utc": "2026-11-02T17:52:01Z",
     "ts_local": "2026-11-02T09:52:01-08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T22:32:17Z",
+    "ts_local": "2026-11-03T14:32:17-08:00",
+    "detail": ""
    }
   ],
   "name": "Sven Koenig",
@@ -71638,9 +71644,9 @@
   "slot_utc": "2026-11-02T16:30:00Z",
   "send_utc": "2026-11-02T17:52:00Z",
   "send_local": "2026-11-02T09:52:00-08:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 163
  },
  {
   "id": "P1280",
