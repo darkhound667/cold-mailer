@@ -74804,6 +74804,12 @@
     "ts_utc": "2026-11-03T17:30:03Z",
     "ts_local": "2026-11-03T08:30:03-09:00",
     "detail": "TimeoutError"
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:57:19Z",
+    "ts_local": "2026-11-03T08:57:19-09:00",
+    "detail": ""
    }
   ],
   "name": "Falk Huettmann",
@@ -74820,9 +74826,9 @@
   "slot_utc": "2026-11-03T17:30:00Z",
   "send_utc": "2026-11-03T17:30:00Z",
   "send_local": "2026-11-03T08:30:00-09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 161
  },
  {
   "id": "P2412",
