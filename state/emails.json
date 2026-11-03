@@ -54682,6 +54682,12 @@
     "ts_utc": "2026-11-02T10:09:07Z",
     "ts_local": "2026-11-02T10:09:07+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T17:31:19+00:00",
+    "detail": ""
    }
   ],
   "name": "Monica Lakhanpaul",
@@ -54698,9 +54704,9 @@
   "slot_utc": "2026-11-02T08:30:00Z",
   "send_utc": "2026-11-02T09:54:00Z",
   "send_local": "2026-11-02T09:54:00+00:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 157
  },
  {
   "id": "P2376",
@@ -55900,6 +55906,12 @@
     "ts_utc": "2026-11-02T07:51:01Z",
     "ts_local": "2026-11-02T08:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T18:31:19+01:00",
+    "detail": ""
    }
   ],
   "name": "Kira Rehfeld",
@@ -55916,9 +55928,9 @@
   "slot_utc": "2026-11-02T07:30:00Z",
   "send_utc": "2026-11-02T07:51:00Z",
   "send_local": "2026-11-02T08:51:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 153
  },
  {
   "id": "P2288",
@@ -57880,6 +57892,12 @@
     "ts_utc": "2026-11-03T07:39:01Z",
     "ts_local": "2026-11-03T08:39:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T18:31:19+01:00",
+    "detail": ""
    }
   ],
   "name": "Marco Merlo",
@@ -57896,9 +57914,9 @@
   "slot_utc": "2026-11-03T07:30:00Z",
   "send_utc": "2026-11-03T07:39:00Z",
   "send_local": "2026-11-03T08:39:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 156
  },
  {
   "id": "P2851",
@@ -64582,6 +64600,12 @@
     "ts_utc": "2026-11-03T13:49:01Z",
     "ts_local": "2026-11-03T08:49:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T12:31:19-05:00",
+    "detail": ""
    }
   ],
   "name": "Daniel J. Bain",
@@ -64598,9 +64622,9 @@
   "slot_utc": "2026-11-03T13:30:00Z",
   "send_utc": "2026-11-03T13:49:00Z",
   "send_local": "2026-11-03T08:49:00-05:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 154
  },
  {
   "id": "P2697",
@@ -64720,6 +64744,12 @@
     "ts_utc": "2026-11-03T13:52:01Z",
     "ts_local": "2026-11-03T08:52:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T12:31:19-05:00",
+    "detail": ""
    }
   ],
   "name": "Irene Gregory‐Eaves",
@@ -64737,7 +64767,7 @@
   "send_utc": "2026-11-03T13:52:00Z",
   "send_local": "2026-11-03T08:52:00-05:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -65490,6 +65520,12 @@
     "ts_utc": "2026-11-03T14:07:01Z",
     "ts_local": "2026-11-03T09:07:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T12:31:19-05:00",
+    "detail": ""
    }
   ],
   "name": "Sashank Varma",
@@ -65506,9 +65542,9 @@
   "slot_utc": "2026-11-03T13:30:00Z",
   "send_utc": "2026-11-03T14:07:00Z",
   "send_local": "2026-11-03T09:07:00-05:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 155
  },
  {
   "id": "P1346",
@@ -71850,6 +71886,12 @@
     "ts_utc": "2026-11-03T14:13:01Z",
     "ts_local": "2026-11-03T09:13:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T12:31:19-05:00",
+    "detail": ""
    }
   ],
   "name": "Andrew Gordon Wilson",
@@ -71866,8 +71908,8 @@
   "slot_utc": "2026-11-03T13:30:00Z",
   "send_utc": "2026-11-03T14:13:00Z",
   "send_local": "2026-11-03T09:13:00-05:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -74468,6 +74510,12 @@
     "ts_utc": "2026-11-03T14:50:01Z",
     "ts_local": "2026-11-03T08:50:01-06:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T11:31:19-06:00",
+    "detail": ""
    }
   ],
   "name": "Benjamin R. K. Runkle",
@@ -74485,7 +74533,7 @@
   "send_utc": "2026-11-03T14:50:00Z",
   "send_local": "2026-11-03T08:50:00-06:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -75078,6 +75126,12 @@
     "ts_utc": "2026-11-03T15:35:01Z",
     "ts_local": "2026-11-03T08:35:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T10:31:19-07:00",
+    "detail": ""
    }
   ],
   "name": "Jeff Clune",
@@ -75094,9 +75148,9 @@
   "slot_utc": "2026-11-03T15:30:00Z",
   "send_utc": "2026-11-03T15:35:00Z",
   "send_local": "2026-11-03T08:35:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 158
  },
  {
   "id": "P2417",
@@ -75676,6 +75730,12 @@
     "ts_utc": "2026-11-03T16:45:01Z",
     "ts_local": "2026-11-03T08:45:01-08:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T09:31:19-08:00",
+    "detail": ""
    }
   ],
   "name": "Michael Beyeler",
@@ -75693,7 +75753,7 @@
   "send_utc": "2026-11-03T16:45:00Z",
   "send_local": "2026-11-03T08:45:00-08:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -75860,6 +75920,12 @@
     "ts_utc": "2026-11-03T14:55:01Z",
     "ts_local": "2026-11-03T08:55:01-06:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T11:31:19-06:00",
+    "detail": ""
    }
   ],
   "name": "Salli F. Dymond",
@@ -75876,8 +75942,8 @@
   "slot_utc": "2026-11-03T14:30:00Z",
   "send_utc": "2026-11-03T14:55:00Z",
   "send_local": "2026-11-03T08:55:00-06:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -76044,6 +76110,12 @@
     "ts_utc": "2026-11-03T14:59:01Z",
     "ts_local": "2026-11-03T08:59:01-06:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T11:31:19-06:00",
+    "detail": ""
    }
   ],
   "name": "Miklós Z. Rácz",
@@ -76060,8 +76132,8 @@
   "slot_utc": "2026-11-03T14:30:00Z",
   "send_utc": "2026-11-03T14:59:00Z",
   "send_local": "2026-11-03T08:59:00-06:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -76550,6 +76622,12 @@
     "ts_utc": "2026-11-03T15:02:01Z",
     "ts_local": "2026-11-03T09:02:01-06:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T11:31:19-06:00",
+    "detail": ""
    }
   ],
   "name": "Moshe Y. Vardi",
@@ -76566,8 +76644,8 @@
   "slot_utc": "2026-11-03T14:30:00Z",
   "send_utc": "2026-11-03T15:02:00Z",
   "send_local": "2026-11-03T09:02:00-06:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -77654,6 +77732,12 @@
     "ts_utc": "2026-11-03T15:54:02Z",
     "ts_local": "2026-11-03T08:54:02-07:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T10:31:19-07:00",
+    "detail": ""
    }
   ],
   "name": "Katharina Kann",
@@ -77671,7 +77755,7 @@
   "send_utc": "2026-11-03T15:54:00Z",
   "send_local": "2026-11-03T08:54:00-07:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -77746,6 +77830,12 @@
     "ts_utc": "2026-11-03T15:56:03Z",
     "ts_local": "2026-11-03T08:56:03-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T10:31:19-07:00",
+    "detail": ""
    }
   ],
   "name": "Alvaro Velasquez",
@@ -77762,9 +77852,9 @@
   "slot_utc": "2026-11-03T15:30:00Z",
   "send_utc": "2026-11-03T15:56:00Z",
   "send_local": "2026-11-03T08:56:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 160
  },
  {
   "id": "P3067",
@@ -77976,6 +78066,12 @@
     "ts_utc": "2026-11-03T16:01:02Z",
     "ts_local": "2026-11-03T09:01:02-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T10:31:19-07:00",
+    "detail": ""
    }
   ],
   "name": "Martha Palmer",
@@ -77992,9 +78088,9 @@
   "slot_utc": "2026-11-03T15:30:00Z",
   "send_utc": "2026-11-03T16:01:00Z",
   "send_local": "2026-11-03T09:01:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 159
  },
  {
   "id": "P3070",
@@ -78436,6 +78532,12 @@
     "ts_utc": "2026-11-03T17:00:01Z",
     "ts_local": "2026-11-03T09:00:01-08:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-03T17:31:19Z",
+    "ts_local": "2026-11-03T09:31:19-08:00",
+    "detail": ""
    }
   ],
   "name": "Vishwanath Saragadam",
@@ -78452,8 +78554,8 @@
   "slot_utc": "2026-11-03T16:30:00Z",
   "send_utc": "2026-11-03T17:00:00Z",
   "send_local": "2026-11-03T09:00:00-08:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
