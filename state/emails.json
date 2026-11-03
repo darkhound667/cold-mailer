@@ -75152,6 +75152,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T03:30:33-08:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T16:39:03Z",
+    "ts_local": "2026-11-03T08:39:03-08:00",
+    "detail": ""
    }
   ],
   "name": "Jerry Zeyu Gao",
@@ -75168,7 +75174,7 @@
   "slot_utc": "2026-11-03T16:30:00Z",
   "send_utc": "2026-11-03T16:39:00Z",
   "send_local": "2026-11-03T08:39:00-08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
