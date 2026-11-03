@@ -58032,6 +58032,12 @@
     "ts_utc": "2026-11-03T07:44:01Z",
     "ts_local": "2026-11-03T08:44:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T08:54:11Z",
+    "ts_local": "2026-11-03T09:54:11+01:00",
+    "detail": ""
    }
   ],
   "name": "Herke van Hoof",
@@ -58048,9 +58054,9 @@
   "slot_utc": "2026-11-03T07:30:00Z",
   "send_utc": "2026-11-03T07:44:00Z",
   "send_local": "2026-11-03T08:44:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 147
  },
  {
   "id": "P3437",
