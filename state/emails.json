@@ -57754,6 +57754,12 @@
     "ts_utc": "2026-11-03T07:36:01Z",
     "ts_local": "2026-11-03T08:36:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T11:41:26Z",
+    "ts_local": "2026-11-03T12:41:26+01:00",
+    "detail": ""
    }
   ],
   "name": "Alberto Guadagnini",
@@ -57770,9 +57776,9 @@
   "slot_utc": "2026-11-03T07:30:00Z",
   "send_utc": "2026-11-03T07:36:00Z",
   "send_local": "2026-11-03T08:36:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 152
  },
  {
   "id": "P2484",
