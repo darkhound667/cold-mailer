@@ -77611,5 +77611,39 @@
   "status": "scheduled",
   "reply_label": "",
   "issue": null
+ },
+ {
+  "id": "P3742",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-03T11:31:09Z",
+    "ts_local": "2026-11-03T12:31:09+01:00",
+    "detail": "sha256=958ae1ff4842"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-03T11:31:09Z",
+    "ts_local": "2026-11-03T12:31:09+01:00",
+    "detail": "send_local=2026-11-04T08:30:00+01:00"
+   }
+  ],
+  "name": "Katja Biedenkopf",
+  "university": "KU Leuven",
+  "country": "BE",
+  "env_domain": "carbon, emissions & sustainability",
+  "tier": "A",
+  "subject": "Interested in EU climate and environmental policy",
+  "body": "Dear Prof. Biedenkopf,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in EU climate and environmental policy, an area I would like to go considerably deeper into.\n\nI worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "958ae1ff4842f404d2dc153650866b6c7e224118d81dba2e159a60c685404d2e",
+  "timezone": "Europe/Brussels",
+  "queue_index": 1890,
+  "slot_utc": "2026-11-04T07:30:00Z",
+  "send_utc": "2026-11-04T07:30:00Z",
+  "send_local": "2026-11-04T08:30:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
  }
 ]

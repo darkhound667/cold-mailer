@@ -5982,3 +5982,5 @@
 {"id": "P3130", "event": "edited", "ts_utc": "2026-11-03T11:30:33Z", "ts_local": "2026-11-03T05:30:33-06:00", "detail": "subject: no longer 'Research internship inquiry'"}
 {"id": "P3131", "event": "edited", "ts_utc": "2026-11-03T11:30:33Z", "ts_local": "2026-11-03T05:30:33-06:00", "detail": "subject: no longer 'Research internship inquiry'"}
 {"id": "P3293", "event": "edited", "ts_utc": "2026-11-03T11:30:33Z", "ts_local": "2026-11-03T05:30:33-06:00", "detail": "subject: no longer 'Research internship inquiry'"}
+{"id": "P3742", "event": "queued", "ts_utc": "2026-11-03T11:31:09Z", "ts_local": "2026-11-03T12:31:09+01:00", "detail": "sha256=958ae1ff4842"}
+{"id": "P3742", "event": "scheduled", "ts_utc": "2026-11-03T11:31:09Z", "ts_local": "2026-11-03T12:31:09+01:00", "detail": "send_local=2026-11-04T08:30:00+01:00"}
