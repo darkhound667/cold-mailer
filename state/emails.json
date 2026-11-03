@@ -74646,6 +74646,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T03:30:33-08:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T16:36:02Z",
+    "ts_local": "2026-11-03T08:36:02-08:00",
+    "detail": ""
    }
   ],
   "name": "Roy Fox",
@@ -74662,7 +74668,7 @@
   "slot_utc": "2026-11-03T16:30:00Z",
   "send_utc": "2026-11-03T16:36:00Z",
   "send_local": "2026-11-03T08:36:00-08:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
