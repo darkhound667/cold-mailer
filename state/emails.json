@@ -70724,6 +70724,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T05:30:33-06:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T14:31:03Z",
+    "ts_local": "2026-11-03T08:31:03-06:00",
+    "detail": ""
    }
   ],
   "name": "Ruihong Huang",
@@ -70740,7 +70746,7 @@
   "slot_utc": "2026-11-03T14:30:00Z",
   "send_utc": "2026-11-03T14:31:00Z",
   "send_local": "2026-11-03T08:31:00-06:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
