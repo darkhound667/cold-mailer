@@ -6093,3 +6093,5 @@
 {"id": "P3130", "event": "sent", "ts_utc": "2026-11-03T15:16:01Z", "ts_local": "2026-11-03T09:16:01-06:00", "detail": ""}
 {"id": "P3131", "event": "sent", "ts_utc": "2026-11-03T15:17:01Z", "ts_local": "2026-11-03T09:17:01-06:00", "detail": ""}
 {"id": "P3293", "event": "sent", "ts_utc": "2026-11-03T15:18:01Z", "ts_local": "2026-11-03T09:18:01-06:00", "detail": ""}
+{"id": "P2411", "event": "sent", "ts_utc": "2026-11-03T15:31:03Z", "ts_local": "2026-11-03T08:31:03-07:00", "detail": ""}
+{"id": "P2411", "event": "sent_copy_failed", "ts_utc": "2026-11-03T15:31:03Z", "ts_local": "2026-11-03T08:31:03-07:00", "detail": "TimeoutError"}
