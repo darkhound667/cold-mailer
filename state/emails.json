@@ -49889,6 +49889,12 @@
     "ts_utc": "2026-11-02T23:40:01Z",
     "ts_local": "2026-11-03T08:40:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-03T04:02:35Z",
+    "ts_local": "2026-11-03T13:02:35+09:00",
+    "detail": ""
    }
   ],
   "name": "JinYeong Bak",
@@ -49905,9 +49911,9 @@
   "slot_utc": "2026-11-02T23:30:00Z",
   "send_utc": "2026-11-02T23:40:00Z",
   "send_local": "2026-11-03T08:40:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 143,
   "position": 10
  },
  {
