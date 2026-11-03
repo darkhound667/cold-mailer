@@ -50609,6 +50609,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T20:30:33+09:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T23:31:01Z",
+    "ts_local": "2026-11-04T08:31:01+09:00",
+    "detail": ""
    }
   ],
   "name": "Rio Yokota",
@@ -50625,7 +50631,7 @@
   "slot_utc": "2026-11-03T23:30:00Z",
   "send_utc": "2026-11-03T23:31:00Z",
   "send_local": "2026-11-04T08:31:00+09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 1
