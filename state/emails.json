@@ -74744,6 +74744,18 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T02:30:33-09:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-03T17:30:03Z",
+    "ts_local": "2026-11-03T08:30:03-09:00",
+    "detail": ""
+   },
+   {
+    "event": "sent_copy_failed",
+    "ts_utc": "2026-11-03T17:30:03Z",
+    "ts_local": "2026-11-03T08:30:03-09:00",
+    "detail": "TimeoutError"
    }
   ],
   "name": "Falk Huettmann",
@@ -74760,7 +74772,7 @@
   "slot_utc": "2026-11-03T17:30:00Z",
   "send_utc": "2026-11-03T17:30:00Z",
   "send_local": "2026-11-03T08:30:00-09:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
