@@ -79748,6 +79748,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-04T04:19:23+00:00",
     "detail": "send_local=2026-11-04T08:51:00+00:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T08:51:01Z",
+    "ts_local": "2026-11-04T08:51:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Xiatian Zhu",
@@ -79764,7 +79770,7 @@
   "slot_utc": "2026-11-04T08:30:00Z",
   "send_utc": "2026-11-04T08:51:00Z",
   "send_local": "2026-11-04T08:51:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
