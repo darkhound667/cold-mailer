@@ -90633,6 +90633,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-04T14:49:23+10:30",
     "detail": "send_local=2026-11-05T08:33:00+10:30"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T22:03:01Z",
+    "ts_local": "2026-11-05T08:33:01+10:30",
+    "detail": ""
    }
   ],
   "name": "Feras Dayoub",
@@ -90649,7 +90655,7 @@
   "slot_utc": "2026-11-04T22:00:00Z",
   "send_utc": "2026-11-04T22:03:00Z",
   "send_local": "2026-11-05T08:33:00+10:30",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
