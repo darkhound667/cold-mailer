@@ -83788,6 +83788,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-04T04:19:23+00:00",
     "detail": "send_local=2026-11-04T09:35:00+00:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T09:35:02Z",
+    "ts_local": "2026-11-04T09:35:02+00:00",
+    "detail": ""
    }
   ],
   "name": "Hyung Jin Chang",
@@ -83804,7 +83810,7 @@
   "slot_utc": "2026-11-04T08:30:00Z",
   "send_utc": "2026-11-04T09:35:00Z",
   "send_local": "2026-11-04T09:35:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
