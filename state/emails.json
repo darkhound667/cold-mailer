@@ -88645,6 +88645,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-03T23:19:23-05:00",
     "detail": "send_local=2026-11-04T09:26:00-05:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T14:26:01Z",
+    "ts_local": "2026-11-04T09:26:01-05:00",
+    "detail": ""
    }
   ],
   "name": "Weiyan Shi",
@@ -88661,7 +88667,7 @@
   "slot_utc": "2026-11-04T13:30:00Z",
   "send_utc": "2026-11-04T14:26:00Z",
   "send_local": "2026-11-04T09:26:00-05:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
