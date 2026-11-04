@@ -78288,6 +78288,12 @@
     "ts_utc": "2026-11-03T15:58:02Z",
     "ts_local": "2026-11-03T08:58:02-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-04T22:16:06Z",
+    "ts_local": "2026-11-04T15:16:06-07:00",
+    "detail": ""
    }
   ],
   "name": "Maria Antoniak",
@@ -78304,9 +78310,9 @@
   "slot_utc": "2026-11-03T15:30:00Z",
   "send_utc": "2026-11-03T15:58:00Z",
   "send_local": "2026-11-03T08:58:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 193
  },
  {
   "id": "P3069",
@@ -90559,6 +90565,12 @@
     "ts_utc": "2026-11-04T22:01:01Z",
     "ts_local": "2026-11-05T08:31:01+10:30",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-04T22:16:06Z",
+    "ts_local": "2026-11-05T08:46:06+10:30",
+    "detail": ""
    }
   ],
   "name": "Weitong Chen",
@@ -90576,7 +90588,7 @@
   "send_utc": "2026-11-04T22:01:00Z",
   "send_local": "2026-11-05T08:31:00+10:30",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
