@@ -73608,6 +73608,12 @@
     "ts_utc": "2026-11-03T11:30:33Z",
     "ts_local": "2026-11-03T06:30:33-05:00",
     "detail": "subject: no longer 'Research internship inquiry'"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T13:49:01Z",
+    "ts_local": "2026-11-04T08:49:01-05:00",
+    "detail": ""
    }
   ],
   "name": "Xiaoming Liu",
@@ -73624,7 +73630,7 @@
   "slot_utc": "2026-11-04T13:30:00Z",
   "send_utc": "2026-11-04T13:49:00Z",
   "send_local": "2026-11-04T08:49:00-05:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
