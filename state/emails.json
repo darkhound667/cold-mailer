@@ -85256,6 +85256,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-04T06:19:23+02:00",
     "detail": "send_local=2026-11-04T08:35:00+02:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-04T06:35:01Z",
+    "ts_local": "2026-11-04T08:35:01+02:00",
+    "detail": ""
    }
   ],
   "name": "Corinna Coupette",
@@ -85272,7 +85278,7 @@
   "slot_utc": "2026-11-04T06:30:00Z",
   "send_utc": "2026-11-04T06:35:00Z",
   "send_local": "2026-11-04T08:35:00+02:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
