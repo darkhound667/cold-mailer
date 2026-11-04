@@ -85108,6 +85108,12 @@
     "ts_utc": "2026-11-04T06:32:01Z",
     "ts_local": "2026-11-04T08:32:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-04T06:53:06Z",
+    "ts_local": "2026-11-04T08:53:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Harri Lähdesmäki",
@@ -85124,8 +85130,8 @@
   "slot_utc": "2026-11-04T06:30:00Z",
   "send_utc": "2026-11-04T06:32:00Z",
   "send_local": "2026-11-04T08:32:00+02:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -85404,6 +85410,12 @@
     "ts_utc": "2026-11-04T06:36:01Z",
     "ts_local": "2026-11-04T08:36:01+02:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-04T06:53:06Z",
+    "ts_local": "2026-11-04T08:53:06+02:00",
+    "detail": ""
    }
   ],
   "name": "Sasu Tarkoma",
@@ -85420,8 +85432,8 @@
   "slot_utc": "2026-11-04T06:30:00Z",
   "send_utc": "2026-11-04T06:36:00Z",
   "send_local": "2026-11-04T08:36:00+02:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
