@@ -6831,6 +6831,12 @@
     "ts_utc": "2026-10-21T23:35:01Z",
     "ts_local": "2026-10-22T08:35:01+09:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T15:23:25Z",
+    "ts_local": "2026-11-06T00:23:25+09:00",
+    "detail": ""
    }
   ],
   "name": "Netra Prakash Bhandary",
@@ -6847,9 +6853,9 @@
   "slot_utc": "2026-10-21T23:30:00Z",
   "send_utc": "2026-10-21T23:35:00Z",
   "send_local": "2026-10-22T08:35:00+09:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 206
  },
  {
   "id": "P0341",
