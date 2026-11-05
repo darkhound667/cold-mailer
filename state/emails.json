@@ -84742,6 +84742,18 @@
     "ts_utc": "2026-11-04T11:22:19Z",
     "ts_local": "2026-11-04T11:22:19+00:00",
     "detail": "missed 2026-11-04T09:43:00+00:00 by more than 1 h"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-05T08:30:04Z",
+    "ts_local": "2026-11-05T08:30:04+00:00",
+    "detail": ""
+   },
+   {
+    "event": "sent_copy_failed",
+    "ts_utc": "2026-11-05T08:30:04Z",
+    "ts_local": "2026-11-05T08:30:04+00:00",
+    "detail": "abort"
    }
   ],
   "name": "Alexander Krull",
@@ -84758,7 +84770,7 @@
   "slot_utc": "2026-11-05T08:30:00Z",
   "send_utc": "2026-11-05T08:30:00Z",
   "send_local": "2026-11-05T08:30:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 0
