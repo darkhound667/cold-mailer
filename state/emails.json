@@ -86328,6 +86328,12 @@
     "ts_utc": "2026-11-04T11:22:19Z",
     "ts_local": "2026-11-04T11:22:19+00:00",
     "detail": "missed 2026-11-04T10:03:00+00:00 by more than 1 h"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-05T08:50:01Z",
+    "ts_local": "2026-11-05T08:50:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Sophia Ananiadou",
@@ -86344,7 +86350,7 @@
   "slot_utc": "2026-11-05T08:30:00Z",
   "send_utc": "2026-11-05T08:50:00Z",
   "send_local": "2026-11-05T08:50:00+00:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null,
   "position": 20
