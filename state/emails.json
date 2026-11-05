@@ -86359,6 +86359,12 @@
     "ts_utc": "2026-11-05T08:49:01Z",
     "ts_local": "2026-11-05T08:49:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T10:38:25Z",
+    "ts_local": "2026-11-05T10:38:25+00:00",
+    "detail": ""
    }
   ],
   "name": "Jouni Paavola",
@@ -86375,9 +86381,9 @@
   "slot_utc": "2026-11-05T08:30:00Z",
   "send_utc": "2026-11-05T08:49:00Z",
   "send_local": "2026-11-05T08:49:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 201,
   "position": 19
  },
  {
