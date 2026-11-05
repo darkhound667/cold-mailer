@@ -91323,6 +91323,12 @@
     "ts_utc": "2026-11-04T22:06:01Z",
     "ts_local": "2026-11-05T08:36:01+10:30",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T18:23:42Z",
+    "ts_local": "2026-11-06T04:53:42+10:30",
+    "detail": ""
    }
   ],
   "name": "Mark Jenkinson",
@@ -91339,9 +91345,9 @@
   "slot_utc": "2026-11-04T22:00:00Z",
   "send_utc": "2026-11-04T22:06:00Z",
   "send_local": "2026-11-05T08:36:00+10:30",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 207
  },
  {
   "id": "P3725",
