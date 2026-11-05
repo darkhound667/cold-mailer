@@ -7207,3 +7207,15 @@
 {"id": "P3520", "event": "sent", "ts_utc": "2026-11-05T08:54:01Z", "ts_local": "2026-11-05T08:54:01+00:00", "detail": ""}
 {"id": "P3521", "event": "sent", "ts_utc": "2026-11-05T08:55:01Z", "ts_local": "2026-11-05T08:55:01+00:00", "detail": ""}
 {"id": "P3522", "event": "sent", "ts_utc": "2026-11-05T08:56:01Z", "ts_local": "2026-11-05T08:56:01+00:00", "detail": ""}
+{"id": "P1601", "event": "replied", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P3432", "event": "auto_reply", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T09:56:07+01:00", "detail": ""}
+{"id": "P3509", "event": "replied", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T09:56:07+01:00", "detail": ""}
+{"id": "P3451", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T09:56:07+01:00", "detail": ""}
+{"id": "P3445", "event": "replied", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T09:56:07+01:00", "detail": ""}
+{"id": "P3435", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T09:56:07+01:00", "detail": ""}
+{"id": "P3115", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P3116", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P3118", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P1717", "event": "bounced", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P3127", "event": "auto_reply", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
+{"id": "P3521", "event": "auto_reply", "ts_utc": "2026-11-05T08:56:07Z", "ts_local": "2026-11-05T08:56:07+00:00", "detail": ""}
