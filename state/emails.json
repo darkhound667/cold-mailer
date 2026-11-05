@@ -75078,6 +75078,12 @@
     "ts_utc": "2026-11-03T16:36:02Z",
     "ts_local": "2026-11-03T08:36:02-08:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T15:02:34Z",
+    "ts_local": "2026-11-05T07:02:34-08:00",
+    "detail": ""
    }
   ],
   "name": "Roy Fox",
@@ -75094,9 +75100,9 @@
   "slot_utc": "2026-11-03T16:30:00Z",
   "send_utc": "2026-11-03T16:36:00Z",
   "send_local": "2026-11-03T08:36:00-08:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 205
  },
  {
   "id": "P2411",
