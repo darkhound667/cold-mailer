@@ -86075,6 +86075,12 @@
     "ts_utc": "2026-11-04T04:19:23Z",
     "ts_local": "2026-11-04T05:19:23+01:00",
     "detail": "send_local=2026-11-05T08:45:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-05T07:45:01Z",
+    "ts_local": "2026-11-05T08:45:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Davide Scaramuzza",
@@ -86091,7 +86097,7 @@
   "slot_utc": "2026-11-05T07:30:00Z",
   "send_utc": "2026-11-05T07:45:00Z",
   "send_local": "2026-11-05T08:45:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
