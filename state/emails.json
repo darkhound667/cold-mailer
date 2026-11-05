@@ -86517,6 +86517,12 @@
     "ts_utc": "2026-11-05T08:51:01Z",
     "ts_local": "2026-11-05T08:51:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T13:02:25Z",
+    "ts_local": "2026-11-05T13:02:25+00:00",
+    "detail": ""
    }
   ],
   "name": "Lee E. Brown",
@@ -86533,9 +86539,9 @@
   "slot_utc": "2026-11-05T08:30:00Z",
   "send_utc": "2026-11-05T08:51:00Z",
   "send_local": "2026-11-05T08:51:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 203,
   "position": 21
  },
  {
