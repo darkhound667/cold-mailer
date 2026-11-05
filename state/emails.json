@@ -86620,6 +86620,12 @@
     "ts_utc": "2026-11-05T08:52:01Z",
     "ts_local": "2026-11-05T08:52:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-05T09:50:59Z",
+    "ts_local": "2026-11-05T09:50:59+00:00",
+    "detail": ""
    }
   ],
   "name": "Andy Nowacki",
@@ -86636,9 +86642,9 @@
   "slot_utc": "2026-11-05T08:30:00Z",
   "send_utc": "2026-11-05T08:52:00Z",
   "send_local": "2026-11-05T08:52:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null,
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 199,
   "position": 22
  },
  {
