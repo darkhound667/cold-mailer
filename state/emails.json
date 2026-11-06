@@ -93165,6 +93165,12 @@
     "ts_utc": "2026-11-06T09:00:01Z",
     "ts_local": "2026-11-06T09:00:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-06T09:46:21Z",
+    "ts_local": "2026-11-06T09:46:21+00:00",
+    "detail": ""
    }
   ],
   "name": "Milena Radenkovic",
@@ -93181,9 +93187,9 @@
   "slot_utc": "2026-11-06T08:30:00Z",
   "send_utc": "2026-11-06T09:00:00Z",
   "send_local": "2026-11-06T09:00:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 213
  },
  {
   "id": "P2338",
