@@ -96019,6 +96019,12 @@
     "ts_utc": "2026-11-06T06:07:49Z",
     "ts_local": "2026-11-06T01:07:49-05:00",
     "detail": "send_local=2026-11-06T09:20:00-05:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-06T14:20:01Z",
+    "ts_local": "2026-11-06T09:20:01-05:00",
+    "detail": ""
    }
   ],
   "name": "Xuezhou Zhang",
@@ -96035,7 +96041,7 @@
   "slot_utc": "2026-11-06T13:30:00Z",
   "send_utc": "2026-11-06T14:20:00Z",
   "send_local": "2026-11-06T09:20:00-05:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
