@@ -92119,6 +92119,12 @@
     "ts_utc": "2026-11-06T08:38:01Z",
     "ts_local": "2026-11-06T08:38:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-06T08:45:07Z",
+    "ts_local": "2026-11-06T08:45:07+00:00",
+    "detail": ""
    }
   ],
   "name": "Wenjie Ruan",
@@ -92135,8 +92141,8 @@
   "slot_utc": "2026-11-06T08:30:00Z",
   "send_utc": "2026-11-06T08:38:00Z",
   "send_local": "2026-11-06T08:38:00+00:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
