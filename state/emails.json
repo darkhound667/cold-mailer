@@ -79240,6 +79240,12 @@
     "ts_utc": "2026-11-04T11:24:14Z",
     "ts_local": "2026-11-04T12:24:14+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied_again",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T10:27:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Katja Biedenkopf",
@@ -92645,6 +92651,12 @@
     "ts_utc": "2026-11-06T08:51:01Z",
     "ts_local": "2026-11-06T08:51:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T09:27:08+00:00",
+    "detail": ""
    }
   ],
   "name": "Chris G. Willcocks",
@@ -92661,9 +92673,9 @@
   "slot_utc": "2026-11-06T08:30:00Z",
   "send_utc": "2026-11-06T08:51:00Z",
   "send_local": "2026-11-06T08:51:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 211
  },
  {
   "id": "P3577",
@@ -92805,6 +92817,12 @@
     "ts_utc": "2026-11-06T08:55:01Z",
     "ts_local": "2026-11-06T08:55:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T09:27:08+00:00",
+    "detail": ""
    }
   ],
   "name": "Urška Demšar",
@@ -92822,7 +92840,7 @@
   "send_utc": "2026-11-06T08:55:00Z",
   "send_local": "2026-11-06T08:55:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -93357,6 +93375,12 @@
     "ts_utc": "2026-11-06T09:02:01Z",
     "ts_local": "2026-11-06T09:02:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T09:27:08+00:00",
+    "detail": ""
    }
   ],
   "name": "Dimitrios Konovessis",
@@ -93373,8 +93397,8 @@
   "slot_utc": "2026-11-06T08:30:00Z",
   "send_utc": "2026-11-06T09:02:00Z",
   "send_local": "2026-11-06T09:02:00+00:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -95301,6 +95325,12 @@
     "ts_utc": "2026-11-06T09:20:01Z",
     "ts_local": "2026-11-06T09:20:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T09:27:08+00:00",
+    "detail": ""
    }
   ],
   "name": "Priyanka Verma",
@@ -95318,7 +95348,7 @@
   "send_utc": "2026-11-06T09:20:00Z",
   "send_local": "2026-11-06T09:20:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -95409,6 +95439,12 @@
     "ts_utc": "2026-11-06T09:21:01Z",
     "ts_local": "2026-11-06T09:21:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-06T09:27:08Z",
+    "ts_local": "2026-11-06T09:27:08+00:00",
+    "detail": ""
    }
   ],
   "name": "A. Louise Allcock",
@@ -95426,7 +95462,7 @@
   "send_utc": "2026-11-06T09:21:00Z",
   "send_local": "2026-11-06T09:21:00+00:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
