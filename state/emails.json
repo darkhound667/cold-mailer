@@ -91845,6 +91845,12 @@
     "ts_utc": "2026-11-06T08:31:01Z",
     "ts_local": "2026-11-06T08:31:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-06T09:33:11Z",
+    "ts_local": "2026-11-06T09:33:11+00:00",
+    "detail": ""
    }
   ],
   "name": "Xavier Lambin",
@@ -91861,9 +91867,9 @@
   "slot_utc": "2026-11-06T08:30:00Z",
   "send_utc": "2026-11-06T08:31:00Z",
   "send_local": "2026-11-06T08:31:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 212
  },
  {
   "id": "P3496",
