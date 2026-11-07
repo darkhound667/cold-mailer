@@ -87523,6 +87523,12 @@
     "ts_utc": "2026-11-05T07:57:01Z",
     "ts_local": "2026-11-05T08:57:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-07T11:19:01Z",
+    "ts_local": "2026-11-07T12:19:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Suzan Verberne",
@@ -87539,9 +87545,9 @@
   "slot_utc": "2026-11-05T07:30:00Z",
   "send_utc": "2026-11-05T07:57:00Z",
   "send_local": "2026-11-05T08:57:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 224
  },
  {
   "id": "P3471",
