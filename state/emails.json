@@ -53464,6 +53464,12 @@
     "ts_utc": "2026-11-02T09:23:01Z",
     "ts_local": "2026-11-02T09:23:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-09T16:26:01Z",
+    "ts_local": "2026-11-09T16:26:01+00:00",
+    "detail": ""
    }
   ],
   "name": "Samraat S. Pawar",
@@ -53480,9 +53486,9 @@
   "slot_utc": "2026-11-02T08:30:00Z",
   "send_utc": "2026-11-02T09:23:00Z",
   "send_local": "2026-11-02T09:23:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 238
  },
  {
   "id": "P3349",
