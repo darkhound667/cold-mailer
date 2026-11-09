@@ -71232,6 +71232,12 @@
     "ts_utc": "2026-11-03T14:37:01Z",
     "ts_local": "2026-11-03T08:37:01-06:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-09T21:49:52Z",
+    "ts_local": "2026-11-09T15:49:52-06:00",
+    "detail": ""
    }
   ],
   "name": "Nate Veldt",
@@ -71248,9 +71254,9 @@
   "slot_utc": "2026-11-03T14:30:00Z",
   "send_utc": "2026-11-03T14:37:00Z",
   "send_local": "2026-11-03T08:37:00-06:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 241
  },
  {
   "id": "P1247",
