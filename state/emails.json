@@ -98375,6 +98375,12 @@
     "ts_utc": "2026-11-09T13:31:01Z",
     "ts_local": "2026-11-09T08:31:01-05:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-09T19:52:15Z",
+    "ts_local": "2026-11-09T14:52:15-05:00",
+    "detail": ""
    }
   ],
   "name": "Nir Y. Krakauer",
@@ -98391,9 +98397,9 @@
   "slot_utc": "2026-11-09T13:30:00Z",
   "send_utc": "2026-11-09T13:31:00Z",
   "send_local": "2026-11-09T08:31:00-05:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 239
  },
  {
   "id": "P2959",
