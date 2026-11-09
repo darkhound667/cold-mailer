@@ -32718,6 +32718,12 @@
     "ts_utc": "2026-10-30T07:40:07Z",
     "ts_local": "2026-10-30T08:40:07+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-09T09:12:22Z",
+    "ts_local": "2026-11-09T10:12:22+01:00",
+    "detail": ""
    }
   ],
   "name": "Torsten Hoefler",
@@ -32734,9 +32740,9 @@
   "slot_utc": "2026-10-30T07:30:00Z",
   "send_utc": "2026-10-30T07:32:00Z",
   "send_local": "2026-10-30T08:32:00+01:00",
-  "status": "sent",
-  "reply_label": "auto_reply",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 229
  },
  {
   "id": "P1411",
