@@ -104507,6 +104507,12 @@
     "ts_utc": "2026-11-10T08:50:01Z",
     "ts_local": "2026-11-10T09:50:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T09:49:34Z",
+    "ts_local": "2026-11-10T10:49:34+01:00",
+    "detail": ""
    }
   ],
   "name": "Pascal Lenzner",
@@ -104523,9 +104529,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:50:00Z",
   "send_local": "2026-11-10T09:50:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 246
  },
  {
   "id": "P3591",
