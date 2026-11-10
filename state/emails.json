@@ -104919,6 +104919,12 @@
     "ts_utc": "2026-11-10T09:00:01Z",
     "ts_local": "2026-11-10T10:00:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T10:40:01Z",
+    "ts_local": "2026-11-10T11:40:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Ivan P. Yamshchikov",
@@ -104935,9 +104941,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T09:00:00Z",
   "send_local": "2026-11-10T10:00:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 247
  },
  {
   "id": "P1968",
