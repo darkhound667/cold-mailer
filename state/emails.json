@@ -101533,6 +101533,12 @@
     "ts_utc": "2026-11-10T07:37:01Z",
     "ts_local": "2026-11-10T08:37:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Stefan Larsson",
@@ -101549,9 +101555,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T07:37:00Z",
   "send_local": "2026-11-10T08:37:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 242
  },
  {
   "id": "P3151",
@@ -102093,6 +102099,12 @@
     "ts_utc": "2026-11-10T07:51:01Z",
     "ts_local": "2026-11-10T08:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Sina Zarrieß",
@@ -102109,8 +102121,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T07:51:00Z",
   "send_local": "2026-11-10T08:51:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -102293,6 +102305,12 @@
     "ts_utc": "2026-11-10T07:56:01Z",
     "ts_local": "2026-11-10T08:56:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Anne Lauscher",
@@ -102309,8 +102327,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T07:56:00Z",
   "send_local": "2026-11-10T08:56:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -102613,6 +102631,12 @@
     "ts_utc": "2026-11-10T08:04:01Z",
     "ts_local": "2026-11-10T09:04:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Ana Bastos",
@@ -102629,8 +102653,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:04:00Z",
   "send_local": "2026-11-10T09:04:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -103133,6 +103157,12 @@
     "ts_utc": "2026-11-10T08:17:01Z",
     "ts_local": "2026-11-10T09:17:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Martijn Wieling",
@@ -103149,9 +103179,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:17:00Z",
   "send_local": "2026-11-10T09:17:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 245
  },
  {
   "id": "P3545",
@@ -103413,6 +103443,12 @@
     "ts_utc": "2026-11-10T08:24:01Z",
     "ts_local": "2026-11-10T09:24:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Carsten Lutz",
@@ -103429,8 +103465,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:24:00Z",
   "send_local": "2026-11-10T09:24:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -104053,6 +104089,12 @@
     "ts_utc": "2026-11-10T08:40:01Z",
     "ts_local": "2026-11-10T09:40:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Annegret H. Thieken",
@@ -104069,9 +104111,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:40:00Z",
   "send_local": "2026-11-10T09:40:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 244
  },
  {
   "id": "P3576",
@@ -104093,6 +104135,12 @@
     "ts_utc": "2026-11-10T08:41:01Z",
     "ts_local": "2026-11-10T09:41:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "David Schlangen",
@@ -104109,9 +104157,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:41:00Z",
   "send_local": "2026-11-10T09:41:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 243
  },
  {
   "id": "P3582",
@@ -104213,6 +104261,12 @@
     "ts_utc": "2026-11-10T08:44:01Z",
     "ts_local": "2026-11-10T09:44:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Edith C. H. Ngai",
@@ -104229,8 +104283,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:44:00Z",
   "send_local": "2026-11-10T09:44:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -105053,6 +105107,12 @@
     "ts_utc": "2026-11-10T09:05:01Z",
     "ts_local": "2026-11-10T10:05:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Andreas Kamilaris",
@@ -105069,8 +105129,8 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T09:05:00Z",
   "send_local": "2026-11-10T10:05:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -105093,6 +105153,12 @@
     "ts_utc": "2026-11-10T09:06:01Z",
     "ts_local": "2026-11-10T10:06:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Sabine Timpf",
@@ -105110,7 +105176,7 @@
   "send_utc": "2026-11-10T09:06:00Z",
   "send_local": "2026-11-10T10:06:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -105173,6 +105239,12 @@
     "ts_utc": "2026-11-10T09:08:01Z",
     "ts_local": "2026-11-10T10:08:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-10T09:09:07Z",
+    "ts_local": "2026-11-10T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Jose Oramas M.",
@@ -105190,7 +105262,7 @@
   "send_utc": "2026-11-10T09:08:00Z",
   "send_local": "2026-11-10T10:08:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
