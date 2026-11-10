@@ -104207,6 +104207,12 @@
     "ts_utc": "2026-11-10T02:48:36Z",
     "ts_local": "2026-11-10T03:48:36+01:00",
     "detail": "send_local=2026-11-10T09:44:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-10T08:44:01Z",
+    "ts_local": "2026-11-10T09:44:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Edith C. H. Ngai",
@@ -104223,7 +104229,7 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:44:00Z",
   "send_local": "2026-11-10T09:44:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
