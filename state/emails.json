@@ -109423,6 +109423,12 @@
     "ts_utc": "2026-11-11T09:09:01Z",
     "ts_local": "2026-11-11T10:09:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T10:55:45Z",
+    "ts_local": "2026-11-11T11:55:45+01:00",
+    "detail": ""
    }
   ],
   "name": "Gherardo Varando",
@@ -109439,8 +109445,8 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T09:09:00Z",
   "send_local": "2026-11-11T10:09:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 263
  }
 ]
