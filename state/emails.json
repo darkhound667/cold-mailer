@@ -108625,6 +108625,12 @@
     "ts_utc": "2026-11-11T03:42:42Z",
     "ts_local": "2026-11-11T04:42:42+01:00",
     "detail": "send_local=2026-11-11T09:51:00+01:00"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-11T08:51:01Z",
+    "ts_local": "2026-11-11T09:51:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Manuel Esteban Lucas‐Borja",
@@ -108641,7 +108647,7 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:51:00Z",
   "send_local": "2026-11-11T09:51:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
