@@ -80798,6 +80798,12 @@
     "ts_utc": "2026-11-04T09:03:01Z",
     "ts_local": "2026-11-04T09:03:01+00:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T09:09:07+00:00",
+    "detail": ""
    }
   ],
   "name": "Frank Guerin",
@@ -80814,9 +80820,9 @@
   "slot_utc": "2026-11-04T08:30:00Z",
   "send_utc": "2026-11-04T09:03:00Z",
   "send_local": "2026-11-04T09:03:00+00:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 253
  },
  {
   "id": "P3466",
@@ -107071,6 +107077,12 @@
     "ts_utc": "2026-11-11T08:12:01Z",
     "ts_local": "2026-11-11T09:12:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Fausto Pedro Garcı́a Márquez",
@@ -107087,9 +107099,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:12:00Z",
   "send_local": "2026-11-11T09:12:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 254
  },
  {
   "id": "P1207",
@@ -107831,6 +107843,12 @@
     "ts_utc": "2026-11-11T08:31:01Z",
     "ts_local": "2026-11-11T09:31:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Jochen Hack",
@@ -107848,7 +107866,7 @@
   "send_utc": "2026-11-11T08:31:00Z",
   "send_local": "2026-11-11T09:31:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -107871,6 +107889,12 @@
     "ts_utc": "2026-11-11T08:32:01Z",
     "ts_local": "2026-11-11T09:32:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Francesco Vuolo",
@@ -107887,9 +107911,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:32:00Z",
   "send_local": "2026-11-11T09:32:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 255
  },
  {
   "id": "P1682",
@@ -108431,6 +108455,12 @@
     "ts_utc": "2026-11-11T08:46:01Z",
     "ts_local": "2026-11-11T09:46:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Deliang Chen",
@@ -108448,7 +108478,7 @@
   "send_utc": "2026-11-11T08:46:00Z",
   "send_local": "2026-11-11T09:46:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -108631,6 +108661,12 @@
     "ts_utc": "2026-11-11T08:51:01Z",
     "ts_local": "2026-11-11T09:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:09:07Z",
+    "ts_local": "2026-11-11T10:09:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Manuel Esteban Lucas‐Borja",
@@ -108647,9 +108683,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:51:00Z",
   "send_local": "2026-11-11T09:51:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 256
  },
  {
   "id": "P1971",
