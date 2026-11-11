@@ -105865,6 +105865,12 @@
     "ts_utc": "2026-11-11T07:42:01Z",
     "ts_local": "2026-11-11T08:42:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:38:13Z",
+    "ts_local": "2026-11-11T10:38:13+01:00",
+    "detail": ""
    }
   ],
   "name": "Jörg Ebbing",
@@ -105881,9 +105887,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T07:42:00Z",
   "send_local": "2026-11-11T08:42:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 259
  },
  {
   "id": "P3606",
