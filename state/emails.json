@@ -103221,6 +103221,12 @@
     "ts_utc": "2026-11-10T08:18:01Z",
     "ts_local": "2026-11-10T09:18:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T07:57:07Z",
+    "ts_local": "2026-11-11T08:57:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Mark Hoogendoorn",
@@ -103237,9 +103243,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:18:00Z",
   "send_local": "2026-11-10T09:18:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 252
  },
  {
   "id": "P1474",
@@ -105973,6 +105979,12 @@
     "ts_utc": "2026-11-11T07:45:01Z",
     "ts_local": "2026-11-11T08:45:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-11T07:57:07Z",
+    "ts_local": "2026-11-11T08:57:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Christoph Karl Thomas",
@@ -105990,7 +106002,7 @@
   "send_utc": "2026-11-11T07:45:00Z",
   "send_local": "2026-11-11T08:45:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
@@ -106213,6 +106225,12 @@
     "ts_utc": "2026-11-11T07:51:01Z",
     "ts_local": "2026-11-11T08:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-11T07:57:07Z",
+    "ts_local": "2026-11-11T08:57:07+01:00",
+    "detail": ""
    }
   ],
   "name": "Tobias K. D. Weber",
@@ -106230,7 +106248,7 @@
   "send_utc": "2026-11-11T07:51:00Z",
   "send_local": "2026-11-11T08:51:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
