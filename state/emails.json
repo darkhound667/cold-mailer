@@ -108747,6 +108747,12 @@
     "ts_utc": "2026-11-11T08:53:01Z",
     "ts_local": "2026-11-11T09:53:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-11T09:11:51Z",
+    "ts_local": "2026-11-11T10:11:51+01:00",
+    "detail": ""
    }
   ],
   "name": "Raffaele Albano",
@@ -108763,9 +108769,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:53:00Z",
   "send_local": "2026-11-11T09:53:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 257
  },
  {
   "id": "P1977",
