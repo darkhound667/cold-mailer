@@ -109490,5 +109490,2555 @@
   "status": "replied",
   "reply_label": "unclear",
   "issue": 263
+ },
+ {
+  "id": "P1722",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=5718712e58ea"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:30:00+01:00"
+   }
+  ],
+  "name": "Gianluca Bontempi",
+  "university": "Université Libre de Bruxelles",
+  "country": "BE",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Bontempi,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "5718712e58eab57ecfe8d4c41ea7c3bbe670bcdce4db959f2d5d5aedac86a249",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2620,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:30:00Z",
+  "send_local": "2026-11-13T08:30:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1079",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=8d40ae766bc0"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:31:00+01:00"
+   }
+  ],
+  "name": "Patrice Wira",
+  "university": "Université de Haute-Alsace",
+  "country": "FR",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Wira,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "8d40ae766bc09dad57cf024a723d6176d2f3112430db6c97b9bc7516449b2e8f",
+  "timezone": "Europe/Paris",
+  "queue_index": 2621,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:31:00Z",
+  "send_local": "2026-11-13T08:31:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1245",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=7399fd1d6092"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:32:00+01:00"
+   }
+  ],
+  "name": "David Rousseau",
+  "university": "Université d'Angers",
+  "country": "FR",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "A",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Rousseau,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "7399fd1d6092dec44399d076b0f08d6c9658bdbdcbd0ebbd253cb655c49899ad",
+  "timezone": "Europe/Paris",
+  "queue_index": 2622,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:32:00Z",
+  "send_local": "2026-11-13T08:32:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1278",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ec8369e824ff"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:33:00+01:00"
+   }
+  ],
+  "name": "Nicolas Masséi",
+  "university": "Université de Rouen Normandie",
+  "country": "FR",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Masséi,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ec8369e824ffcec963ec81c78786d6d92155a9b51bb2a952648e297bc3d5f734",
+  "timezone": "Europe/Paris",
+  "queue_index": 2623,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:33:00Z",
+  "send_local": "2026-11-13T08:33:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1407",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ad736dc78f88"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:34:00+01:00"
+   }
+  ],
+  "name": "Wenzhi Liao",
+  "university": "Ghent University",
+  "country": "BE",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "A",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Liao,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ad736dc78f8867786bdb662c809513707d18f59f0d827b704bd03f04cc2ddc99",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2624,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:34:00Z",
+  "send_local": "2026-11-13T08:34:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1422",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=826d3f6a9255"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:35:00+01:00"
+   }
+  ],
+  "name": "Wim Thiery",
+  "university": "Vrije Universiteit Brussel",
+  "country": "BE",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in deep learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Thiery,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "826d3f6a925592dedf39139936c21586164495167e7911edc5b7fa19c2bd2e25",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2625,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:35:00Z",
+  "send_local": "2026-11-13T08:35:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1525",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=b9fcbcc973f7"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:36:00+01:00"
+   }
+  ],
+  "name": "Ioulia Tchiguirinskaia",
+  "university": "École nationale des ponts et chaussées",
+  "country": "FR",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Tchiguirinskaia,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "b9fcbcc973f7ca5f26a0ded58477b3f52090cd501f407b441d686c754c8f9c3d",
+  "timezone": "Europe/Paris",
+  "queue_index": 2626,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:36:00Z",
+  "send_local": "2026-11-13T08:36:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1598",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=41da08b5e9c3"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:37:00+01:00"
+   }
+  ],
+  "name": "Gabriel Billon A",
+  "university": "Université de Lille",
+  "country": "FR",
+  "env_domain": "agriculture & food systems",
+  "tier": "A",
+  "subject": "Interested in machine learning for agriculture and food systems",
+  "body": "Dear Prof. Billon,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for agriculture and food systems, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "41da08b5e9c3fe29a991bd98f339b3cc6b13d27dd08bfae1d9e8764c9d0ba59c",
+  "timezone": "Europe/Paris",
+  "queue_index": 2627,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:37:00Z",
+  "send_local": "2026-11-13T08:37:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1630",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=b66ae47ce352"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:38:00+01:00"
+   }
+  ],
+  "name": "Nicolas Desassis",
+  "university": "École Nationale Supérieure des Mines de Paris",
+  "country": "FR",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in deep learning for natural hazards and disaster risk",
+  "body": "Dear Dr. Desassis,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "b66ae47ce352b89e6b8a591769e5ad72fe2f8fa31dc5b754a3fae668d2495524",
+  "timezone": "Europe/Paris",
+  "queue_index": 2628,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:38:00Z",
+  "send_local": "2026-11-13T08:38:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1724",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=19ca7b174f52"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:39:00+01:00"
+   }
+  ],
+  "name": "Hans‐Balder Havenith",
+  "university": "University of Liège",
+  "country": "BE",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in deep learning for natural hazards and disaster risk",
+  "body": "Dear Dr. Havenith,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "19ca7b174f52e6f77e8534d5c86c32c804ea1e200f98bccb86f25e9c94561158",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2629,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:39:00Z",
+  "send_local": "2026-11-13T08:39:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1751",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=fda60aca2526"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:40:00+01:00"
+   }
+  ],
+  "name": "Abdellah Touhafi",
+  "university": "Vrije Universiteit Brussel",
+  "country": "BE",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Touhafi,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "fda60aca25268566f1f6d5214a55a95b5f183ec8c75b123d83d8d6f964eecec4",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2630,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:40:00Z",
+  "send_local": "2026-11-13T08:40:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1818",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=1ac308a293a4"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:41:00+01:00"
+   }
+  ],
+  "name": "Frederik De Laender",
+  "university": "University of Namur",
+  "country": "BE",
+  "env_domain": "ecology & biodiversity",
+  "tier": "A",
+  "subject": "Interested in machine learning for ecology and biodiversity conservation",
+  "body": "Dear Dr. De Laender,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for ecology and biodiversity conservation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "1ac308a293a45ffaf0de409cfd3cb22ddc4160b38945a5c8d991e8f739029efc",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2631,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:41:00Z",
+  "send_local": "2026-11-13T08:41:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1867",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=9edad39dd0af"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:42:00+01:00"
+   }
+  ],
+  "name": "Nesrine Chehata",
+  "university": "Bordeaux INP (ENSEGID)",
+  "country": "FR",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "A",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Dr. Chehata,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "9edad39dd0af1ba861a9e51c164eedcbfac1fe4bda395f39801191d6a034e6cb",
+  "timezone": "Europe/Paris",
+  "queue_index": 2632,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:42:00Z",
+  "send_local": "2026-11-13T08:42:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P1868",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ba14b990ecf1"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:43:00+01:00"
+   }
+  ],
+  "name": "Ionel Vechiu",
+  "university": "École Supérieure des Technologies Industrielles Avancées",
+  "country": "FR",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "A",
+  "subject": "Interested in deep learning for energy systems and renewables",
+  "body": "Dear Prof. Vechiu,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ba14b990ecf199e7718a946a2b79327958f4ef170c476f7d3d2b50c9ac8b3b41",
+  "timezone": "Europe/Paris",
+  "queue_index": 2633,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:43:00Z",
+  "send_local": "2026-11-13T08:43:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P0246",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=79c028f34d48"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:44:00+01:00"
+   }
+  ],
+  "name": "Thomas Hermans",
+  "university": "Ghent University",
+  "country": "BE",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Hermans,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "79c028f34d487761513f5573218fa6f22751a8b464b8e7122b2e85b054797ad4",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2634,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:44:00Z",
+  "send_local": "2026-11-13T08:44:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P0441",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=de3d41746d5e"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:45:00+01:00"
+   }
+  ],
+  "name": "Pierre Tandeo",
+  "university": "IMT Atlantique",
+  "country": "FR",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "A",
+  "subject": "Interested in deep learning for climate and weather modelling",
+  "body": "Dear Dr. Tandeo,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "de3d41746d5ee60e1b72646900e6a228bedaacf0678d9c82658da9b8e892ab9d",
+  "timezone": "Europe/Paris",
+  "queue_index": 2635,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:45:00Z",
+  "send_local": "2026-11-13T08:45:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3630",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=7b85996c93de"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:46:00+01:00"
+   }
+  ],
+  "name": "Mohamed Maanan",
+  "university": "Nantes Université",
+  "country": "FR",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in deep learning for air quality and atmospheric science",
+  "body": "Dear Prof. Maanan,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "7b85996c93dee966cef6b01b840cf9f7740a8ab6f2d288e4950b29d0c216feb6",
+  "timezone": "Europe/Paris",
+  "queue_index": 2636,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:46:00Z",
+  "send_local": "2026-11-13T08:46:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3632",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ca1c2a2fb9d0"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:47:00+01:00"
+   }
+  ],
+  "name": "Nikos Deligiannis",
+  "university": "Vrije Universiteit Brussel",
+  "country": "BE",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "A",
+  "subject": "Interested in machine learning for air quality and atmospheric science",
+  "body": "Dear Prof. Deligiannis,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ca1c2a2fb9d029fc08ed1cc34d4165df9d9af6d97428aa50657441be47fdf2b9",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2637,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:47:00Z",
+  "send_local": "2026-11-13T08:47:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3635",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=90b657863c49"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:48:00+01:00"
+   }
+  ],
+  "name": "Marc Semper",
+  "university": "University of Alicante",
+  "country": "ES",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in deep learning for air quality and atmospheric science",
+  "body": "Dear Prof. Semper,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "90b657863c49333d484e2e2286bec934e5fff941062ced143c49040f60030e93",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2638,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:48:00Z",
+  "send_local": "2026-11-13T08:48:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3637",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=51d4be46b0f5"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:49:00+01:00"
+   }
+  ],
+  "name": "Maurizio Mazzoleni",
+  "university": "Vrije Universiteit Amsterdam",
+  "country": "NL",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Mazzoleni,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "51d4be46b0f5cf59a6135b7284845c50d1f89992fd9fe0fa039a5cf8a2c49a00",
+  "timezone": "Europe/Amsterdam",
+  "queue_index": 2639,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:49:00Z",
+  "send_local": "2026-11-13T08:49:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3638",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=14686941a19a"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:50:00+01:00"
+   }
+  ],
+  "name": "Rachid El Hamdouni",
+  "university": "Universidad de Granada",
+  "country": "ES",
+  "env_domain": "disaster & climate risk",
+  "tier": "A",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Dr. El Hamdouni,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "14686941a19af4f60a4b50aa15608b766931d23c942f34f22f9d7f39fe9652c9",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2640,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:50:00Z",
+  "send_local": "2026-11-13T08:50:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3640",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=d0d9bb0672c2"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:51:00+01:00"
+   }
+  ],
+  "name": "David Scaradozzi",
+  "university": "Marche Polytechnic University",
+  "country": "IT",
+  "env_domain": "oceans & cryosphere",
+  "tier": "A",
+  "subject": "Interested in deep learning for ocean and cryosphere science",
+  "body": "Dear Prof. Scaradozzi,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "d0d9bb0672c2881a183826bc35215e29394d4a8c694b4ed1d49e631596b5b73a",
+  "timezone": "Europe/Rome",
+  "queue_index": 2641,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:51:00Z",
+  "send_local": "2026-11-13T08:51:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3641",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=e010aced03c6"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:52:00+01:00"
+   }
+  ],
+  "name": "Alessandra Saponieri",
+  "university": "University of Salento",
+  "country": "IT",
+  "env_domain": "oceans & cryosphere",
+  "tier": "A",
+  "subject": "Interested in machine learning for ocean and cryosphere science",
+  "body": "Dear Prof. Saponieri,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "e010aced03c6ab29b8714045728e80ae6a631ce6d5576ad7e0722fe18e52ee8c",
+  "timezone": "Europe/Rome",
+  "queue_index": 2642,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:52:00Z",
+  "send_local": "2026-11-13T08:52:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3642",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=92b6c5294328"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:53:00+01:00"
+   }
+  ],
+  "name": "Mario Molinara",
+  "university": "Università degli studi di Cassino e del Lazio Meridionale",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "A",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Molinara,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "92b6c5294328ee0468299947b1978db0316d8fc0e1872f2c19a627a96865fdc3",
+  "timezone": "Europe/Rome",
+  "queue_index": 2643,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:53:00Z",
+  "send_local": "2026-11-13T08:53:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3644",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ab61ae5b2bed"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:54:00+01:00"
+   }
+  ],
+  "name": "Wim Cornelis",
+  "university": "Ghent University",
+  "country": "BE",
+  "env_domain": "agriculture & food systems",
+  "tier": "B",
+  "subject": "Interested in deep learning for agriculture and food systems",
+  "body": "Dear Prof. Cornelis,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for agriculture and food systems, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ab61ae5b2bedbeec47880ec14698eba5f376178d74278e5ac17b19035ab0664b",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2644,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:54:00Z",
+  "send_local": "2026-11-13T08:54:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3646",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ea5a0a6042b3"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:55:00+01:00"
+   }
+  ],
+  "name": "Salvatore Cuomo",
+  "university": "University of Naples Federico II",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Cuomo,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ea5a0a6042b3bcce4409c5087b594c0642ecb2b568ddcd6c1070f4a3b02e29ec",
+  "timezone": "Europe/Rome",
+  "queue_index": 2645,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:55:00Z",
+  "send_local": "2026-11-13T08:55:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3647",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=e44dce45aef4"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:56:00+01:00"
+   }
+  ],
+  "name": "Nicola Scafetta A",
+  "university": "University of Naples Federico II",
+  "country": "IT",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "B",
+  "subject": "Interested in machine learning for climate and weather modelling",
+  "body": "Dear Prof. Scafetta,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "e44dce45aef4ad2499aad526bde8191828d6fd7f84d26006fde326989555bb05",
+  "timezone": "Europe/Rome",
+  "queue_index": 2646,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:56:00Z",
+  "send_local": "2026-11-13T08:56:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3648",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=57ba4ab92cfa"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:57:00+01:00"
+   }
+  ],
+  "name": "Leonardo Conti",
+  "university": "University of Florence",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in machine learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Conti,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "57ba4ab92cfa14d2f1d328bd781b85d7a6a261ca33a9d3cd7180b94ee9505371",
+  "timezone": "Europe/Rome",
+  "queue_index": 2647,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:57:00Z",
+  "send_local": "2026-11-13T08:57:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3649",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=57175e69cce1"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:58:00+01:00"
+   }
+  ],
+  "name": "Sixto Herrera",
+  "university": "Universidad de Cantabria",
+  "country": "ES",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Herrera,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "57175e69cce14dd5fa6eda410b9fa77d3c015750a72dffc618a455b42ec9aab9",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2648,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:58:00Z",
+  "send_local": "2026-11-13T08:58:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3650",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=060cf7d48739"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T08:59:00+01:00"
+   }
+  ],
+  "name": "Marco D’Orazio",
+  "university": "Marche Polytechnic University",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. D’Orazio,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "060cf7d48739625098597aabe018d97806850f52cf4b6ff0aa8d1db4ad855920",
+  "timezone": "Europe/Rome",
+  "queue_index": 2649,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T07:59:00Z",
+  "send_local": "2026-11-13T08:59:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3651",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ca4bdc0ccc54"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:00:00+01:00"
+   }
+  ],
+  "name": "Aldo Fiori",
+  "university": "Roma Tre University",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Fiori,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ca4bdc0ccc546b3c485a922388971a023c39717fc9904968cc05da8edf5e88d8",
+  "timezone": "Europe/Rome",
+  "queue_index": 2650,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:00:00Z",
+  "send_local": "2026-11-13T09:00:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3654",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ae3f2032a6ad"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:01:00+01:00"
+   }
+  ],
+  "name": "Anders Bryn",
+  "university": "University of Oslo",
+  "country": "NO",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "A",
+  "subject": "Interested in machine learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Bryn,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ae3f2032a6adc34bc9ef84c671c3a3938d4a11f852556eaaaae76ffff30c73a5",
+  "timezone": "Europe/Oslo",
+  "queue_index": 2651,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:01:00Z",
+  "send_local": "2026-11-13T09:01:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3655",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=1afd6fe2bd0a"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:02:00+01:00"
+   }
+  ],
+  "name": "Olav Skarpaas",
+  "university": "University of Oslo",
+  "country": "NO",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "A",
+  "subject": "Interested in machine learning for climate and weather modelling",
+  "body": "Dear Prof. Skarpaas,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "1afd6fe2bd0ae3ac1834972f73096f855fb5bbb6cb6f0e42c04b8f69d06f7a81",
+  "timezone": "Europe/Oslo",
+  "queue_index": 2652,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:02:00Z",
+  "send_local": "2026-11-13T09:02:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3656",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=4573ef5cdc2d"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:03:00+01:00"
+   }
+  ],
+  "name": "Gabriele Bitelli",
+  "university": "University of Bologna",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "A",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Bitelli,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "4573ef5cdc2de6c780efa9b7e8ab6c86c683c2ece2995df56bb4ed53573065f4",
+  "timezone": "Europe/Rome",
+  "queue_index": 2653,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:03:00Z",
+  "send_local": "2026-11-13T09:03:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3657",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=fd8ece359968"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:04:00+01:00"
+   }
+  ],
+  "name": "Stefano Manzoni",
+  "university": "Stockholm University",
+  "country": "SE",
+  "env_domain": "carbon, emissions & sustainability",
+  "tier": "A",
+  "subject": "Interested in machine learning for carbon emissions and sustainability",
+  "body": "Dear Prof. Manzoni,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for carbon emissions and sustainability, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "fd8ece35996870f4cd9f7b75ce5cb1e62781360c6c027d80c3b794d7774168b8",
+  "timezone": "Europe/Stockholm",
+  "queue_index": 2654,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:04:00Z",
+  "send_local": "2026-11-13T09:04:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3658",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=8d5981bae824"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:05:00+01:00"
+   }
+  ],
+  "name": "Anna Maria Stellacci",
+  "university": "University of Bari Aldo Moro",
+  "country": "IT",
+  "env_domain": "agriculture & food systems",
+  "tier": "A",
+  "subject": "Interested in machine learning for agriculture and food systems",
+  "body": "Dear Prof. Stellacci,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for agriculture and food systems, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "8d5981bae82406ad79a705b6eb75d282c74b6bb950956037150c9d2e7d2d30ed",
+  "timezone": "Europe/Rome",
+  "queue_index": 2655,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:05:00Z",
+  "send_local": "2026-11-13T09:05:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3659",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=4f73d2a81f5f"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:06:00+01:00"
+   }
+  ],
+  "name": "Luis Guanter",
+  "university": "Universitat Politècnica de València",
+  "country": "ES",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "A",
+  "subject": "Interested in machine learning for air quality and atmospheric science",
+  "body": "Dear Prof. Guanter,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "4f73d2a81f5f6162f661daad8b58948f756529ed07708656ed34235c50f6e72f",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2656,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:06:00Z",
+  "send_local": "2026-11-13T09:06:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3660",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=436be295dfcd"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:07:00+01:00"
+   }
+  ],
+  "name": "Angelo Riccio",
+  "university": "Parthenope University of Naples",
+  "country": "IT",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "A",
+  "subject": "Interested in machine learning for air quality and atmospheric science",
+  "body": "Dear Prof. Riccio,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "436be295dfcd9be35e34d886f3a7745deb30a3a8023c8f576de6d309a2eb4fa6",
+  "timezone": "Europe/Rome",
+  "queue_index": 2657,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:07:00Z",
+  "send_local": "2026-11-13T09:07:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3662",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=d653de1526e8"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:08:00+01:00"
+   }
+  ],
+  "name": "Jasmine Siu Lee Lam",
+  "university": "Technical University of Denmark",
+  "country": "DK",
+  "env_domain": "carbon, emissions & sustainability",
+  "tier": "B",
+  "subject": "Interested in machine learning for carbon emissions and sustainability",
+  "body": "Dear Prof. Lam,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for carbon emissions and sustainability, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "d653de1526e86d8c1f45463ec2147e0b32aa79ff095513f54454e5988b120afa",
+  "timezone": "Europe/Copenhagen",
+  "queue_index": 2658,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:08:00Z",
+  "send_local": "2026-11-13T09:08:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3663",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=901a9ea14d35"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:09:00+01:00"
+   }
+  ],
+  "name": "Fernando Jaramillo",
+  "university": "Stockholm University",
+  "country": "SE",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Jaramillo,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "901a9ea14d354dce784ea3b38d408bcf9c62aa09bd9e6fc4fa80c164e652a61d",
+  "timezone": "Europe/Stockholm",
+  "queue_index": 2659,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:09:00Z",
+  "send_local": "2026-11-13T09:09:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3664",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=3e9f00d9a60b"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:10:00+01:00"
+   }
+  ],
+  "name": "Hans W. Linderholm",
+  "university": "University of Gothenburg",
+  "country": "SE",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "B",
+  "subject": "Interested in machine learning for climate and weather modelling",
+  "body": "Dear Prof. Linderholm,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "3e9f00d9a60bed43338542bb0dbd67919da8606b794bf624c407e916fe66f592",
+  "timezone": "Europe/Stockholm",
+  "queue_index": 2660,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:10:00Z",
+  "send_local": "2026-11-13T09:10:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3665",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=a61273d5b425"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:11:00+01:00"
+   }
+  ],
+  "name": "Jörg Libuda",
+  "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+  "country": "DE",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "B",
+  "subject": "Interested in machine learning for energy systems and renewables",
+  "body": "Dear Prof. Libuda,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "a61273d5b42589a9f0ab62ed4aefb55a69afe675074a2d70bb55a960999b05f0",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2661,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:11:00Z",
+  "send_local": "2026-11-13T09:11:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3666",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=8fb59139f3fb"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:12:00+01:00"
+   }
+  ],
+  "name": "Maurizio Petrelli",
+  "university": "University of Perugia",
+  "country": "IT",
+  "env_domain": "disaster & climate risk",
+  "tier": "B",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Petrelli,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "8fb59139f3fb26018c148048837be72f7d7a21b72a15cfc4d8f96e37a7d25583",
+  "timezone": "Europe/Rome",
+  "queue_index": 2662,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:12:00Z",
+  "send_local": "2026-11-13T09:12:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3667",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=bc98165138c8"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:13:00+01:00"
+   }
+  ],
+  "name": "Christoph Kittel",
+  "university": "Vrije Universiteit Brussel",
+  "country": "BE",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in deep learning for air quality and atmospheric science",
+  "body": "Dear Dr. Kittel,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "bc98165138c8ed068983587327a656876661644f7551db03a20c63ae45739ad8",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2663,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:13:00Z",
+  "send_local": "2026-11-13T09:13:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3668",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=a7be07415c1d"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:14:00+01:00"
+   }
+  ],
+  "name": "Gerald Auer",
+  "university": "University of Graz",
+  "country": "AT",
+  "env_domain": "disaster & climate risk",
+  "tier": "B",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Auer,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "a7be07415c1d12e4cdbacb7ad3d1c8d5a7ba81042fcbb9e14f4056c2923e9d74",
+  "timezone": "Europe/Vienna",
+  "queue_index": 2664,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:14:00Z",
+  "send_local": "2026-11-13T09:14:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3671",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=5d00d89a6dce"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:15:00+01:00"
+   }
+  ],
+  "name": "José T. Palma",
+  "university": "Universidad de Murcia",
+  "country": "ES",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in deep learning for air quality and atmospheric science",
+  "body": "Dear Prof. Palma,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "5d00d89a6dce344515a738197f3f7ad378814881516b32ddc22379c4756def2e",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2665,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:15:00Z",
+  "send_local": "2026-11-13T09:15:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3672",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=15ac6618f17d"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:16:00+01:00"
+   }
+  ],
+  "name": "Jean‐Louis Scartezzini",
+  "university": "École Polytechnique Fédérale de Lausanne",
+  "country": "CH",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "B",
+  "subject": "Interested in deep learning for energy systems and renewables",
+  "body": "Dear Prof. Scartezzini,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "15ac6618f17d83a6fa0ae8b380141d4fb686c550f0940e9dabcf8fbf012fd093",
+  "timezone": "Europe/Zurich",
+  "queue_index": 2666,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:16:00Z",
+  "send_local": "2026-11-13T09:16:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3673",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=1e71b4a43be4"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:17:00+01:00"
+   }
+  ],
+  "name": "Angelo Genovese",
+  "university": "University of Milan",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Genovese,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "1e71b4a43be4371f2c367e1adaf0fa4c83c69955d2574bd9c0213ac5140c96cf",
+  "timezone": "Europe/Rome",
+  "queue_index": 2667,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:17:00Z",
+  "send_local": "2026-11-13T09:17:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3674",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=76985dfe05e0"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:18:00+01:00"
+   }
+  ],
+  "name": "Bianca Federici",
+  "university": "University of Genoa",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Federici,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "76985dfe05e023d1bf57a7683b6b95fa61ce74d4e3d8ea25f0d2648799c0f40a",
+  "timezone": "Europe/Rome",
+  "queue_index": 2668,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:18:00Z",
+  "send_local": "2026-11-13T09:18:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3676",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=b92f9cb7d36c"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:19:00+01:00"
+   }
+  ],
+  "name": "Giovanni Scicchitano",
+  "university": "University of Bari Aldo Moro",
+  "country": "IT",
+  "env_domain": "oceans & cryosphere",
+  "tier": "B",
+  "subject": "Interested in deep learning for ocean and cryosphere science",
+  "body": "Dear Prof. Scicchitano,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "b92f9cb7d36c42e6694051d2bcc1563ac11a05f6f7b8742f63ee32947b12c9b8",
+  "timezone": "Europe/Rome",
+  "queue_index": 2669,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:19:00Z",
+  "send_local": "2026-11-13T09:19:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3677",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=e4610bf69eea"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:20:00+01:00"
+   }
+  ],
+  "name": "Andrea Zanini",
+  "university": "University of Parma",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in deep learning for hydrology and water resources",
+  "body": "Dear Prof. Zanini,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "e4610bf69eea0d55c27899421359309c0bec79747ffa0fc7e7592537ae62a0e7",
+  "timezone": "Europe/Rome",
+  "queue_index": 2670,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:20:00Z",
+  "send_local": "2026-11-13T09:20:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3679",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=660947f98a89"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:21:00+01:00"
+   }
+  ],
+  "name": "Víctor Yepes",
+  "university": "Universitat Politècnica de València",
+  "country": "ES",
+  "env_domain": "pollution & environmental engineering",
+  "tier": "B",
+  "subject": "Interested in machine learning for pollution and environmental engineering",
+  "body": "Dear Prof. Yepes,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for pollution and environmental engineering, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "660947f98a8961b150fb44c7d7e987fb54f69393019309250ecb34688bd6987e",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2671,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:21:00Z",
+  "send_local": "2026-11-13T09:21:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3682",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=abb739e01cd4"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:22:00+01:00"
+   }
+  ],
+  "name": "Christoph A. Herrmann",
+  "university": "Technische Universität Braunschweig",
+  "country": "DE",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in machine learning for air quality and atmospheric science",
+  "body": "Dear Prof. Herrmann,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "abb739e01cd4acd1956c01b0b56c34501173ef143b6f441819f5bd4e388b5926",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2672,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:22:00Z",
+  "send_local": "2026-11-13T09:22:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3683",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=f9171bea1a33"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:23:00+01:00"
+   }
+  ],
+  "name": "Nils Goseberg",
+  "university": "Technische Universität Braunschweig",
+  "country": "DE",
+  "env_domain": "oceans & cryosphere",
+  "tier": "B",
+  "subject": "Interested in machine learning for ocean and cryosphere science",
+  "body": "Dear Prof. Goseberg,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "f9171bea1a33caaac790b73bc3acce9a70f58ff34d94429b737c0db25e925dcd",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2673,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:23:00Z",
+  "send_local": "2026-11-13T09:23:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3684",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=c7001d69fcfa"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:24:00+01:00"
+   }
+  ],
+  "name": "Piero Di Carlo",
+  "university": "University of Chieti-Pescara",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Di Carlo,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "c7001d69fcfa12976c20a7be3bb5bc6464049049ec0dfaa3a91bcfd2b6897439",
+  "timezone": "Europe/Rome",
+  "queue_index": 2674,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:24:00Z",
+  "send_local": "2026-11-13T09:24:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3685",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=16de04fb293e"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:25:00+01:00"
+   }
+  ],
+  "name": "Jesús Lozano",
+  "university": "Universidad de Extremadura",
+  "country": "ES",
+  "env_domain": "air quality & atmospheric science",
+  "tier": "B",
+  "subject": "Interested in machine learning for air quality and atmospheric science",
+  "body": "Dear Prof. Lozano,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for air quality and atmospheric science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "16de04fb293e3c9e78ea9b73331bcbeabb8b46756286292a5e4cb2f086ea1175",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2675,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:25:00Z",
+  "send_local": "2026-11-13T09:25:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3688",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=13a17e904eb0"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:26:00+01:00"
+   }
+  ],
+  "name": "Felice Arena",
+  "university": "University of Reggio Calabria",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Arena,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "13a17e904eb05d55e8bc4b4cab89c61c6b9278c2e4f59a77daa971793d13628f",
+  "timezone": "Europe/Rome",
+  "queue_index": 2676,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:26:00Z",
+  "send_local": "2026-11-13T09:26:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3689",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=89e52daa2747"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:27:00+01:00"
+   }
+  ],
+  "name": "Alessandro Chiarucci",
+  "university": "University of Bologna",
+  "country": "IT",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "B",
+  "subject": "Interested in machine learning for climate and weather modelling",
+  "body": "Dear Prof. Chiarucci,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "89e52daa2747f6a8044dc02ad4f19c4c7f0dfc2e72b03636d9d6a4fb38f22ac8",
+  "timezone": "Europe/Rome",
+  "queue_index": 2677,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:27:00Z",
+  "send_local": "2026-11-13T09:27:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3690",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=f91f80813b61"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:28:00+01:00"
+   }
+  ],
+  "name": "Holger Tost",
+  "university": "Johannes Gutenberg University Mainz",
+  "country": "DE",
+  "env_domain": "climate modeling & weather forecasting",
+  "tier": "B",
+  "subject": "Interested in deep learning for climate and weather modelling",
+  "body": "Dear Prof. Tost,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for climate and weather modelling, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "f91f80813b6117ea02f95cec0b24db4d07549ee8b1de6d420ef43cbd047ff5e2",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2678,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:28:00Z",
+  "send_local": "2026-11-13T09:28:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3691",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=81f155e5e5d7"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:29:00+01:00"
+   }
+  ],
+  "name": "Torsten Schlurmann",
+  "university": "Leibniz University Hannover",
+  "country": "DE",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Schlurmann,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "81f155e5e5d7a354ede27c51944c84746d7430b5541b07c65649dd53d304694c",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2679,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:29:00Z",
+  "send_local": "2026-11-13T09:29:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3693",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=e5491e2467f8"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:30:00+01:00"
+   }
+  ],
+  "name": "Francesco Contino",
+  "university": "UCLouvain",
+  "country": "BE",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "B",
+  "subject": "Interested in machine learning for energy systems and renewables",
+  "body": "Dear Prof. Contino,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "e5491e2467f8f49e7c8ae93ff2f698b20517af817f9469ea5d55cba20071e2ce",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2680,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:30:00Z",
+  "send_local": "2026-11-13T09:30:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3695",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=44e7e8f2f6c0"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:31:00+01:00"
+   }
+  ],
+  "name": "Cigdem Beyan",
+  "university": "University of Verona",
+  "country": "IT",
+  "env_domain": "hydrology & water resources",
+  "tier": "B",
+  "subject": "Interested in machine learning for hydrology and water resources",
+  "body": "Dear Prof. Beyan,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for hydrology and water resources, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "44e7e8f2f6c0f6495eb3e3980a58eab58e3044cb62df7756bd578346022b3b1b",
+  "timezone": "Europe/Rome",
+  "queue_index": 2681,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:31:00Z",
+  "send_local": "2026-11-13T09:31:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3696",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=958ef0a48161"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:32:00+01:00"
+   }
+  ],
+  "name": "Giovanni Besio",
+  "university": "University of Genoa",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in machine learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Besio,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "958ef0a481610ee3fb7fe0fe1b3f36d032c3158c9279720b8f06b2da4a5534b6",
+  "timezone": "Europe/Rome",
+  "queue_index": 2682,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:32:00Z",
+  "send_local": "2026-11-13T09:32:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3697",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=7d64e627bb00"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:33:00+01:00"
+   }
+  ],
+  "name": "Jonathan Cheung-Wai Chan",
+  "university": "Vrije Universiteit Brussel",
+  "country": "BE",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in machine learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Chan,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "7d64e627bb00c6a5b6076b2640e53e364c5780adfeb845c4e4a53cdbce25452c",
+  "timezone": "Europe/Brussels",
+  "queue_index": 2683,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:33:00Z",
+  "send_local": "2026-11-13T09:33:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3699",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=d7bbc9f4f48e"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:34:00+01:00"
+   }
+  ],
+  "name": "Alessio Mortelliti",
+  "university": "University of Trieste",
+  "country": "IT",
+  "env_domain": "ecology & biodiversity",
+  "tier": "B",
+  "subject": "Interested in machine learning for ecology and biodiversity conservation",
+  "body": "Dear Prof. Mortelliti,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for ecology and biodiversity conservation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "d7bbc9f4f48e84a05d624982f11f36594d34f6aa01f6ad25098290e3700e723d",
+  "timezone": "Europe/Rome",
+  "queue_index": 2684,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:34:00Z",
+  "send_local": "2026-11-13T09:34:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3700",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=7b5f9605982e"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:35:00+01:00"
+   }
+  ],
+  "name": "Gianni Gilioli",
+  "university": "University of Brescia",
+  "country": "IT",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Gilioli,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "7b5f9605982e7e25dfe821729e91efdcf2356fb10aa145b92a3d8bb50feb7f0f",
+  "timezone": "Europe/Rome",
+  "queue_index": 2685,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:35:00Z",
+  "send_local": "2026-11-13T09:35:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3702",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=67622579deec"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:36:00+01:00"
+   }
+  ],
+  "name": "Chiara Colombero",
+  "university": "Politecnico di Torino",
+  "country": "IT",
+  "env_domain": "disaster & climate risk",
+  "tier": "B",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Colombero,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "67622579deec97f6d67d683d90ab8efa4763c7e656425b65d33f59a4cab6a127",
+  "timezone": "Europe/Rome",
+  "queue_index": 2686,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:36:00Z",
+  "send_local": "2026-11-13T09:36:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3704",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=8c72b4791bd6"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:37:00+01:00"
+   }
+  ],
+  "name": "Landon J. S. Halloran",
+  "university": "University of Neuchâtel",
+  "country": "CH",
+  "env_domain": "oceans & cryosphere",
+  "tier": "B",
+  "subject": "Interested in machine learning for ocean and cryosphere science",
+  "body": "Dear Prof. Halloran,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "8c72b4791bd683a77f5aa8157c4347fbdc80442a8aed8f354bba26322a070f22",
+  "timezone": "Europe/Zurich",
+  "queue_index": 2687,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:37:00Z",
+  "send_local": "2026-11-13T09:37:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3705",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=860481e3e4d4"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:38:00+01:00"
+   }
+  ],
+  "name": "Manuel Andrés Rodrigo",
+  "university": "University of Castilla-La Mancha",
+  "country": "ES",
+  "env_domain": "pollution & environmental engineering",
+  "tier": "B",
+  "subject": "Interested in machine learning for pollution and environmental engineering",
+  "body": "Dear Prof. Rodrigo,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for pollution and environmental engineering, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "860481e3e4d4a2b3618b47fa594e0cfb154e5abf546edf2a3ef44308fd7ffd56",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2688,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:38:00Z",
+  "send_local": "2026-11-13T09:38:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3706",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=dc1106634e80"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:39:00+01:00"
+   }
+  ],
+  "name": "Francisco Jesús Moral",
+  "university": "Universidad de Extremadura",
+  "country": "ES",
+  "env_domain": "agriculture & food systems",
+  "tier": "B",
+  "subject": "Interested in machine learning for agriculture and food systems",
+  "body": "Dear Prof. Moral,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for agriculture and food systems, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "dc1106634e8022d05a4f6c4ec1a7fd1ec6a53eb971d144e6d3fec416e06c2a98",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2689,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:39:00Z",
+  "send_local": "2026-11-13T09:39:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3707",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=fd2f6680c236"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:40:00+01:00"
+   }
+  ],
+  "name": "Federico Cella",
+  "university": "Università di Camerino",
+  "country": "IT",
+  "env_domain": "disaster & climate risk",
+  "tier": "B",
+  "subject": "Interested in machine learning for natural hazards and disaster risk",
+  "body": "Dear Prof. Cella,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for natural hazards and disaster risk, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "fd2f6680c236aeb93bd5520c2227650eb06b9fbe322129cd1b3813647f891ae1",
+  "timezone": "Europe/Rome",
+  "queue_index": 2690,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:40:00Z",
+  "send_local": "2026-11-13T09:40:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3709",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=9e312ebcea62"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:41:00+01:00"
+   }
+  ],
+  "name": "Juan de la Casa",
+  "university": "Universidad de Jaén",
+  "country": "ES",
+  "env_domain": "energy systems, renewables & smart grids",
+  "tier": "B",
+  "subject": "Interested in machine learning for energy systems and renewables",
+  "body": "Dear Prof. la Casa,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in machine learning for energy systems and renewables, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also worked as an R&D trainee at Chemeca on screening adsorbent materials for direct air capture of CO2.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "9e312ebcea62c9d45f6f962ffb912501e7aeafbc0addbf79bb2ca9736d53f6e5",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2691,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:41:00Z",
+  "send_local": "2026-11-13T09:41:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3711",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=ec6e1c5e524a"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:42:00+01:00"
+   }
+  ],
+  "name": "Sturla F. Kvamsdal",
+  "university": "Norwegian School of Economics",
+  "country": "NO",
+  "env_domain": "oceans & cryosphere",
+  "tier": "B",
+  "subject": "Interested in deep learning for ocean and cryosphere science",
+  "body": "Dear Prof. Kvamsdal,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for ocean and cryosphere science, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "ec6e1c5e524abcea7501cab2404dd17cc7cabe352df4b59230d8ebc2b5381180",
+  "timezone": "Europe/Oslo",
+  "queue_index": 2692,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:42:00Z",
+  "send_local": "2026-11-13T09:42:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3715",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=b86775a5cf29"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:43:00+01:00"
+   }
+  ],
+  "name": "Jesús Delegido",
+  "university": "Parc Científic de la Universitat de València",
+  "country": "ES",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Delegido,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "b86775a5cf2981b569622832a7e5becbb77b180b28f3f6e5deb82d67cfab7560",
+  "timezone": "Europe/Madrid",
+  "queue_index": 2693,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:43:00Z",
+  "send_local": "2026-11-13T09:43:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
+ },
+ {
+  "id": "P3716",
+  "events": [
+   {
+    "event": "queued",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "sha256=4db13158d268"
+   },
+   {
+    "event": "scheduled",
+    "ts_utc": "2026-11-12T06:33:42Z",
+    "ts_local": "2026-11-12T07:33:42+01:00",
+    "detail": "send_local=2026-11-13T09:44:00+01:00"
+   }
+  ],
+  "name": "Gernot Heisenberg",
+  "university": "TH Köln - University of Applied Sciences",
+  "country": "DE",
+  "env_domain": "remote sensing & earth observation",
+  "tier": "B",
+  "subject": "Interested in deep learning for remote sensing and Earth observation",
+  "body": "Dear Prof. Heisenberg,\n\nI hope this message finds you well.\n\nMy name is Ruturva Vaghasia, an Environmental Science and Engineering undergraduate with a minor in Artificial Intelligence and Data Science at IIT Bombay, where I hold a CPI of 9.28. I am writing to express my interest in working with you on research in deep learning for remote sensing and Earth observation, an area I would like to go considerably deeper into.\n\nI built a wildlife-detection model for image grids using handcrafted texture features and gradient-boosted trees. In another project on noisy human labels in image classification, I flagged likely mislabelled images from a CNN's own disagreement with each label (0.95 AUROC) and retrained on the cleaned set. I also analysed, in a course project, air-quality data from two Chennai stations, comparing pollutants across seasons and stations and handling missing readings.\n\nI would be grateful for any opportunity to contribute to your group's work, and I would be glad to discuss how I could be of help.\n\nMy resume is attached for your reference. Thank you for your time and consideration. I look forward to hearing from you.\n\nWarm regards,\nRuturva Vaghasia\nB.Tech. Environmental Science and Engineering, Minor in Artificial Intelligence and Data Science\nIndian Institute of Technology Bombay\n",
+  "attachment": "Ruturva_Vaghasia_Resume.pdf",
+  "sha256": "4db13158d268735d7ec6422ea3daa6c6e7ba785dc9f2d42b5f8c67b27433a237",
+  "timezone": "Europe/Berlin",
+  "queue_index": 2694,
+  "slot_utc": "2026-11-13T07:30:00Z",
+  "send_utc": "2026-11-13T08:44:00Z",
+  "send_local": "2026-11-13T09:44:00+01:00",
+  "status": "scheduled",
+  "reply_label": "",
+  "issue": null
  }
 ]
