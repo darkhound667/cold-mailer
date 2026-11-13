@@ -110261,6 +110261,12 @@
     "ts_utc": "2026-11-12T06:34:57Z",
     "ts_local": "2026-11-12T07:34:57+01:00",
     "detail": "intro: 2nd year undergraduate"
+   },
+   {
+    "event": "sent",
+    "ts_utc": "2026-11-13T07:45:01Z",
+    "ts_local": "2026-11-13T08:45:01+01:00",
+    "detail": ""
    }
   ],
   "name": "Pierre Tandeo",
@@ -110277,7 +110283,7 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:45:00Z",
   "send_local": "2026-11-13T08:45:00+01:00",
-  "status": "scheduled",
+  "status": "sent",
   "reply_label": "",
   "issue": null
  },
