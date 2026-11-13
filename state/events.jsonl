@@ -8849,3 +8849,4 @@
 {"id": "P3618", "event": "replied", "ts_utc": "2026-11-12T15:22:18Z", "ts_local": "2026-11-12T16:22:18+01:00", "detail": ""}
 {"id": "P1993", "event": "replied_again", "ts_utc": "2026-11-12T18:18:34Z", "ts_local": "2026-11-12T19:18:34+01:00", "detail": ""}
 {"id": "P1261", "event": "replied", "ts_utc": "2026-11-12T21:53:40Z", "ts_local": "2026-11-12T22:53:40+01:00", "detail": ""}
+{"id": "P1722", "event": "sent", "ts_utc": "2026-11-13T07:30:04Z", "ts_local": "2026-11-13T08:30:04+01:00", "detail": ""}
