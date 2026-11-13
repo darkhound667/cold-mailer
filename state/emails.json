@@ -110955,6 +110955,12 @@
     "ts_utc": "2026-11-13T07:58:01Z",
     "ts_local": "2026-11-13T08:58:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T12:17:28Z",
+    "ts_local": "2026-11-13T13:17:28+01:00",
+    "detail": ""
    }
   ],
   "name": "Sixto Herrera",
@@ -110971,8 +110977,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:58:00Z",
   "send_local": "2026-11-13T08:58:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
