@@ -110609,6 +110609,12 @@
     "ts_utc": "2026-11-13T07:51:01Z",
     "ts_local": "2026-11-13T08:51:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T12:12:38Z",
+    "ts_local": "2026-11-13T13:12:38+01:00",
+    "detail": ""
    }
   ],
   "name": "David Scaradozzi",
@@ -110625,8 +110631,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:51:00Z",
   "send_local": "2026-11-13T08:51:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
