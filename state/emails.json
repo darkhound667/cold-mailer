@@ -109027,6 +109027,12 @@
     "ts_utc": "2026-11-11T08:57:02Z",
     "ts_local": "2026-11-11T09:57:02+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Özgür Kişi",
@@ -109043,9 +109049,9 @@
   "slot_utc": "2026-11-11T07:30:00Z",
   "send_utc": "2026-11-11T08:57:00Z",
   "send_local": "2026-11-11T09:57:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 272
  },
  {
   "id": "P0274",
@@ -109577,6 +109583,12 @@
     "ts_utc": "2026-11-13T07:30:04Z",
     "ts_local": "2026-11-13T08:30:04+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Gianluca Bontempi",
@@ -109593,8 +109605,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:30:00Z",
   "send_local": "2026-11-13T08:30:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -109807,6 +109819,12 @@
     "ts_utc": "2026-11-13T07:35:02Z",
     "ts_local": "2026-11-13T08:35:02+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Wim Thiery",
@@ -109823,8 +109841,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:35:00Z",
   "send_local": "2026-11-13T08:35:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -109945,6 +109963,12 @@
     "ts_utc": "2026-11-13T07:38:01Z",
     "ts_local": "2026-11-13T08:38:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Nicolas Desassis",
@@ -109961,8 +109985,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:38:00Z",
   "send_local": "2026-11-13T08:38:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110037,6 +110061,12 @@
     "ts_utc": "2026-11-13T07:40:01Z",
     "ts_local": "2026-11-13T08:40:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Abdellah Touhafi",
@@ -110053,8 +110083,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:40:00Z",
   "send_local": "2026-11-13T08:40:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110083,6 +110113,12 @@
     "ts_utc": "2026-11-13T07:41:01Z",
     "ts_local": "2026-11-13T08:41:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Frederik De Laender",
@@ -110099,8 +110135,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:41:00Z",
   "send_local": "2026-11-13T08:41:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110175,6 +110211,12 @@
     "ts_utc": "2026-11-13T07:43:01Z",
     "ts_local": "2026-11-13T08:43:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Ionel Vechiu",
@@ -110191,8 +110233,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:43:00Z",
   "send_local": "2026-11-13T08:43:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110359,6 +110401,12 @@
     "ts_utc": "2026-11-13T07:47:01Z",
     "ts_local": "2026-11-13T08:47:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Nikos Deligiannis",
@@ -110375,8 +110423,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:47:00Z",
   "send_local": "2026-11-13T08:47:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110451,6 +110499,12 @@
     "ts_utc": "2026-11-13T07:49:01Z",
     "ts_local": "2026-11-13T08:49:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Maurizio Mazzoleni",
@@ -110467,8 +110521,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:49:00Z",
   "send_local": "2026-11-13T08:49:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110589,6 +110643,12 @@
     "ts_utc": "2026-11-13T07:52:01Z",
     "ts_local": "2026-11-13T08:52:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Alessandra Saponieri",
@@ -110605,8 +110665,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:52:00Z",
   "send_local": "2026-11-13T08:52:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110727,6 +110787,12 @@
     "ts_utc": "2026-11-13T07:55:01Z",
     "ts_local": "2026-11-13T08:55:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Salvatore Cuomo",
@@ -110743,8 +110809,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:55:00Z",
   "send_local": "2026-11-13T08:55:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110773,6 +110839,12 @@
     "ts_utc": "2026-11-13T07:56:02Z",
     "ts_local": "2026-11-13T08:56:02+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Nicola Scafetta A",
@@ -110789,8 +110861,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:56:00Z",
   "send_local": "2026-11-13T08:56:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -110957,6 +111029,12 @@
     "ts_utc": "2026-11-13T08:00:01Z",
     "ts_local": "2026-11-13T09:00:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Aldo Fiori",
@@ -110973,8 +111051,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T08:00:00Z",
   "send_local": "2026-11-13T09:00:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -111095,6 +111173,12 @@
     "ts_utc": "2026-11-13T08:03:01Z",
     "ts_local": "2026-11-13T09:03:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Gabriele Bitelli",
@@ -111111,8 +111195,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T08:03:00Z",
   "send_local": "2026-11-13T09:03:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -111141,6 +111225,12 @@
     "ts_utc": "2026-11-13T08:04:01Z",
     "ts_local": "2026-11-13T09:04:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Stefano Manzoni",
@@ -111157,9 +111247,9 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T08:04:00Z",
   "send_local": "2026-11-13T09:04:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 273
  },
  {
   "id": "P3658",
@@ -111233,6 +111323,12 @@
     "ts_utc": "2026-11-13T08:06:01Z",
     "ts_local": "2026-11-13T09:06:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "bounced",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Luis Guanter",
@@ -111249,8 +111345,8 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T08:06:00Z",
   "send_local": "2026-11-13T09:06:00+01:00",
-  "status": "sent",
-  "reply_label": "",
+  "status": "bounced",
+  "reply_label": "bounce",
   "issue": null
  },
  {
@@ -111371,6 +111467,12 @@
     "ts_utc": "2026-11-13T08:09:01Z",
     "ts_local": "2026-11-13T09:09:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "auto_reply",
+    "ts_utc": "2026-11-13T08:44:08Z",
+    "ts_local": "2026-11-13T09:44:08+01:00",
+    "detail": ""
    }
   ],
   "name": "Fernando Jaramillo",
@@ -111388,7 +111490,7 @@
   "send_utc": "2026-11-13T08:09:00Z",
   "send_local": "2026-11-13T09:09:00+01:00",
   "status": "sent",
-  "reply_label": "",
+  "reply_label": "auto_reply",
   "issue": null
  },
  {
