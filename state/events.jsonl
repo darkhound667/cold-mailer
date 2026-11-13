@@ -8968,3 +8968,4 @@
 {"id": "P3655", "event": "bounced", "ts_utc": "2026-11-13T12:16:14Z", "ts_local": "2026-11-13T13:16:14+01:00", "detail": ""}
 {"id": "P3649", "event": "bounced", "ts_utc": "2026-11-13T12:17:28Z", "ts_local": "2026-11-13T13:17:28+01:00", "detail": ""}
 {"id": "P3654", "event": "replied", "ts_utc": "2026-11-13T12:42:05Z", "ts_local": "2026-11-13T13:42:05+01:00", "detail": ""}
+{"id": "P3702", "event": "auto_reply", "ts_utc": "2026-11-13T13:24:55Z", "ts_local": "2026-11-13T14:24:55+01:00", "detail": ""}
