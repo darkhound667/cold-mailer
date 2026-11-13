@@ -102993,6 +102993,12 @@
     "ts_utc": "2026-11-10T08:12:01Z",
     "ts_local": "2026-11-10T09:12:01+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-13T11:25:18Z",
+    "ts_local": "2026-11-13T12:25:18+01:00",
+    "detail": ""
    }
   ],
   "name": "Ulrike Schmidt-Kraepelin",
@@ -103009,9 +103015,9 @@
   "slot_utc": "2026-11-10T07:30:00Z",
   "send_utc": "2026-11-10T08:12:00Z",
   "send_local": "2026-11-10T09:12:00+01:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 275
  },
  {
   "id": "P1879",
