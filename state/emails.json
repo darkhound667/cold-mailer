@@ -112329,6 +112329,12 @@
     "ts_utc": "2026-11-13T08:50:40Z",
     "ts_local": "2026-11-13T09:50:40+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-14T08:17:45Z",
+    "ts_local": "2026-11-14T09:17:45+01:00",
+    "detail": ""
    }
   ],
   "name": "Jesús Lozano",
@@ -112345,9 +112351,9 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T08:25:00Z",
   "send_local": "2026-11-13T09:25:00+01:00",
-  "status": "bounced",
-  "reply_label": "bounce",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 282
  },
  {
   "id": "P3688",
