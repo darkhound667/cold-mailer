@@ -110733,6 +110733,12 @@
     "ts_utc": "2026-11-13T08:44:08Z",
     "ts_local": "2026-11-13T09:44:08+01:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-16T11:26:53Z",
+    "ts_local": "2026-11-16T12:26:53+01:00",
+    "detail": ""
    }
   ],
   "name": "Alessandra Saponieri",
@@ -110749,9 +110755,9 @@
   "slot_utc": "2026-11-13T07:30:00Z",
   "send_utc": "2026-11-13T07:52:00Z",
   "send_local": "2026-11-13T08:52:00+01:00",
-  "status": "bounced",
-  "reply_label": "bounce",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 289
  },
  {
   "id": "P3642",
