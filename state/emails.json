@@ -67594,6 +67594,12 @@
     "ts_utc": "2026-11-02T15:40:01Z",
     "ts_local": "2026-11-02T08:40:01-07:00",
     "detail": ""
+   },
+   {
+    "event": "replied",
+    "ts_utc": "2026-11-18T23:46:59Z",
+    "ts_local": "2026-11-18T16:46:59-07:00",
+    "detail": ""
    }
   ],
   "name": "Russ S. Schumacher",
@@ -67610,9 +67616,9 @@
   "slot_utc": "2026-11-02T15:30:00Z",
   "send_utc": "2026-11-02T15:40:00Z",
   "send_local": "2026-11-02T08:40:00-07:00",
-  "status": "sent",
-  "reply_label": "",
-  "issue": null
+  "status": "replied",
+  "reply_label": "unclear",
+  "issue": 298
  },
  {
   "id": "P2776",
